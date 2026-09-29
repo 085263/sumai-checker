@@ -109,10 +109,15 @@
     municipalities
       .filter(function (m) { return m.pref === pref; })
       .sort(function (a, b) {
-        // 震災リスク順(地震確率が高い順)。データなしは末尾へ
+        // 震災リスク順(地震確率が高い順)。データなしは末尾へ、
+        // データなし同士は五十音順
         var pa = a.top_probability === null || a.top_probability === undefined ? -1 : a.top_probability;
         var pb = b.top_probability === null || b.top_probability === undefined ? -1 : b.top_probability;
-        return pb - pa;
+        var aHas = pa >= 0;
+        var bHas = pb >= 0;
+        if (aHas && bHas) return pb - pa;
+        if (aHas !== bHas) return aHas ? -1 : 1;
+        return a.name.localeCompare(b.name, "ja");
       })
       .forEach(function (m) {
         var opt = document.createElement("option");
