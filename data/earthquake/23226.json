@@ -1,0 +1,18 @@
+{
+  "threshold_intensity": "60",
+  "period_years": 30,
+  "top_faults": [
+    {
+      "name": "南海トラフ沿いで発生する大地震",
+      "probability": 0.743
+    },
+    {
+      "name": "恵那山－猿投山北断層帯",
+      "probability": 0.017
+    },
+    {
+      "name": "笠原断層",
+      "probability": 0.00236
+    }
+  ]
+}

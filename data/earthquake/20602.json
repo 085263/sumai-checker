@@ -1,0 +1,18 @@
+{
+  "threshold_intensity": "60",
+  "period_years": 30,
+  "top_faults": [
+    {
+      "name": "十日町断層帯西部",
+      "probability": 0.0287
+    },
+    {
+      "name": "長野盆地西縁断層帯（全体が同時に活動）",
+      "probability": 0.0
+    },
+    {
+      "name": "長野盆地西縁断層帯飯山−千曲区間",
+      "probability": 0.0
+    }
+  ]
+}

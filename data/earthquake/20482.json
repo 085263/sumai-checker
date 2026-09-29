@@ -1,0 +1,18 @@
+{
+  "threshold_intensity": "60",
+  "period_years": 30,
+  "top_faults": [
+    {
+      "name": "糸魚川－静岡構造線断層帯（北部と中北部が同時に活動）",
+      "probability": 0.0319
+    },
+    {
+      "name": "糸魚川－静岡構造線断層帯（北部と中北部と中南部が同時に活動）",
+      "probability": 0.0138
+    },
+    {
+      "name": "糸魚川－静岡構造線断層帯（中北部と中南部が同時に活動）",
+      "probability": 0.0138
+    }
+  ]
+}

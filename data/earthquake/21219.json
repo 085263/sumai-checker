@@ -1,0 +1,18 @@
+{
+  "threshold_intensity": "60",
+  "period_years": 30,
+  "top_faults": [
+    {
+      "name": "長良川上流断層帯",
+      "probability": 0.00326
+    },
+    {
+      "name": "阿寺断層帯主部南部",
+      "probability": 0.0
+    },
+    {
+      "name": "庄川断層帯",
+      "probability": 0.0
+    }
+  ]
+}

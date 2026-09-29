@@ -1,0 +1,18 @@
+{
+  "threshold_intensity": "60",
+  "period_years": 30,
+  "top_faults": [
+    {
+      "name": "養老−桑名−四日市断層帯",
+      "probability": 0.00735
+    },
+    {
+      "name": "柳ヶ瀬・関ヶ原断層帯主部南部",
+      "probability": 0.00214
+    },
+    {
+      "name": "鈴鹿東縁断層帯",
+      "probability": 0.000657
+    }
+  ]
+}

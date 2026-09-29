@@ -19,12 +19,15 @@ index = []
 for r in records:
     eq = r["earthquake"]
     status = "error" if "error" in eq else ("approx" if eq.get("note") else "ok")
+    top_faults = eq.get("top_faults") or []
+    top_probability = top_faults[0]["probability"] if top_faults else None
     index.append({
         "pref": r["pref"],
         "city_group": r["city_group"],
         "name": r["name"],
         "code": r["code"],
         "status": status,
+        "top_probability": top_probability,
     })
     with open(OUT_EQ_DIR / f"{r['code']}.json", "w", encoding="utf-8") as f:
         json.dump(eq, f, ensure_ascii=False, indent=2)

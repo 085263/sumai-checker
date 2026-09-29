@@ -4,1231 +4,2751 @@
     "city_group": null,
     "name": "新島村",
     "code": "13363",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.057
   },
   {
     "pref": "東京都",
     "city_group": null,
     "name": "神津島村",
     "code": "13364",
-    "status": "error"
+    "status": "error",
+    "top_probability": null
   },
   {
     "pref": "東京都",
     "city_group": null,
     "name": "三宅村",
     "code": "13381",
-    "status": "error"
+    "status": "error",
+    "top_probability": null
+  },
+  {
+    "pref": "神奈川県",
+    "city_group": "横浜市",
+    "name": "横浜市鶴見区",
+    "code": "14101",
+    "status": "ok",
+    "top_probability": 0.057
+  },
+  {
+    "pref": "神奈川県",
+    "city_group": "横浜市",
+    "name": "横浜市神奈川区",
+    "code": "14102",
+    "status": "ok",
+    "top_probability": 0.057
+  },
+  {
+    "pref": "神奈川県",
+    "city_group": "横浜市",
+    "name": "横浜市西区",
+    "code": "14103",
+    "status": "ok",
+    "top_probability": 0.057
+  },
+  {
+    "pref": "神奈川県",
+    "city_group": "横浜市",
+    "name": "横浜市中区",
+    "code": "14104",
+    "status": "ok",
+    "top_probability": 0.057
+  },
+  {
+    "pref": "神奈川県",
+    "city_group": "横浜市",
+    "name": "横浜市南区",
+    "code": "14105",
+    "status": "ok",
+    "top_probability": 0.057
+  },
+  {
+    "pref": "神奈川県",
+    "city_group": "横浜市",
+    "name": "横浜市保土ケ谷区",
+    "code": "14106",
+    "status": "ok",
+    "top_probability": 0.057
+  },
+  {
+    "pref": "神奈川県",
+    "city_group": "横浜市",
+    "name": "横浜市磯子区",
+    "code": "14107",
+    "status": "ok",
+    "top_probability": 0.057
+  },
+  {
+    "pref": "神奈川県",
+    "city_group": "横浜市",
+    "name": "横浜市金沢区",
+    "code": "14108",
+    "status": "ok",
+    "top_probability": 0.109
+  },
+  {
+    "pref": "神奈川県",
+    "city_group": "横浜市",
+    "name": "横浜市港北区",
+    "code": "14109",
+    "status": "ok",
+    "top_probability": 0.057
+  },
+  {
+    "pref": "神奈川県",
+    "city_group": "横浜市",
+    "name": "横浜市戸塚区",
+    "code": "14110",
+    "status": "ok",
+    "top_probability": 0.057
+  },
+  {
+    "pref": "神奈川県",
+    "city_group": "横浜市",
+    "name": "横浜市港南区",
+    "code": "14111",
+    "status": "ok",
+    "top_probability": 0.057
+  },
+  {
+    "pref": "神奈川県",
+    "city_group": "横浜市",
+    "name": "横浜市旭区",
+    "code": "14112",
+    "status": "ok",
+    "top_probability": 0.057
+  },
+  {
+    "pref": "神奈川県",
+    "city_group": "横浜市",
+    "name": "横浜市緑区",
+    "code": "14113",
+    "status": "ok",
+    "top_probability": 0.057
+  },
+  {
+    "pref": "神奈川県",
+    "city_group": "横浜市",
+    "name": "横浜市瀬谷区",
+    "code": "14114",
+    "status": "ok",
+    "top_probability": 0.057
+  },
+  {
+    "pref": "神奈川県",
+    "city_group": "横浜市",
+    "name": "横浜市栄区",
+    "code": "14115",
+    "status": "ok",
+    "top_probability": 0.109
+  },
+  {
+    "pref": "神奈川県",
+    "city_group": "横浜市",
+    "name": "横浜市泉区",
+    "code": "14116",
+    "status": "ok",
+    "top_probability": 0.057
+  },
+  {
+    "pref": "神奈川県",
+    "city_group": "横浜市",
+    "name": "横浜市青葉区",
+    "code": "14117",
+    "status": "ok",
+    "top_probability": 0.057
+  },
+  {
+    "pref": "神奈川県",
+    "city_group": "横浜市",
+    "name": "横浜市都筑区",
+    "code": "14118",
+    "status": "ok",
+    "top_probability": 0.057
+  },
+  {
+    "pref": "神奈川県",
+    "city_group": "川崎市",
+    "name": "川崎市川崎区",
+    "code": "14131",
+    "status": "ok",
+    "top_probability": 0.057
+  },
+  {
+    "pref": "神奈川県",
+    "city_group": "川崎市",
+    "name": "川崎市幸区",
+    "code": "14132",
+    "status": "ok",
+    "top_probability": 0.057
+  },
+  {
+    "pref": "神奈川県",
+    "city_group": "川崎市",
+    "name": "川崎市中原区",
+    "code": "14133",
+    "status": "ok",
+    "top_probability": 0.057
+  },
+  {
+    "pref": "神奈川県",
+    "city_group": "川崎市",
+    "name": "川崎市高津区",
+    "code": "14134",
+    "status": "ok",
+    "top_probability": 0.057
+  },
+  {
+    "pref": "神奈川県",
+    "city_group": "川崎市",
+    "name": "川崎市多摩区",
+    "code": "14135",
+    "status": "ok",
+    "top_probability": 0.057
+  },
+  {
+    "pref": "神奈川県",
+    "city_group": "川崎市",
+    "name": "川崎市宮前区",
+    "code": "14136",
+    "status": "ok",
+    "top_probability": 0.057
+  },
+  {
+    "pref": "神奈川県",
+    "city_group": "川崎市",
+    "name": "川崎市麻生区",
+    "code": "14137",
+    "status": "ok",
+    "top_probability": 0.057
+  },
+  {
+    "pref": "神奈川県",
+    "city_group": "相模原市",
+    "name": "相模原市緑区",
+    "code": "14151",
+    "status": "ok",
+    "top_probability": 0.057
+  },
+  {
+    "pref": "神奈川県",
+    "city_group": "相模原市",
+    "name": "相模原市中央区",
+    "code": "14152",
+    "status": "ok",
+    "top_probability": 0.057
+  },
+  {
+    "pref": "神奈川県",
+    "city_group": "相模原市",
+    "name": "相模原市南区",
+    "code": "14153",
+    "status": "ok",
+    "top_probability": 0.057
+  },
+  {
+    "pref": "神奈川県",
+    "city_group": null,
+    "name": "横須賀市",
+    "code": "14201",
+    "status": "ok",
+    "top_probability": 0.109
   },
   {
     "pref": "神奈川県",
     "city_group": null,
     "name": "平塚市",
     "code": "14203",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
+  },
+  {
+    "pref": "神奈川県",
+    "city_group": null,
+    "name": "鎌倉市",
+    "code": "14204",
+    "status": "ok",
+    "top_probability": 0.109
+  },
+  {
+    "pref": "神奈川県",
+    "city_group": null,
+    "name": "藤沢市",
+    "code": "14205",
+    "status": "ok",
+    "top_probability": 0.109
   },
   {
     "pref": "神奈川県",
     "city_group": null,
     "name": "小田原市",
     "code": "14206",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "神奈川県",
     "city_group": null,
     "name": "茅ヶ崎市",
     "code": "14207",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.057
+  },
+  {
+    "pref": "神奈川県",
+    "city_group": null,
+    "name": "逗子市",
+    "code": "14208",
+    "status": "ok",
+    "top_probability": 0.109
+  },
+  {
+    "pref": "神奈川県",
+    "city_group": null,
+    "name": "三浦市",
+    "code": "14210",
+    "status": "ok",
+    "top_probability": 0.109
   },
   {
     "pref": "神奈川県",
     "city_group": null,
     "name": "秦野市",
     "code": "14211",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "神奈川県",
     "city_group": null,
     "name": "厚木市",
     "code": "14212",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
+  },
+  {
+    "pref": "神奈川県",
+    "city_group": null,
+    "name": "大和市",
+    "code": "14213",
+    "status": "ok",
+    "top_probability": 0.057
   },
   {
     "pref": "神奈川県",
     "city_group": null,
     "name": "伊勢原市",
     "code": "14214",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "神奈川県",
     "city_group": null,
     "name": "海老名市",
     "code": "14215",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.057
+  },
+  {
+    "pref": "神奈川県",
+    "city_group": null,
+    "name": "座間市",
+    "code": "14216",
+    "status": "ok",
+    "top_probability": 0.057
   },
   {
     "pref": "神奈川県",
     "city_group": null,
     "name": "南足柄市",
     "code": "14217",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
+  },
+  {
+    "pref": "神奈川県",
+    "city_group": null,
+    "name": "綾瀬市",
+    "code": "14218",
+    "status": "ok",
+    "top_probability": 0.057
+  },
+  {
+    "pref": "神奈川県",
+    "city_group": null,
+    "name": "葉山町",
+    "code": "14301",
+    "status": "ok",
+    "top_probability": 0.109
   },
   {
     "pref": "神奈川県",
     "city_group": null,
     "name": "寒川町",
     "code": "14321",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.057
   },
   {
     "pref": "神奈川県",
     "city_group": null,
     "name": "大磯町",
     "code": "14341",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.057
   },
   {
     "pref": "神奈川県",
     "city_group": null,
     "name": "二宮町",
     "code": "14342",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.057
   },
   {
     "pref": "神奈川県",
     "city_group": null,
     "name": "中井町",
     "code": "14361",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.057
   },
   {
     "pref": "神奈川県",
     "city_group": null,
     "name": "大井町",
     "code": "14362",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "神奈川県",
     "city_group": null,
     "name": "松田町",
     "code": "14363",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.057
   },
   {
     "pref": "神奈川県",
     "city_group": null,
     "name": "山北町",
     "code": "14364",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.057
   },
   {
     "pref": "神奈川県",
     "city_group": null,
     "name": "開成町",
     "code": "14366",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.057
   },
   {
     "pref": "神奈川県",
     "city_group": null,
     "name": "箱根町",
     "code": "14382",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "神奈川県",
     "city_group": null,
     "name": "真鶴町",
     "code": "14383",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.057
   },
   {
     "pref": "神奈川県",
     "city_group": null,
     "name": "湯河原町",
     "code": "14384",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.057
+  },
+  {
+    "pref": "神奈川県",
+    "city_group": null,
+    "name": "愛川町",
+    "code": "14401",
+    "status": "ok",
+    "top_probability": 0.057
+  },
+  {
+    "pref": "神奈川県",
+    "city_group": null,
+    "name": "清川村",
+    "code": "14402",
+    "status": "ok",
+    "top_probability": 0.057
   },
   {
     "pref": "山梨県",
     "city_group": null,
     "name": "甲府市",
     "code": "19201",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "山梨県",
     "city_group": null,
     "name": "富士吉田市",
     "code": "19202",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "山梨県",
     "city_group": null,
     "name": "都留市",
     "code": "19204",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "山梨県",
     "city_group": null,
     "name": "山梨市",
     "code": "19205",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.0149
   },
   {
     "pref": "山梨県",
     "city_group": null,
     "name": "大月市",
     "code": "19206",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.057
   },
   {
     "pref": "山梨県",
     "city_group": null,
     "name": "韮崎市",
     "code": "19207",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "山梨県",
     "city_group": null,
     "name": "南アルプス市",
     "code": "19208",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "山梨県",
     "city_group": null,
     "name": "北杜市",
     "code": "19209",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.0557
   },
   {
     "pref": "山梨県",
     "city_group": null,
     "name": "甲斐市",
     "code": "19210",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "山梨県",
     "city_group": null,
     "name": "笛吹市",
     "code": "19211",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "山梨県",
     "city_group": null,
     "name": "上野原市",
     "code": "19212",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.057
   },
   {
     "pref": "山梨県",
     "city_group": null,
     "name": "甲州市",
     "code": "19213",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.0149
   },
   {
     "pref": "山梨県",
     "city_group": null,
     "name": "中央市",
     "code": "19214",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "山梨県",
     "city_group": null,
     "name": "市川三郷町",
     "code": "19346",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "山梨県",
     "city_group": null,
     "name": "早川町",
     "code": "19364",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.000647
   },
   {
     "pref": "山梨県",
     "city_group": null,
     "name": "身延町",
     "code": "19365",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "山梨県",
     "city_group": null,
     "name": "南部町",
     "code": "19366",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "山梨県",
     "city_group": null,
     "name": "富士川町",
     "code": "19368",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "山梨県",
     "city_group": null,
     "name": "昭和町",
     "code": "19384",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "山梨県",
     "city_group": null,
     "name": "道志村",
     "code": "19422",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.057
   },
   {
     "pref": "山梨県",
     "city_group": null,
     "name": "西桂町",
     "code": "19423",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.057
   },
   {
     "pref": "山梨県",
     "city_group": null,
     "name": "忍野村",
     "code": "19424",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "山梨県",
     "city_group": null,
     "name": "山中湖村",
     "code": "19425",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "山梨県",
     "city_group": null,
     "name": "鳴沢村",
     "code": "19429",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "山梨県",
     "city_group": null,
     "name": "富士河口湖町",
     "code": "19430",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
+  },
+  {
+    "pref": "山梨県",
+    "city_group": null,
+    "name": "小菅村",
+    "code": "19442",
+    "status": "error",
+    "top_probability": null
+  },
+  {
+    "pref": "山梨県",
+    "city_group": null,
+    "name": "丹波山村",
+    "code": "19443",
+    "status": "error",
+    "top_probability": null
+  },
+  {
+    "pref": "長野県",
+    "city_group": null,
+    "name": "長野市",
+    "code": "20201",
+    "status": "ok",
+    "top_probability": 0.11
+  },
+  {
+    "pref": "長野県",
+    "city_group": null,
+    "name": "松本市",
+    "code": "20202",
+    "status": "ok",
+    "top_probability": 0.253
+  },
+  {
+    "pref": "長野県",
+    "city_group": null,
+    "name": "上田市",
+    "code": "20203",
+    "status": "ok",
+    "top_probability": 0.11
   },
   {
     "pref": "長野県",
     "city_group": null,
     "name": "岡谷市",
     "code": "20204",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.253
   },
   {
     "pref": "長野県",
     "city_group": null,
     "name": "飯田市",
     "code": "20205",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "長野県",
     "city_group": null,
     "name": "諏訪市",
     "code": "20206",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.253
+  },
+  {
+    "pref": "長野県",
+    "city_group": null,
+    "name": "須坂市",
+    "code": "20207",
+    "status": "ok",
+    "top_probability": 0.0138
+  },
+  {
+    "pref": "長野県",
+    "city_group": null,
+    "name": "小諸市",
+    "code": "20208",
+    "status": "error",
+    "top_probability": null
   },
   {
     "pref": "長野県",
     "city_group": null,
     "name": "伊那市",
     "code": "20209",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.127
   },
   {
     "pref": "長野県",
     "city_group": null,
     "name": "駒ヶ根市",
     "code": "20210",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.0
+  },
+  {
+    "pref": "長野県",
+    "city_group": null,
+    "name": "中野市",
+    "code": "20211",
+    "status": "ok",
+    "top_probability": 0.0138
+  },
+  {
+    "pref": "長野県",
+    "city_group": null,
+    "name": "大町市",
+    "code": "20212",
+    "status": "ok",
+    "top_probability": 0.253
+  },
+  {
+    "pref": "長野県",
+    "city_group": null,
+    "name": "飯山市",
+    "code": "20213",
+    "status": "ok",
+    "top_probability": 0.0805
   },
   {
     "pref": "長野県",
     "city_group": null,
     "name": "茅野市",
     "code": "20214",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.253
+  },
+  {
+    "pref": "長野県",
+    "city_group": null,
+    "name": "塩尻市",
+    "code": "20215",
+    "status": "ok",
+    "top_probability": 0.253
+  },
+  {
+    "pref": "長野県",
+    "city_group": null,
+    "name": "佐久市",
+    "code": "20217",
+    "status": "error",
+    "top_probability": null
+  },
+  {
+    "pref": "長野県",
+    "city_group": null,
+    "name": "千曲市",
+    "code": "20218",
+    "status": "ok",
+    "top_probability": 0.11
+  },
+  {
+    "pref": "長野県",
+    "city_group": null,
+    "name": "東御市",
+    "code": "20219",
+    "status": "ok",
+    "top_probability": 0.0138
+  },
+  {
+    "pref": "長野県",
+    "city_group": null,
+    "name": "安曇野市",
+    "code": "20220",
+    "status": "ok",
+    "top_probability": 0.253
+  },
+  {
+    "pref": "長野県",
+    "city_group": null,
+    "name": "小海町",
+    "code": "20303",
+    "status": "error",
+    "top_probability": null
+  },
+  {
+    "pref": "長野県",
+    "city_group": null,
+    "name": "川上村",
+    "code": "20304",
+    "status": "error",
+    "top_probability": null
+  },
+  {
+    "pref": "長野県",
+    "city_group": null,
+    "name": "南牧村",
+    "code": "20305",
+    "status": "ok",
+    "top_probability": 0.0138
+  },
+  {
+    "pref": "長野県",
+    "city_group": null,
+    "name": "南相木村",
+    "code": "20306",
+    "status": "error",
+    "top_probability": null
+  },
+  {
+    "pref": "長野県",
+    "city_group": null,
+    "name": "北相木村",
+    "code": "20307",
+    "status": "error",
+    "top_probability": null
+  },
+  {
+    "pref": "長野県",
+    "city_group": null,
+    "name": "佐久穂町",
+    "code": "20309",
+    "status": "error",
+    "top_probability": null
+  },
+  {
+    "pref": "長野県",
+    "city_group": null,
+    "name": "軽井沢町",
+    "code": "20321",
+    "status": "ok",
+    "top_probability": 0.0
+  },
+  {
+    "pref": "長野県",
+    "city_group": null,
+    "name": "御代田町",
+    "code": "20323",
+    "status": "error",
+    "top_probability": null
+  },
+  {
+    "pref": "長野県",
+    "city_group": null,
+    "name": "立科町",
+    "code": "20324",
+    "status": "ok",
+    "top_probability": 0.0186
+  },
+  {
+    "pref": "長野県",
+    "city_group": null,
+    "name": "青木村",
+    "code": "20349",
+    "status": "ok",
+    "top_probability": 0.000129
+  },
+  {
+    "pref": "長野県",
+    "city_group": null,
+    "name": "長和町",
+    "code": "20350",
+    "status": "ok",
+    "top_probability": 0.0186
   },
   {
     "pref": "長野県",
     "city_group": null,
     "name": "下諏訪町",
     "code": "20361",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.253
   },
   {
     "pref": "長野県",
     "city_group": null,
     "name": "富士見町",
     "code": "20362",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.253
   },
   {
     "pref": "長野県",
     "city_group": null,
     "name": "原村",
     "code": "20363",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.253
   },
   {
     "pref": "長野県",
     "city_group": null,
     "name": "辰野町",
     "code": "20382",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.0138
   },
   {
     "pref": "長野県",
     "city_group": null,
     "name": "箕輪町",
     "code": "20383",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.0
   },
   {
     "pref": "長野県",
     "city_group": null,
     "name": "飯島町",
     "code": "20384",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.0
   },
   {
     "pref": "長野県",
     "city_group": null,
     "name": "南箕輪村",
     "code": "20385",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.127
   },
   {
     "pref": "長野県",
     "city_group": null,
     "name": "中川村",
     "code": "20386",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.0
   },
   {
     "pref": "長野県",
     "city_group": null,
     "name": "宮田村",
     "code": "20388",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.0
   },
   {
     "pref": "長野県",
     "city_group": null,
     "name": "松川町",
     "code": "20402",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.0
   },
   {
     "pref": "長野県",
     "city_group": null,
     "name": "高森町",
     "code": "20403",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.0
   },
   {
     "pref": "長野県",
     "city_group": null,
     "name": "阿南町",
     "code": "20404",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "長野県",
     "city_group": null,
     "name": "阿智村",
     "code": "20407",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.0012
+  },
+  {
+    "pref": "長野県",
+    "city_group": null,
+    "name": "平谷村",
+    "code": "20409",
+    "status": "ok",
+    "top_probability": 0.0
+  },
+  {
+    "pref": "長野県",
+    "city_group": null,
+    "name": "根羽村",
+    "code": "20410",
+    "status": "ok",
+    "top_probability": 0.0
   },
   {
     "pref": "長野県",
     "city_group": null,
     "name": "下條村",
     "code": "20411",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.0012
+  },
+  {
+    "pref": "長野県",
+    "city_group": null,
+    "name": "売木村",
+    "code": "20412",
+    "status": "ok",
+    "top_probability": 0.0012
   },
   {
     "pref": "長野県",
     "city_group": null,
     "name": "天龍村",
     "code": "20413",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.00182
   },
   {
     "pref": "長野県",
     "city_group": null,
     "name": "泰阜村",
     "code": "20414",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.00348
   },
   {
     "pref": "長野県",
     "city_group": null,
     "name": "喬木村",
     "code": "20415",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.0012
   },
   {
     "pref": "長野県",
     "city_group": null,
     "name": "豊丘村",
     "code": "20416",
-    "status": "error"
+    "status": "error",
+    "top_probability": null
   },
   {
     "pref": "長野県",
     "city_group": null,
     "name": "大鹿村",
     "code": "20417",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.00182
+  },
+  {
+    "pref": "長野県",
+    "city_group": null,
+    "name": "上松町",
+    "code": "20422",
+    "status": "ok",
+    "top_probability": 0.00272
+  },
+  {
+    "pref": "長野県",
+    "city_group": null,
+    "name": "南木曽町",
+    "code": "20423",
+    "status": "ok",
+    "top_probability": 0.00272
+  },
+  {
+    "pref": "長野県",
+    "city_group": null,
+    "name": "木祖村",
+    "code": "20425",
+    "status": "ok",
+    "top_probability": 0.127
+  },
+  {
+    "pref": "長野県",
+    "city_group": null,
+    "name": "王滝村",
+    "code": "20429",
+    "status": "error",
+    "top_probability": null
+  },
+  {
+    "pref": "長野県",
+    "city_group": null,
+    "name": "大桑村",
+    "code": "20430",
+    "status": "ok",
+    "top_probability": 0.00272
+  },
+  {
+    "pref": "長野県",
+    "city_group": null,
+    "name": "木曽町",
+    "code": "20432",
+    "status": "ok",
+    "top_probability": 0.0
+  },
+  {
+    "pref": "長野県",
+    "city_group": null,
+    "name": "麻績村",
+    "code": "20446",
+    "status": "ok",
+    "top_probability": 0.0319
+  },
+  {
+    "pref": "長野県",
+    "city_group": null,
+    "name": "生坂村",
+    "code": "20448",
+    "status": "ok",
+    "top_probability": 0.253
+  },
+  {
+    "pref": "長野県",
+    "city_group": null,
+    "name": "山形村",
+    "code": "20450",
+    "status": "ok",
+    "top_probability": 0.0138
+  },
+  {
+    "pref": "長野県",
+    "city_group": null,
+    "name": "朝日村",
+    "code": "20451",
+    "status": "ok",
+    "top_probability": 0.000129
+  },
+  {
+    "pref": "長野県",
+    "city_group": null,
+    "name": "筑北村",
+    "code": "20452",
+    "status": "ok",
+    "top_probability": 0.11
+  },
+  {
+    "pref": "長野県",
+    "city_group": null,
+    "name": "池田町",
+    "code": "20481",
+    "status": "ok",
+    "top_probability": 0.253
+  },
+  {
+    "pref": "長野県",
+    "city_group": null,
+    "name": "松川村",
+    "code": "20482",
+    "status": "ok",
+    "top_probability": 0.0319
+  },
+  {
+    "pref": "長野県",
+    "city_group": null,
+    "name": "白馬村",
+    "code": "20485",
+    "status": "ok",
+    "top_probability": 0.11
+  },
+  {
+    "pref": "長野県",
+    "city_group": null,
+    "name": "小谷村",
+    "code": "20486",
+    "status": "ok",
+    "top_probability": 0.11
+  },
+  {
+    "pref": "長野県",
+    "city_group": null,
+    "name": "坂城町",
+    "code": "20521",
+    "status": "ok",
+    "top_probability": 0.11
+  },
+  {
+    "pref": "長野県",
+    "city_group": null,
+    "name": "小布施町",
+    "code": "20541",
+    "status": "ok",
+    "top_probability": 0.0138
+  },
+  {
+    "pref": "長野県",
+    "city_group": null,
+    "name": "高山村",
+    "code": "20543",
+    "status": "error",
+    "top_probability": null
+  },
+  {
+    "pref": "長野県",
+    "city_group": null,
+    "name": "山ノ内町",
+    "code": "20561",
+    "status": "ok",
+    "top_probability": 0.0
+  },
+  {
+    "pref": "長野県",
+    "city_group": null,
+    "name": "木島平村",
+    "code": "20562",
+    "status": "ok",
+    "top_probability": 0.0
+  },
+  {
+    "pref": "長野県",
+    "city_group": null,
+    "name": "野沢温泉村",
+    "code": "20563",
+    "status": "ok",
+    "top_probability": 0.0
+  },
+  {
+    "pref": "長野県",
+    "city_group": null,
+    "name": "信濃町",
+    "code": "20583",
+    "status": "ok",
+    "top_probability": 0.11
+  },
+  {
+    "pref": "長野県",
+    "city_group": null,
+    "name": "小川村",
+    "code": "20588",
+    "status": "ok",
+    "top_probability": 0.11
+  },
+  {
+    "pref": "長野県",
+    "city_group": null,
+    "name": "飯綱町",
+    "code": "20590",
+    "status": "ok",
+    "top_probability": 0.0138
+  },
+  {
+    "pref": "長野県",
+    "city_group": null,
+    "name": "栄村",
+    "code": "20602",
+    "status": "ok",
+    "top_probability": 0.0287
+  },
+  {
+    "pref": "岐阜県",
+    "city_group": null,
+    "name": "岐阜市",
+    "code": "21201",
+    "status": "ok",
+    "top_probability": 0.743
+  },
+  {
+    "pref": "岐阜県",
+    "city_group": null,
+    "name": "大垣市",
+    "code": "21202",
+    "status": "ok",
+    "top_probability": 0.743
+  },
+  {
+    "pref": "岐阜県",
+    "city_group": null,
+    "name": "高山市",
+    "code": "21203",
+    "status": "ok",
+    "top_probability": 0.127
+  },
+  {
+    "pref": "岐阜県",
+    "city_group": null,
+    "name": "多治見市",
+    "code": "21204",
+    "status": "ok",
+    "top_probability": 0.017
+  },
+  {
+    "pref": "岐阜県",
+    "city_group": null,
+    "name": "関市",
+    "code": "21205",
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "岐阜県",
     "city_group": null,
     "name": "中津川市",
     "code": "21206",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.017
+  },
+  {
+    "pref": "岐阜県",
+    "city_group": null,
+    "name": "美濃市",
+    "code": "21207",
+    "status": "ok",
+    "top_probability": 0.00326
+  },
+  {
+    "pref": "岐阜県",
+    "city_group": null,
+    "name": "瑞浪市",
+    "code": "21208",
+    "status": "ok",
+    "top_probability": 0.017
+  },
+  {
+    "pref": "岐阜県",
+    "city_group": null,
+    "name": "羽島市",
+    "code": "21209",
+    "status": "ok",
+    "top_probability": 0.743
+  },
+  {
+    "pref": "岐阜県",
+    "city_group": null,
+    "name": "恵那市",
+    "code": "21210",
+    "status": "ok",
+    "top_probability": 0.743
+  },
+  {
+    "pref": "岐阜県",
+    "city_group": null,
+    "name": "美濃加茂市",
+    "code": "21211",
+    "status": "ok",
+    "top_probability": 0.0
+  },
+  {
+    "pref": "岐阜県",
+    "city_group": null,
+    "name": "土岐市",
+    "code": "21212",
+    "status": "ok",
+    "top_probability": 0.743
+  },
+  {
+    "pref": "岐阜県",
+    "city_group": null,
+    "name": "各務原市",
+    "code": "21213",
+    "status": "ok",
+    "top_probability": 0.743
+  },
+  {
+    "pref": "岐阜県",
+    "city_group": null,
+    "name": "可児市",
+    "code": "21214",
+    "status": "ok",
+    "top_probability": 0.0
+  },
+  {
+    "pref": "岐阜県",
+    "city_group": null,
+    "name": "山県市",
+    "code": "21215",
+    "status": "ok",
+    "top_probability": 0.00326
+  },
+  {
+    "pref": "岐阜県",
+    "city_group": null,
+    "name": "瑞穂市",
+    "code": "21216",
+    "status": "ok",
+    "top_probability": 0.743
+  },
+  {
+    "pref": "岐阜県",
+    "city_group": null,
+    "name": "飛騨市",
+    "code": "21217",
+    "status": "ok",
+    "top_probability": 0.0
+  },
+  {
+    "pref": "岐阜県",
+    "city_group": null,
+    "name": "本巣市",
+    "code": "21218",
+    "status": "ok",
+    "top_probability": 0.743
+  },
+  {
+    "pref": "岐阜県",
+    "city_group": null,
+    "name": "郡上市",
+    "code": "21219",
+    "status": "ok",
+    "top_probability": 0.00326
+  },
+  {
+    "pref": "岐阜県",
+    "city_group": null,
+    "name": "下呂市",
+    "code": "21220",
+    "status": "ok",
+    "top_probability": 0.00747
+  },
+  {
+    "pref": "岐阜県",
+    "city_group": null,
+    "name": "海津市",
+    "code": "21221",
+    "status": "ok",
+    "top_probability": 0.743
+  },
+  {
+    "pref": "岐阜県",
+    "city_group": null,
+    "name": "岐南町",
+    "code": "21302",
+    "status": "ok",
+    "top_probability": 0.743
+  },
+  {
+    "pref": "岐阜県",
+    "city_group": null,
+    "name": "笠松町",
+    "code": "21303",
+    "status": "ok",
+    "top_probability": 0.743
+  },
+  {
+    "pref": "岐阜県",
+    "city_group": null,
+    "name": "養老町",
+    "code": "21341",
+    "status": "ok",
+    "top_probability": 0.743
+  },
+  {
+    "pref": "岐阜県",
+    "city_group": null,
+    "name": "垂井町",
+    "code": "21361",
+    "status": "ok",
+    "top_probability": 0.743
+  },
+  {
+    "pref": "岐阜県",
+    "city_group": null,
+    "name": "関ケ原町",
+    "code": "21362",
+    "status": "ok",
+    "top_probability": 0.00735
+  },
+  {
+    "pref": "岐阜県",
+    "city_group": null,
+    "name": "神戸町",
+    "code": "21381",
+    "status": "ok",
+    "top_probability": 0.743
+  },
+  {
+    "pref": "岐阜県",
+    "city_group": null,
+    "name": "輪之内町",
+    "code": "21382",
+    "status": "ok",
+    "top_probability": 0.743
+  },
+  {
+    "pref": "岐阜県",
+    "city_group": null,
+    "name": "安八町",
+    "code": "21383",
+    "status": "ok",
+    "top_probability": 0.743
+  },
+  {
+    "pref": "岐阜県",
+    "city_group": null,
+    "name": "揖斐川町",
+    "code": "21401",
+    "status": "ok",
+    "top_probability": 0.743
+  },
+  {
+    "pref": "岐阜県",
+    "city_group": null,
+    "name": "大野町",
+    "code": "21403",
+    "status": "ok",
+    "top_probability": 0.743
+  },
+  {
+    "pref": "岐阜県",
+    "city_group": null,
+    "name": "池田町",
+    "code": "21404",
+    "status": "ok",
+    "top_probability": 0.743
+  },
+  {
+    "pref": "岐阜県",
+    "city_group": null,
+    "name": "北方町",
+    "code": "21421",
+    "status": "ok",
+    "top_probability": 0.743
+  },
+  {
+    "pref": "岐阜県",
+    "city_group": null,
+    "name": "坂祝町",
+    "code": "21501",
+    "status": "ok",
+    "top_probability": 0.0
+  },
+  {
+    "pref": "岐阜県",
+    "city_group": null,
+    "name": "富加町",
+    "code": "21502",
+    "status": "ok",
+    "top_probability": 0.00326
+  },
+  {
+    "pref": "岐阜県",
+    "city_group": null,
+    "name": "川辺町",
+    "code": "21503",
+    "status": "error",
+    "top_probability": null
+  },
+  {
+    "pref": "岐阜県",
+    "city_group": null,
+    "name": "七宗町",
+    "code": "21504",
+    "status": "ok",
+    "top_probability": 0.00379
+  },
+  {
+    "pref": "岐阜県",
+    "city_group": null,
+    "name": "八百津町",
+    "code": "21505",
+    "status": "ok",
+    "top_probability": 0.0041
+  },
+  {
+    "pref": "岐阜県",
+    "city_group": null,
+    "name": "白川町",
+    "code": "21506",
+    "status": "ok",
+    "top_probability": 0.0041
+  },
+  {
+    "pref": "岐阜県",
+    "city_group": null,
+    "name": "東白川村",
+    "code": "21507",
+    "status": "ok",
+    "top_probability": 0.00306
+  },
+  {
+    "pref": "岐阜県",
+    "city_group": null,
+    "name": "御嵩町",
+    "code": "21521",
+    "status": "error",
+    "top_probability": null
+  },
+  {
+    "pref": "岐阜県",
+    "city_group": null,
+    "name": "白川村",
+    "code": "21604",
+    "status": "ok",
+    "top_probability": 0.0
   },
   {
     "pref": "静岡県",
     "city_group": "静岡市",
     "name": "静岡市葵区",
     "code": "22101",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "静岡県",
     "city_group": "静岡市",
     "name": "静岡市駿河区",
     "code": "22102",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "静岡県",
     "city_group": "静岡市",
     "name": "静岡市清水区",
     "code": "22103",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "静岡県",
     "city_group": "浜松市",
     "name": "浜松市中央区",
     "code": "22138",
-    "status": "approx"
+    "status": "approx",
+    "top_probability": 0.743
   },
   {
     "pref": "静岡県",
     "city_group": "浜松市",
     "name": "浜松市浜名区",
     "code": "22139",
-    "status": "approx"
+    "status": "approx",
+    "top_probability": 0.743
   },
   {
     "pref": "静岡県",
     "city_group": "浜松市",
     "name": "浜松市天竜区",
     "code": "22140",
-    "status": "approx"
+    "status": "approx",
+    "top_probability": 0.743
   },
   {
     "pref": "静岡県",
     "city_group": null,
     "name": "沼津市",
     "code": "22203",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "静岡県",
     "city_group": null,
     "name": "熱海市",
     "code": "22205",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "静岡県",
     "city_group": null,
     "name": "三島市",
     "code": "22206",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "静岡県",
     "city_group": null,
     "name": "富士宮市",
     "code": "22207",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "静岡県",
     "city_group": null,
     "name": "伊東市",
     "code": "22208",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "静岡県",
     "city_group": null,
     "name": "島田市",
     "code": "22209",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "静岡県",
     "city_group": null,
     "name": "富士市",
     "code": "22210",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "静岡県",
     "city_group": null,
     "name": "磐田市",
     "code": "22211",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "静岡県",
     "city_group": null,
     "name": "焼津市",
     "code": "22212",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "静岡県",
     "city_group": null,
     "name": "掛川市",
     "code": "22213",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "静岡県",
     "city_group": null,
     "name": "藤枝市",
     "code": "22214",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "静岡県",
     "city_group": null,
     "name": "御殿場市",
     "code": "22215",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "静岡県",
     "city_group": null,
     "name": "袋井市",
     "code": "22216",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "静岡県",
     "city_group": null,
     "name": "下田市",
     "code": "22219",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "静岡県",
     "city_group": null,
     "name": "裾野市",
     "code": "22220",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "静岡県",
     "city_group": null,
     "name": "湖西市",
     "code": "22221",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "静岡県",
     "city_group": null,
     "name": "伊豆市",
     "code": "22222",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "静岡県",
     "city_group": null,
     "name": "御前崎市",
     "code": "22223",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "静岡県",
     "city_group": null,
     "name": "菊川市",
     "code": "22224",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "静岡県",
     "city_group": null,
     "name": "伊豆の国市",
     "code": "22225",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "静岡県",
     "city_group": null,
     "name": "牧之原市",
     "code": "22226",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "静岡県",
     "city_group": null,
     "name": "東伊豆町",
     "code": "22301",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "静岡県",
     "city_group": null,
     "name": "河津町",
     "code": "22302",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "静岡県",
     "city_group": null,
     "name": "南伊豆町",
     "code": "22304",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "静岡県",
     "city_group": null,
     "name": "松崎町",
     "code": "22305",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "静岡県",
     "city_group": null,
     "name": "西伊豆町",
     "code": "22306",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "静岡県",
     "city_group": null,
     "name": "函南町",
     "code": "22325",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "静岡県",
     "city_group": null,
     "name": "清水町",
     "code": "22341",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "静岡県",
     "city_group": null,
     "name": "長泉町",
     "code": "22342",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "静岡県",
     "city_group": null,
     "name": "小山町",
     "code": "22344",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "静岡県",
     "city_group": null,
     "name": "吉田町",
     "code": "22424",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "静岡県",
     "city_group": null,
     "name": "川根本町",
     "code": "22429",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "静岡県",
     "city_group": null,
     "name": "森町",
     "code": "22461",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "愛知県",
     "city_group": "名古屋市",
     "name": "名古屋市千種区",
     "code": "23101",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "愛知県",
     "city_group": "名古屋市",
     "name": "名古屋市東区",
     "code": "23102",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "愛知県",
     "city_group": "名古屋市",
     "name": "名古屋市北区",
     "code": "23103",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "愛知県",
     "city_group": "名古屋市",
     "name": "名古屋市西区",
     "code": "23104",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "愛知県",
     "city_group": "名古屋市",
     "name": "名古屋市中村区",
     "code": "23105",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "愛知県",
     "city_group": "名古屋市",
     "name": "名古屋市中区",
     "code": "23106",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "愛知県",
     "city_group": "名古屋市",
     "name": "名古屋市昭和区",
     "code": "23107",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "愛知県",
     "city_group": "名古屋市",
     "name": "名古屋市瑞穂区",
     "code": "23108",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "愛知県",
     "city_group": "名古屋市",
     "name": "名古屋市熱田区",
     "code": "23109",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "愛知県",
     "city_group": "名古屋市",
     "name": "名古屋市中川区",
     "code": "23110",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "愛知県",
     "city_group": "名古屋市",
     "name": "名古屋市港区",
     "code": "23111",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "愛知県",
     "city_group": "名古屋市",
     "name": "名古屋市南区",
     "code": "23112",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "愛知県",
     "city_group": "名古屋市",
     "name": "名古屋市守山区",
     "code": "23113",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "愛知県",
     "city_group": "名古屋市",
     "name": "名古屋市緑区",
     "code": "23114",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "愛知県",
     "city_group": "名古屋市",
     "name": "名古屋市名東区",
     "code": "23115",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "愛知県",
     "city_group": "名古屋市",
     "name": "名古屋市天白区",
     "code": "23116",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "愛知県",
     "city_group": null,
     "name": "豊橋市",
     "code": "23201",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "愛知県",
     "city_group": null,
     "name": "岡崎市",
     "code": "23202",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
+  },
+  {
+    "pref": "愛知県",
+    "city_group": null,
+    "name": "一宮市",
+    "code": "23203",
+    "status": "ok",
+    "top_probability": 0.743
+  },
+  {
+    "pref": "愛知県",
+    "city_group": null,
+    "name": "瀬戸市",
+    "code": "23204",
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "愛知県",
     "city_group": null,
     "name": "半田市",
     "code": "23205",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
+  },
+  {
+    "pref": "愛知県",
+    "city_group": null,
+    "name": "春日井市",
+    "code": "23206",
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "愛知県",
     "city_group": null,
     "name": "豊川市",
     "code": "23207",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "愛知県",
     "city_group": null,
     "name": "津島市",
     "code": "23208",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "愛知県",
     "city_group": null,
     "name": "碧南市",
     "code": "23209",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "愛知県",
     "city_group": null,
     "name": "刈谷市",
     "code": "23210",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "愛知県",
     "city_group": null,
     "name": "豊田市",
     "code": "23211",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "愛知県",
     "city_group": null,
     "name": "安城市",
     "code": "23212",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "愛知県",
     "city_group": null,
     "name": "西尾市",
     "code": "23213",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "愛知県",
     "city_group": null,
     "name": "蒲郡市",
     "code": "23214",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
+  },
+  {
+    "pref": "愛知県",
+    "city_group": null,
+    "name": "犬山市",
+    "code": "23215",
+    "status": "ok",
+    "top_probability": 0.0
   },
   {
     "pref": "愛知県",
     "city_group": null,
     "name": "常滑市",
     "code": "23216",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
+  },
+  {
+    "pref": "愛知県",
+    "city_group": null,
+    "name": "江南市",
+    "code": "23217",
+    "status": "ok",
+    "top_probability": 0.743
+  },
+  {
+    "pref": "愛知県",
+    "city_group": null,
+    "name": "小牧市",
+    "code": "23219",
+    "status": "ok",
+    "top_probability": 0.743
+  },
+  {
+    "pref": "愛知県",
+    "city_group": null,
+    "name": "稲沢市",
+    "code": "23220",
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "愛知県",
     "city_group": null,
     "name": "新城市",
     "code": "23221",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "愛知県",
     "city_group": null,
     "name": "東海市",
     "code": "23222",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "愛知県",
     "city_group": null,
     "name": "大府市",
     "code": "23223",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "愛知県",
     "city_group": null,
     "name": "知多市",
     "code": "23224",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "愛知県",
     "city_group": null,
     "name": "知立市",
     "code": "23225",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
+  },
+  {
+    "pref": "愛知県",
+    "city_group": null,
+    "name": "尾張旭市",
+    "code": "23226",
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "愛知県",
     "city_group": null,
     "name": "高浜市",
     "code": "23227",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
+  },
+  {
+    "pref": "愛知県",
+    "city_group": null,
+    "name": "岩倉市",
+    "code": "23228",
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "愛知県",
     "city_group": null,
     "name": "豊明市",
     "code": "23229",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "愛知県",
     "city_group": null,
     "name": "日進市",
     "code": "23230",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "愛知県",
     "city_group": null,
     "name": "田原市",
     "code": "23231",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "愛知県",
     "city_group": null,
     "name": "愛西市",
     "code": "23232",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
+  },
+  {
+    "pref": "愛知県",
+    "city_group": null,
+    "name": "清須市",
+    "code": "23233",
+    "status": "ok",
+    "top_probability": 0.743
+  },
+  {
+    "pref": "愛知県",
+    "city_group": null,
+    "name": "北名古屋市",
+    "code": "23234",
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "愛知県",
     "city_group": null,
     "name": "弥富市",
     "code": "23235",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "愛知県",
     "city_group": null,
     "name": "みよし市",
     "code": "23236",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "愛知県",
     "city_group": null,
     "name": "あま市",
     "code": "23237",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "愛知県",
     "city_group": null,
     "name": "長久手市",
     "code": "23238",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "愛知県",
     "city_group": null,
     "name": "東郷町",
     "code": "23302",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
+  },
+  {
+    "pref": "愛知県",
+    "city_group": null,
+    "name": "豊山町",
+    "code": "23342",
+    "status": "ok",
+    "top_probability": 0.743
+  },
+  {
+    "pref": "愛知県",
+    "city_group": null,
+    "name": "大口町",
+    "code": "23361",
+    "status": "error",
+    "top_probability": null
+  },
+  {
+    "pref": "愛知県",
+    "city_group": null,
+    "name": "扶桑町",
+    "code": "23362",
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "愛知県",
     "city_group": null,
     "name": "大治町",
     "code": "23424",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "愛知県",
     "city_group": null,
     "name": "蟹江町",
     "code": "23425",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "愛知県",
     "city_group": null,
     "name": "飛島村",
     "code": "23427",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "愛知県",
     "city_group": null,
     "name": "阿久比町",
     "code": "23441",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "愛知県",
     "city_group": null,
     "name": "東浦町",
     "code": "23442",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "愛知県",
     "city_group": null,
     "name": "南知多町",
     "code": "23445",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "愛知県",
     "city_group": null,
     "name": "美浜町",
     "code": "23446",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "愛知県",
     "city_group": null,
     "name": "武豊町",
     "code": "23447",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "愛知県",
     "city_group": null,
     "name": "幸田町",
     "code": "23501",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "愛知県",
     "city_group": null,
     "name": "設楽町",
     "code": "23561",
-    "status": "error"
+    "status": "error",
+    "top_probability": null
   },
   {
     "pref": "愛知県",
     "city_group": null,
     "name": "東栄町",
     "code": "23562",
-    "status": "error"
+    "status": "error",
+    "top_probability": null
+  },
+  {
+    "pref": "愛知県",
+    "city_group": null,
+    "name": "豊根村",
+    "code": "23563",
+    "status": "ok",
+    "top_probability": 0.00182
+  },
+  {
+    "pref": "三重県",
+    "city_group": null,
+    "name": "津市",
+    "code": "24201",
+    "status": "ok",
+    "top_probability": 0.743
+  },
+  {
+    "pref": "三重県",
+    "city_group": null,
+    "name": "四日市市",
+    "code": "24202",
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "三重県",
     "city_group": null,
     "name": "伊勢市",
     "code": "24203",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
+  },
+  {
+    "pref": "三重県",
+    "city_group": null,
+    "name": "松阪市",
+    "code": "24204",
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "三重県",
     "city_group": null,
     "name": "桑名市",
     "code": "24205",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
+  },
+  {
+    "pref": "三重県",
+    "city_group": null,
+    "name": "鈴鹿市",
+    "code": "24207",
+    "status": "ok",
+    "top_probability": 0.743
+  },
+  {
+    "pref": "三重県",
+    "city_group": null,
+    "name": "名張市",
+    "code": "24208",
+    "status": "ok",
+    "top_probability": 0.000612
   },
   {
     "pref": "三重県",
     "city_group": null,
     "name": "尾鷲市",
     "code": "24209",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
+  },
+  {
+    "pref": "三重県",
+    "city_group": null,
+    "name": "亀山市",
+    "code": "24210",
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "三重県",
     "city_group": null,
     "name": "鳥羽市",
     "code": "24211",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "三重県",
     "city_group": null,
     "name": "熊野市",
     "code": "24212",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
+  },
+  {
+    "pref": "三重県",
+    "city_group": null,
+    "name": "いなべ市",
+    "code": "24214",
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "三重県",
     "city_group": null,
     "name": "志摩市",
     "code": "24215",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
+  },
+  {
+    "pref": "三重県",
+    "city_group": null,
+    "name": "伊賀市",
+    "code": "24216",
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "三重県",
     "city_group": null,
     "name": "木曽岬町",
     "code": "24303",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
+  },
+  {
+    "pref": "三重県",
+    "city_group": null,
+    "name": "東員町",
+    "code": "24324",
+    "status": "ok",
+    "top_probability": 0.743
+  },
+  {
+    "pref": "三重県",
+    "city_group": null,
+    "name": "菰野町",
+    "code": "24341",
+    "status": "ok",
+    "top_probability": 0.743
+  },
+  {
+    "pref": "三重県",
+    "city_group": null,
+    "name": "朝日町",
+    "code": "24343",
+    "status": "ok",
+    "top_probability": 0.743
+  },
+  {
+    "pref": "三重県",
+    "city_group": null,
+    "name": "川越町",
+    "code": "24344",
+    "status": "ok",
+    "top_probability": 0.743
+  },
+  {
+    "pref": "三重県",
+    "city_group": null,
+    "name": "多気町",
+    "code": "24441",
+    "status": "ok",
+    "top_probability": 0.743
+  },
+  {
+    "pref": "三重県",
+    "city_group": null,
+    "name": "明和町",
+    "code": "24442",
+    "status": "ok",
+    "top_probability": 0.743
+  },
+  {
+    "pref": "三重県",
+    "city_group": null,
+    "name": "大台町",
+    "code": "24443",
+    "status": "ok",
+    "top_probability": 0.743
+  },
+  {
+    "pref": "三重県",
+    "city_group": null,
+    "name": "玉城町",
+    "code": "24461",
+    "status": "ok",
+    "top_probability": 0.743
+  },
+  {
+    "pref": "三重県",
+    "city_group": null,
+    "name": "度会町",
+    "code": "24470",
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "三重県",
     "city_group": null,
     "name": "大紀町",
     "code": "24471",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "三重県",
     "city_group": null,
     "name": "南伊勢町",
     "code": "24472",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
   },
   {
     "pref": "三重県",
     "city_group": null,
     "name": "紀北町",
     "code": "24543",
-    "status": "ok"
+    "status": "ok",
+    "top_probability": 0.743
+  },
+  {
+    "pref": "三重県",
+    "city_group": null,
+    "name": "御浜町",
+    "code": "24561",
+    "status": "ok",
+    "top_probability": 0.743
+  },
+  {
+    "pref": "三重県",
+    "city_group": null,
+    "name": "紀宝町",
+    "code": "24562",
+    "status": "ok",
+    "top_probability": 0.743
   }
 ]

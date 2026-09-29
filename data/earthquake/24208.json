@@ -1,0 +1,10 @@
+{
+  "threshold_intensity": "60",
+  "period_years": 30,
+  "top_faults": [
+    {
+      "name": "名張断層帯",
+      "probability": 0.000612
+    }
+  ]
+}

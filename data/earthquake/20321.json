@@ -1,0 +1,14 @@
+{
+  "threshold_intensity": "60",
+  "period_years": 30,
+  "top_faults": [
+    {
+      "name": "深谷断層・綾瀬川断層（全体が同時に活動）",
+      "probability": 0.0
+    },
+    {
+      "name": "深谷断層・綾瀬川断層（深谷断層と鴻巣－伊奈区間が同時に活動）",
+      "probability": 0.0
+    }
+  ]
+}

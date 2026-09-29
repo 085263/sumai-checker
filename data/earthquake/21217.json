@@ -1,0 +1,14 @@
+{
+  "threshold_intensity": "60",
+  "period_years": 30,
+  "top_faults": [
+    {
+      "name": "跡津川断層帯",
+      "probability": 0.0
+    },
+    {
+      "name": "牛首断層帯",
+      "probability": 0.0
+    }
+  ]
+}

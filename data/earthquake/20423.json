@@ -1,0 +1,18 @@
+{
+  "threshold_intensity": "60",
+  "period_years": 30,
+  "top_faults": [
+    {
+      "name": "清内路峠断層帯",
+      "probability": 0.00272
+    },
+    {
+      "name": "木曽山脈西縁断層帯主部北部",
+      "probability": 0.0
+    },
+    {
+      "name": "阿寺断層帯主部南部",
+      "probability": 0.0
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "threshold_intensity": "60",
+  "period_years": 30,
+  "top_faults": [
+    {
+      "name": "恵那山－猿投山北断層帯",
+      "probability": 0.017
+    },
+    {
+      "name": "猿投－高浜断層帯",
+      "probability": 0.0
+    },
+    {
+      "name": "濃尾断層帯主部梅原断層帯",
+      "probability": 0.0
+    }
+  ]
+}

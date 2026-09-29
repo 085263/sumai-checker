@@ -55,6 +55,9 @@
 
   var municipalities = [];
 
+  // 五十音順(あかさたなはまやらわ)での都道府県の並び順
+  var PREF_ORDER = ["愛知県", "神奈川県", "岐阜県", "静岡県", "東京都", "長野県", "三重県", "山梨県"];
+
   function initApp() {
     var prefSelect = document.getElementById("pref-select");
     var muniSelect = document.getElementById("muni-select");
@@ -64,9 +67,13 @@
       .then(function (list) {
         municipalities = list;
 
-        var prefs = [];
+        var prefsPresent = [];
         list.forEach(function (m) {
-          if (prefs.indexOf(m.pref) === -1) prefs.push(m.pref);
+          if (prefsPresent.indexOf(m.pref) === -1) prefsPresent.push(m.pref);
+        });
+        var prefs = PREF_ORDER.filter(function (p) { return prefsPresent.indexOf(p) !== -1; });
+        prefsPresent.forEach(function (p) {
+          if (prefs.indexOf(p) === -1) prefs.push(p); // 並び順定義に無い県は末尾に追加
         });
 
         prefs.forEach(function (pref) {
@@ -101,6 +108,12 @@
     muniSelect.innerHTML = "";
     municipalities
       .filter(function (m) { return m.pref === pref; })
+      .sort(function (a, b) {
+        // 震災リスク順(地震確率が高い順)。データなしは末尾へ
+        var pa = a.top_probability === null || a.top_probability === undefined ? -1 : a.top_probability;
+        var pb = b.top_probability === null || b.top_probability === undefined ? -1 : b.top_probability;
+        return pb - pa;
+      })
       .forEach(function (m) {
         var opt = document.createElement("option");
         opt.value = m.code;

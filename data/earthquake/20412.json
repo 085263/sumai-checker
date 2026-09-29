@@ -1,0 +1,10 @@
+{
+  "threshold_intensity": "60",
+  "period_years": 30,
+  "top_faults": [
+    {
+      "name": "伊那谷断層帯南東部",
+      "probability": 0.0012
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "threshold_intensity": "60",
+  "period_years": 30,
+  "top_faults": [
+    {
+      "name": "高田平野東縁断層帯",
+      "probability": 0.0805
+    },
+    {
+      "name": "糸魚川－静岡構造線断層帯（全体が同時に活動）",
+      "probability": 0.000129
+    },
+    {
+      "name": "長野盆地西縁断層帯（全体が同時に活動）",
+      "probability": 0.0
+    }
+  ]
+}

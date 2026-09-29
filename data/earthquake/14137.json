@@ -1,0 +1,14 @@
+{
+  "threshold_intensity": "60",
+  "period_years": 30,
+  "top_faults": [
+    {
+      "name": "相模トラフ沿いのM8クラスの地震",
+      "probability": 0.057
+    },
+    {
+      "name": "立川断層帯",
+      "probability": 0.0221
+    }
+  ]
+}

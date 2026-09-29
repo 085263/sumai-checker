@@ -1,0 +1,18 @@
+{
+  "threshold_intensity": "60",
+  "period_years": 30,
+  "top_faults": [
+    {
+      "name": "境峠・神谷断層帯主部",
+      "probability": 0.127
+    },
+    {
+      "name": "高山・大原断層帯国府断層帯",
+      "probability": 0.0456
+    },
+    {
+      "name": "高山・大原断層帯高山断層帯",
+      "probability": 0.00747
+    }
+  ]
+}
