@@ -1,0 +1,10 @@
+{
+  "threshold_intensity": "60",
+  "period_years": 30,
+  "top_faults": [
+    {
+      "name": "中央構造線赤石山地西縁断層帯",
+      "probability": 0.00182
+    }
+  ]
+}

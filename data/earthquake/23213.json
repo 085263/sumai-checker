@@ -1,0 +1,18 @@
+{
+  "threshold_intensity": "60",
+  "period_years": 30,
+  "top_faults": [
+    {
+      "name": "南海トラフ沿いで発生する大地震",
+      "probability": 0.743
+    },
+    {
+      "name": "加木屋断層帯",
+      "probability": 0.001
+    },
+    {
+      "name": "伊勢湾断層帯主部南部",
+      "probability": 2.1e-05
+    }
+  ]
+}

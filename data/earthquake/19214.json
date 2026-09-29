@@ -1,0 +1,18 @@
+{
+  "threshold_intensity": "60",
+  "period_years": 30,
+  "top_faults": [
+    {
+      "name": "南海トラフ沿いで発生する大地震",
+      "probability": 0.743
+    },
+    {
+      "name": "相模トラフ沿いのM8クラスの地震",
+      "probability": 0.057
+    },
+    {
+      "name": "曽根丘陵断層帯",
+      "probability": 0.0149
+    }
+  ]
+}

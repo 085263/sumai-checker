@@ -1,0 +1,18 @@
+{
+  "threshold_intensity": "60",
+  "period_years": 30,
+  "top_faults": [
+    {
+      "name": "南海トラフ沿いで発生する大地震",
+      "probability": 0.743
+    },
+    {
+      "name": "深溝断層帯",
+      "probability": 0.0
+    },
+    {
+      "name": "猿投－高浜断層帯",
+      "probability": 0.0
+    }
+  ]
+}

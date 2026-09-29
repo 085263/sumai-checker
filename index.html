@@ -3,52 +3,75 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>住まいの災害リスク・補助金チェッカー(準備中)</title>
-<style>
-  body {
-    font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif;
-    background: #F2F4F3;
-    color: #1B2733;
-    margin: 0;
-    padding: 48px 16px;
-    display: flex;
-    justify-content: center;
-  }
-  main {
-    max-width: 480px;
-    background: #FFFFFF;
-    border: 1px solid #D8DEDC;
-    border-radius: 16px;
-    padding: 32px 28px;
-  }
-  h1 {
-    font-size: 20px;
-    margin: 0 0 12px;
-  }
-  p {
-    font-size: 14px;
-    line-height: 1.8;
-    color: #56666F;
-    margin: 0 0 8px;
-  }
-  .badge {
-    display: inline-block;
-    font-size: 11px;
-    font-weight: 700;
-    padding: 4px 10px;
-    border-radius: 999px;
-    background: #E2EFE6;
-    color: #3F7D53;
-    margin-bottom: 14px;
-  }
-</style>
+<title>住まいの災害リスク・補助金チェッカー</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-<main>
-  <span class="badge">表示テスト中</span>
-  <h1>住まいの災害リスク・補助金チェッカー</h1>
-  <p>これはGitHub Pagesでの公開動作を確認するための仮ページです。</p>
-  <p>ハザード・補助金・不動産相場のデータはまだ接続されていません。</p>
-</main>
+
+<div id="consent-screen" class="consent-screen" hidden>
+  <div class="consent-box">
+    <h1>ご利用前に</h1>
+    <ul>
+      <li>本サイトは東海地震に係る地震防災対策強化地域(1都7県157市町村)を対象に、地震・災害リスク、補助金、不動産相場の情報をまとめる試作サイトです。</li>
+      <li>地震ハザード情報は防災科学技術研究所 J-SHIS(地震ハザードステーション)の公開データをもとに表示しています。</li>
+      <li>今後追加予定の補助金・対策費用・不動産相場等の情報は、AIによる自動抽出/推定を含む場合があり、誤りを含む可能性があります。ご利用の際は必ず自治体・公式ページ等で最終確認してください。</li>
+      <li>本サービスの運営主体は当プロジェクトであり、国や自治体、防災科学技術研究所ではありません。</li>
+      <li>情報の誤りに気づいた場合は、是正リクエスト(準備中)からご連絡ください。</li>
+    </ul>
+    <div class="consent-actions">
+      <button id="consent-decline" class="btn btn-ghost">同意しない</button>
+      <button id="consent-agree" class="btn btn-primary">同意して利用する</button>
+    </div>
+  </div>
+</div>
+
+<div id="decline-screen" class="consent-screen" hidden>
+  <div class="consent-box">
+    <h1>ご利用いただけません</h1>
+    <p>利用規約にご同意いただけない場合、本サイトはご利用いただけません。</p>
+  </div>
+</div>
+
+<div id="app" hidden>
+  <header class="site-header">
+    <h1>住まいの災害リスク・補助金チェッカー</h1>
+    <p class="site-sub">東海地震・地震防災対策強化地域(1都7県157市町村)対象の試作サイト</p>
+  </header>
+
+  <main class="content">
+    <section class="picker">
+      <label for="muni-select">市区町村を選択</label>
+      <select id="muni-select"></select>
+    </section>
+
+    <section id="result" class="result" hidden>
+      <div class="card">
+        <div class="card-head">
+          <span class="place" id="r-pref"></span>
+          <h2 id="r-name"></h2>
+        </div>
+
+        <div class="section-label">地震ハザード(30年以内に震度6弱以上となる確率)</div>
+        <div id="r-faults" class="fault-list"></div>
+        <p id="r-note" class="note" hidden></p>
+        <p id="r-error" class="note note-error" hidden>この市区町村の地震データは現在取得できていません。</p>
+
+        <div class="section-label muted">今後追加予定</div>
+        <div class="placeholder-list">
+          <div class="placeholder-row">洪水・津波・土砂災害リスク <span class="pill pill-soon">準備中</span></div>
+          <div class="placeholder-row">耐震補助金 <span class="pill pill-soon">準備中</span></div>
+          <div class="placeholder-row">不動産売却相場 <span class="pill pill-soon">準備中</span></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>出典:防災科学技術研究所 J-SHIS(地震ハザードステーション) Web API</p>
+    <p>取得日時:2026年9月29日。掲載情報は参考値です。最新情報は各自治体・公式ページでご確認ください。</p>
+  </footer>
+</div>
+
+<script src="app.js"></script>
 </body>
 </html>

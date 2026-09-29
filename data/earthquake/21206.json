@@ -1,0 +1,18 @@
+{
+  "threshold_intensity": "60",
+  "period_years": 30,
+  "top_faults": [
+    {
+      "name": "恵那山－猿投山北断層帯",
+      "probability": 0.017
+    },
+    {
+      "name": "屏風山・恵那山－猿投山断層帯屏風山断層帯",
+      "probability": 0.00747
+    },
+    {
+      "name": "赤河断層帯",
+      "probability": 0.0041
+    }
+  ]
+}

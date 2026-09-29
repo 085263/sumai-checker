@@ -1,0 +1,18 @@
+{
+  "threshold_intensity": "60",
+  "period_years": 30,
+  "top_faults": [
+    {
+      "name": "南海トラフ沿いで発生する大地震",
+      "probability": 0.743
+    },
+    {
+      "name": "相模トラフ沿いのM8クラスの地震",
+      "probability": 0.057
+    },
+    {
+      "name": "糸魚川－静岡構造線断層帯（全体が同時に活動）",
+      "probability": 0.000129
+    }
+  ]
+}
