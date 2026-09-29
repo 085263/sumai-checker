@@ -53,35 +53,63 @@
     });
   }
 
+  var municipalities = [];
+
   function initApp() {
-    var select = document.getElementById("muni-select");
+    var prefSelect = document.getElementById("pref-select");
+    var muniSelect = document.getElementById("muni-select");
 
     fetch("data/municipalities.json")
       .then(function (r) { return r.json(); })
       .then(function (list) {
+        municipalities = list;
+
+        var prefs = [];
         list.forEach(function (m) {
-          var opt = document.createElement("option");
-          opt.value = m.code;
-          opt.textContent = m.pref + " " + m.name;
-          select.appendChild(opt);
+          if (prefs.indexOf(m.pref) === -1) prefs.push(m.pref);
         });
-        if (list.length > 0) {
-          select.value = list[0].code;
-          loadMunicipality(list[0].code, list[0]);
+
+        prefs.forEach(function (pref) {
+          var opt = document.createElement("option");
+          opt.value = pref;
+          opt.textContent = pref;
+          prefSelect.appendChild(opt);
+        });
+
+        prefSelect.addEventListener("change", function () {
+          populateMuniSelect(prefSelect.value);
+          var first = municipalities.filter(function (m) { return m.pref === prefSelect.value; })[0];
+          if (first) loadMunicipality(first);
+        });
+
+        muniSelect.addEventListener("change", function () {
+          var m = municipalities.filter(function (x) { return x.code === muniSelect.value; })[0];
+          if (m) loadMunicipality(m);
+        });
+
+        if (prefs.length > 0) {
+          prefSelect.value = prefs[0];
+          populateMuniSelect(prefs[0]);
+          var initial = municipalities.filter(function (m) { return m.pref === prefs[0]; })[0];
+          if (initial) loadMunicipality(initial);
         }
       });
-
-    select.addEventListener("change", function () {
-      fetch("data/municipalities.json")
-        .then(function (r) { return r.json(); })
-        .then(function (list) {
-          var m = list.filter(function (x) { return x.code === select.value; })[0];
-          loadMunicipality(select.value, m);
-        });
-    });
   }
 
-  function loadMunicipality(code, meta) {
+  function populateMuniSelect(pref) {
+    var muniSelect = document.getElementById("muni-select");
+    muniSelect.innerHTML = "";
+    municipalities
+      .filter(function (m) { return m.pref === pref; })
+      .forEach(function (m) {
+        var opt = document.createElement("option");
+        opt.value = m.code;
+        opt.textContent = m.name;
+        muniSelect.appendChild(opt);
+      });
+  }
+
+  function loadMunicipality(meta) {
     var resultEl = document.getElementById("result");
     var faultsEl = document.getElementById("r-faults");
     var noteEl = document.getElementById("r-note");
@@ -93,7 +121,7 @@
     noteEl.hidden = true;
     errorEl.hidden = true;
 
-    fetch("data/earthquake/" + code + ".json")
+    fetch("data/earthquake/" + meta.code + ".json")
       .then(function (r) { return r.json(); })
       .then(function (eq) {
         if (eq.error) {

@@ -74,7 +74,16 @@ body {
 
 .picker { margin-bottom: 20px; }
 .picker label { display: block; font-size: 12px; color: var(--muted); margin-bottom: 6px; }
-#muni-select {
+.picker-row {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.picker-field {
+  flex: 1;
+  min-width: 160px;
+}
+#pref-select, #muni-select {
   width: 100%;
   padding: 10px 12px;
   font-size: 14px;
