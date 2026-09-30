@@ -1,0 +1,79 @@
+{
+  "municipality_code": "22100",
+  "municipality": "静岡市",
+  "ward": null,
+  "updated_at": "2026-09-30",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.shizuoka.lg.jp/s2574/s007801.html"
+  ],
+  "items": [
+    {
+      "id": "shizuoka-wood-taishin",
+      "name": "木造住宅耐震事業",
+      "amount_text": "補強計画(設計)と補強工事に係る経費の8割以内、上限115万円",
+      "amount_max_yen": 1150000,
+      "condition_text": "昭和56年(1981年)5月31日以前に建築された、または同日において建築中であった木造住宅で、静岡県耐震診断補強相談士による診断で耐震評点1.0未満のものを1.0以上にする補強工事が対象。契約・工事の実施前に申請が必要。耐震シェルター補助との併用不可。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "受付期間:2026年4月6日〜2026年11月30日。工事完了は2027年1月上旬まで。",
+      "deadline": "2026-11-30",
+      "official_url": "https://www.city.shizuoka.lg.jp/s2574/s007794.html"
+    },
+    {
+      "id": "shizuoka-waga-ya-shindan",
+      "name": "わが家の専門家診断事業",
+      "amount_text": "無料(市が専門家を無料派遣)",
+      "amount_max_yen": 0,
+      "condition_text": "1981年5月31日以前に建てられた2階建て以下の木造住宅。プレハブ工法・丸太組構法は対象外、混構造は診断できない場合あり。店舗併用の場合は住宅部分の面積が過半であること。空き家の場合は診断後に住宅として利用予定があること。過去に静岡市の無料診断を受けた住宅は対象外。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "申請期限:2026年4月1日〜2027年1月中旬。診断時の立会いが必須。申込先:建築安全推進課(054-221-1124)",
+      "deadline": "2027-01-15",
+      "official_url": "https://www.city.shizuoka.lg.jp/s2574/s007793.html"
+    },
+    {
+      "id": "shizuoka-taishin-shelter",
+      "name": "耐震シェルター整備事業",
+      "amount_text": "設置費用の3分の2以内、上限40万円",
+      "amount_max_yen": 400000,
+      "condition_text": "昭和56年(1981年)5月31日以前に着工または建築された木造住宅で、耐震診断で1階の耐震評点が1.0未満、かつ市の「木造住宅耐震事業」の補助を未受領であること。契約・工事の実施前に申請が必要(事後申請は対象外)。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "受付期間:2026年4月6日〜、シェルターの納期を確認のうえ2027年1月中旬までに工事完了が必要。",
+      "deadline": "2027-01-15",
+      "official_url": "https://www.city.shizuoka.lg.jp/s2574/s007809.html"
+    },
+    {
+      "id": "shizuoka-block-fence",
+      "name": "ブロック塀等耐震化促進事業",
+      "amount_text": "撤去:見積額と基準額(1mあたり2万円)の少ない方の3分の2以内・上限10万円(避難所敷地は上限なし)/ 改善:見積額と基準額(1mあたり3万8,400円)の少ない方の3分の2以内・上限25万円",
+      "amount_max_yen": 250000,
+      "condition_text": "道路面から80cm以上ある、道路に面したブロック塀等(通学路・避難路・緊急輸送路等の指定道路沿い)。基礎上のブロック等および一敷地内の道路沿いブロック塀等は原則すべて撤去が条件。契約・工事の実施前に申請が必要。",
+      "eligibility": {
+        "building_types": ["wood", "light_steel", "heavy_steel"],
+        "built_before": null,
+        "built_after": null
+      },
+      "note": "受付期間:2026年4月6日〜2026年12月中旬。工事完了は2027年1月中旬まで。",
+      "deadline": "2026-12-15",
+      "official_url": "https://www.city.shizuoka.lg.jp/s2574/s007798.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "小規模建築物耐震診断事業", "official_url": "https://www.city.shizuoka.lg.jp/s2574/s012534.html"},
+    {"name": "特定建築物耐震診断事業", "official_url": "https://www.city.shizuoka.lg.jp/s2574/s012535.html"},
+    {"name": "建築物補強計画策定事業", "official_url": "https://www.city.shizuoka.lg.jp/s2574/s007808.html"},
+    {"name": "建築物耐震補強事業", "official_url": "https://www.city.shizuoka.lg.jp/s2574/s007797.html"}
+  ]
+}
