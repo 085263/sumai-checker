@@ -1,0 +1,45 @@
+{
+  "municipality_code": "22223",
+  "municipality": "御前崎市",
+  "ward": null,
+  "updated_at": "2026-09-30",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.omaezaki.shizuoka.jp/soshiki/toshiseibi/taishin/taishin/juutakutaisin.html",
+    "https://www.city.omaezaki.shizuoka.jp/soshiki/toshiseibi/taishin/taishin/toukai0/mokuzo.html"
+  ],
+  "items": [
+    {
+      "id": "omaezaki-taishin-reform",
+      "name": "住宅耐震リフォーム支援事業補助金",
+      "amount_text": "対象工事費の50%、上限40万円",
+      "amount_max_yen": 400000,
+      "condition_text": "TOUKAI-0+補助金事業を利用して耐震補強工事を実施し、同一年度内にリフォーム工事(省エネ化・バリアフリー化等)も行う方。市内在住・町内会加入(予定含む)、市税等滞納がないこと。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "申請期限の記載は確認できず。耐震補強本体の制度と併用が前提。",
+      "deadline": null,
+      "official_url": "https://www.city.omaezaki.shizuoka.jp/soshiki/toshiseibi/taishin/taishin/juutakutaisin.html"
+    },
+    {
+      "id": "omaezaki-wood-taishin",
+      "name": "木造住宅耐震補強事業(補強計画一体型)",
+      "amount_text": "上限100万円(高齢者のみ居住の場合は上限120万円)",
+      "amount_max_yen": 1200000,
+      "condition_text": "昭和56年5月31日以前に建築された木造住宅で、耐震診断の結果、倒壊の危険性があるとされたもの。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "公式ページへの直接アクセスができなかったため、検索エンジンの要約情報を基にした記載。金額・条件は必ず公式ページ(都市整備課 0537-85-1122)で確認してください。",
+      "deadline": null,
+      "official_url": "https://www.city.omaezaki.shizuoka.jp/soshiki/toshiseibi/taishin/taishin/toukai0/mokuzo.html"
+    }
+  ],
+  "not_yet_covered": []
+}

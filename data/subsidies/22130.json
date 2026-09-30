@@ -1,0 +1,48 @@
+{
+  "municipality_code": "22130",
+  "municipality": "浜松市",
+  "ward": null,
+  "updated_at": "2026-09-30",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.hamamatsu.shizuoka.jp/kensido/home_tochi/home/kensido/taisin/",
+    "https://www.city.hamamatsu.shizuoka.jp/kensido/home_tochi/home/kensido/taisin/jigyou_03.html"
+  ],
+  "items": [
+    {
+      "id": "hamamatsu-waga-ya-shindan",
+      "name": "わが家の専門家診断事業",
+      "amount_text": "無料(専門家を無料派遣)",
+      "amount_max_yen": 0,
+      "condition_text": "昭和56年(1981年)5月31日以前に建築された木造住宅が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "申込・問合せ:浜松市建築行政課(053-457-2473)または市民コールセンター(053-457-2111)",
+      "deadline": null,
+      "official_url": "https://www.city.hamamatsu.shizuoka.jp/kensido/home_tochi/home/kensido/taisin/jigyou_01.html"
+    },
+    {
+      "id": "hamamatsu-wood-taishin",
+      "name": "木造住宅耐震補強助成事業",
+      "amount_text": "補強計画策定及び耐震改修工事費の8割以内、上限115万円",
+      "amount_max_yen": 1150000,
+      "condition_text": "昭和56年(1981年)5月31日以前に建築された木造住宅で、1敷地につき1棟のみ申請可能。現況の1階上部構造評点を1.0以上にする工事が対象。浜松市に登録している施工事業者への依頼が必須。契約・着工前の申請が必須(契約後は対象外)。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "予算がなくなり次第受付終了。詳細・申請期限は建築行政課(053-457-2471)へ要確認。",
+      "deadline": null,
+      "official_url": "https://www.city.hamamatsu.shizuoka.jp/kensido/home_tochi/home/kensido/taisin/01mokuzou.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "耐震シェルター整備事業", "official_url": "https://www.city.hamamatsu.shizuoka.jp/kensido/home_tochi/home/kensido/taisin/"},
+    {"name": "耐風診断助成事業", "official_url": "https://www.city.hamamatsu.shizuoka.jp/kensido/home_tochi/home/kensido/taisin/"}
+  ]
+}

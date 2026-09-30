@@ -1,0 +1,74 @@
+{
+  "municipality_code": "22305",
+  "municipality": "松崎町",
+  "ward": null,
+  "updated_at": "2026-09-30",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.town.matsuzaki.shizuoka.jp/docs/2016020300707"
+  ],
+  "items": [
+    {
+      "id": "matsuzaki-waga-ya-shindan",
+      "name": "わが家の専門家診断事業",
+      "amount_text": "無料",
+      "amount_max_yen": 0,
+      "condition_text": "昭和56年5月31日以前に建築された既存木造住宅。静岡県耐震診断補強相談士による診断。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "問合せ先:松崎町役場産業建設課(0558-42-3965)",
+      "deadline": null,
+      "official_url": "https://www.town.matsuzaki.shizuoka.jp/docs/2016020300707"
+    },
+    {
+      "id": "matsuzaki-hokyo-keikaku-sakutei",
+      "name": "木造住宅補強計画策定事業",
+      "amount_text": "費用の2/3以内、上限9万6,000円/戸",
+      "amount_max_yen": 96000,
+      "condition_text": "昭和56年5月31日以前に建築された既存木造住宅。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "問合せ先:松崎町役場産業建設課(0558-42-3965)",
+      "deadline": null,
+      "official_url": "https://www.town.matsuzaki.shizuoka.jp/docs/2016020300707"
+    },
+    {
+      "id": "matsuzaki-taishin-hokyo",
+      "name": "木造住宅耐震補強助成事業",
+      "amount_text": "一般世帯:上限60万円/戸、高齢者世帯等:上限80万円/戸",
+      "amount_max_yen": 800000,
+      "condition_text": "昭和56年5月31日以前に建築された既存木造住宅で、耐震診断の結果、総合評点が1.0未満のものを1.0以上に補強する工事が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "問合せ先:松崎町役場産業建設課(0558-42-3965)",
+      "deadline": null,
+      "official_url": "https://www.town.matsuzaki.shizuoka.jp/docs/2016020300707"
+    },
+    {
+      "id": "matsuzaki-kagu-kotei",
+      "name": "家庭内家具等固定推進事業",
+      "amount_text": "要援護世帯:対象経費の2/3以内・上限4万円、一般世帯:対象経費の1/2以内・上限3万円",
+      "amount_max_yen": 40000,
+      "condition_text": "家庭内の家具・家電等の転倒防止のための固定工事。建物の耐震改修そのものではないが、地震対策の関連制度。",
+      "eligibility": {
+        "building_types": ["wood", "light_steel", "heavy_steel"],
+        "built_before": null,
+        "built_after": null
+      },
+      "note": "問合せ先:松崎町役場総務課(0558-42-3963)",
+      "deadline": null,
+      "official_url": "https://www.town.matsuzaki.shizuoka.jp/docs/2016020300707"
+    }
+  ],
+  "not_yet_covered": []
+}

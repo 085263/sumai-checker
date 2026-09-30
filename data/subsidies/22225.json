@@ -1,0 +1,80 @@
+{
+  "municipality_code": "22225",
+  "municipality": "伊豆の国市",
+  "ward": null,
+  "updated_at": "2026-09-30",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.izunokuni.shizuoka.jp/kiki/kurashi/hojo/jishin20150417.html"
+  ],
+  "items": [
+    {
+      "id": "izunokuni-waga-ya-shindan",
+      "name": "わが家の専門家診断事業",
+      "amount_text": "無料",
+      "amount_max_yen": 0,
+      "condition_text": "昭和56年5月31日以前の木造住宅。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": "申請期限の目安:4月中旬〜11月末。",
+      "deadline": null,
+      "official_url": "https://www.city.izunokuni.shizuoka.jp/kiki/kurashi/hojo/jishin20150417.html"
+    },
+    {
+      "id": "izunokuni-wood-taishin",
+      "name": "木造住宅耐震補強助成事業(補強計画一体型)",
+      "amount_text": "事業費の10分の8と115万円を比較していずれか少ない額",
+      "amount_max_yen": 1150000,
+      "condition_text": "昭和56年5月31日以前の木造住宅で耐震性が低いと判断されたもの。市税滞納なし、補強後評点1.0以上。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": "申請期限の目安:4月中旬〜11月末。",
+      "deadline": null,
+      "official_url": "https://www.city.izunokuni.shizuoka.jp/kiki/kurashi/hojo/jishin20150417.html"
+    },
+    {
+      "id": "izunokuni-block-fence",
+      "name": "ブロック塀等撤去改善事業",
+      "amount_text": "撤去:1敷地上限10万円 / 改善:1敷地上限25万円",
+      "amount_max_yen": 250000,
+      "condition_text": "道路に面する危険なブロック塀。",
+      "eligibility": {"building_types": ["wood", "light_steel", "heavy_steel"], "built_before": null, "built_after": null},
+      "note": "申請期限の目安:4月中旬〜11月末。",
+      "deadline": null,
+      "official_url": "https://www.city.izunokuni.shizuoka.jp/kiki/kurashi/hojo/jishin20150417.html"
+    },
+    {
+      "id": "izunokuni-non-wood-shindan",
+      "name": "建築物等耐震診断事業",
+      "amount_text": "経費と134,000円/棟のいずれか少ない額の3分の2以内",
+      "amount_max_yen": null,
+      "condition_text": "昭和56年5月31日以前の非木造住宅・建築物。",
+      "eligibility": {"building_types": ["light_steel", "heavy_steel"], "built_before": "1981-06-01", "built_after": null},
+      "note": "申請期限の目安:4月中旬〜11月末。",
+      "deadline": null,
+      "official_url": "https://www.city.izunokuni.shizuoka.jp/kiki/kurashi/hojo/jishin20150417.html"
+    },
+    {
+      "id": "izunokuni-reinforcement-plan",
+      "name": "建築物補強計画策定事業",
+      "amount_text": "床面積に応じ180万円〜1080万円、3分の2以内",
+      "amount_max_yen": 10800000,
+      "condition_text": "特定の大規模建築物が対象。",
+      "eligibility": {"building_types": ["light_steel", "heavy_steel"], "built_before": null, "built_after": null},
+      "note": "申請期限の目安:4月中旬〜11月末。",
+      "deadline": null,
+      "official_url": "https://www.city.izunokuni.shizuoka.jp/kiki/kurashi/hojo/jishin20150417.html"
+    },
+    {
+      "id": "izunokuni-shelter",
+      "name": "耐震シェルター・防災ベッド設置事業",
+      "amount_text": "補助対象経費の2分の1、上限40〜50万円",
+      "amount_max_yen": 500000,
+      "condition_text": "昭和56年5月31日以前の木造住宅1階。耐震補強未実施、市税滞納なし。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": "申請期限の目安:4月中旬〜11月末。",
+      "deadline": null,
+      "official_url": "https://www.city.izunokuni.shizuoka.jp/kiki/kurashi/hojo/jishin20150417.html"
+    }
+  ],
+  "not_yet_covered": []
+}

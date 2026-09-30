@@ -1,0 +1,32 @@
+{
+  "municipality_code": "22306",
+  "municipality": "西伊豆町",
+  "ward": null,
+  "updated_at": "2026-09-30",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.town.nishiizu.shizuoka.jp/gyousei/hojo_josei.html"
+  ],
+  "items": [
+    {
+      "id": "nishiizu-shelter",
+      "name": "耐震シェルター設置補助金",
+      "amount_text": "通常世帯:上限40万円、65歳以上のみ世帯・要介護者がいる世帯:上限50万円(補助率2/3以内)",
+      "amount_max_yen": 500000,
+      "condition_text": "昭和56年5月31日以前に建築された木造住宅。過去に町の耐震補強補助金を利用していないこと。申請者は町内居住で対象住宅の所有者または居住者、町税の滞納がないこと。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "申請期限の記載は公式ページで確認できず。詳細は建設課へ要確認。",
+      "deadline": null,
+      "official_url": "https://www.town.nishiizu.shizuoka.jp/kakuka/kensetsu/kensetsu/step3_shelter.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "木造住宅耐震補強工事(補強計画一体型)", "official_url": "https://www.town.nishiizu.shizuoka.jp/kakuka/sangyou/kensetsu/hokyoukouji.html"},
+    {"name": "西伊豆町中小企業ホテル・旅館耐震改修助成事業", "official_url": "https://www.town.nishiizu.shizuoka.jp/reiki/reiki_honbun/r153RG00000811.html"}
+  ]
+}

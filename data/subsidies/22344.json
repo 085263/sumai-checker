@@ -1,0 +1,62 @@
+{
+  "municipality_code": "22344",
+  "municipality": "小山町",
+  "ward": null,
+  "updated_at": "2026-09-30",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.fuji-oyama.jp/soshiki/17/"
+  ],
+  "items": [
+    {
+      "id": "oyama-wood-taishin",
+      "name": "小山町木造住宅耐震補強助成事業(計画工事一体型)",
+      "amount_text": "補強工事費の8割と115万円のいずれか少ない額(一般世帯)。高齢者等世帯はさらに上限20万円を加算",
+      "amount_max_yen": 1150000,
+      "condition_text": "昭和56年(1981年)5月31日以前に建築された木造住宅で、耐震評点を1.0以上、かつ0.3ポイント以上向上させる補強工事が対象。工事業者と契約する前に申請が必要(契約後の申請は対象外)。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "申請期限の記載なし。問い合わせ:都市整備課 0550-76-6137",
+      "deadline": null,
+      "official_url": "https://www.fuji-oyama.jp/page/1555.html"
+    },
+    {
+      "id": "oyama-waga-ya-shindan",
+      "name": "わが家の専門家診断事業",
+      "amount_text": "無料",
+      "amount_max_yen": 0,
+      "condition_text": "昭和56年(1981年)5月31日以前に建築された木造住宅(一戸建て・長屋・共同住宅)。併用住宅は建物全体の半分以上が住宅であること。空き家は対象外。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "申請期限の記載なし。申込みから概ね1か月後を目安に順次派遣。問い合わせ:都市整備課 0550-76-6137",
+      "deadline": null,
+      "official_url": "https://www.fuji-oyama.jp/page/1584.html"
+    },
+    {
+      "id": "oyama-block-fence",
+      "name": "小山町ブロック塀等耐震改修事業",
+      "amount_text": "撤去:1mあたり8,900円の基準額と実費の少ない方の3分の2以内・上限10万円/改善:1mあたり38,400円の基準額と実費の少ない方の3分の2以内・上限25万円",
+      "amount_max_yen": 250000,
+      "condition_text": "地震発生時に倒壊・転倒の危険性がある、道路等に面したブロック塀等が対象(住宅や事務所から避難所への経路となる道路に面したものを含む)。",
+      "eligibility": {
+        "building_types": ["wood", "light_steel", "heavy_steel"],
+        "built_before": null,
+        "built_after": null
+      },
+      "note": "申請期限の記載なし。問い合わせ:都市整備課 0550-76-6137",
+      "deadline": null,
+      "official_url": "https://www.fuji-oyama.jp/page/1585.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "小山町既存建築物耐震性向上事業(非木造建築物の耐震診断費用補助)", "official_url": "https://www.fuji-oyama.jp/page/6179.html"},
+    {"name": "防災ベッド購入費用の補助", "official_url": "https://www.fuji-oyama.jp/page/1540.html"}
+  ]
+}

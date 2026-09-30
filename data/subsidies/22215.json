@@ -1,0 +1,32 @@
+{
+  "municipality_code": "22215",
+  "municipality": "御殿場市",
+  "ward": null,
+  "updated_at": "2026-09-30",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.gotemba.lg.jp/kurashi/b-7/b-7-2/3715.html"
+  ],
+  "items": [
+    {
+      "id": "gotemba-wood-taishin",
+      "name": "木造住宅の耐震補強費補助制度",
+      "amount_text": "補強工事費の8割と115万円を比較していずれか少ない額",
+      "amount_max_yen": 1150000,
+      "condition_text": "昭和56年(1981年)5月31日以前に建築された木造住宅(戸建て・長屋・共同住宅)で、耐震診断の結果、耐震評点1.0未満。耐震評点を0.3以上向上させ1.0以上とする補強工事が対象。居住のため継続利用する住宅(空き家は対象外)。プロジェクト「TOUKAI-0」総合支援事業費補助金交付要綱に基づく。事業着手前の申請が必要。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "令和8年度受付開始。具体的な申請期限は明記されておらず、予算額到達次第終了。問い合わせ先:建築住宅課 0550-82-4224",
+      "deadline": null,
+      "official_url": "https://www.city.gotemba.lg.jp/kurashi/b-7/b-7-2/3715.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "木造住宅の除却費補助制度", "official_url": "https://www.city.gotemba.lg.jp/kurashi/b-7/b-7-2/6445.html"},
+    {"name": "ブロック塀等の建替え費補助制度", "official_url": "https://www.city.gotemba.lg.jp/kurashi/b-7/b-7-2/3728.html"}
+  ]
+}

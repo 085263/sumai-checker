@@ -1,0 +1,32 @@
+{
+  "municipality_code": "22214",
+  "municipality": "藤枝市",
+  "ward": null,
+  "updated_at": "2026-09-30",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.fujieda.shizuoka.jp/soshiki/toshikensetsu/kenchikujutaku/gyomu/hojyo/jishintaisaku/21462.html"
+  ],
+  "items": [
+    {
+      "id": "fujieda-wood-taishin-hokyo",
+      "name": "藤枝市木造住宅耐震補強事業費補助金",
+      "amount_text": "補助率100%、上限115万円",
+      "amount_max_yen": 1150000,
+      "condition_text": "昭和56年(1981年)5月31日以前に建てられた木造住宅に居住する所有者が対象(借家の場合は所有者の同意が必要)。耐震診断の総合評点1.0未満を1.0以上に上げる補強工事が対象。他の補助金との重複受給は不可。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "申請受付期間:4月下旬〜翌年2月上旬。事業完了期限は申請年度の2月末日まで。着手(契約)前の申請が必須。予算に達し次第受付終了。なお一部の第三者サイトでは「一般世帯上限40万円・高齢者等世帯上限80万円」という異なる金額が記載されており、制度名や年度が異なる可能性がある。公式ページの記載(115万円・補助率100%)を優先したが、要人力確認。",
+      "deadline": null,
+      "official_url": "https://www.city.fujieda.shizuoka.jp/soshiki/toshikensetsu/kenchikujutaku/gyomu/hojyo/jishintaisaku/21462.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "藤枝市木造住宅建替事業費補助金", "official_url": "https://www.city.fujieda.shizuoka.jp/soshiki/toshikensetsu/kenchikujutaku/gyomu/hojyo/jishintaisaku/21469.html"},
+    {"name": "藤枝市耐震シェルター整備事業費補助金", "official_url": "https://www.city.fujieda.shizuoka.jp/soshiki/toshikensetsu/kenchikujutaku/gyomu/hojyo/jishintaisaku/21461.html"}
+  ]
+}

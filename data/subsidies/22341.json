@@ -1,0 +1,16 @@
+{
+  "municipality_code": "22341",
+  "municipality": "清水町",
+  "ward": null,
+  "updated_at": "2026-09-30",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.town.shimizu.shizuoka.jp/category30002268.html"
+  ],
+  "items": [],
+  "note": "公式サイト上に「建物等への補助・助成」「プロジェクトTOUKAI-0」への言及はあるが、個別ページが404等で内容を確認できず、具体的な制度・金額を確認できなかった。都市計画課(055-981-8225)への確認が必要。",
+  "not_yet_covered": [
+    {"name": "プロジェクト「TOUKAI-0」関連制度(ページ確認できず)", "official_url": "https://www.town.shimizu.shizuoka.jp/category30002268.html"}
+  ]
+}

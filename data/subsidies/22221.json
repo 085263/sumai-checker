@@ -1,0 +1,59 @@
+{
+  "municipality_code": "22221",
+  "municipality": "湖西市",
+  "ward": null,
+  "updated_at": "2026-09-30",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.kosai.shizuoka.jp/soshikiichiran/kenchikujutakuka/taisin/7462.html"
+  ],
+  "items": [
+    {
+      "id": "kosai-wood-taishin-kaishu",
+      "name": "木造住宅の耐震改修促進事業(耐震改修)",
+      "amount_text": "耐震補強工事費の8割と115万円を比較していずれか少ない額",
+      "amount_max_yen": 1150000,
+      "condition_text": "昭和56年5月以前に建てられた、または建設中であった木造住宅で、耐震診断の結果が1.0未満。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "補助金申請の受付期限:2026年11月30日(予算枠到達時は期限前に受付終了の可能性あり)。問い合わせ先:建築住宅課 053-576-4549",
+      "deadline": "2026-11-30",
+      "official_url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kenchikujutakuka/taisin/7462.html"
+    },
+    {
+      "id": "kosai-jokyaku",
+      "name": "木造住宅の耐震改修促進事業(除却)",
+      "amount_text": "除却費の23%以内、上限30万円",
+      "amount_max_yen": 300000,
+      "condition_text": "昭和56年5月以前に建てられた、または建設中であった木造住宅で、耐震診断の結果が1.0未満。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "受付期限は耐震改修と同様。",
+      "deadline": "2026-11-30",
+      "official_url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kenchikujutakuka/taisin/7462.html"
+    },
+    {
+      "id": "kosai-iten",
+      "name": "木造住宅の耐震改修促進事業(移転、高齢者等世帯のみ)",
+      "amount_text": "10万円",
+      "amount_max_yen": 100000,
+      "condition_text": "除却事業を行う高齢者等世帯が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "高齢者世帯、身体障害者手帳所有者、児童扶養手当受給者を含む世帯が対象。",
+      "deadline": "2026-11-30",
+      "official_url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kenchikujutakuka/taisin/7462.html"
+    }
+  ],
+  "not_yet_covered": []
+}

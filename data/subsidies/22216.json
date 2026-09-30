@@ -1,0 +1,49 @@
+{
+  "municipality_code": "22216",
+  "municipality": "袋井市",
+  "ward": null,
+  "updated_at": "2026-09-30",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.fukuroi.shizuoka.jp/kurashi_tetsuzuki/hojyokinn/index.html",
+    "https://www.city.fukuroi.shizuoka.jp/soshiki/53/2/hojo/12433.html",
+    "https://www.city.fukuroi.shizuoka.jp/soshiki/3/2/bosai/13043.html"
+  ],
+  "items": [
+    {
+      "id": "fukuroi-taishin-kaishu-unconfirmed",
+      "name": "木造住宅の耐震補強工事に関する補助制度(名称・詳細ページ未確定)",
+      "amount_text": "上限100万円程度(複数の二次情報源による、公式ページ未直接確認)",
+      "amount_max_yen": 1000000,
+      "condition_text": "昭和56年(1981年)5月以前に建てられた木造軸組工法の住宅で、耐震診断の結果、耐震評点1.0未満であることが条件と推定される。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "⚠️低信頼度:公式ページを直接特定できず、二次情報源(まとめサイト)の記載に基づく暫定値。金額・条件とも要確認。問い合わせ先:建築住宅課 0538-44-3123 / 危機管理課災害対策係 0538-86-3701",
+      "deadline": null,
+      "official_url": "https://www.city.fukuroi.shizuoka.jp/kurashi_tetsuzuki/hojyokinn/index.html"
+    },
+    {
+      "id": "fukuroi-jokyaku-tatekae",
+      "name": "木造住宅の除却(取壊し)・建替えに関する補助制度",
+      "amount_text": "建替事業の上限額は除却事業の補助額を含めて60万円",
+      "amount_max_yen": 600000,
+      "condition_text": "昭和56年5月以前に建てられた木造軸組工法の住宅で、耐震診断の結果、耐震評点1.0未満。住宅所在地の地域・地区や居住者の世帯構成等の条件あり。予算の範囲内での交付のため年度途中で受付終了の場合あり。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "令和4年度から実施。",
+      "deadline": null,
+      "official_url": "https://www.city.fukuroi.shizuoka.jp/soshiki/53/2/hojo/12433.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "ブロック塀の安全点検・撤去一部補助", "official_url": "https://www.city.fukuroi.shizuoka.jp/soshiki/53/2/hojo/1529635321102.html"},
+    {"name": "空き家のリフォーム工事補助制度", "official_url": "https://www.city.fukuroi.shizuoka.jp/soshiki/53/1/hojo/12553.html"}
+  ]
+}

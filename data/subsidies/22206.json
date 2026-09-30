@@ -1,0 +1,107 @@
+{
+  "municipality_code": "22206",
+  "municipality": "三島市",
+  "ward": null,
+  "updated_at": "2026-09-30",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.mishima.shizuoka.jp/page/3396.html"
+  ],
+  "items": [
+    {
+      "id": "mishima-waga-ya-shindan",
+      "name": "わが家の専門家診断事業",
+      "amount_text": "無料診断",
+      "amount_max_yen": 0,
+      "condition_text": "昭和56年(1981年)5月31日以前の木造住宅が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "申請期限は例年12月中(予算次第で早期終了の可能性)。具体的な締切日は要確認。",
+      "deadline": null,
+      "official_url": "https://www.city.mishima.shizuoka.jp/page/3396.html"
+    },
+    {
+      "id": "mishima-hi-wood-shindan",
+      "name": "非木造住宅の耐震診断事業",
+      "amount_text": "診断費用の3分の2以内、上限200万円",
+      "amount_max_yen": 2000000,
+      "condition_text": "木造以外の既存建築物が対象。",
+      "eligibility": {
+        "building_types": ["light_steel", "heavy_steel"],
+        "built_before": null,
+        "built_after": null
+      },
+      "note": "申請期限は例年12月中(予算次第)。",
+      "deadline": null,
+      "official_url": "https://www.city.mishima.shizuoka.jp/page/3396.html"
+    },
+    {
+      "id": "mishima-wood-kaishu",
+      "name": "木造住宅の耐震改修事業",
+      "amount_text": "上限100万円(高齢者世帯等は120万円)",
+      "amount_max_yen": 1200000,
+      "condition_text": "耐震評点1.0未満から1.0以上への改修工事が対象。着手前の申請が必須。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "申請期限は例年12月中(予算次第)。",
+      "deadline": null,
+      "official_url": "https://www.city.mishima.shizuoka.jp/page/3396.html"
+    },
+    {
+      "id": "mishima-wood-jokyaku",
+      "name": "木造住宅の除却事業",
+      "amount_text": "上限30万円",
+      "amount_max_yen": 300000,
+      "condition_text": "耐震評点1.0未満で勧告を受けた住宅の全部除却が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "申請期限は例年12月中(予算次第)。",
+      "deadline": null,
+      "official_url": "https://www.city.mishima.shizuoka.jp/page/3396.html"
+    },
+    {
+      "id": "mishima-block-taishin",
+      "name": "ブロック塀等耐震改修事業",
+      "amount_text": "上限18万円〜上限なし(区分による)",
+      "amount_max_yen": null,
+      "condition_text": "高さ60cm超のブロック塀等の撤去・改善が対象。",
+      "eligibility": {
+        "building_types": ["wood", "light_steel", "heavy_steel"],
+        "built_before": null,
+        "built_after": null
+      },
+      "note": "金額区分の詳細は公式ページで要確認。申請期限は例年12月中。",
+      "deadline": null,
+      "official_url": "https://www.city.mishima.shizuoka.jp/page/3396.html"
+    },
+    {
+      "id": "mishima-shelter",
+      "name": "耐震シェルター及び防災ベッド整備事業",
+      "amount_text": "上限20万円",
+      "amount_max_yen": 200000,
+      "condition_text": "昭和56年(1981年)5月31日以前の2階建て以下木造住宅が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "申請期限は例年12月中(予算次第)。",
+      "deadline": null,
+      "official_url": "https://www.city.mishima.shizuoka.jp/page/3396.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "建築物の耐震改修事業(既存災害拠点施設等)", "official_url": "https://www.city.mishima.shizuoka.jp/page/3396.html"},
+    {"name": "建築物の耐震改修事業(緊急輸送道路沿道)", "official_url": "https://www.city.mishima.shizuoka.jp/page/3396.html"}
+  ]
+}

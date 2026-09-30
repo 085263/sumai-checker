@@ -1,0 +1,34 @@
+{
+  "municipality_code": "22325",
+  "municipality": "函南町",
+  "ward": null,
+  "updated_at": "2026-09-30",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.town.kannami.shizuoka.jp/soshiki/1012/subsidy/index.html"
+  ],
+  "items": [
+    {
+      "id": "kannami-taishin-hokyo-ittai",
+      "name": "木造住宅耐震補強助成事業(補強計画一体型)",
+      "amount_text": "不明(公式ページで具体的な上限額を確認できず。要問い合わせ)",
+      "amount_max_yen": null,
+      "condition_text": "昭和56年5月31日以前に建築された木造住宅の耐震補強計画策定・耐震補強工事を一体となって実施する場合が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "問合せ先:函南町都市計画課(055-978-2250)。金額は要問い合わせ。",
+      "deadline": null,
+      "official_url": "https://www.town.kannami.shizuoka.jp/soshiki/1012/subsidy/index.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "【TOUKAI-0+】住宅の耐震診断・耐震補強工事", "official_url": "https://www.town.kannami.shizuoka.jp/soshiki/1012/subsidy/index.html"},
+    {"name": "耐震シェルター・防災ベッド設置事業", "official_url": "https://www.town.kannami.shizuoka.jp/soshiki/1012/subsidy/index.html"},
+    {"name": "ブロック塀等撤去事業・ブロック塀等建替え事業", "official_url": "https://www.town.kannami.shizuoka.jp/soshiki/1012/subsidy/index.html"},
+    {"name": "建築物耐震診断事業", "official_url": "https://www.town.kannami.shizuoka.jp/soshiki/1012/subsidy/index.html"}
+  ]
+}

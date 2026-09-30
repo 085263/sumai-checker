@@ -1,0 +1,104 @@
+{
+  "municipality_code": "22205",
+  "municipality": "熱海市",
+  "ward": null,
+  "updated_at": "2026-09-30",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.atami.lg.jp/kurashi/sumai/1000922/1000927.html"
+  ],
+  "items": [
+    {
+      "id": "atami-waga-ya-shindan",
+      "name": "わが家の専門家診断事業(TOUKAI-0+総合支援事業)",
+      "amount_text": "自己負担5,000円(補助なし)",
+      "amount_max_yen": 0,
+      "condition_text": "昭和56年(1981年)5月31日以前に建築(着手)された既存木造住宅が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "予算到達次第終了。契約・着手前の申請が必須。",
+      "deadline": "2026-11-30",
+      "official_url": "https://www.city.atami.lg.jp/kurashi/sumai/1000922/1000927.html"
+    },
+    {
+      "id": "atami-wood-kaishu",
+      "name": "木造住宅耐震改修事業",
+      "amount_text": "上限115万円",
+      "amount_max_yen": 1150000,
+      "condition_text": "昭和56年(1981年)5月31日以前に建築(着手)された既存木造住宅が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "予算到達次第終了。契約・着手前の申請が必須。",
+      "deadline": "2026-11-30",
+      "official_url": "https://www.city.atami.lg.jp/kurashi/sumai/1000922/1000927.html"
+    },
+    {
+      "id": "atami-wood-kani-kaishu",
+      "name": "木造住宅簡易改修事業",
+      "amount_text": "上限85万円",
+      "amount_max_yen": 850000,
+      "condition_text": "昭和56年(1981年)5月31日以前に建築(着手)された既存木造住宅が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "予算到達次第終了。契約・着手前の申請が必須。",
+      "deadline": "2026-11-30",
+      "official_url": "https://www.city.atami.lg.jp/kurashi/sumai/1000922/1000927.html"
+    },
+    {
+      "id": "atami-wood-bubun-hokyo",
+      "name": "木造住宅部分補強事業",
+      "amount_text": "上限85万円",
+      "amount_max_yen": 850000,
+      "condition_text": "昭和56年(1981年)5月31日以前に建築(着手)された既存木造住宅が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "予算到達次第終了。契約・着手前の申請が必須。",
+      "deadline": "2026-11-30",
+      "official_url": "https://www.city.atami.lg.jp/kurashi/sumai/1000922/1000927.html"
+    },
+    {
+      "id": "atami-block-teikyo",
+      "name": "ブロック塀等撤去事業",
+      "amount_text": "上限10万円",
+      "amount_max_yen": 100000,
+      "condition_text": "詳細は公式ページ・窓口で要確認。",
+      "eligibility": {
+        "building_types": ["wood", "light_steel", "heavy_steel"],
+        "built_before": null,
+        "built_after": null
+      },
+      "note": "予算到達次第終了。",
+      "deadline": "2026-11-30",
+      "official_url": "https://www.city.atami.lg.jp/kurashi/sumai/1000922/1000927.html"
+    },
+    {
+      "id": "atami-block-kinkyu-kaizen",
+      "name": "ブロック塀等緊急改善事業",
+      "amount_text": "上限25万円",
+      "amount_max_yen": 250000,
+      "condition_text": "詳細は公式ページ・窓口で要確認。",
+      "eligibility": {
+        "building_types": ["wood", "light_steel", "heavy_steel"],
+        "built_before": null,
+        "built_after": null
+      },
+      "note": "予算到達次第終了。",
+      "deadline": "2026-11-30",
+      "official_url": "https://www.city.atami.lg.jp/kurashi/sumai/1000922/1000927.html"
+    }
+  ],
+  "not_yet_covered": []
+}

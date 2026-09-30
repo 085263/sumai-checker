@@ -1,0 +1,34 @@
+{
+  "municipality_code": "22461",
+  "municipality": "森町",
+  "ward": null,
+  "updated_at": "2026-09-30",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/sumaishiengakari/1/5986.html",
+    "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/sumaishiengakari/1/1/560.html"
+  ],
+  "items": [
+    {
+      "id": "mori-wood-taishin",
+      "name": "木造住宅の耐震改修事業(補強計画一体型)",
+      "amount_text": "1戸につき上限120万円(補助率の明記なし)",
+      "amount_max_yen": 1200000,
+      "condition_text": "昭和56年5月以前に建築された木造住宅で、1階部分の耐震評点が1.0未満のものを1.0以上にする補強工事が対象。静岡県耐震診断補強相談士による補強計画に基づくこと。補強計画策定と補強工事は同一年度内に実施する必要あり。高齢者(65歳以上)のみの世帯等は加算あり。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "申請期限の記載なし。問い合わせ:定住推進課 住まい支援係 0538-85-6321",
+      "deadline": null,
+      "official_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/sumaishiengakari/1/5986.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "わが家の専門家診断(無料耐震診断、金額・条件未確認)", "official_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/sumaishiengakari/1/1/560.html"},
+    {"name": "危険ブロック塀等の撤去・改修に関する補助事業(詳細未確認)", "official_url": null},
+    {"name": "木造住宅除却助成事業(除却費用の23%、上限40万円)", "official_url": null}
+  ]
+}

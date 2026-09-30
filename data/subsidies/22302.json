@@ -1,0 +1,12 @@
+{
+  "municipality_code": "22302",
+  "municipality": "河津町",
+  "ward": null,
+  "updated_at": "2026-09-30",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [],
+  "items": [],
+  "not_yet_covered": [],
+  "note": "複数回のWebSearch・WebFetchを試みたが、河津町公式サイト上で耐震関連補助金制度のページを特定できなかった。制度が存在しない可能性、または検索エンジンに十分インデックスされていない可能性がある。河津町役場への直接確認が必要。"
+}

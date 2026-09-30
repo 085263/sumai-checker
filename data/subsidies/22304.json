@@ -1,0 +1,46 @@
+{
+  "municipality_code": "22304",
+  "municipality": "南伊豆町",
+  "ward": null,
+  "updated_at": "2026-09-30",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.town.minamiizu.shizuoka.jp/docs/2013031200200/"
+  ],
+  "items": [
+    {
+      "id": "minamiizu-waga-ya-shindan",
+      "name": "わが家の専門家診断事業",
+      "amount_text": "無料(町が専門家を無料派遣)",
+      "amount_max_yen": 0,
+      "condition_text": "昭和56年5月31日以前の既存木造住宅。静岡県耐震診断補強相談士による診断。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "プロジェクト「TOUKAI-0」の一環。",
+      "deadline": null,
+      "official_url": "https://www.town.minamiizu.shizuoka.jp/docs/2013031200200/"
+    },
+    {
+      "id": "minamiizu-hokyo-keikaku-ittai",
+      "name": "木造住宅耐震改修助成(補強計画一体型)",
+      "amount_text": "上限115万円/戸",
+      "amount_max_yen": 1150000,
+      "condition_text": "昭和56年5月31日以前の既存木造住宅で、耐震診断で耐震評点1.0未満と判定されたものを、評点0.3以上向上させる補強工事が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "別途、耐震改修に伴う所得税控除(最大25万円、令和6年12月31日まで)・固定資産税半額減額(令和7年3月31日まで、120平米相当分まで)の税制優遇あり。",
+      "deadline": null,
+      "official_url": "https://www.town.minamiizu.shizuoka.jp/docs/2013031200200/"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "ブロック塀等関連制度", "official_url": "https://www.town.minamiizu.shizuoka.jp/docs/2013031200200/"}
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "municipality_code": "22424",
+  "municipality": "吉田町",
+  "ward": null,
+  "updated_at": "2026-09-30",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.town.yoshida.shizuoka.jp/2406.htm",
+    "https://www.town.yoshida.shizuoka.jp/9801.htm"
+  ],
+  "items": [
+    {
+      "id": "yoshida-gaibu-hokyo",
+      "name": "外部補強減災化助成事業",
+      "amount_text": "事業費の5分の4と85万円のいずれか少ない額",
+      "amount_max_yen": 850000,
+      "condition_text": "昭和56年5月31日以前に建築された木造住宅(旧耐震基準)で、耐震診断評点が0.7以上1.0未満のもの。屋根軽量化または外付けブレース工事が対象(全面的な補強工事ではなく部分的な減災工事)。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "申請期限の記載なし。問い合わせ:都市環境課 0548-33-2161",
+      "deadline": null,
+      "official_url": "https://www.town.yoshida.shizuoka.jp/9801.htm"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "わが家の専門家診断(無料耐震診断)", "official_url": null},
+    {"name": "耐震シェルター・防災ベッド設置助成事業(金額未確認)", "official_url": null},
+    {"name": "住宅屋根耐風改修助成事業", "official_url": null},
+    {"name": "ブロック塀等耐震化促進事業費補助金", "official_url": "http://www.town.yoshida.shizuoka.jp/yakuba/reiki/reiki_honbun/g350RG00000316.html"}
+  ]
+}

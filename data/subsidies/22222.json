@@ -1,0 +1,102 @@
+{
+  "municipality_code": "22222",
+  "municipality": "伊豆市",
+  "ward": null,
+  "updated_at": "2026-09-30",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.izu.shizuoka.jp/soshiki/1024/3/868.html"
+  ],
+  "items": [
+    {
+      "id": "izu-shindan",
+      "name": "耐震診断(TOUKAI-0+)",
+      "amount_text": "無料",
+      "amount_max_yen": 0,
+      "condition_text": "昭和56年5月31日以前に建築された木造住宅。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": "問い合わせ先:伊豆市都市計画課 0558-83-5206",
+      "deadline": null,
+      "official_url": "https://www.city.izu.shizuoka.jp/soshiki/1024/3/868.html"
+    },
+    {
+      "id": "izu-hokyo-koji",
+      "name": "耐震補強工事",
+      "amount_text": "上限115万円",
+      "amount_max_yen": 1150000,
+      "condition_text": "昭和56年5月31日以前に建築された木造住宅。事業着手前の申請が必要。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": "予算に限りがあるため事前相談が必要。",
+      "deadline": null,
+      "official_url": "https://www.city.izu.shizuoka.jp/soshiki/1024/3/868.html"
+    },
+    {
+      "id": "izu-bubun-hokyo",
+      "name": "部分補強工事",
+      "amount_text": "上限85万円(高齢者のみ世帯は95万円)",
+      "amount_max_yen": 950000,
+      "condition_text": "昭和56年5月31日以前に建築された木造住宅。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": null,
+      "deadline": null,
+      "official_url": "https://www.city.izu.shizuoka.jp/soshiki/1024/3/868.html"
+    },
+    {
+      "id": "izu-jokyaku",
+      "name": "木造住宅除却",
+      "amount_text": "上限50万円",
+      "amount_max_yen": 500000,
+      "condition_text": "昭和56年5月31日以前に建築された木造住宅。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": null,
+      "deadline": null,
+      "official_url": "https://www.city.izu.shizuoka.jp/soshiki/1024/3/868.html"
+    },
+    {
+      "id": "izu-shelter",
+      "name": "耐震シェルター設置",
+      "amount_text": "上限40万円",
+      "amount_max_yen": 400000,
+      "condition_text": "昭和56年5月31日以前に建築された木造住宅。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": null,
+      "deadline": null,
+      "official_url": "https://www.city.izu.shizuoka.jp/soshiki/1024/3/868.html"
+    },
+    {
+      "id": "izu-bosai-bed",
+      "name": "防災ベッド設置",
+      "amount_text": "上限40万円",
+      "amount_max_yen": 400000,
+      "condition_text": "昭和56年5月31日以前に建築された木造住宅。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": null,
+      "deadline": null,
+      "official_url": "https://www.city.izu.shizuoka.jp/soshiki/1024/3/868.html"
+    },
+    {
+      "id": "izu-block-teikyo",
+      "name": "ブロック塀撤去",
+      "amount_text": "上限26.6万円",
+      "amount_max_yen": 266000,
+      "condition_text": "対象築年数なし。",
+      "eligibility": {"building_types": ["wood", "light_steel", "heavy_steel"], "built_before": null, "built_after": null},
+      "note": null,
+      "deadline": null,
+      "official_url": "https://www.city.izu.shizuoka.jp/soshiki/1024/3/868.html"
+    },
+    {
+      "id": "izu-block-kaizen",
+      "name": "ブロック塀改善(生垣化含む)",
+      "amount_text": "上限16.6万円(生垣は33.3万円)",
+      "amount_max_yen": 333000,
+      "condition_text": "対象築年数なし。",
+      "eligibility": {"building_types": ["wood", "light_steel", "heavy_steel"], "built_before": null, "built_after": null},
+      "note": null,
+      "deadline": null,
+      "official_url": "https://www.city.izu.shizuoka.jp/soshiki/1024/3/868.html"
+    }
+  ],
+  "not_yet_covered": []
+}

@@ -1,0 +1,33 @@
+{
+  "municipality_code": "22220",
+  "municipality": "裾野市",
+  "ward": null,
+  "updated_at": "2026-09-30",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.susono.shizuoka.jp/kurashi/6/4/2769.html",
+    "https://www.city.susono.shizuoka.jp/mokuteki/hojokin/index.html"
+  ],
+  "items": [
+    {
+      "id": "susono-wood-taishin-unconfirmed",
+      "name": "木造住宅耐震事業(プロジェクトTOUKAI-0)",
+      "amount_text": "工事費の8割、上限100万円(高齢者のみ世帯は120万円)程度(二次情報源による、公式ページで金額を直接確認できず)",
+      "amount_max_yen": 1000000,
+      "condition_text": "昭和56年(1981年)6月1日の新耐震基準施行前に建てられた木造住宅が対象と推定される。無料の専門家診断→補強計画→補強工事という2段階の制度。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "⚠️低信頼度:公式ページ(city.susono.shizuoka.jp/kurashi/6/4/2769.html)が404で直接確認できず、二次情報源(まとめサイト)の記載に基づく暫定値。問い合わせ先:まちづくり課 055-995-1856",
+      "deadline": null,
+      "official_url": "https://www.city.susono.shizuoka.jp/kurashi/6/4/2769.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "ブロック塀等の撤去に対する補助制度", "official_url": "https://www.city.susono.shizuoka.jp/soshiki/6/1/3/9/8544.html"},
+    {"name": "裾野市内で受けられる住宅に関する補助制度(高齢者・障がい者向け)", "official_url": "http://www.city.susono.shizuoka.jp/mokuteki/hojokin/sumai/6626.html"}
+  ]
+}

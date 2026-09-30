@@ -1,0 +1,25 @@
+{
+  "municipality_code": "22301",
+  "municipality": "東伊豆町",
+  "ward": null,
+  "updated_at": "2026-09-30",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www1.g-reiki.net/town.higashiizu.shizuoka/reiki_honbun/g323RG00000643.html"
+  ],
+  "items": [
+    {
+      "id": "higashiizu-taishin-diagnosis",
+      "name": "東伊豆町既存建築物等耐震性向上事業費補助金",
+      "amount_text": "事業費と町の基準額を比較していずれか少ない額の3分の2以内、限度額200万円",
+      "amount_max_yen": 2000000,
+      "condition_text": "昭和56年5月31日以前に建築された既存建築物の耐震診断が対象。",
+      "eligibility": {"building_types": ["wood", "light_steel", "heavy_steel"], "built_before": "1981-06-01", "built_after": null},
+      "note": "町公式ページへの直接アクセスができず、条例本文(g-reiki.net、2023年4月時点の情報)を基にした記載。金額・条件・現在の実施有無は必ず建設整備課(0557-95-6303)で確認してください。",
+      "deadline": null,
+      "official_url": "https://www1.g-reiki.net/town.higashiizu.shizuoka/reiki_honbun/g323RG00000643.html"
+    }
+  ],
+  "not_yet_covered": []
+}

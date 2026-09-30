@@ -1,0 +1,33 @@
+{
+  "municipality_code": "22342",
+  "municipality": "長泉町",
+  "ward": null,
+  "updated_at": "2026-09-30",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.town.nagaizumi.lg.jp/soshiki/kensetsu/taishin/11187.html",
+    "https://www.town.nagaizumi.lg.jp/soshiki/kensetsu/taishin/1223.html"
+  ],
+  "items": [
+    {
+      "id": "nagaizumi-kyu-taishin",
+      "name": "旧耐震基準の木造住宅耐震事業(木造住宅耐震補強計画及び耐震補強工事事業)",
+      "amount_text": "経費の4/5相当額と100万円のいずれか少ない額",
+      "amount_max_yen": 1000000,
+      "condition_text": "昭和56年5月31日以前に建築された木造住宅で、耐震診断の結果、耐震評点が1.0未満と判定されたもの。補強計画と補強工事の両方を実施することが条件。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "予算の執行状況により年度内に申請を受け付けられない場合がある。問合せ先:長泉町建設計画課計画チーム(055-989-5520)",
+      "deadline": null,
+      "official_url": "https://www.town.nagaizumi.lg.jp/soshiki/kensetsu/taishin/11187.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "木造住宅除却支援事業", "official_url": "https://www.town.nagaizumi.lg.jp/soshiki/kensetsu/taishin/taisinijigyosinsei.html"},
+    {"name": "新耐震基準(1981年6月〜2000年5月建築)住宅向けの新制度(2025年1月開始方針と報道されたが、公式ページ上での制度詳細は今回未確認)", "official_url": "https://www.at-s.com/life/article/ats/1611049.html"}
+  ]
+}

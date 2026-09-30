@@ -1,0 +1,90 @@
+{
+  "municipality_code": "22208",
+  "municipality": "伊東市",
+  "ward": null,
+  "updated_at": "2026-09-30",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.ito.shizuoka.jp/gyosei/soshikikarasagasu/kenchikujutakuka/bosai_anzen/1/1201.html",
+    "https://www.city.ito.shizuoka.jp/gyosei/soshikikarasagasu/kenchikujutakuka/kurashi_tetsuzuki/1/1/1191.html"
+  ],
+  "items": [
+    {
+      "id": "ito-taishin-shindan",
+      "name": "木造住宅耐震診断(専門家派遣)",
+      "amount_text": "無料",
+      "amount_max_yen": 0,
+      "condition_text": "1981年5月31日以前に建築された木造住宅が対象。借家の場合は所有者の同意を得て申込み可能。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "問合せ:伊東市建築住宅課建築指導係(0557-32-1763)",
+      "deadline": null,
+      "official_url": "https://www.city.ito.shizuoka.jp/gyosei/soshikikarasagasu/kenchikujutakuka/kurashi_tetsuzuki/1/1/1191.html"
+    },
+    {
+      "id": "ito-hokyo-kouji",
+      "name": "耐震補強工事費補助",
+      "amount_text": "上限115万円",
+      "amount_max_yen": 1150000,
+      "condition_text": "耐震評価点1.0未満と判定された木造住宅について、補強後の耐震評価点が0.3以上あがり、1.0以上とする場合が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "問合せ:伊東市建築住宅課建築指導係(0557-32-1763)",
+      "deadline": null,
+      "official_url": "https://www.city.ito.shizuoka.jp/gyosei/soshikikarasagasu/kenchikujutakuka/bosai_anzen/1/1201.html"
+    },
+    {
+      "id": "ito-jokyaku",
+      "name": "除却工事費補助",
+      "amount_text": "工事費の23%以内、上限97万8千円",
+      "amount_max_yen": 978000,
+      "condition_text": "評価点1.0未満の木造住宅を除却し、移転または建替えする場合が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "問合せ:伊東市建築住宅課建築指導係(0557-32-1763)",
+      "deadline": null,
+      "official_url": "https://www.city.ito.shizuoka.jp/gyosei/soshikikarasagasu/kenchikujutakuka/bosai_anzen/1/1201.html"
+    },
+    {
+      "id": "ito-shelter",
+      "name": "防災ベッド・耐震シェルター設置補助",
+      "amount_text": "設置費の3分の2以内、上限40万円(65歳以上世帯は上限50万円)",
+      "amount_max_yen": 500000,
+      "condition_text": "評価点1.0未満の木造住宅が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "問合せ:伊東市建築住宅課建築指導係(0557-32-1763)",
+      "deadline": null,
+      "official_url": "https://www.city.ito.shizuoka.jp/gyosei/soshikikarasagasu/kenchikujutakuka/bosai_anzen/1/1201.html"
+    },
+    {
+      "id": "ito-hi-wood-shindan",
+      "name": "木造住宅以外の建築物耐震診断",
+      "amount_text": "診断費用の3分の2以内、上限200万円",
+      "amount_max_yen": 2000000,
+      "condition_text": "1981年5月31日以前に建築された木造住宅以外の建築物が対象。",
+      "eligibility": {
+        "building_types": ["light_steel", "heavy_steel"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "問合せ:伊東市建築住宅課建築指導係(0557-32-1763)",
+      "deadline": null,
+      "official_url": "https://www.city.ito.shizuoka.jp/gyosei/soshikikarasagasu/kenchikujutakuka/bosai_anzen/1/1201.html"
+    }
+  ],
+  "not_yet_covered": []
+}

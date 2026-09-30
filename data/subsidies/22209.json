@@ -1,0 +1,32 @@
+{
+  "municipality_code": "22209",
+  "municipality": "島田市",
+  "ward": null,
+  "updated_at": "2026-09-30",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.shimada.shizuoka.jp/kurashi-docs/1986.html"
+  ],
+  "items": [
+    {
+      "id": "shimada-wood-taishin-hokyo",
+      "name": "木造住宅耐震補強助成事業",
+      "amount_text": "補助90万円(高齢者のみ世帯は110万円)",
+      "amount_max_yen": 1100000,
+      "condition_text": "昭和56年(1981年)5月31日以前に建築された木造住宅で、耐震診断の総合評点が1.0未満のものを、補強後に1.0以上かつ補強前より0.3以上改善する工事が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "検索結果からの抽出であり、公式ページ内で申請期限の明記は確認できていない。問い合わせ先:建築住宅課(0547-36-7184)",
+      "deadline": null,
+      "official_url": "https://www.city.shimada.shizuoka.jp/kurashi-docs/1986.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "木造住宅の建替・除却工事(TOUKAI-0関連)", "official_url": "https://www.city.shimada.shizuoka.jp/gyosei-docs/sinsei_toukai0.html"},
+    {"name": "非木造住宅の耐震診断", "official_url": "https://www.city.shimada.shizuoka.jp/gyosei-docs/800742195.html"}
+  ]
+}

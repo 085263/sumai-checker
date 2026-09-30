@@ -1,0 +1,45 @@
+{
+  "municipality_code": "22213",
+  "municipality": "掛川市",
+  "ward": null,
+  "updated_at": "2026-09-30",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.kakegawa.shizuoka.jp/gyosei/docs/64734.html",
+    "https://www.city.kakegawa.shizuoka.jp/gyosei/docs/11018.html"
+  ],
+  "items": [
+    {
+      "id": "kakegawa-wood-taishin-hokyo",
+      "name": "木造住宅耐震補強工事(補強計画一体型)",
+      "amount_text": "耐震改修工事費の4/5、1敷地あたり上限115万円",
+      "amount_max_yen": 1150000,
+      "condition_text": "昭和56年(1981年)5月31日以前に建築された木造住宅(一戸建て・長屋・共同住宅、建物全体の半分以上が住宅用途の併用住宅も含む)で、耐震診断の結果耐震評点が1.0未満のものが対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "2026年度から静岡県と連携した新制度「TOUKAI-0+」に移行しており、減災化メニュー(全体補強が難しい世帯向け)が拡充されている。申請期限はページ内に明記なし。問い合わせ:くらしデザイン課建築営繕係(0537-21-1152)",
+      "deadline": null,
+      "official_url": "https://www.city.kakegawa.shizuoka.jp/gyosei/docs/64734.html"
+    },
+    {
+      "id": "kakegawa-wood-tatekae",
+      "name": "木造住宅建替等事業費補助金",
+      "amount_text": "事業費の80%、一般世帯は上限110万円、高齢者世帯等は上限120万円",
+      "amount_max_yen": 1200000,
+      "condition_text": "耐震診断の結果、耐震性が低いと判定された木造住宅の除却・建替が対象。高齢者のみ世帯、居住誘導区域内での建替等の要件を満たす場合は補助額が割り増しされる。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "検索結果からの抽出であり、公式ページでの詳細未確認(WebFetch未実施)。",
+      "deadline": null,
+      "official_url": "https://www.city.kakegawa.shizuoka.jp/gyosei/docs/11018.html"
+    }
+  ],
+  "not_yet_covered": []
+}

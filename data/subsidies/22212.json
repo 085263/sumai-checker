@@ -1,0 +1,33 @@
+{
+  "municipality_code": "22212",
+  "municipality": "焼津市",
+  "ward": null,
+  "updated_at": "2026-09-30",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.yaizu.lg.jp/safety/bosai/bosai-info/earthquake/sonae/support-info/toukai-0/hokyo-ittaigata.html"
+  ],
+  "items": [
+    {
+      "id": "yaizu-wood-taishin-hokyo",
+      "name": "木造住宅の補強工事費用補助(補強計画一体型)",
+      "amount_text": "耐震補強工事費の8割または100万円のいずれか少ない額",
+      "amount_max_yen": 1000000,
+      "condition_text": "1981年(昭和56年)5月31日以前に建築された木造住宅で、耐震診断の結果、耐震評点が1.0未満と判定されたもの。評点を1.0以上にする補強工事を、補強計画と同一年度内に実施することが条件。工事業者との契約前に申請が必要。高齢者等世帯は補助額が割増される場合あり。代理受領制度あり(補助金を工事業者へ直接支払い可能)。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "検索結果によれば、この「補強計画一体型」は令和7年度(2025年度)で終了しており、令和8年度(2026年度)の後継制度は要確認。問い合わせ:焼津市建築住宅課(054-626-2169)",
+      "deadline": null,
+      "official_url": "https://www.city.yaizu.lg.jp/safety/bosai/bosai-info/earthquake/sonae/support-info/toukai-0/hokyo-ittaigata.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "耐震シェルター等の設置費用補助", "official_url": "https://www.city.yaizu.lg.jp/safety/bosai/bosai-info/earthquake/sonae/support-info/toukai-0/taishin-shelter.html"},
+    {"name": "木造住宅以外の建築物の耐震診断費用補助", "official_url": "https://www.city.yaizu.lg.jp/safety/bosai/bosai-info/earthquake/sonae/support-info/toukai-0/taishinshindan.html"},
+    {"name": "密集住宅市街地内の木造住宅の除却(補助)", "official_url": "https://www.city.yaizu.lg.jp/safety/bosai/bosai-info/earthquake/sonae/support-info/toukai-0/mokuzo-jutaku.html"}
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "municipality_code": "22219",
+  "municipality": "下田市",
+  "ward": null,
+  "updated_at": "2026-09-30",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.shimoda.shizuoka.jp/category/020800sumai_kentiku/157766.html",
+    "https://www.city.shimoda.shizuoka.jp/category/020800sumai_kentiku/157764.html"
+  ],
+  "items": [
+    {
+      "id": "shimoda-waga-ya-shindan",
+      "name": "わが家の専門家診断事業",
+      "amount_text": "全額(自己負担0円)",
+      "amount_max_yen": 0,
+      "condition_text": "昭和56年5月31日以前に建築された木造住宅。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "受付中。",
+      "deadline": null,
+      "official_url": "https://www.city.shimoda.shizuoka.jp/category/020800sumai_kentiku/157766.html"
+    },
+    {
+      "id": "shimoda-wood-taishin-kaishu",
+      "name": "木造住宅の耐震改修助成事業補助金(補強計画一体型)",
+      "amount_text": "最大115万円",
+      "amount_max_yen": 1150000,
+      "condition_text": "昭和56年以前建築の木造住宅で、耐震診断の結果、上部構造評点1.0未満。交付申請書・事業計画書・耐震診断結果報告書等の提出が必要。事業着手前の事前申請が必須。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "受付終了(令和9年4月頃に再開予定)。予算範囲内での交付のため、予算がなくなり次第受付終了。",
+      "deadline": null,
+      "official_url": "https://www.city.shimoda.shizuoka.jp/category/020800sumai_kentiku/157764.html"
+    },
+    {
+      "id": "shimoda-block-fence",
+      "name": "ブロック塀等耐震改修促進事業",
+      "amount_text": "1mあたり2万円(撤去)または5万8,400円(建替)の3分の2以内",
+      "amount_max_yen": null,
+      "condition_text": "緊急輸送路、避難路、通学路に面する既存不適格なブロック塀等が対象。",
+      "eligibility": {
+        "building_types": ["wood", "light_steel", "heavy_steel"],
+        "built_before": null,
+        "built_after": null
+      },
+      "note": "受付中。",
+      "deadline": null,
+      "official_url": "https://www.city.shimoda.shizuoka.jp/category/020800sumai_kentiku/157766.html"
+    },
+    {
+      "id": "shimoda-shelter",
+      "name": "耐震シェルター・防災ベッド整備事業",
+      "amount_text": "対象経費の3分の2以内、最大40万円",
+      "amount_max_yen": 400000,
+      "condition_text": "昭和56年以前建築の木造住宅。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "受付中。",
+      "deadline": null,
+      "official_url": "https://www.city.shimoda.shizuoka.jp/category/020800sumai_kentiku/157766.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "要安全確認計画記載建築物耐震化促進事業", "official_url": "https://www.city.shimoda.shizuoka.jp/category/020800sumai_kentiku/157766.html"},
+    {"name": "がけ地近接等危険住宅移転事業", "official_url": "https://www.city.shimoda.shizuoka.jp/category/020800sumai_kentiku/157766.html"},
+    {"name": "宅地等防災工事資金補助事業", "official_url": "https://www.city.shimoda.shizuoka.jp/category/020800sumai_kentiku/157766.html"}
+  ]
+}

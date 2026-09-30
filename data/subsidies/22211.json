@@ -1,0 +1,34 @@
+{
+  "municipality_code": "22211",
+  "municipality": "磐田市",
+  "ward": null,
+  "updated_at": "2026-09-30",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.iwata.shizuoka.jp/bousai_anzen/bousai/jishin_tsunami_sonae/taishin/index.html",
+    "https://www.city.iwata.shizuoka.jp/bousai_anzen/bousai/jishin_tsunami_sonae/taishin/1009366.html"
+  ],
+  "items": [
+    {
+      "id": "iwata-taishin-hokyo-ittaigata",
+      "name": "耐震補強工事(補強計画一体型)の助成制度",
+      "amount_text": "補強工事費の80%と基準額(世帯区分により異なる、一般/子育て等/高齢者等で金額が変動)を比較していずれか少ない額",
+      "amount_max_yen": null,
+      "condition_text": "昭和56年(1981年)5月31日以前に建築された木造住宅で、現在居住用として使用しているもの。耐震診断の総合評点が1.0未満で、補強後1.0以上となる計画・工事が対象。耐震化促進のPR(現場見学会等)への協力が条件。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "検索結果によれば、専門家診断は令和6年度、この補強工事助成・解体工事助成は令和7年度で終了予定という情報があり、2026年度時点で継続しているか要確認。完了報告の提出期限は毎年2月末。問い合わせ:磐田市建築住宅課(0538-37-4899)",
+      "deadline": null,
+      "official_url": "https://www.city.iwata.shizuoka.jp/bousai_anzen/bousai/jishin_tsunami_sonae/taishin/1009366.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "耐震シェルター整備の助成制度", "official_url": "https://www.city.iwata.shizuoka.jp/bousai_anzen/bousai/jishin_tsunami_sonae/taishin/1002144.html"},
+    {"name": "解体工事、移転費用の助成制度", "official_url": "https://www.city.iwata.shizuoka.jp/bousai_anzen/bousai/jishin_tsunami_sonae/taishin/1002143.html"},
+    {"name": "既存住宅取得等事業費補助金", "official_url": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/juutaku_pet_seikatsu/juutaku/1001513.html"}
+  ]
+}

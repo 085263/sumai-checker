@@ -1,0 +1,32 @@
+{
+  "municipality_code": "22210",
+  "municipality": "富士市",
+  "ward": null,
+  "updated_at": "2026-09-30",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.fuji.shizuoka.jp/kurashi/c0306/fmervo000000noil.html",
+    "https://www.city.fuji.shizuoka.jp/kurashi/c0302/fmervo000000azqc.html"
+  ],
+  "items": [
+    {
+      "id": "fuji-wood-taishin-hokyo",
+      "name": "富士市木造住宅耐震補強事業",
+      "amount_text": "金額不明(公式ページに具体的な上限額の記載を確認できず)",
+      "amount_max_yen": null,
+      "condition_text": "昭和56年(1981年)5月以前に建てられた木造住宅が対象。静岡県の「プロジェクトTOUKAI-0」の一環として実施。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "この補助事業は「令和7年度(2025年度)で終了予定」という情報があり、2026年度時点で継続しているか要確認。詳細は都市整備部建築土地対策課建築安全推進担当(0545-55-2791)に確認が必要。",
+      "deadline": null,
+      "official_url": "https://www.city.fuji.shizuoka.jp/kurashi/c0306/fmervo000000noil.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "非木造建築物の耐震対策", "official_url": "https://www.city.fuji.shizuoka.jp/kurashi/c0302/fmervo000000b5id.html"}
+  ]
+}

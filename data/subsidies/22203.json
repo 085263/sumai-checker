@@ -1,0 +1,59 @@
+{
+  "municipality_code": "22203",
+  "municipality": "沼津市",
+  "ward": null,
+  "updated_at": "2026-09-30",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.numazu.shizuoka.jp/shisei/office/ichiran/toshikei/jyutakuseisaku/taishinka.htm"
+  ],
+  "items": [
+    {
+      "id": "numazu-waga-ya-shindan",
+      "name": "わが家の専門家診断事業",
+      "amount_text": "無料(耐震診断補強相談士を派遣)",
+      "amount_max_yen": 0,
+      "condition_text": "昭和56年(1981年)5月31日以前に建築された木造住宅が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "問合せ:沼津市住宅政策課(055-934-4885)",
+      "deadline": null,
+      "official_url": "https://www.city.numazu.shizuoka.jp/shisei/office/ichiran/toshikei/jyutakuseisaku/taishinka.htm"
+    },
+    {
+      "id": "numazu-wood-kaishu",
+      "name": "木造住宅耐震改修助成事業",
+      "amount_text": "耐震改修工事費の5分の4以内、上限100万円",
+      "amount_max_yen": 1000000,
+      "condition_text": "昭和56年(1981年)5月31日以前に着工した木造住宅で、耐震診断の総合評点が1.0未満のものが対象。交付決定前の着工は補助対象外。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "受付開始は例年4月20日頃。予算に達し次第終了。",
+      "deadline": null,
+      "official_url": "https://www.city.numazu.shizuoka.jp/shisei/office/ichiran/toshikei/jyutakuseisaku/taishinka.htm"
+    },
+    {
+      "id": "numazu-wood-jokyaku",
+      "name": "木造住宅除却助成事業",
+      "amount_text": "事業費の23%以内、上限20万円",
+      "amount_max_yen": 200000,
+      "condition_text": "耐震化されていない木造住宅の除却が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "交付決定前の着工は補助対象外。",
+      "deadline": null,
+      "official_url": "https://www.city.numazu.shizuoka.jp/shisei/office/ichiran/toshikei/jyutakuseisaku/taishinka.htm"
+    }
+  ],
+  "not_yet_covered": []
+}

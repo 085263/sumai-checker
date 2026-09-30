@@ -1,0 +1,27 @@
+{
+  "municipality_code": "22226",
+  "municipality": "牧之原市",
+  "ward": null,
+  "updated_at": "2026-09-30",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.makinohara.shizuoka.jp/site/makinohara-life/38679.html"
+  ],
+  "items": [
+    {
+      "id": "makinohara-wood-taishin",
+      "name": "木造住宅耐震補強事業(補強計画一体型)",
+      "amount_text": "上限115万円(耐震補強工事費の5分の4を限度)",
+      "amount_max_yen": 1150000,
+      "condition_text": "昭和56年5月31日以前に建築された在来工法の木造住宅。現況の耐震評点1.0未満を0.3以上向上させ、かつ1.0以上にする計画・工事。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": "申請期限:各年度の1月末日まで(実施報告は2月末まで)。申請先:都市住宅課(0548-53-2633)",
+      "deadline": "2027-01-31",
+      "official_url": "https://www.city.makinohara.shizuoka.jp/site/makinohara-life/38679.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "わが家の専門家診断事業", "official_url": "https://reform-hojo.jp/subsidy/4075"}
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "municipality_code": "22224",
+  "municipality": "菊川市",
+  "ward": null,
+  "updated_at": "2026-09-30",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.kikugawa.shizuoka.jp/kurashi/juutaku/taishin_bousai/index.html",
+    "https://www.city.kikugawa.shizuoka.jp/toshikeikaku/taishinhokyou.html"
+  ],
+  "items": [
+    {
+      "id": "kikugawa-wood-taishin",
+      "name": "耐震補強工事設計費用+工事費用補助制度(木造住宅耐震補強事業)",
+      "amount_text": "上限115万円(高齢者・要介護者・重度障がい者等が居住する住宅は上限120万円)",
+      "amount_max_yen": 1200000,
+      "condition_text": "昭和56年5月31日以前に建てられた木造住宅で、耐震診断評価が1.0未満のものを、補強工事後に1.0以上にする計画が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "申請期限の記載なし。詳細は都市計画課住宅建築係(0537-35-0957)へ問い合わせ。",
+      "deadline": null,
+      "official_url": "https://www.city.kikugawa.shizuoka.jp/toshikeikaku/taishinhokyou.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "専門家による無料耐震診断", "official_url": "https://www.city.kikugawa.shizuoka.jp/toshikeikaku/wafayanotishinshindan.html"},
+    {"name": "ブロック塀撤去・改修費用補助制度", "official_url": "https://www.city.kikugawa.shizuoka.jp/toshikeikaku/blockfence.html"},
+    {"name": "住宅屋根耐風診断・改修事業補助事業", "official_url": "https://www.city.kikugawa.shizuoka.jp/toshikeikaku/kentiku/documents/documents/juutakuyanetaihuu.html"},
+    {"name": "耐震シェルター・防災ベッド整備事業", "official_url": "https://www.city.kikugawa.shizuoka.jp/toshikeikaku/kentiku/sheruta-_bousaibet.html"}
+  ]
+}

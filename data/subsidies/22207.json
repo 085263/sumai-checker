@@ -1,0 +1,31 @@
+{
+  "municipality_code": "22207",
+  "municipality": "富士宮市",
+  "ward": null,
+  "updated_at": "2026-09-30",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.fujinomiya.lg.jp/sp/citizen/visuf800000104vy.html"
+  ],
+  "items": [
+    {
+      "id": "fujinomiya-wood-kaishu",
+      "name": "木造住宅の耐震改修事業(補強計画一体型)",
+      "amount_text": "工事費の5分の4と上限額の少ない方(一般:上限100万円、高齢者等:上限115万円)",
+      "amount_max_yen": 1150000,
+      "condition_text": "昭和56年(1981年)5月31日以前に着工された木造住宅で、耐震診断で耐震評点1.0未満のものを0.3以上あげ、かつ1.0以上とする耐震改修工事が対象。補強計画策定後、工事着手前の申請が必須(着手後の申請は対象外)。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "問合せ:建築住宅課建築指導係(0544-22-1229)。申請期限の明記なし、事前相談推奨。",
+      "deadline": null,
+      "official_url": "https://www.city.fujinomiya.lg.jp/sp/citizen/visuf800000104vy.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "わが家の専門家診断事業(無料耐震診断、推定あり)", "official_url": "https://www.city.fujinomiya.lg.jp/"}
+  ]
+}
