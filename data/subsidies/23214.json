@@ -1,0 +1,64 @@
+{
+  "municipality_code": "23214",
+  "municipality": "蒲郡市",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.gamagori.lg.jp/unit/zaimu/hojokinichiran.html",
+    "https://www.city.gamagori.lg.jp/unit/kenchiku/taishinkaishu.html"
+  ],
+  "items": [
+    {
+      "id": "gamagori-taishin-kaishu",
+      "name": "民間木造住宅耐震改修費補助金",
+      "amount_text": "上限120万円(精密診断法による設計の場合、上限140万円)",
+      "amount_max_yen": 1400000,
+      "condition_text": "市の無料耐震診断またはあいち建築住宅センターの診断で「倒壊する可能性が高い」「倒壊する可能性がある」(判定値1.0未満、または得点80点未満)とされた木造住宅。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "2025年4月から補助上限額が引き上げられた。契約・工事着手前の申請が必須。",
+      "deadline": null,
+      "official_url": "https://www.city.gamagori.lg.jp/unit/kenchiku/taishinkaishu.html"
+    },
+    {
+      "id": "gamagori-jokyaku",
+      "name": "耐震不適格木造住宅除却費補助金",
+      "amount_text": "工事費の3分の2、上限20万円",
+      "amount_max_yen": 200000,
+      "condition_text": "耐震診断結果が「判定値0.7未満または評点60点以下」と診断された木造住宅の除却(解体)工事が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "契約前・工事施工前の申請が必要。",
+      "deadline": null,
+      "official_url": "https://www.city.gamagori.lg.jp/unit/kenchiku/jyokyaku.html"
+    },
+    {
+      "id": "gamagori-shelter",
+      "name": "木造住宅耐震シェルター設置事業費補助金",
+      "amount_text": "上限25万円",
+      "amount_max_yen": 250000,
+      "condition_text": "65歳以上のみの世帯または障がい者世帯が居住する旧基準木造住宅が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": null,
+      "deadline": null,
+      "official_url": "https://www.smart-hojokin.jp/subsidies/69634"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "非木造住宅耐震診断事業費補助金", "official_url": "https://www.city.gamagori.lg.jp/unit/zaimu/hojokinichiran.html"},
+    {"name": "耐震診断義務化建築物耐震改修費等補助金", "official_url": "https://www.city.gamagori.lg.jp/unit/zaimu/hojokinichiran.html"},
+    {"name": "民間木造住宅無料耐震診断", "official_url": "https://www.city.gamagori.lg.jp/unit/kenchiku/taishin.html"}
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "municipality_code": "23442",
+  "municipality": "東浦町",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.town.aichi-higashiura.lg.jp/soshiki/toshikeikaku/kenchiku/gyomu/sumai/tatemono/taishinsokushinka/1452566175928.html",
+    "https://www.town.aichi-higashiura.lg.jp/soshiki/kenchikushisetsu/kenchiku/gyomu/sumai/tatemono/taishinsokushinka/1521779420213.html"
+  ],
+  "items": [
+    {
+      "id": "higashiura-wood-taishin",
+      "name": "木造住宅耐震改修事業",
+      "amount_text": "耐震改修工事費の8割・上限115万円 + 設計費(精密診断法)の3分の2・上限20万円(合計最大135万円)",
+      "amount_max_yen": 1350000,
+      "condition_text": "旧基準木造住宅で、耐震診断の判定値が1.0未満のものを、1.0以上かつ工事前の判定値+0.3以上にする改修工事が対象。事前相談必須。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "契約前の申請が必須。予算の範囲内での実施。",
+      "deadline": null,
+      "official_url": "https://www.town.aichi-higashiura.lg.jp/soshiki/toshikeikaku/kenchiku/gyomu/sumai/tatemono/taishinsokushinka/1452566175928.html"
+    },
+    {
+      "id": "higashiura-shelter",
+      "name": "耐震シェルター整備費補助事業",
+      "amount_text": "上限30万円",
+      "amount_max_yen": 300000,
+      "condition_text": "昭和56年5月31日以前の木造住宅で、町の無料耐震診断の判定値が0.4以下。高齢者等、避難が困難な居住者がいることが条件。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "対象のシェルター・耐震ベッドは町指定の製品に限る。",
+      "deadline": null,
+      "official_url": "https://www.town.aichi-higashiura.lg.jp/soshiki/kenchikushisetsu/kenchiku/gyomu/sumai/tatemono/taishinsokushinka/1521779420213.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "木造住宅等解体事業", "official_url": "https://www.town.aichi-higashiura.lg.jp/soshiki/toshikeikaku/kenchiku/gyomu/sumai/tatemono/taishinsokushinka/1452566961916.html"}
+  ]
+}

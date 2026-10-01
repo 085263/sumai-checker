@@ -1,0 +1,29 @@
+{
+  "municipality_code": "23216",
+  "municipality": "常滑市",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.tokoname.aichi.jp/kurashi/sumai/1000907/1005503/1005508.html"
+  ],
+  "items": [
+    {
+      "id": "tokoname-taishin-kaishu",
+      "name": "木造住宅耐震改修補助",
+      "amount_text": "耐震改修工事費の5分の4(精密診断設計費は3分の2)、上限135万円(精密診断設計を用いた場合)",
+      "amount_max_yen": 1350000,
+      "condition_text": "市の無料耐震診断で判定値1.0未満と診断された木造住宅で、改修後の判定値が1.0以上かつ工事前の判定値+0.3以上となること。1人1棟限り。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "契約前申請必須。交付決定通知日から90日以内(または1月末日)に契約、工事完了日から30日以内(または2月末日)に完了実績報告。",
+      "deadline": null,
+      "official_url": "https://www.city.tokoname.aichi.jp/kurashi/sumai/1000907/1005503/1005508.html"
+    }
+  ],
+  "not_yet_covered": []
+}

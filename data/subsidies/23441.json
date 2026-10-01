@@ -1,0 +1,32 @@
+{
+  "municipality_code": "23441",
+  "municipality": "阿久比町",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.town.agui.lg.jp/category/12-0-0-0-0-0-0-0-0-0.html",
+    "https://www.town.agui.lg.jp/0000007106.html"
+  ],
+  "items": [
+    {
+      "id": "agui-taishin-shindan-hojo",
+      "name": "無料耐震診断・耐震事業費補助",
+      "amount_text": "金額は公式ページに未記載(交付要綱PDFまたは役場への問い合わせが必要)",
+      "amount_max_yen": null,
+      "condition_text": "昭和56年5月31日以前に建築(着工)された、阿久比町内の自己所有かつ居住中の木造住宅(2階建て以下)。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "令和8年度の募集は令和8年9月18日で締め切り済み。補助金額はページに記載がなく確認できなかった(捏造せず空欄)。問い合わせ先:0569-48-1111(内線1211・1212・1213)。",
+      "deadline": "2026-09-18",
+      "official_url": "https://www.town.agui.lg.jp/0000007106.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "ブロック塀等撤去費補助", "official_url": "https://www.town.agui.lg.jp/category/12-0-0-0-0-0-0-0-0-0.html"}
+  ]
+}

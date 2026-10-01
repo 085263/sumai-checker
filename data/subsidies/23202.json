@@ -1,0 +1,32 @@
+{
+  "municipality_code": "23202",
+  "municipality": "岡崎市",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.okazaki.lg.jp/kurashi/bosai/1012542/1002798/1002807.html",
+    "https://www.city.okazaki.lg.jp/1100/1184/1165/p003727.html"
+  ],
+  "items": [
+    {
+      "id": "okazaki-wood-taishin",
+      "name": "木造住宅耐震改修費補助金",
+      "amount_text": "耐震改修工事費×80%×90/100以内(上限90万円)+耐震改修設計費×2/3かつ耐震改修工事費×80%×10/100以内(上限10万円)、合計最高100万円",
+      "amount_max_yen": 1000000,
+      "condition_text": "判定値1.0未満と診断された木造住宅の改修で、改修後の判定値が1.0以上(診断値+0.3以上)となること。工事請負契約前に補助金申請・交付決定を受ける必要がある(決定前の着工は対象外)。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "令和8年度受付:1期4/1〜6/30(10件程度)、2期7/1〜9/30(10件程度)、3期10/1〜12/28(上限未達件数)。工事完了報告は令和9年2月5日まで。予算上限により一般改修等は受付停止の可能性あり、最新状況は要確認。",
+      "deadline": "2026-12-28",
+      "official_url": "https://www.city.okazaki.lg.jp/kurashi/bosai/1012542/1002798/1002807.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "耐震シェルター設置費補助(上限30万円、検索結果より把握・公式ページ未確認)", "official_url": "https://www.city.okazaki.lg.jp/1100/1184/1165/p003727.html"}
+  ]
+}

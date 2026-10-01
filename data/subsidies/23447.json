@@ -1,0 +1,59 @@
+{
+  "municipality_code": "23447",
+  "municipality": "武豊町",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.town.taketoyo.lg.jp/kurashi/1001507/1001786.html"
+  ],
+  "items": [
+    {
+      "id": "taketoyo-wood-kaishu",
+      "name": "木造住宅耐震改修費補助事業",
+      "amount_text": "上限120万円(65歳以上・障害者等を含む世帯で前年度非課税等の場合は上限150万円)",
+      "amount_max_yen": 1500000,
+      "condition_text": "耐震診断で判定値1.0未満とされた木造住宅を1.0以上にする耐震改修工事が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "申請期限:工事完了年度の2月28日まで",
+      "deadline": null,
+      "official_url": "https://www.town.taketoyo.lg.jp/kurashi/1001507/1001586/1001781.html"
+    },
+    {
+      "id": "taketoyo-wood-dankai",
+      "name": "木造住宅段階的耐震改修費補助事業",
+      "amount_text": "1段階目上限60万円、2段階目上限30万円",
+      "amount_max_yen": 600000,
+      "condition_text": "耐震診断で判定値0.4以下とされた木造住宅を、二段階で1.0以上にする耐震改修工事が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": null,
+      "deadline": null,
+      "official_url": "https://www.town.taketoyo.lg.jp/kurashi/1001507/1001586/1001783.html"
+    },
+    {
+      "id": "taketoyo-shelter",
+      "name": "木造住宅耐震シェルター等整備費補助事業",
+      "amount_text": "設置費用の1/2、上限15万円",
+      "amount_max_yen": 150000,
+      "condition_text": "耐震診断で判定値1.0未満とされた木造住宅への耐震シェルター・防災ベッド整備が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": null,
+      "deadline": null,
+      "official_url": "https://www.town.taketoyo.lg.jp/kurashi/1001507/1001586/1001784.html"
+    }
+  ],
+  "not_yet_covered": []
+}

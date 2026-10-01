@@ -1,0 +1,61 @@
+{
+  "municipality_code": "23425",
+  "municipality": "蟹江町",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.town.kanie.aichi.jp/soshiki/14/taisin-kaishu.html",
+    "https://www.town.kanie.aichi.jp/soshiki/14/dankai-kaishu.html",
+    "https://www.town.kanie.aichi.jp/soshiki/14/shelter.html"
+  ],
+  "items": [
+    {
+      "id": "kanie-wood-taishin",
+      "name": "民間木造住宅耐震改修費補助事業",
+      "amount_text": "上限115万円",
+      "amount_max_yen": 1150000,
+      "condition_text": "昭和56年5月31日以前に着工された旧基準木造住宅で、耐震診断の判定値が1.0未満のもの。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "令和8年度申請受付は令和8年12月11日まで。工事契約前の申請が必須(契約後・着工後の申請は補助対象外)。予算上限に達し次第終了。",
+      "deadline": "2026-12-11",
+      "official_url": "https://www.town.kanie.aichi.jp/soshiki/14/taisin-kaishu.html"
+    },
+    {
+      "id": "kanie-wood-dankai",
+      "name": "民間木造住宅段階的耐震改修費補助事業",
+      "amount_text": "1段目工事:上限60万円、2段目工事:上限40万円",
+      "amount_max_yen": 600000,
+      "condition_text": "旧基準木造住宅を対象に、段階的な耐震改修工事を行う場合の補助。詳細条件は公式ページ要確認。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "⚠️検索結果の要約に基づく。公式ページ本文を直接取得できておらず、金額の精度は未確認。",
+      "deadline": null,
+      "official_url": "https://www.town.kanie.aichi.jp/soshiki/14/dankai-kaishu.html"
+    },
+    {
+      "id": "kanie-shelter",
+      "name": "民間木造住宅耐震シェルター整備費補助事業",
+      "amount_text": "上限30万円",
+      "amount_max_yen": 300000,
+      "condition_text": "昭和56年5月31日以前着工の旧基準木造住宅で、耐震診断の判定値が0.4以下。高齢者または障がい者が居住していることが条件。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "工事契約前の申請が必須。事前に無料耐震診断を受ける必要あり。",
+      "deadline": null,
+      "official_url": "https://www.town.kanie.aichi.jp/soshiki/14/shelter.html"
+    }
+  ],
+  "not_yet_covered": []
+}

@@ -1,0 +1,45 @@
+{
+  "municipality_code": "23445",
+  "municipality": "南知多町",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.town.minamichita.lg.jp/kurashi/sumai/1000901.html",
+    "https://www.town.minamichita.lg.jp/kurashi/sumai/1004335.html"
+  ],
+  "items": [
+    {
+      "id": "minamichita-wood-taishin",
+      "name": "木造住宅耐震改修工事費補助",
+      "amount_text": "上限100万円/戸",
+      "amount_max_yen": 1000000,
+      "condition_text": "南知多町の木造住宅耐震診断で判定値1.0未満と診断された住宅について、判定値を1.0以上とする改修工事が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": null,
+        "built_after": null
+      },
+      "note": "⚠️公式ページの最終更新が2023年5月で、ページ内の申込期限(令和5年12月27日)も過去日付のまま。令和8年度時点で制度が継続しているか、金額・期限が変わっていないか要確認(役場建設課へ問い合わせ推奨)。",
+      "deadline": null,
+      "official_url": "https://www.town.minamichita.lg.jp/kurashi/sumai/1000901.html"
+    },
+    {
+      "id": "minamichita-wood-jokyaku",
+      "name": "木造住宅除却工事費補助",
+      "amount_text": "上限20万円/戸",
+      "amount_max_yen": 200000,
+      "condition_text": "木造住宅耐震診断で判定値1.0未満と診断されたもので、木造住宅耐震改修費補助金の交付を受けていない住宅が対象(耐震改修補助との併用不可)。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": null,
+        "built_after": null
+      },
+      "note": "申込期限:令和8年12月25日。申込場所は役場まちなみ環境課または各サービスセンター。",
+      "deadline": "2026-12-25",
+      "official_url": "https://www.town.minamichita.lg.jp/kurashi/sumai/1004335.html"
+    }
+  ],
+  "not_yet_covered": []
+}

@@ -1,0 +1,46 @@
+{
+  "municipality_code": "23501",
+  "municipality": "幸田町",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.town.kota.lg.jp/soshiki/15/1352.html"
+  ],
+  "items": [
+    {
+      "id": "kota-wood-kaishu",
+      "name": "木造住宅耐震改修費補助",
+      "amount_text": "上限120万円",
+      "amount_max_yen": 1200000,
+      "condition_text": "町の無料耐震診断を実施済みで判定値1.0未満の住宅を、判定値を0.3以上向上させる耐震改修工事が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "申込期限:12月28日まで、完了報告期限:2月末日まで。交付決定前の契約・着工は対象外",
+      "deadline": "2026-12-28",
+      "official_url": "https://www.town.kota.lg.jp/soshiki/15/1352.html"
+    },
+    {
+      "id": "kota-wood-dankai",
+      "name": "木造住宅段階的耐震改修費補助",
+      "amount_text": "上限60万円",
+      "amount_max_yen": 600000,
+      "condition_text": "判定値0.4以下の住宅を対象に、段階的に耐震改修工事を行う場合の補助。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": null,
+      "deadline": "2026-12-28",
+      "official_url": "https://www.town.kota.lg.jp/soshiki/15/1352.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "耐震診断(無料)", "official_url": "https://www.town.kota.lg.jp/soshiki/15/1353.html"}
+  ]
+}

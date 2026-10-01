@@ -1,0 +1,77 @@
+{
+  "municipality_code": "23234",
+  "municipality": "北名古屋市",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.kitanagoya.lg.jp/shisei/machizukuri/1002007/1002020/1002024.html",
+    "https://www.city.kitanagoya.lg.jp/shisei/machizukuri/1002007/1002020/1002025.html",
+    "https://www.city.kitanagoya.lg.jp/shisei/machizukuri/1002007/1002020/1002026.html",
+    "https://www.city.kitanagoya.lg.jp/shisei/machizukuri/1002007/1002020/1002029.html"
+  ],
+  "items": [
+    {
+      "id": "kitanagoya-wood-taishin-kaishu",
+      "name": "民間木造住宅耐震改修費補助",
+      "amount_text": "上限115万円",
+      "amount_max_yen": 1150000,
+      "condition_text": "市の無料耐震診断を受けた住宅。判定値0.7未満→1.0以上への改修、または判定値0.7以上1.0未満→0.3以上評点アップの改修が対象。契約前の申請が必須。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": null,
+        "built_after": null
+      },
+      "note": "令和8年度は2026年4月20日から受付開始(先着5棟)。",
+      "deadline": null,
+      "official_url": "https://www.city.kitanagoya.lg.jp/shisei/machizukuri/1002007/1002020/1002024.html"
+    },
+    {
+      "id": "kitanagoya-dankaiteki-taishin",
+      "name": "民間木造住宅段階的耐震改修費補助",
+      "amount_text": "一段目最大60万円、二段目最大30万円",
+      "amount_max_yen": 600000,
+      "condition_text": "耐震改修を段階的に行う場合の一段目・二段目工事費の一部補助。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": null,
+        "built_after": null
+      },
+      "note": "詳細条件は要確認。",
+      "deadline": null,
+      "official_url": "https://www.city.kitanagoya.lg.jp/shisei/machizukuri/1002007/1002020/1002025.html"
+    },
+    {
+      "id": "kitanagoya-shelter",
+      "name": "民間木造住宅耐震シェルター整備費補助",
+      "amount_text": "1基あたり25万円",
+      "amount_max_yen": 250000,
+      "condition_text": "詳細条件は未確認。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": null,
+        "built_after": null
+      },
+      "note": "詳細条件は要確認。",
+      "deadline": null,
+      "official_url": "https://www.city.kitanagoya.lg.jp/shisei/machizukuri/1002007/1002020/1002026.html"
+    },
+    {
+      "id": "kitanagoya-jokyaku",
+      "name": "民間木造住宅除却工事費補助",
+      "amount_text": "上限20万円",
+      "amount_max_yen": 200000,
+      "condition_text": "市の無料耐震診断等を受け、危険と判定された住宅の除却工事費用の一部補助。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": null,
+        "built_after": null
+      },
+      "note": "詳細条件は要確認。",
+      "deadline": null,
+      "official_url": "https://www.city.kitanagoya.lg.jp/shisei/machizukuri/1002007/1002020/1002029.html"
+    }
+  ],
+  "not_yet_covered": []
+}

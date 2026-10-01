@@ -1,0 +1,32 @@
+{
+  "municipality_code": "23217",
+  "municipality": "江南市",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.konan.lg.jp/jigyou/kaihatsu/1005775/1004345/1004364.html"
+  ],
+  "items": [
+    {
+      "id": "konan-taishin-kaishu",
+      "name": "木造住宅耐震改修費補助",
+      "amount_text": "上限115万円(精密診断法による改修設計の場合、上限135万円)",
+      "amount_max_yen": 1350000,
+      "condition_text": "江南市の無料耐震診断、または平成18年度以降の愛知県建築住宅センター診断で総合判定1.0未満(平成17年度以前は得点80点未満)の木造住宅。過去に同一敷地内で市の耐震補助を受けていないこと。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "令和8年度は4月1日受付開始、令和9年2月末日までに工事完了・報告が必要。実施予定件数6件(先着順)。工事着手前の申請が必須。",
+      "deadline": "2027-02-28",
+      "official_url": "https://www.city.konan.lg.jp/jigyou/kaihatsu/1005775/1004345/1004364.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "木造住宅耐震シェルター整備費補助(障害者・高齢者世帯向け、上限30万円)", "official_url": "https://www.city.konan.lg.jp/"},
+    {"name": "木造住宅解体工事費補助", "official_url": "https://www.city.konan.lg.jp/jigyou/kaihatsu/1005775/1004345/1004347.html"}
+  ]
+}

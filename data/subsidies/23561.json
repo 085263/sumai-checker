@@ -1,0 +1,59 @@
+{
+  "municipality_code": "23561",
+  "municipality": "設楽町",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.town.shitara.lg.jp/soshiki/2/1397.html"
+  ],
+  "items": [
+    {
+      "id": "shitara-free-shindan",
+      "name": "無料耐震診断",
+      "amount_text": "無料",
+      "amount_max_yen": 0,
+      "condition_text": "昭和56年以前に建てられた平屋または2階建ての民間木造住宅。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "⚠️公式ページ記載の申請期限は「令和7年11月28日」となっており2025年度分の可能性。2026年度の最新期限は要再確認",
+      "deadline": null,
+      "official_url": "https://www.town.shitara.lg.jp/soshiki/2/1397.html"
+    },
+    {
+      "id": "shitara-kaishu",
+      "name": "耐震改修費補助",
+      "amount_text": "1棟あたり上限100万円",
+      "amount_max_yen": 1000000,
+      "condition_text": "町の無料耐震診断等で総合判定1.0未満とされた旧基準木造住宅を1.0以上にする耐震改修工事が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "⚠️公式ページ記載の申請期限(相談期限)は「令和7年7月31日」となっており2025年度分の可能性。2026年度の最新期限は要再確認。期限後も相談は受付可とのこと",
+      "deadline": null,
+      "official_url": "https://www.town.shitara.lg.jp/soshiki/2/1397.html"
+    },
+    {
+      "id": "shitara-shelter",
+      "name": "耐震シェルター整備費補助",
+      "amount_text": "1棟あたり上限30万円",
+      "amount_max_yen": 300000,
+      "condition_text": "耐震診断で1.0未満と判定された旧基準木造住宅への耐震シェルター整備が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "⚠️期限情報は上記耐震改修費補助と同様、年度の再確認が必要",
+      "deadline": null,
+      "official_url": "https://www.town.shitara.lg.jp/soshiki/2/1397.html"
+    }
+  ],
+  "not_yet_covered": []
+}

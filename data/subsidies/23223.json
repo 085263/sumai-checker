@@ -1,0 +1,48 @@
+{
+  "municipality_code": "23223",
+  "municipality": "大府市",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.obu.aichi.jp/kurashi/hojyokin/jyutaku/1002265.html",
+    "https://www.city.obu.aichi.jp/kurashi/hojyokin/jyutaku/1002268.html"
+  ],
+  "items": [
+    {
+      "id": "obu-wood-taishin",
+      "name": "民間木造住宅耐震改修費補助",
+      "amount_text": "最大185万円(改修工事費115万円または工事費の5/4の低い額+改修設計費20万円[精密診断は30万円]または設計費の2/3の低い額+市内事業者加算20万円+高齢者/障がい者世帯加算20万円)",
+      "amount_max_yen": 1850000,
+      "condition_text": "市の無料耐震診断を受診し判定値1.0未満と診断され、改修後の判定値が1.0以上になる見込みの工事が対象。工事契約前の申請が必須。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": null,
+        "built_after": null
+      },
+      "note": "受付期間:4月1日〜12月28日(土日の場合は前日)。",
+      "deadline": "2026-12-28",
+      "official_url": "https://www.city.obu.aichi.jp/kurashi/hojyokin/jyutaku/1002265.html"
+    },
+    {
+      "id": "obu-shelter",
+      "name": "耐震シェルター整備費補助",
+      "amount_text": "上限30万円",
+      "amount_max_yen": 300000,
+      "condition_text": "市の無料耐震診断で判定値0.4以下と診断された旧基準木造住宅で、65歳以上の者等が居住。市内在住・所有者または居住者、市税滞納なし、耐震改修工事の補助金交付決定を受けていないことが条件。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "受付期間:4月1日〜12月28日(土日の場合は前日)。整備前の申請が必須。",
+      "deadline": "2026-12-28",
+      "official_url": "https://www.city.obu.aichi.jp/kurashi/hojyokin/jyutaku/1002268.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "木造住宅解体工事費補助", "official_url": "https://www.city.obu.aichi.jp/kurashi/hojyokin/jyutaku/1023175.html"},
+    {"name": "瓦屋根改修費等補助", "official_url": "https://www.city.obu.aichi.jp/kurashi/hojyokin/jyutaku/1026791.html"}
+  ]
+}

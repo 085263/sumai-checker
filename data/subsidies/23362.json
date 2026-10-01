@@ -1,0 +1,48 @@
+{
+  "municipality_code": "23362",
+  "municipality": "扶桑町",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.town.fuso.lg.jp/kurashi/1001694/index.html",
+    "https://www.town.fuso.lg.jp/kurashi/1001694/1001712.html"
+  ],
+  "items": [
+    {
+      "id": "fuso-wood-taishin",
+      "name": "木造個人住宅耐震診断・耐震改修費助成制度",
+      "amount_text": "上限115万円",
+      "amount_max_yen": 1150000,
+      "condition_text": "昭和56年5月31日以前着工の木造住宅で、扶桑町の無料耐震診断で判定値1.0未満、または愛知県建築住宅センターの診断で80点未満。補助金交付決定前の着工・契約は対象外。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "都市政策課で随時受付(0587-92-4120)。申請期限の明記なし。",
+      "deadline": null,
+      "official_url": "https://www.town.fuso.lg.jp/kurashi/1001694/1001712.html"
+    },
+    {
+      "id": "fuso-removal",
+      "name": "除却費補助金",
+      "amount_text": "上限20万円",
+      "amount_max_yen": 200000,
+      "condition_text": "昭和56年5月31日以前着工の木造住宅が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "都市政策課で随時受付。申請期限の明記なし。",
+      "deadline": null,
+      "official_url": "https://www.town.fuso.lg.jp/kurashi/1001694/1001712.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "段階的耐震改修費・耐震シェルター整備費助成制度(金額は要相談)", "official_url": "https://www.town.fuso.lg.jp/kurashi/1001694/1001712.html"},
+    {"name": "扶桑町地震対策補助金", "official_url": "https://www.town.fuso.lg.jp/kurashi/1001694/1001711.html"}
+  ]
+}

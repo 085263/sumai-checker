@@ -1,0 +1,82 @@
+{
+  "municipality_code": "23210",
+  "municipality": "刈谷市",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.kariya.lg.jp/kurashi/sumai/jyosei/1003817.html",
+    "https://www.city.kariya.lg.jp/kurashi/sumai/jyosei/1003819.html",
+    "https://www.city.kariya.lg.jp/kurashi/sumai/jyosei/1003820.html"
+  ],
+  "items": [
+    {
+      "id": "kariya-wood-taishin",
+      "name": "木造住宅耐震改修費補助",
+      "amount_text": "上限155万円(精密診断法)、上限135万円(一般診断法)",
+      "amount_max_yen": 1550000,
+      "condition_text": "昭和56年5月31日以前着工の在来木造軸組工法の平屋・2階建て。補助申請前に工事の契約・着手をしていないこと、市税滞納がないこと。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "交付申請書は工事の契約・着手前かつ12月末までに提出が必要。",
+      "deadline": "2026-12-31",
+      "official_url": "https://www.city.kariya.lg.jp/kurashi/sumai/jyosei/1003817.html"
+    },
+    {
+      "id": "kariya-wood-taishin-simple",
+      "name": "木造住宅簡易耐震改修費補助",
+      "amount_text": "上限30万円",
+      "amount_max_yen": 300000,
+      "condition_text": "診断値を0.7以上1.0未満にする簡易的改修。対象条件は耐震改修費補助と同様。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": null,
+      "deadline": "2026-12-31",
+      "official_url": "https://www.city.kariya.lg.jp/kurashi/sumai/jyosei/1003817.html"
+    },
+    {
+      "id": "kariya-taishin-shelter",
+      "name": "耐震シェルター設置費補助",
+      "amount_text": "上限30万円",
+      "amount_max_yen": 300000,
+      "condition_text": "高齢者(65歳以上)または障害者が使用するものに限定。診断値1.0未満の住宅への設置が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": null,
+      "deadline": "2026-12-31",
+      "official_url": "https://www.city.kariya.lg.jp/kurashi/sumai/jyosei/1003817.html"
+    },
+    {
+      "id": "kariya-wood-demolition",
+      "name": "木造住宅取壊し工事費補助",
+      "amount_text": "対象経費の23%、上限25万円",
+      "amount_max_yen": 250000,
+      "condition_text": "診断値1.0未満の住宅1棟全体の取壊しが対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": null,
+      "deadline": "2026-12-31",
+      "official_url": "https://www.city.kariya.lg.jp/kurashi/sumai/jyosei/1003817.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "非木造住宅耐震改修費補助", "official_url": "https://www.city.kariya.lg.jp/kurashi/sumai/jyosei/1003819.html"},
+    {"name": "非木造住宅耐震診断費補助", "official_url": "https://www.city.kariya.lg.jp/kurashi/sumai/jyosei/1003818.html"},
+    {"name": "緊急輸送道路等沿道建築物耐震診断費・耐震改修費等補助", "official_url": "https://www.city.kariya.lg.jp/kurashi/sumai/jyosei/1003820.html"},
+    {"name": "ブロック塀等撤去費補助制度", "official_url": "https://www.city.kariya.lg.jp/kurashi/sumai/jyosei/1003821.html"},
+    {"name": "感震ブレーカー設置費補助制度", "official_url": "https://www.city.kariya.lg.jp/mokuteki/riyou/1007189/1007201.html"}
+  ]
+}

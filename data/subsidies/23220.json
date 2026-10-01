@@ -1,0 +1,78 @@
+{
+  "municipality_code": "23220",
+  "municipality": "稲沢市",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.inazawa.aichi.jp/0000003019.html",
+    "https://www.city.inazawa.aichi.jp/0000000234.html"
+  ],
+  "items": [
+    {
+      "id": "inazawa-wood-taishin",
+      "name": "木造住宅耐震改修費補助金",
+      "amount_text": "上限115万円",
+      "amount_max_yen": 1150000,
+      "condition_text": "昭和56年5月31日以前に着工された木造住宅で、市の無料耐震診断で判定値1.0未満(「倒壊の可能性あり/高い」)と診断されたもの。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "受付期間:令和8年5月7日〜11月30日(令和9年2月末日までに工事完了)。",
+      "deadline": "2026-11-30",
+      "official_url": "https://www.city.inazawa.aichi.jp/0000000234.html"
+    },
+    {
+      "id": "inazawa-step-taishin",
+      "name": "木造住宅段階的耐震改修費補助金",
+      "amount_text": "計90万円(1段目上限60万円、2段目上限30万円)",
+      "amount_max_yen": 900000,
+      "condition_text": "判定値0.4以下、または2階建てで1.0未満と診断された木造住宅。耐震改修工事を2段階に分けて実施する場合が対象。工事等の契約・着手前の申請が必要。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "⚠️2026年度は既に予算上限に達し受付終了との情報あり。次年度の再開有無を要確認。",
+      "deadline": null,
+      "official_url": "https://www.city.inazawa.aichi.jp/0000000234.html"
+    },
+    {
+      "id": "inazawa-shelter",
+      "name": "木造住宅耐震シェルター整備費補助金",
+      "amount_text": "上限30万円",
+      "amount_max_yen": 300000,
+      "condition_text": "判定値0.4以下の木造住宅で、高齢者または障がい者が居住する世帯が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "受付期間:令和8年5月7日〜11月30日(令和9年2月末日までに完了)。",
+      "deadline": "2026-11-30",
+      "official_url": "https://www.city.inazawa.aichi.jp/0000000234.html"
+    },
+    {
+      "id": "inazawa-jokyaku",
+      "name": "木造住宅除却費補助金",
+      "amount_text": "上限20万円",
+      "amount_max_yen": 200000,
+      "condition_text": "判定値1.0未満と診断された木造住宅の除却(解体)工事が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "⚠️2026年度は既に予算上限に達し受付終了との情報あり。次年度の再開有無を要確認。",
+      "deadline": null,
+      "official_url": "https://www.city.inazawa.aichi.jp/0000000234.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "非木造住宅耐震診断補助金", "official_url": "https://www.city.inazawa.aichi.jp/0000000240.html"},
+    {"name": "非木造住宅耐震改修補助金", "official_url": "https://www.city.inazawa.aichi.jp/0000000234.html"}
+  ]
+}

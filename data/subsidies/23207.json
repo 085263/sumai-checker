@@ -1,0 +1,48 @@
+{
+  "municipality_code": "23207",
+  "municipality": "豊川市",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.toyokawa.lg.jp/soshiki/kensetsu/kenchiku/2/1/5/1449.html",
+    "https://www.city.toyokawa.lg.jp/soshiki/kensetsu/kenchiku/2/1/5/1446.html",
+    "http://www.city.toyokawa.lg.jp/kurashi/kankyosumai/sumai/taisinkankei/kenchikuka201304182.html"
+  ],
+  "items": [
+    {
+      "id": "toyokawa-wood-taishin",
+      "name": "木造住宅耐震改修費補助金",
+      "amount_text": "調査・設計・耐震補強工事費に対し上限135万円(令和8年度から精密診断法使用時は最大20万円の追加補助あり)",
+      "amount_max_yen": 1350000,
+      "condition_text": "豊川市の無料木造住宅耐震診断を受け、総合判定値が1.0未満の住宅。改修後の判定値が1.0以上かつプラス0.3以上となる工事が対象。既に着工されている場合は対象外。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "受付期間:令和8年5月7日〜令和8年12月25日。募集件数10件(予定)。当該年度の2月末までに工事完了が必要。",
+      "deadline": "2026-12-25",
+      "official_url": "https://www.city.toyokawa.lg.jp/soshiki/kensetsu/kenchiku/2/1/5/1449.html"
+    },
+    {
+      "id": "toyokawa-wood-taishin-phased",
+      "name": "木造住宅段階的耐震改修費補助金",
+      "amount_text": "1段目:上限60万円 / 2段目:上限30万円",
+      "amount_max_yen": 600000,
+      "condition_text": "一度に改修することが難しい場合に2回に分けて耐震改修工事を行う制度。対象条件は通常の耐震改修費補助と同様。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": null,
+      "deadline": null,
+      "official_url": "https://www.city.toyokawa.lg.jp/soshiki/kensetsu/kenchiku/2/1/5/1446.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "木造住宅耐震シェルター等整備費補助金", "official_url": "http://www.city.toyokawa.lg.jp/kurashi/kankyosumai/sumai/taisinkankei/kenchikuka201304182.html"}
+  ]
+}

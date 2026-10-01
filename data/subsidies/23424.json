@@ -1,0 +1,32 @@
+{
+  "municipality_code": "23424",
+  "municipality": "大治町",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.town.oharu.aichi.jp/bousai/taishin.html",
+    "https://www.town.oharu.aichi.jp/1138.htm"
+  ],
+  "items": [
+    {
+      "id": "oharu-wood-taishin",
+      "name": "民間木造住宅耐震改修費補助事業",
+      "amount_text": "工事費の8割以内、上限120万円",
+      "amount_max_yen": 1200000,
+      "condition_text": "昭和56年5月31日以前に着工した在来軸組構法または伝統構法の木造住宅で、現在居住中。町の木造住宅無料耐震診断で判定値1.0未満のものを1.0以上にする改修が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "問い合わせ先:都市整備課(052-444-2711)。申請期限はページ内で明確に確認できず、要問い合わせ。",
+      "deadline": null,
+      "official_url": "https://www.town.oharu.aichi.jp/bousai/taishin.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "耐震診断・その他関連制度", "official_url": "https://www.town.oharu.aichi.jp/1139.htm"}
+  ]
+}

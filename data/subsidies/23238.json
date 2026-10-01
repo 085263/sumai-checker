@@ -1,0 +1,77 @@
+{
+  "municipality_code": "23238",
+  "municipality": "長久手市",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.nagakute.lg.jp/soshiki/kensetsubu/toshikeikakuka/3/1/tashinn/hojyokinn/index.html",
+    "https://www.city.nagakute.lg.jp/soshiki/kensetsubu/toshikeikakuka/3/1/tashinn/hojyokinn/1830.html"
+  ],
+  "items": [
+    {
+      "id": "nagakute-wood-taishin",
+      "name": "木造住宅耐震改修工事費補助制度",
+      "amount_text": "上限115万円(長屋・共同住宅は1棟あたり)",
+      "amount_max_yen": 1150000,
+      "condition_text": "長久手市の無料耐震診断で判定値1.0未満と診断された、昭和56年5月31日以前着工の旧基準木造住宅。市税の滞納がなく暴力団員でない住宅所有者が対象。契約前の申請が必須、先着順で件数に上限あり。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "受付期間:令和8年4月7日〜令和8年12月15日。先着順で予定件数(4件)に達し次第終了。",
+      "deadline": "2026-12-15",
+      "official_url": "https://www.city.nagakute.lg.jp/soshiki/kensetsubu/toshikeikakuka/3/1/tashinn/hojyokinn/1830.html"
+    },
+    {
+      "id": "nagakute-shelter",
+      "name": "木造住宅耐震シェルター整備費補助制度",
+      "amount_text": "上限30万円",
+      "amount_max_yen": 300000,
+      "condition_text": "昭和56年5月31日以前着工の木造住宅が対象(詳細な年齢・世帯要件は公式ページ未確認)。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "金額はWebSearch要約ベース、公式ページでの詳細未確認(⚠️低信頼度)。",
+      "deadline": null,
+      "official_url": "https://www.city.nagakute.lg.jp/soshiki/kensetsubu/toshikeikakuka/3/1/tashinn/hojyokinn/1609.html"
+    },
+    {
+      "id": "nagakute-removal",
+      "name": "木造住宅除却工事費補助制度",
+      "amount_text": "上限40万円",
+      "amount_max_yen": 400000,
+      "condition_text": "耐震性のない木造住宅の除却工事が対象(詳細条件は公式ページ未確認)。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "金額はWebSearch要約ベース、公式ページでの詳細未確認(⚠️低信頼度)。令和3年度より上限40万円。",
+      "deadline": null,
+      "official_url": "https://www.city.nagakute.lg.jp/soshiki/kensetsubu/toshikeikakuka/3/1/tashinn/hojyokinn/1607.html"
+    },
+    {
+      "id": "nagakute-staged",
+      "name": "木造住宅段階的耐震改修工事補助制度",
+      "amount_text": "一段目上限60万円、二段目を合わせた限度額100万円(または工事費80%の低い方)",
+      "amount_max_yen": 1000000,
+      "condition_text": "一度に耐震改修を完了できない住宅向けの段階施工制度(詳細条件は公式ページ未確認)。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "金額はWebSearch要約ベース、公式ページでの詳細未確認(⚠️低信頼度)。",
+      "deadline": null,
+      "official_url": "https://www.city.nagakute.lg.jp/soshiki/kensetsubu/toshikeikakuka/3/1/tashinn/hojyokinn/17057.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "非木造共同住宅耐震改修促進事業", "official_url": "https://www.city.nagakute.lg.jp/soshiki/kensetsubu/toshikeikakuka/3/1/tashinn/hojyokinn/1379.html"}
+  ]
+}

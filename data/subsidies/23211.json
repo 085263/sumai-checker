@@ -1,0 +1,89 @@
+{
+  "municipality_code": "23211",
+  "municipality": "豊田市",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.toyota.aichi.jp/kurashi/bousaibouhan/bousaishien/1013899/1002571.html"
+  ],
+  "items": [
+    {
+      "id": "toyota-wood-taishin",
+      "name": "一般耐震改修工事補助",
+      "amount_text": "費用の80%、上限115万円",
+      "amount_max_yen": 1150000,
+      "condition_text": "昭和56年5月31日以前着工の旧基準の木造住宅で、階数が2階建て以下、建築基準法の規定に著しく違反していないこと。耐震診断の実施(または旧耐震基準木造住宅の除却における容易な耐震診断調査票の提出)が必要。診断結果1.0未満が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "受付期間:2026年4月1日〜2027年2月28日。申請年度の2月末日までに実績報告書の提出が必要。",
+      "deadline": "2027-02-28",
+      "official_url": "https://www.city.toyota.aichi.jp/kurashi/bousaibouhan/bousaishien/1013899/1002571.html"
+    },
+    {
+      "id": "toyota-taishin-design",
+      "name": "耐震補強設計補助",
+      "amount_text": "上限20万円",
+      "amount_max_yen": 200000,
+      "condition_text": "診断結果1.0未満の住宅が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": null,
+      "deadline": "2027-02-28",
+      "official_url": "https://www.city.toyota.aichi.jp/kurashi/bousaibouhan/bousaishien/1013899/1002571.html"
+    },
+    {
+      "id": "toyota-wood-taishin-phased",
+      "name": "段階的耐震改修工事補助",
+      "amount_text": "上限60万円",
+      "amount_max_yen": 600000,
+      "condition_text": "診断結果0.4以下の住宅が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": null,
+      "deadline": "2027-02-28",
+      "official_url": "https://www.city.toyota.aichi.jp/kurashi/bousaibouhan/bousaishien/1013899/1002571.html"
+    },
+    {
+      "id": "toyota-wood-demolition",
+      "name": "解体工事補助",
+      "amount_text": "上限52万円",
+      "amount_max_yen": 520000,
+      "condition_text": "診断結果1.0未満、または調査票で倒壊危険性ありと判定された住宅が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": null,
+      "deadline": "2027-02-28",
+      "official_url": "https://www.city.toyota.aichi.jp/kurashi/bousaibouhan/bousaishien/1013899/1002571.html"
+    },
+    {
+      "id": "toyota-taishin-shelter",
+      "name": "耐震シェルター等整備補助",
+      "amount_text": "上限30万円",
+      "amount_max_yen": 300000,
+      "condition_text": "診断結果0.4以下で、高齢者・障がい者が居住する住宅が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": null,
+      "deadline": "2027-02-28",
+      "official_url": "https://www.city.toyota.aichi.jp/kurashi/bousaibouhan/bousaishien/1013899/1002571.html"
+    }
+  ],
+  "not_yet_covered": []
+}

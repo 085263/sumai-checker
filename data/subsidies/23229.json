@@ -1,0 +1,63 @@
+{
+  "municipality_code": "23229",
+  "municipality": "豊明市",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.toyoake.lg.jp/3017.htm",
+    "https://www.city.toyoake.lg.jp/3022.htm",
+    "https://www.city.toyoake.lg.jp/6322.htm"
+  ],
+  "items": [
+    {
+      "id": "toyoake-wood-taishin",
+      "name": "木造住宅耐震改修費補助金",
+      "amount_text": "上限135万円(精密診断法による改修設計の場合)、または上限115万円(通常)",
+      "amount_max_yen": 1350000,
+      "condition_text": "昭和56年5月31日以前に着工された木造住宅の耐震改修工事や除却工事、それに伴う設計・監理費用が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "WebSearch結果からの抽出、WebFetchによる一次情報の直接確認は未実施。",
+      "deadline": null,
+      "official_url": "https://www.city.toyoake.lg.jp/3017.htm"
+    },
+    {
+      "id": "toyoake-shelter",
+      "name": "耐震シェルター整備費補助金",
+      "amount_text": "対象経費の100%、上限30万円",
+      "amount_max_yen": 300000,
+      "condition_text": "昭和56年5月31日以前に着工された木造住宅が対象と推定(詳細条件は公式ページで要確認)。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": null,
+      "deadline": null,
+      "official_url": "https://www.city.toyoake.lg.jp/3022.htm"
+    },
+    {
+      "id": "toyoake-demolition",
+      "name": "木造戸建住宅の除却費補助金",
+      "amount_text": "金額不明(一部補助)",
+      "amount_max_yen": null,
+      "condition_text": "昭和56年5月31日以前に着工された旧基準木造住宅の除却費用の一部を補助。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "補助上限額は公式ページで要確認。",
+      "deadline": null,
+      "official_url": "https://www.city.toyoake.lg.jp/6322.htm"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "木造住宅耐震診断費補助金", "official_url": "https://www.city.toyoake.lg.jp/3017.htm"}
+  ]
+}

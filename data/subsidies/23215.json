@@ -1,0 +1,31 @@
+{
+  "municipality_code": "23215",
+  "municipality": "犬山市",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.inuyama.aichi.jp/kurashi/sumai/1004550/1002056.html"
+  ],
+  "items": [
+    {
+      "id": "inuyama-taishin-kaishu",
+      "name": "民間木造住宅耐震改修費補助事業",
+      "amount_text": "上限115万円(補強工事費等の8割が上限)。精密診断法の場合、設計費の3分の2(上限20万円)を上乗せ",
+      "amount_max_yen": 1150000,
+      "condition_text": "昭和56年5月31日以前に着工された木造住宅で、市の無料耐震診断で判定値1.0未満、または愛知県建築住宅センターの診断で得点80点未満のもの。改修後は判定値1.0以上(元の判定値+0.3以上)とする工事が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "公式ページに具体的な申請期限の記載なし。詳細は都市整備部都市計画課営繕住宅担当(0568-44-0331)に確認要。",
+      "deadline": null,
+      "official_url": "https://www.city.inuyama.aichi.jp/kurashi/sumai/1004550/1002056.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "木造住宅耐震シェルター整備費補助(高齢者・障がい者世帯向け、上限30万円)", "official_url": "https://www.city.inuyama.aichi.jp/"}
+  ]
+}

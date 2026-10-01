@@ -1,0 +1,60 @@
+{
+  "municipality_code": "23228",
+  "municipality": "岩倉市",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.iwakura.aichi.jp/category/1-15-2-0-0-0-0-0-0-0.html",
+    "https://www.city.iwakura.aichi.jp/0000006017.html"
+  ],
+  "items": [
+    {
+      "id": "iwakura-wood-taishin",
+      "name": "住宅耐震改修等補助金(木造住宅耐震改修工事)",
+      "amount_text": "上限110万円(制度全体の上限は115万円)",
+      "amount_max_yen": 1100000,
+      "condition_text": "岩倉市が実施する無料耐震診断で判定値が基準値を下回った旧基準木造住宅(昭和56年5月31日以前着工)が対象。地方税の滞納がないこと。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "段階的耐震改修(一段目60万円・二段目50万円)、耐震シェルター整備(40万円)、解体工事(60万円)も同一制度内の別メニューとして存在。",
+      "deadline": null,
+      "official_url": "https://www.city.iwakura.aichi.jp/category/1-15-2-0-0-0-0-0-0-0.html"
+    },
+    {
+      "id": "iwakura-shelter",
+      "name": "耐震シェルター整備工事(住宅耐震改修等補助金の一部)",
+      "amount_text": "上限40万円",
+      "amount_max_yen": 400000,
+      "condition_text": "岩倉市が実施する無料耐震診断で判定値が基準値を下回った旧基準木造住宅が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": null,
+      "deadline": null,
+      "official_url": "https://www.city.iwakura.aichi.jp/category/1-15-2-0-0-0-0-0-0-0.html"
+    },
+    {
+      "id": "iwakura-demolition",
+      "name": "解体工事(住宅耐震改修等補助金/空き家除却補助金の一部)",
+      "amount_text": "上限60万円",
+      "amount_max_yen": 600000,
+      "condition_text": "岩倉市が実施する無料耐震診断で判定値が基準値を下回った旧基準木造住宅が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": null,
+      "deadline": null,
+      "official_url": "https://www.city.iwakura.aichi.jp/0000006017.html"
+    }
+  ],
+  "not_yet_covered": []
+}

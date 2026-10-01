@@ -1,0 +1,89 @@
+{
+  "municipality_code": "23342",
+  "municipality": "豊山町",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.town.toyoyama.lg.jp/kurashi/seikatsu/1000745.html"
+  ],
+  "items": [
+    {
+      "id": "toyoyama-free-shindan",
+      "name": "民間木造住宅無料耐震診断",
+      "amount_text": "無料",
+      "amount_max_yen": 0,
+      "condition_text": "昭和56年5月31日以前着工の在来軸組構法木造住宅が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "申請期限の記載なし。",
+      "deadline": null,
+      "official_url": "https://www.town.toyoyama.lg.jp/kurashi/seikatsu/1000745.html"
+    },
+    {
+      "id": "toyoyama-kaishu",
+      "name": "耐震改修費補助",
+      "amount_text": "工事費の80%以内、上限115万円",
+      "amount_max_yen": 1150000,
+      "condition_text": "診断結果が判定値1.0未満の建物を、判定値1.0以上にする改修工事が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "申請期限の記載なし。",
+      "deadline": null,
+      "official_url": "https://www.town.toyoyama.lg.jp/kurashi/seikatsu/1000745.html"
+    },
+    {
+      "id": "toyoyama-staged",
+      "name": "段階的耐震改修費補助",
+      "amount_text": "一段目上限60万円、二段目上限30万円",
+      "amount_max_yen": 900000,
+      "condition_text": "判定値0.4未満の建物を段階的に改修し、最終的に1.0以上とする工事が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "申請期限の記載なし。",
+      "deadline": null,
+      "official_url": "https://www.town.toyoyama.lg.jp/kurashi/seikatsu/1000745.html"
+    },
+    {
+      "id": "toyoyama-shelter",
+      "name": "耐震シェルター整備費補助",
+      "amount_text": "上限30万円(1戸1基まで)",
+      "amount_max_yen": 300000,
+      "condition_text": "昭和56年5月31日以前着工の木造住宅で、障害者または65歳以上の高齢者が居住する世帯が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "申請期限の記載なし。",
+      "deadline": null,
+      "official_url": "https://www.town.toyoyama.lg.jp/kurashi/seikatsu/1000745.html"
+    },
+    {
+      "id": "toyoyama-removal",
+      "name": "除却費補助",
+      "amount_text": "工事費の23%以内、上限20万円",
+      "amount_max_yen": 200000,
+      "condition_text": "判定値1.0未満の建物の除却工事が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "申請期限の記載なし。",
+      "deadline": null,
+      "official_url": "https://www.town.toyoyama.lg.jp/kurashi/seikatsu/1000745.html"
+    }
+  ],
+  "not_yet_covered": []
+}

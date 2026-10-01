@@ -1,0 +1,32 @@
+{
+  "municipality_code": "23302",
+  "municipality": "東郷町",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.town.aichi-togo.lg.jp/soshikikarasagasu/toshikeikakuka/gyomuannai/6/2/3174.html"
+  ],
+  "items": [
+    {
+      "id": "togo-wood-taishin",
+      "name": "民間木造住宅耐震改修費補助事業",
+      "amount_text": "1戸あたり上限115万円(長屋・共同住宅は1棟あたり)、設計費補助と合わせ最大135万円",
+      "amount_max_yen": 1150000,
+      "condition_text": "東郷町内の自己所有木造住宅(戸建て・長屋・併用住宅・共同住宅、在来軸組構法又は伝統構法)で昭和56年5月31日以前に着工。町の無料診断で判定値1.0未満、または愛知県建築住宅センターの診断で80点未満。判定値を1.0以上にする耐震補強工事が対象(改修前0.7以上の場合は0.3以上の加算が必要)。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "工事完了期限:交付決定日の属する年度の2月末まで。申請受付期限の明記は公式ページになし。",
+      "deadline": null,
+      "official_url": "https://www.town.aichi-togo.lg.jp/soshikikarasagasu/toshikeikakuka/gyomuannai/6/2/3174.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "民間木造住宅耐震診断事業", "official_url": "https://www.town.aichi-togo.lg.jp/soshikikarasagasu/toshikeikakuka/gyomuannai/6/4181.html"},
+    {"name": "民間木造住宅段階的耐震改修費補助事業", "official_url": "https://www.town.aichi-togo.lg.jp/soshikikarasagasu/toshikeikakuka/gyomuannai/6/2/4092.html"}
+  ]
+}

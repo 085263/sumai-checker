@@ -1,0 +1,32 @@
+{
+  "municipality_code": "23205",
+  "municipality": "半田市",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.handa.lg.jp/machi/sumai/1003236/1003238.html",
+    "https://www.city.handa.lg.jp/machi/sumai/1003236/1003239.html"
+  ],
+  "items": [
+    {
+      "id": "handa-wood-taishin",
+      "name": "耐震改修費補助(木造住宅)",
+      "amount_text": "市内業者施工:精密診断法による改修設計を含む場合上限175万円、それ以外上限155万円。市外業者施工:精密診断法含む場合上限135万円、それ以外上限115万円。補助率は改修工事・付帯工事・改修設計費が4/5、精密診断法による改修設計費が2/3",
+      "amount_max_yen": 1750000,
+      "condition_text": "昭和56年5月31日以前に建築(着工)した木造住宅で、市の無料耐震診断を受け、判定値1.0未満と診断され、改修後に1.0以上となることが見込まれること。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "申請期限はページに記載なし。詳細は市役所建築課(0569-84-0671)へ要確認。",
+      "deadline": null,
+      "official_url": "https://www.city.handa.lg.jp/machi/sumai/1003236/1003238.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "木造住宅段階的耐震改修費補助", "official_url": "https://www.city.handa.lg.jp/machi/sumai/1003236/1003239.html"}
+  ]
+}

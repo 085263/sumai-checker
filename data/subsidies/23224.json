@@ -1,0 +1,48 @@
+{
+  "municipality_code": "23224",
+  "municipality": "知多市",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.chita.lg.jp/docs/2013121200530/",
+    "https://www.city.chita.lg.jp/docs/2018082200018/"
+  ],
+  "items": [
+    {
+      "id": "chita-wood-taishin",
+      "name": "木造住宅耐震改修費補助事業",
+      "amount_text": "工事費の8割かつ115万円以下(上限115万円。2026年4月より上限引き上げ)",
+      "amount_max_yen": 1150000,
+      "condition_text": "市の無料耐震診断で判定値0.7未満と診断された、または昭和56年5月31日以前に着工した木造住宅。改修後の判定値が1.0以上になる見込みの工事が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "受付期限:令和8年12月4日まで。工事は2月末までの完了必須。予算額到達で受付終了の場合あり。",
+      "deadline": "2026-12-04",
+      "official_url": "https://www.city.chita.lg.jp/docs/2013121200530/"
+    },
+    {
+      "id": "chita-block-fence",
+      "name": "ブロック塀等除却工事費補助",
+      "amount_text": "上限10万円(延長1mあたり1万円を乗じた額、または撤去費用の1/2の少ない方)",
+      "amount_max_yen": 100000,
+      "condition_text": "道路に沿ったコンクリートブロック・レンガ・天然石造の塀で道路面から高さ1m以上、点検で倒壊の危険性ありと判断されたもの。塀が残る場合は1段以下にする必要あり。一団の土地につき1回限り。",
+      "eligibility": {
+        "building_types": ["wood", "light_steel", "heavy_steel"],
+        "built_before": null,
+        "built_after": null
+      },
+      "note": "受付期限:令和8年12月4日まで。工事は2月末までの完了必須。予算額到達で受付終了の場合あり。",
+      "deadline": "2026-12-04",
+      "official_url": "https://www.city.chita.lg.jp/docs/2018082200018/"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "段階的耐震改修費補助", "official_url": "https://www.city.chita.lg.jp/docs/2013121200462/"},
+    {"name": "木造住宅除却工事費補助", "official_url": "https://www.city.chita.lg.jp/docs/2018013100011/"}
+  ]
+}

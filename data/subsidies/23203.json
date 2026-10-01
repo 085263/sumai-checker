@@ -1,0 +1,48 @@
+{
+  "municipality_code": "23203",
+  "municipality": "一宮市",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.ichinomiya.aichi.jp/kenchiku/juutakuseisaku/1044399/1044400/1044401/1011801/1002208.html",
+    "https://www.city.ichinomiya.aichi.jp/kenchiku/juutakuseisaku/1044399/1044400/1044401/1011801/1074892.html"
+  ],
+  "items": [
+    {
+      "id": "ichinomiya-wood-taishin",
+      "name": "民間木造住宅耐震改修費補助金",
+      "amount_text": "耐震改修工事:戸当たり115万円を限度。簡易耐震改修工事:戸当たり30万円を限度",
+      "amount_max_yen": 1150000,
+      "condition_text": "昭和56年5月31日以前に着工された住宅で、市の無料耐震診断で判定値1.0未満(簡易は0.7未満)。耐震改修により判定値が基準を満たすことが条件。過去に同類補助金を受けていないこと。交付決定通知後に工事契約・着手が必須。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "2026年度受付:2026年4月1日〜12月15日。完了期限は当該年度2月10日。2026年4月9日時点で予算上限に達する見込みのため要事前相談(住宅政策課 0586-85-7010)。",
+      "deadline": "2026-12-15",
+      "official_url": "https://www.city.ichinomiya.aichi.jp/kenchiku/juutakuseisaku/1044399/1044400/1044401/1011801/1002208.html"
+    },
+    {
+      "id": "ichinomiya-design-subsidy",
+      "name": "民間木造住宅耐震改修設計費補助金",
+      "amount_text": "戸当たり20万円を限度、補助対象設計費の2/3以内",
+      "amount_max_yen": 200000,
+      "condition_text": "1981年5月31日以前に建てられた市内の木造住宅で、市の無料耐震診断で判定値1.0未満。改修後に判定値+0.3かつ1.0以上になる設計で、精密診断法(日本建築防災協会評価制度対応ソフト使用)によること。契約・着手前の交付申請が必須。過去に同類補助金を受けていないこと。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "完了期限は当該年度2月10日。2026年4月9日時点で予算上限に達する見込みのため要事前相談。",
+      "deadline": null,
+      "official_url": "https://www.city.ichinomiya.aichi.jp/kenchiku/juutakuseisaku/1044399/1044400/1044401/1011801/1074892.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "瓦屋根耐風対策費補助金", "official_url": "https://www.city.ichinomiya.aichi.jp/kenchiku/kenchikushidou/1044393/1044394/1060197/1060288.html"},
+    {"name": "耐震診断が義務付けられた建築物の耐震改修等補助", "official_url": "https://www.city.ichinomiya.aichi.jp/kenchiku/juutakuseisaku/1044399/1044400/1044401/1011801/1039708.html"}
+  ]
+}

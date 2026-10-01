@@ -1,0 +1,46 @@
+{
+  "municipality_code": "23201",
+  "municipality": "豊橋市",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.toyohashi.lg.jp/25520.htm",
+    "https://www.city.toyohashi.lg.jp/25523.htm",
+    "https://www.city.toyohashi.lg.jp/25526.htm"
+  ],
+  "items": [
+    {
+      "id": "toyohashi-wood-taishin",
+      "name": "木造住宅耐震改修費補助金",
+      "amount_text": "改修設計:対象費用の3分の2、上限20万円。改修工事(通常):対象費用の80%、上限115万円。段階的改修:1段階目上限60万円、2段階目上限55万円",
+      "amount_max_yen": 1150000,
+      "condition_text": "豊橋市の無料耐震診断で判定値1.0未満、または愛知県建築住宅センター診断で80点未満の木造住宅。改修で判定値を0.3以上加算し1.0以上にする工事、または段階的改修(0.7以上→1.0以上等)が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "令和8年度申込受付:2026年4月9日13時開始。",
+      "deadline": null,
+      "official_url": "https://www.city.toyohashi.lg.jp/25523.htm"
+    },
+    {
+      "id": "toyohashi-shelter",
+      "name": "木造住宅耐震シェルター整備費補助金",
+      "amount_text": "限度額30万円",
+      "amount_max_yen": 300000,
+      "condition_text": "昭和56年5月31日以前に着工された木造住宅で、豊橋市の無料耐震診断で判定値1.0未満(または愛知県建築住宅センター診断で80点未満)。申請年度末時点で満65歳以上の高齢者または障がい者が居住していること。市の耐震改修費補助金を未受領であること。契約前の申請が必須。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": null,
+      "deadline": null,
+      "official_url": "https://www.city.toyohashi.lg.jp/25526.htm"
+    }
+  ],
+  "not_yet_covered": []
+}

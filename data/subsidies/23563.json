@@ -1,0 +1,29 @@
+{
+  "municipality_code": "23563",
+  "municipality": "豊根村",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.vill.toyone.aichi.jp/section/reiki_int/reiki_honbun/i577RG00000611.html"
+  ],
+  "items": [
+    {
+      "id": "toyone-wood-kaishu",
+      "name": "民間木造住宅耐震改修費補助",
+      "amount_text": "耐震補強工事費(附帯工事費含む)の80%、上限100万円",
+      "amount_max_yen": 1000000,
+      "condition_text": "村内にある自己所有の木造住宅(在来軸組構法・伝統構法の戸建て・長屋・併用住宅・共同住宅)で、昭和56年5月31日以前に着工、2階建て以下のもの。耐震補強工事・改修設計・附帯工事・精密診断・地盤調査・改修計画作成・工事監理等が対象経費。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "条例本文から抽出。無料耐震診断等の有無は未確認",
+      "deadline": null,
+      "official_url": "https://www.vill.toyone.aichi.jp/section/reiki_int/reiki_honbun/i577RG00000611.html"
+    }
+  ],
+  "not_yet_covered": []
+}

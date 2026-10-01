@@ -1,0 +1,33 @@
+{
+  "municipality_code": "23100",
+  "municipality": "名古屋市",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.nagoya.jp/kurashi/juutaku/1014710/1014649/1034739/1014652/1034014.html",
+    "https://www.city.nagoya.jp/kurashi/category/15-14-9-0-0-0-0-0-0-0.html"
+  ],
+  "items": [
+    {
+      "id": "nagoya-wood-taishin",
+      "name": "木造住宅耐震改修助成",
+      "amount_text": "耐震改修工事費の5分の4以内。一般改修:一般世帯上限115万円/非課税世帯上限165万円。段階的改修1段階目:上限60万円(非課税85万円)、2段階目:上限55万円(非課税80万円)",
+      "amount_max_yen": 1650000,
+      "condition_text": "昭和56年5月31日以前に着工された2階建て以下の住宅で、市の無料耐震診断で判定値1.0未満(段階的改修は0.7未満)のもの。住宅以外の用途が延べ面積の2分の1未満。適法かつ納税済みであること。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "申請受付期間:4月〜翌年1月末。当該年度2月末までの完了報告が必要。",
+      "deadline": "2027-01-31",
+      "official_url": "https://www.city.nagoya.jp/kurashi/juutaku/1014710/1014649/1034739/1014652/1034014.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "耐震診断に関する助成(無料診断等)", "official_url": "https://www.city.nagoya.jp/kurashi/category/15-14-9-0-0-0-0-0-0-0.html"},
+    {"name": "非木造建築物・ブロック塀等の耐震化支援制度", "official_url": "https://www.city.nagoya.jp/kurashi/category/15-14-9-0-0-0-0-0-0-0.html"}
+  ]
+}

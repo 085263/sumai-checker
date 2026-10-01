@@ -1,0 +1,51 @@
+{
+  "municipality_code": "23206",
+  "municipality": "春日井市",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.kasugai.lg.jp/kurashi/1033189/1038894/1038987/1008903.html"
+  ],
+  "items": [
+    {
+      "id": "kasugai-wood-taishin",
+      "name": "木造住宅耐震改修費補助事業",
+      "amount_text": "費用の80%、上限100万円",
+      "amount_max_yen": 1000000,
+      "condition_text": "昭和56年5月31日以前着工の木造住宅で、市の無料耐震診断で判定値1.0未満と診断されたこと。契約・着工前の申請が必要。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "受付期間は12月下旬まで、先着順(予算上限あり)。",
+      "deadline": "2026-12-25",
+      "official_url": "https://www.city.kasugai.lg.jp/kurashi/1033189/1038894/1038987/1008903.html"
+    },
+    {
+      "id": "kasugai-wood-taishin-phased",
+      "name": "木造住宅段階的耐震改修費補助事業",
+      "amount_text": "1段目:工事費の80%以内・上限60万円 / 2段目:工事費の80%以内・上限40万円",
+      "amount_max_yen": 600000,
+      "condition_text": "一度に改修することが難しい場合に2回に分けて耐震改修工事を行う制度。対象条件は通常の耐震改修費補助と同様。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "先着順(予算上限あり)。",
+      "deadline": null,
+      "official_url": "https://www.city.kasugai.lg.jp/kurashi/1033189/1038894/1038987/1008903.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "木造住宅の無料耐震診断", "official_url": "https://www.city.kasugai.lg.jp/kurashi/1033189/1038894/1038987/1008903.html"},
+    {"name": "木造住宅の耐震補強設計補助", "official_url": "https://www.city.kasugai.lg.jp/kurashi/1033189/1038894/1038987/1008903.html"},
+    {"name": "耐震シェルターの整備補助", "official_url": "https://www.city.kasugai.lg.jp/kurashi/1033189/1038894/1038987/1008903.html"},
+    {"name": "非木造住宅に対する耐震化補助", "official_url": "https://www.city.kasugai.lg.jp/kurashi/1033189/1038894/1038987/1008903.html"},
+    {"name": "木造住宅の除却補助", "official_url": "https://www.city.kasugai.lg.jp/kurashi/1033189/1038894/1038987/1008903.html"},
+    {"name": "ブロック塀等の撤去補助", "official_url": "https://www.city.kasugai.lg.jp/kurashi/1033189/1038894/1038987/1008903.html"}
+  ]
+}

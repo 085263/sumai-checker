@@ -1,0 +1,29 @@
+{
+  "municipality_code": "23227",
+  "municipality": "高浜市",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.takahama.lg.jp/soshiki/tokei/29594.html"
+  ],
+  "items": [
+    {
+      "id": "takahama-wood-taishin",
+      "name": "木造住宅耐震改修費補助制度(一般型・一般世帯)",
+      "amount_text": "耐震改修工事費上限88万円+耐震補強計画費上限12万円、合計上限100万円",
+      "amount_max_yen": 1000000,
+      "condition_text": "昭和56年(1981年)5月31日以前に着工した木造住宅で、市が実施する無料耐震診断の判定値が1.0未満。工事着手前に交付申請が必要。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "高齢者等非課税世帯は合計上限165万円(改修150万円+計画15万円)に増額。段階型は一段目合計上限60万円・二段目合計上限40万円。先着順・予算内で随時受付。",
+      "deadline": null,
+      "official_url": "https://www.city.takahama.lg.jp/soshiki/tokei/29594.html"
+    }
+  ],
+  "not_yet_covered": []
+}

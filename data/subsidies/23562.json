@@ -1,0 +1,44 @@
+{
+  "municipality_code": "23562",
+  "municipality": "東栄町",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "http://www.town.toei.aichi.jp/1245.htm"
+  ],
+  "items": [
+    {
+      "id": "toei-free-shindan",
+      "name": "無料耐震診断",
+      "amount_text": "無料",
+      "amount_max_yen": 0,
+      "condition_text": "昭和56年5月31日以前に着工された在来軸組構法の2階建て以下の木造住宅(戸建て・併用住宅・長屋・共同住宅)で、現在居住していること。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "問い合わせ先:東栄町生活環境課(0536-76-0504)",
+      "deadline": null,
+      "official_url": "http://www.town.toei.aichi.jp/1245.htm"
+    },
+    {
+      "id": "toei-kaishu",
+      "name": "耐震改修費補助金",
+      "amount_text": "費用の1/2、上限100万円",
+      "amount_max_yen": 1000000,
+      "condition_text": "町の無料耐震診断で「一応安全」「一応倒壊しない」に満たなかった住宅を、それ以上の判定にする耐震改修工事が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "問い合わせ先:東栄町生活環境課(0536-76-0504)",
+      "deadline": null,
+      "official_url": "http://www.town.toei.aichi.jp/1245.htm"
+    }
+  ],
+  "not_yet_covered": []
+}

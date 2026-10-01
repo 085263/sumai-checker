@@ -1,0 +1,45 @@
+{
+  "municipality_code": "23361",
+  "municipality": "大口町",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.town.oguchi.lg.jp/5758.htm",
+    "https://www.town.oguchi.lg.jp/5386.htm"
+  ],
+  "items": [
+    {
+      "id": "oguchi-wood-taishin",
+      "name": "木造住宅耐震改修費補助金",
+      "amount_text": "上限115万円、段階的耐震改修は一段目上限60万円・二段目上限40万円(令和8年度より精密診断法の場合は上限20万円)",
+      "amount_max_yen": 1150000,
+      "condition_text": "昭和56年5月31日以前に着工された在来軸組構法または伝統構法の住宅で、町の無料耐震診断の結果、判定値1.0未満と診断された旧基準木造住宅が対象。工事着工前の申請が必要。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "先着順で申込多数の場合は翌年度以降の受付となる。事前にまちづくり推進課(0587-95-1614)への問い合わせが必須。",
+      "deadline": null,
+      "official_url": "https://www.town.oguchi.lg.jp/5758.htm"
+    },
+    {
+      "id": "oguchi-removal",
+      "name": "木造住宅の除却費補助制度",
+      "amount_text": "上限40万円",
+      "amount_max_yen": 400000,
+      "condition_text": "耐震性のない木造住宅(判定値1.0未満)の除却工事が対象。平成31年度開始。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "詳細条件は公式ページ要再確認。",
+      "deadline": null,
+      "official_url": "https://www.town.oguchi.lg.jp/5386.htm"
+    }
+  ],
+  "not_yet_covered": []
+}

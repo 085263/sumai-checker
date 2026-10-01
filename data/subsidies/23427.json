@@ -1,0 +1,49 @@
+{
+  "municipality_code": "23427",
+  "municipality": "飛島村",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.vill.tobishima.aichi.jp/kurashi/zyutaku/taishinkaisyuu-hojokin.html",
+    "https://www.vill.tobishima.aichi.jp/kurashi/zyutaku/dankaiteki-taishinkaisyuu-hojokin.html",
+    "https://www.vill.tobishima.aichi.jp/kurashi/zyutaku/kanitaishin-rifomu.html"
+  ],
+  "items": [
+    {
+      "id": "tobishima-wood-taishin",
+      "name": "民間木造住宅耐震改修費補助金",
+      "amount_text": "上限180万円(検索結果の要約による。要確認)",
+      "amount_max_yen": 1800000,
+      "condition_text": "昭和56年5月31日以前に着工された在来軸組構法・伝統構法の戸建て、長屋、併用住宅、共同住宅。耐震診断で判定値1.0未満のものを1.0以上(かつ工事前判定値+0.3以上)にする改修が対象。同一年度内の工事完了が必要。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "⚠️低信頼度:公式ページを直接取得できず(404)、検索エンジンの要約情報に基づく。金額(180万円)は他の近隣自治体(100〜120万円台)と比べて高めで、要確認。工事着工前の相談・申請が必須。",
+      "deadline": null,
+      "official_url": "https://www.vill.tobishima.aichi.jp/kurashi/zyutaku/taishinkaisyuu-hojokin.html"
+    },
+    {
+      "id": "tobishima-wood-dankai",
+      "name": "民間木造住宅段階的耐震改修費補助金",
+      "amount_text": "1段階目工事:上限100万円、2段階目工事:上限80万円",
+      "amount_max_yen": 1000000,
+      "condition_text": "倒壊可能性の高い老朽木造住宅を対象とした段階的な耐震改修。詳細条件は公式ページ要確認。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "⚠️公式ページを直接取得できず(404)、検索結果の要約に基づく。",
+      "deadline": null,
+      "official_url": "https://www.vill.tobishima.aichi.jp/kurashi/zyutaku/dankaiteki-taishinkaisyuu-hojokin.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "簡易耐震改修費(リフォーム)補助金", "official_url": "https://www.vill.tobishima.aichi.jp/kurashi/zyutaku/kanitaishin-rifomu.html"},
+    {"name": "木造住宅無料耐震診断", "official_url": "https://www.vill.tobishima.aichi.jp/kurashi/zyutaku/muryoutaishin.html"}
+  ]
+}

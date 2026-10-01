@@ -1,0 +1,31 @@
+{
+  "municipality_code": "23236",
+  "municipality": "みよし市",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.aichi-miyoshi.lg.jp/soshiki/toshikensetsu/toshi_k/5/taishin/2025.html"
+  ],
+  "items": [
+    {
+      "id": "miyoshi-taishin-kaishu",
+      "name": "住宅耐震改修費補助事業",
+      "amount_text": "戸建て住宅:上限120万円(耐震補強工事費の80%+設計費の3分の2)。非戸建て住宅:1戸あたり上限45万円(単身者向けは22万5千円)",
+      "amount_max_yen": 1200000,
+      "condition_text": "昭和56年5月31日以前に着工された木造または非木造住宅で、耐震診断で判定値1.0未満と診断されたもの。判定値を1.0以上とする改修工事が対象(判定値0.7以上1.0未満の場合は0.3以上の加算が条件)。",
+      "eligibility": {
+        "building_types": ["wood", "light_steel", "heavy_steel"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "申請期限の明記なし。段階的改修・シェルター補助の有無は未確認。詳細はみよし市都市計画課(0561-32-8023)へ要確認。",
+      "deadline": null,
+      "official_url": "https://www.city.aichi-miyoshi.lg.jp/soshiki/toshikensetsu/toshi_k/5/taishin/2025.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "耐震シェルター・段階的改修等(有無未確認)", "official_url": "https://www.city.aichi-miyoshi.lg.jp/soshiki/toshikensetsu/toshi_k/5/taishin/2025.html"}
+  ]
+}

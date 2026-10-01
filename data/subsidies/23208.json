@@ -1,0 +1,46 @@
+{
+  "municipality_code": "23208",
+  "municipality": "津島市",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.tsushima.lg.jp/kurashi/sumaikenchiku/taishin/mokuzoutaishin.html"
+  ],
+  "items": [
+    {
+      "id": "tsushima-wood-taishin",
+      "name": "木造住宅耐震改修費補助",
+      "amount_text": "1戸当たり150万円を限度",
+      "amount_max_yen": 1500000,
+      "condition_text": "昭和56年5月31日以前に建築(着工)した木造2階建て以下の戸建て住宅等で、市の無料耐震診断で判定値1.0未満と評価された住宅。改修後は判定値1.0以上かつ補強前より0.3以上向上することが必要。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "令和8年度の無料耐震診断申込締切は令和8年11月30日。改修工事実施前に市役所都市計画課への相談が必須。",
+      "deadline": "2026-11-30",
+      "official_url": "https://www.city.tsushima.lg.jp/kurashi/sumaikenchiku/taishin/mokuzoutaishin.html"
+    },
+    {
+      "id": "tsushima-taishin-design",
+      "name": "耐震補強設計費補助",
+      "amount_text": "1戸当たり20万円を限度",
+      "amount_max_yen": 200000,
+      "condition_text": "耐震改修費補助と同じく、判定値1.0未満の住宅が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": null,
+      "deadline": "2026-11-30",
+      "official_url": "https://www.city.tsushima.lg.jp/kurashi/sumaikenchiku/taishin/mokuzoutaishin.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "民間木造住宅除却費補助金", "official_url": "https://www.city.tsushima.lg.jp/kurashi/sumaikenchiku/taishin/jokyakuhojo.html"}
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "municipality_code": "23225",
+  "municipality": "知立市",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.chiryu.aichi.jp/soshiki/kensetsu/kenchiku/gyomu/taisin_kenchikubousai/2/1610922843546.html",
+    "https://www.city.chiryu.aichi.jp/soshiki/kensetsu/kenchiku/gyomu/taisin_kenchikubousai/2/1445319131324.html"
+  ],
+  "items": [
+    {
+      "id": "chiryu-wood-taishin",
+      "name": "民間木造住宅耐震改修費助成(木造住宅改修)",
+      "amount_text": "工事費用の80%、上限155万円",
+      "amount_max_yen": 1550000,
+      "condition_text": "昭和56年5月31日以前に着工した旧基準の木造住宅で、市等の無料耐震診断で判定値1.0未満、または愛知県住宅センターの診断で総合評価80点未満と判定された住宅が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "WebSearch結果(公式サイトを含む複数ソース)からの抽出、WebFetchによる一次情報の直接確認は未実施。",
+      "deadline": null,
+      "official_url": "https://www.city.chiryu.aichi.jp/soshiki/kensetsu/kenchiku/gyomu/taisin_kenchikubousai/2/1445319131324.html"
+    },
+    {
+      "id": "chiryu-tasedai-jutaku",
+      "name": "知立市耐震化促進等に係る多世代住宅補助制度",
+      "amount_text": "上限50万円",
+      "amount_max_yen": 500000,
+      "condition_text": "耐震改修を伴う多世代のための住宅改修工事等が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": null,
+        "built_after": null
+      },
+      "note": "詳細条件は公式ページで要確認。",
+      "deadline": null,
+      "official_url": "https://www.city.chiryu.aichi.jp/soshiki/kensetsu/kenchiku/gyomu/taisin_kenchikubousai/2/1610922843546.html"
+    },
+    {
+      "id": "chiryu-shelter",
+      "name": "耐震シェルター等設置費助成",
+      "amount_text": "上限30万円",
+      "amount_max_yen": 300000,
+      "condition_text": "耐震シェルター等の設置費用が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "⚠️検索結果に「令和7年度受付終了の予定」との記載あり。2026年度(令和8年度)の実施有無は公式ページで要確認。",
+      "deadline": null,
+      "official_url": "https://www.city.chiryu.aichi.jp/soshiki/kensetsu/kenchiku/gyomu/taisin_kenchikubousai/2/1445319131324.html"
+    }
+  ],
+  "not_yet_covered": []
+}

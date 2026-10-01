@@ -1,0 +1,92 @@
+{
+  "municipality_code": "23213",
+  "municipality": "西尾市",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.nishio.aichi.jp/kurashi/bosai/1001366/1004494.html",
+    "https://www.city.nishio.aichi.jp/kurashi/bosai/1001366/1005258.html"
+  ],
+  "items": [
+    {
+      "id": "nishio-taishin-kaishu",
+      "name": "民間木造住宅耐震改修費補助(耐震改修工事)",
+      "amount_text": "上限135万円(精密診断法の場合+20万円)",
+      "amount_max_yen": 1550000,
+      "condition_text": "昭和56年5月31日以前に着工された2階以下の木造住宅で、市の無料耐震診断で判定値1.0未満と判定されたもの。市税の滞納がないこと。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "交付決定を受けた年度の2月末日までに工事完了が必要。契約・工事着工前の申請が必須。",
+      "deadline": null,
+      "official_url": "https://www.city.nishio.aichi.jp/kurashi/bosai/1001366/1004494.html"
+    },
+    {
+      "id": "nishio-taishin-staged",
+      "name": "民間木造住宅耐震改修費補助(段階的耐震改修工事)",
+      "amount_text": "上限60万円(精密診断法の場合+20万円)",
+      "amount_max_yen": 800000,
+      "condition_text": "耐震改修工事と同じ対象住宅。改修を段階的に実施する場合。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "交付決定を受けた年度の2月末日までに工事完了が必要。",
+      "deadline": null,
+      "official_url": "https://www.city.nishio.aichi.jp/kurashi/bosai/1001366/1004494.html"
+    },
+    {
+      "id": "nishio-taishin-shelter",
+      "name": "民間木造住宅耐震改修費補助(耐震シェルター整備工事)",
+      "amount_text": "整備費の3分の2、上限40万円",
+      "amount_max_yen": 400000,
+      "condition_text": "耐震改修工事と同じ対象住宅。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "契約・工事着工前の申請が必須。",
+      "deadline": null,
+      "official_url": "https://www.city.nishio.aichi.jp/kurashi/bosai/1001366/1004494.html"
+    },
+    {
+      "id": "nishio-taishin-small",
+      "name": "民間木造住宅耐震改修費補助(小規模改修工事)",
+      "amount_text": "改修費の2分の1、上限15万円",
+      "amount_max_yen": 150000,
+      "condition_text": "耐震改修工事と同じ対象住宅。小規模な改修工事が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": null,
+      "deadline": null,
+      "official_url": "https://www.city.nishio.aichi.jp/kurashi/bosai/1001366/1004494.html"
+    },
+    {
+      "id": "nishio-jokyaku",
+      "name": "民間木造住宅耐震改修費補助(住宅除却工事)",
+      "amount_text": "除却費の13%、上限52万円",
+      "amount_max_yen": 520000,
+      "condition_text": "耐震改修工事と同じ対象住宅で、除却(解体)を行う場合。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": null,
+      "deadline": null,
+      "official_url": "https://www.city.nishio.aichi.jp/kurashi/bosai/1001366/1004494.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "西尾市民間非木造住宅耐震診断費補助金", "official_url": "https://www.city.nishio.aichi.jp/kurashi/bosai/1001366/1005667.html"}
+  ]
+}

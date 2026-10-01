@@ -1,0 +1,61 @@
+{
+  "municipality_code": "23212",
+  "municipality": "安城市",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.anjo.aichi.jp/kurasu/bosaibohan/shitorikumi/mokuzo.html"
+  ],
+  "items": [
+    {
+      "id": "anjo-taishin-general",
+      "name": "木造住宅耐震改修費補助制度(一般型)",
+      "amount_text": "一般診断法:上限135万円、精密診断法:上限155万円",
+      "amount_max_yen": 1550000,
+      "condition_text": "昭和56年5月31日以前に着工された2階建て以下の木造住宅の所有者で、市税を滞納していないこと。改修後の判定値が1.0以上となる工事が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "交付申請は12月末まで、実績報告は申請年度の2月末までに提出。工事着手前の申請が必須。",
+      "deadline": null,
+      "official_url": "https://www.city.anjo.aichi.jp/kurasu/bosaibohan/shitorikumi/mokuzo.html"
+    },
+    {
+      "id": "anjo-taishin-staged",
+      "name": "木造住宅耐震改修費補助制度(段階型)",
+      "amount_text": "1段階目:一般診断法60万円/精密診断法80万円、2段階目:60万円",
+      "amount_max_yen": 800000,
+      "condition_text": "一般型と同じ対象住宅。改修を2段階に分けて実施する場合の補助。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "交付申請は12月末まで、実績報告は申請年度の2月末までに提出。",
+      "deadline": null,
+      "official_url": "https://www.city.anjo.aichi.jp/kurasu/bosaibohan/shitorikumi/mokuzo.html"
+    },
+    {
+      "id": "anjo-taishin-simple",
+      "name": "木造住宅耐震改修費補助制度(簡易型)",
+      "amount_text": "対象経費の2分の1以下、上限30万円",
+      "amount_max_yen": 300000,
+      "condition_text": "改修後の判定値が1.0+0.1以上となる簡易な耐震改修工事が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "交付申請は12月末まで、実績報告は申請年度の2月末までに提出。",
+      "deadline": null,
+      "official_url": "https://www.city.anjo.aichi.jp/kurasu/bosaibohan/shitorikumi/mokuzo.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "木造住宅耐震シェルター等整備費補助制度", "official_url": "https://www.city.anjo.aichi.jp/kurasu/sumai/taishin-sheruta.html"}
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "municipality_code": "23231",
+  "municipality": "田原市",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.tahara.aichi.jp/kurashi/tai_kai/1008170/index.html",
+    "https://www.city.tahara.aichi.jp/kurashi/tai_kai/1008170/1008172.html"
+  ],
+  "items": [
+    {
+      "id": "tahara-wood-taishin-kaishu",
+      "name": "木造住宅耐震改修事業",
+      "amount_text": "基本140万円、市内事業者施工で+10万円、高齢者(65歳以上)のみ世帯で+20万円、最大170万円",
+      "amount_max_yen": 1700000,
+      "condition_text": "田原市の無料耐震診断で判定値1.0未満の木造住宅が対象。総合判定値が1.0以上でも階別判定値が1.0未満の場合は0.3以上向上させる改修計画が必要。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": null,
+        "built_after": null
+      },
+      "note": "令和7年度受付分は2025年11月末まで、2026年2月15日までに工事完了・実績報告が必要(年度ごとに期間が更新される可能性が高い)。要事前相談(田原市役所建築課 0531-27-8606)。",
+      "deadline": "2025-11-30",
+      "official_url": "https://www.city.tahara.aichi.jp/kurashi/tai_kai/1008170/1008172.html"
+    },
+    {
+      "id": "tahara-kan-i-taishin",
+      "name": "簡易耐震対策事業",
+      "amount_text": "上限40万円",
+      "amount_max_yen": 400000,
+      "condition_text": "耐震診断の結果、耐震性が不十分と判定された住宅の簡易的な耐震対策費用が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": null,
+        "built_after": null
+      },
+      "note": "詳細条件・期限は未確認。",
+      "deadline": null,
+      "official_url": "https://www.city.tahara.aichi.jp/kurashi/tai_kai/1008170/index.html"
+    }
+  ],
+  "not_yet_covered": []
+}

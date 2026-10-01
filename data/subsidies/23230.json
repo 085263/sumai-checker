@@ -1,0 +1,45 @@
+{
+  "municipality_code": "23230",
+  "municipality": "日進市",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.nisshin.lg.jp/department/toshisangyo/toshi/7/3/2/2_1/taishin/5311.html",
+    "https://www.city.nisshin.lg.jp/department/toshisangyo/toshi/7/3/2/2_1/taishin/5306.html"
+  ],
+  "items": [
+    {
+      "id": "nisshin-wood-taishin",
+      "name": "木造住宅耐震改修費補助金",
+      "amount_text": "上限115万円。精密診断実施の場合は費用の2/3(上限20万円)を追加助成",
+      "amount_max_yen": 1150000,
+      "condition_text": "昭和56年5月31日以前に着工された木造住宅で、日進市が実施する無料耐震診断で総合評価判定値が1.0未満と診断されたもの。改修前の判定値が0.7以上の場合は判定値を0.3以上向上させる必要がある。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "段階的改修の場合、1段階目上限69万円・2段階目上限46万円。",
+      "deadline": null,
+      "official_url": "https://www.city.nisshin.lg.jp/department/toshisangyo/toshi/7/3/2/2_1/taishin/5311.html"
+    },
+    {
+      "id": "nisshin-shelter",
+      "name": "木造住宅耐震シェルター整備費補助金",
+      "amount_text": "1戸あたり上限30万円",
+      "amount_max_yen": 300000,
+      "condition_text": "昭和56年5月31日以前に着工された木造住宅が対象と推定(詳細条件は公式ページで要確認)。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": null,
+      "deadline": null,
+      "official_url": "https://www.city.nisshin.lg.jp/department/toshisangyo/toshi/7/3/2/2_1/taishin/5306.html"
+    }
+  ],
+  "not_yet_covered": []
+}

@@ -1,0 +1,31 @@
+{
+  "municipality_code": "23232",
+  "municipality": "愛西市",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.aisai.lg.jp/0000007229.html"
+  ],
+  "items": [
+    {
+      "id": "aisai-wood-taishin-kaishu",
+      "name": "木造住宅耐震改修費補助金",
+      "amount_text": "上限115万円",
+      "amount_max_yen": 1150000,
+      "condition_text": "愛西市の無料耐震診断を受け判定値1.0未満と診断された住宅。建築基準法・都市計画法違反がないこと。過去に本補助金を受けていないこと。改修後の判定値が+0.3かつ1.0以上になる補強計画が対象。所有者またはその親族で居住していること。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": null,
+        "built_after": null
+      },
+      "note": "申請期限の明記なし。詳細は愛西市都市計画課(0567-55-7126)へ要確認。",
+      "deadline": null,
+      "official_url": "https://www.city.aisai.lg.jp/0000007229.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "わが家の専門家診断事業・耐震シェルター等(未確認)", "official_url": "https://www.city.aisai.lg.jp/"}
+  ]
+}

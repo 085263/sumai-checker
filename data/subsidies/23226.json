@@ -1,0 +1,50 @@
+{
+  "municipality_code": "23226",
+  "municipality": "尾張旭市",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.owariasahi.lg.jp/page/40143.html",
+    "https://www.city.owariasahi.lg.jp/page/48788.html",
+    "https://www.city.owariasahi.lg.jp/soshiki/35/"
+  ],
+  "items": [
+    {
+      "id": "owariasahi-wood-taishin",
+      "name": "民間木造住宅耐震改修費補助",
+      "amount_text": "工事費用の80%、上限115万円",
+      "amount_max_yen": 1150000,
+      "condition_text": "基礎・柱・はり・壁補強、屋根ふき替え等の耐震改修工事が対象。詳細な築年数等の条件は公式ページで要確認(一般的に昭和56年5月31日以前の木造住宅が対象と推定)。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "WebSearch結果(公式サイトを含む)からの抽出、WebFetchによる一次情報の直接確認は未実施。",
+      "deadline": null,
+      "official_url": "https://www.city.owariasahi.lg.jp/page/40143.html"
+    },
+    {
+      "id": "owariasahi-wood-taishin-dankai",
+      "name": "民間木造住宅段階的耐震改修費補助",
+      "amount_text": "工事費用の80%、上限115万円",
+      "amount_max_yen": 1150000,
+      "condition_text": "基礎・柱・はり・壁補強、屋根ふき替え等の耐震改修工事(段階的実施)が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "詳細は公式ページで要確認。",
+      "deadline": null,
+      "official_url": "https://www.city.owariasahi.lg.jp/page/40143.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "民間木造住宅耐震診断", "official_url": "https://www.city.owariasahi.lg.jp/soshiki/35/"},
+    {"name": "民間木造住宅耐震シェルター整備費補助", "official_url": "https://www.city.owariasahi.lg.jp/soshiki/35/"},
+    {"name": "民間木造住宅除却工事費補助", "official_url": "https://www.city.owariasahi.lg.jp/page/48788.html"}
+  ]
+}

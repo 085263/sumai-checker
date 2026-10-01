@@ -1,0 +1,45 @@
+{
+  "municipality_code": "23219",
+  "municipality": "小牧市",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.komaki.aichi.jp/admin/soshiki/kensetsubu/kenchiku/2/3/3708.html",
+    "https://www.city.komaki.aichi.jp/admin/soshiki/kensetsubu/kenchiku/2/3/3710.html"
+  ],
+  "items": [
+    {
+      "id": "komaki-wood-taishin",
+      "name": "木造住宅への耐震改修補助金",
+      "amount_text": "設計費・耐震補強工事費・附帯工事費の合計額のうち最大100万円",
+      "amount_max_yen": 1000000,
+      "condition_text": "昭和56年5月31日以前に着工された在来軸組構法及び伝統構法の木造住宅(戸建て、長屋、併用住宅、共同住宅で貸家を含む)で、市の無料耐震診断を受け「倒壊する可能性が高い」(判定値0.7未満)または「倒壊する可能性がある」(判定値0.7以上1.0未満)と診断されたもの。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "先着順受付。申込多数の場合は次年度以降の受付となる場合がある(明確な期限記載なし)。",
+      "deadline": null,
+      "official_url": "https://www.city.komaki.aichi.jp/admin/soshiki/kensetsubu/kenchiku/2/3/3708.html"
+    },
+    {
+      "id": "komaki-shelter",
+      "name": "木造住宅への耐震シェルター等設置費補助金",
+      "amount_text": "1戸あたり上限30万円",
+      "amount_max_yen": 300000,
+      "condition_text": "市の無料耐震診断で判定値1.0未満の木造住宅の1階部分に、市指定の耐震シェルターまたは防災ベッド(20製品から選択)を設置する場合。所有者または居住者(所有者の同意要)で市税完納が条件。既に耐震シェルター等を設置済み、または耐震改修費補助金を受けた住宅は対象外。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": null,
+        "built_after": null
+      },
+      "note": "1戸につき1台のみ。先着順受付、申込多数の場合は次年度以降の受付となる場合がある。",
+      "deadline": null,
+      "official_url": "https://www.city.komaki.aichi.jp/admin/soshiki/kensetsubu/kenchiku/2/3/3710.html"
+    }
+  ],
+  "not_yet_covered": []
+}

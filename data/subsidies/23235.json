@@ -1,0 +1,44 @@
+{
+  "municipality_code": "23235",
+  "municipality": "弥富市",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.yatomi.lg.jp/kurashi/1000511/1000512/1002688/1001421.html"
+  ],
+  "items": [
+    {
+      "id": "yatomi-wood-taishin-kaishu",
+      "name": "民間木造耐震改修費補助金",
+      "amount_text": "1戸あたり上限115万円",
+      "amount_max_yen": 1150000,
+      "condition_text": "昭和56年5月31日以前に建築された木造住宅で、市の無料耐震診断で判定値1.0未満、改修後の判定値が1.0以上になる工事が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "申請期限はページに明記なし。詳細は弥富市都市整備課へ要確認。",
+      "deadline": null,
+      "official_url": "https://www.city.yatomi.lg.jp/kurashi/1000511/1000512/1002688/1001421.html"
+    },
+    {
+      "id": "yatomi-shelter",
+      "name": "民間木造住宅耐震シェルター整備費補助金",
+      "amount_text": "1戸あたり上限30万円(1台)",
+      "amount_max_yen": 300000,
+      "condition_text": "市の無料耐震診断で一定基準以下と診断された住宅。高齢者または障がい者が居住していること。認定された耐震シェルター・防災ベッドが対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": null,
+        "built_after": null
+      },
+      "note": "申請期限はページに明記なし。詳細は弥富市都市整備課へ要確認。",
+      "deadline": null,
+      "official_url": "https://www.city.yatomi.lg.jp/kurashi/1000511/1000512/1002688/1001421.html"
+    }
+  ],
+  "not_yet_covered": []
+}

@@ -1,0 +1,48 @@
+{
+  "municipality_code": "23222",
+  "municipality": "東海市",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.tokai.aichi.jp/kurashi/1001815/1001827/1001833.html",
+    "https://www.city.tokai.aichi.jp/kurashi/1001815/1001827/1001830.html"
+  ],
+  "items": [
+    {
+      "id": "tokai-wood-taishin",
+      "name": "木造住宅耐震改修工事費補助制度",
+      "amount_text": "耐震改修補強工事費18/25(限度103万5千円)+改修設計費2/3または2/25の少ない額(限度11万5千円)、合計最大115万円",
+      "amount_max_yen": 1150000,
+      "condition_text": "⚠️原文に基準日が「平成12年5月31日以前に着工」と記載されていたが、他自治体では通常「昭和56年5月31日」が基準であり誤記・特例の可能性があるため要確認。在来構法及び伝統構法による階数2階以下の木造住宅、市税滞納なしが条件。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "2000-06-01",
+        "built_after": null
+      },
+      "note": "受付期間:2026年4月15日(予定)〜2027年1月15日、先着順。予算上限到達で受付終了の場合あり。基準日の表記に要確認。",
+      "deadline": "2027-01-15",
+      "official_url": "https://www.city.tokai.aichi.jp/kurashi/1001815/1001827/1001833.html"
+    },
+    {
+      "id": "tokai-shelter",
+      "name": "耐震シェルター等整備費補助制度",
+      "amount_text": "上限40万円(補助対象経費の50%。高齢者世帯・障害者/要介護認定者がいる世帯は100%)",
+      "amount_max_yen": 400000,
+      "condition_text": "市内在住、昭和56年5月31日以前に着工した木造住宅の所有者、市税滞納なし、無料耐震診断で判定値1.0未満であること。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "受付期間:2026年4月15日〜2027年1月15日、先着順。整備完了期限は2027年3月15日。",
+      "deadline": "2027-01-15",
+      "official_url": "https://www.city.tokai.aichi.jp/kurashi/1001815/1001827/1001830.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "木造住宅段階的耐震改修工事費補助制度", "official_url": "https://www.city.tokai.aichi.jp/kurashi/1001815/1001827/1001835.html"},
+    {"name": "非木造住宅耐震診断費補助", "official_url": "https://content.zaim.net/benefits/show/5138"}
+  ]
+}

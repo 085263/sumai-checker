@@ -1,0 +1,61 @@
+{
+  "municipality_code": "23209",
+  "municipality": "碧南市",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.hekinan.lg.jp/soshiki/kensetsu/kenchiku/taisin/taisinjhojo/17490.html",
+    "https://www.city.hekinan.lg.jp/soshiki/kensetsu/kenchiku/taisin/taisinjhojo/17491.html",
+    "https://www.city.hekinan.lg.jp/soshiki/kensetsu/kenchiku/taisin/taisinjhojo/17492.html"
+  ],
+  "items": [
+    {
+      "id": "hekinan-wood-taishin",
+      "name": "木造住宅耐震改修費補助事業",
+      "amount_text": "設計費:費用の2/3(限度額20万円)、工事費:費用の80%、補助合計上限135万円",
+      "amount_max_yen": 1350000,
+      "condition_text": "昭和56年5月31日以前に着工された木造住宅で、耐震診断で判定値1.0未満であること。改修後は判定値を1.0以上に改善する必要がある。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "申請年度の2月末までに工事を完了し、完了実績報告書を提出する必要がある。",
+      "deadline": null,
+      "official_url": "https://www.city.hekinan.lg.jp/soshiki/kensetsu/kenchiku/taisin/taisinjhojo/17490.html"
+    },
+    {
+      "id": "hekinan-wood-taishin-phased",
+      "name": "木造住宅段階的耐震改修費補助事業",
+      "amount_text": "1段目:100% / 2段目:80%(上限65万円)",
+      "amount_max_yen": 650000,
+      "condition_text": "一度に改修することが難しい場合に2回に分けて耐震改修工事を行う制度。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "申請年度の2月末までに工事を完了し、完了実績報告書を提出する必要がある。",
+      "deadline": null,
+      "official_url": "https://www.city.hekinan.lg.jp/soshiki/kensetsu/kenchiku/taisin/taisinjhojo/17491.html"
+    },
+    {
+      "id": "hekinan-taishin-shelter",
+      "name": "木造住宅耐震シェルター整備費補助事業",
+      "amount_text": "金額詳細は公式ページ要確認",
+      "amount_max_yen": null,
+      "condition_text": "碧南市木造住宅無料耐震診断において判定値が1.0未満の住宅が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "⚠️金額の詳細は検索結果からは確認できず、公式ページでの要確認。",
+      "deadline": null,
+      "official_url": "https://www.city.hekinan.lg.jp/soshiki/kensetsu/kenchiku/taisin/taisinjhojo/17492.html"
+    }
+  ],
+  "not_yet_covered": []
+}

@@ -1,0 +1,29 @@
+{
+  "municipality_code": "23204",
+  "municipality": "瀬戸市",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.seto.aichi.jp/docs/2016/04/07/00037/index.html"
+  ],
+  "items": [
+    {
+      "id": "seto-wood-taishin",
+      "name": "木造住宅耐震改修費等補助事業",
+      "amount_text": "耐震補強工事費の80%、上限115万円(障害者と居住する世帯は上限135万円)",
+      "amount_max_yen": 1350000,
+      "condition_text": "昭和56年5月31日以前に着工された木造住宅(戸建・長屋・併用・共同住宅)。市の無料耐震診断で判定値1.0未満、または愛知県住宅センター診断で80点未満/判定値1.0未満。改修後の判定値が1.0以上かつ+0.3以上になること。市税を滞納していないこと。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "令和8年度受付期間:2026年4月1日〜4月15日。申込多数の場合は抽選、未達の場合は先着順。申込場所:市役所5階都市計画課。",
+      "deadline": "2026-04-15",
+      "official_url": "https://www.city.seto.aichi.jp/docs/2016/04/07/00037/index.html"
+    }
+  ],
+  "not_yet_covered": []
+}

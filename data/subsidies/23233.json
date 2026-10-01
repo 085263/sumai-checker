@@ -1,0 +1,47 @@
+{
+  "municipality_code": "23233",
+  "municipality": "清須市",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.kiyosu.aichi.jp/kurashi_joho/shinseisho_download/kotsu_bosai/taishin_shindan.html",
+    "https://www.city.kiyosu.aichi.jp/kurashi_joho/shinseisho_download/kotsu_bosai/taishin_shindan_kaishu.html"
+  ],
+  "items": [
+    {
+      "id": "kiyosu-wood-taishin-kaishu",
+      "name": "木造住宅耐震改修費補助制度",
+      "amount_text": "費用の全額、上限130万円",
+      "amount_max_yen": 1300000,
+      "condition_text": "1981年5月31日以前に建てられた自己所有の木造住宅(2階建て以下)で、市の無料耐震診断で総合判定1.0未満と判定されたもの。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "⚠️低信頼度:公式ページ本体には具体的な補助金額・申請期限の記載が無く、検索結果の二次情報(要綱PDF等の要約)に基づく数値。要電話確認(清須市都市計画課 052-400-2974)。",
+      "deadline": null,
+      "official_url": "https://www.city.kiyosu.aichi.jp/kurashi_joho/shinseisho_download/kotsu_bosai/taishin_shindan_kaishu.html"
+    },
+    {
+      "id": "kiyosu-wood-jokyaku",
+      "name": "木造住宅除却費補助制度",
+      "amount_text": "上限20万円",
+      "amount_max_yen": 200000,
+      "condition_text": "2階建て以下の木造住宅(戸建・長屋・共同住宅、貸家含む)で、1981年5月31日以前着工、耐震診断で判定値1.0未満のもの。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "⚠️低信頼度:公式ページ本体には金額記載がなく二次情報に基づく。要確認。",
+      "deadline": null,
+      "official_url": "https://www.city.kiyosu.aichi.jp/kurashi_joho/shinseisho_download/kotsu_bosai/taishin_shindan.files/zyokyaku_gaiyo.pdf"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "耐震シェルター等整備費補助制度", "official_url": "https://www.city.kiyosu.aichi.jp/kurashi_joho/shinseisho_download/kotsu_bosai/taishin_shindan.html"}
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "municipality_code": "23237",
+  "municipality": "あま市",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.ama.aichi.jp/kurashi/kotsu/sumai/1005979/1002500.html",
+    "https://www.city.ama.aichi.jp/kurashi/kotsu/sumai/1005979/1002501.html"
+  ],
+  "items": [
+    {
+      "id": "ama-wood-taishin",
+      "name": "木造住宅耐震改修補助制度",
+      "amount_text": "工事費の80%、上限120万円",
+      "amount_max_yen": 1200000,
+      "condition_text": "昭和56年5月31日以前に着工した木造住宅(プレハブ・ツーバイフォー工法は除く)で2階建て以下、あま市内にあること。市の耐震診断で判定値1.0未満の住宅を、判定値+0.3かつ1.0以上にする耐震改修工事が対象。工事着手前の申請が必要、工事完了期限は1月末日。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "申請期間は4月から。問い合わせ先:建設産業部都市計画課(052-441-7112)",
+      "deadline": null,
+      "official_url": "https://www.city.ama.aichi.jp/kurashi/kotsu/sumai/1005979/1002500.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "耐震シェルター設置補助制度", "official_url": "https://www.city.ama.aichi.jp/kurashi/kotsu/sumai/1005979/1002501.html"}
+  ]
+}

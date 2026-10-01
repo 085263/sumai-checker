@@ -1,0 +1,59 @@
+{
+  "municipality_code": "23221",
+  "municipality": "新城市",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.shinshiro.lg.jp/kurashi/jyutaku-tochi/taishin/jyutaku-taishinka.html"
+  ],
+  "items": [
+    {
+      "id": "shinshiro-wood-taishin",
+      "name": "木造住宅耐震化促進事業(耐震改修)",
+      "amount_text": "上限120万円",
+      "amount_max_yen": 1200000,
+      "condition_text": "市の無料耐震診断で耐震性が低いと診断された木造住宅の耐震改修工事が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": null,
+        "built_after": null
+      },
+      "note": "申請期限の明記なし。併用で省エネ改修工事への補助(上限10万円)もあり。詳細は都市計画課(0536-23-7640)へ確認を推奨。",
+      "deadline": null,
+      "official_url": "https://www.city.shinshiro.lg.jp/kurashi/jyutaku-tochi/taishin/jyutaku-taishinka.html"
+    },
+    {
+      "id": "shinshiro-shelter",
+      "name": "木造住宅耐震シェルター整備費補助",
+      "amount_text": "上限30万円",
+      "amount_max_yen": 300000,
+      "condition_text": "耐震性が低いと診断され、高齢者や障がい者が居住する住宅の居室一室に耐震シェルターを設置する場合が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": null,
+        "built_after": null
+      },
+      "note": "申請期限の明記なし。",
+      "deadline": null,
+      "official_url": "https://www.city.shinshiro.lg.jp/kurashi/jyutaku-tochi/taishin/jyutaku-taishinka.html"
+    },
+    {
+      "id": "shinshiro-torikowashi",
+      "name": "木造住宅取壊し工事費補助",
+      "amount_text": "上限20万円",
+      "amount_max_yen": 200000,
+      "condition_text": "耐震性が低いと診断された住宅から別の住宅等へ転居するのに合わせて、その住宅を解体する場合が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": null,
+        "built_after": null
+      },
+      "note": "申請期限の明記なし。",
+      "deadline": null,
+      "official_url": "https://www.city.shinshiro.lg.jp/kurashi/jyutaku-tochi/taishin/jyutaku-taishinka.html"
+    }
+  ],
+  "not_yet_covered": []
+}
