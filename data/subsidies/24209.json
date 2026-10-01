@@ -1,0 +1,47 @@
+{
+  "municipality_code": "24209",
+  "municipality": "尾鷲市",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.owase.lg.jp/0000011820.html",
+    "https://www.city.owase.lg.jp/category/7-27-2-0-0-0-0-0-0-0.html"
+  ],
+  "items": [
+    {
+      "id": "owase-taishin-koji",
+      "name": "木造住宅耐震補強工事費補助",
+      "amount_text": "工事費用の3分の2以内、上限50万円",
+      "amount_max_yen": 500000,
+      "condition_text": "昭和56年5月31日以前に建築された木造住宅(階数3以下、延床面積の過半が住宅用途、丸太組・プレハブ工法を除く)。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "⚠️低信頼度:公式ページ本文には具体額の記載がなく、添付PDFまたは問い合わせ(0597-23-8243)が必要との案内のみ。金額は検索エンジンの要約情報に基づく。",
+      "deadline": null,
+      "official_url": "https://www.city.owase.lg.jp/0000011820.html"
+    },
+    {
+      "id": "owase-taishin-sekkei",
+      "name": "木造住宅耐震補強設計費補助",
+      "amount_text": "設計費用の3分の2以内、上限18万円",
+      "amount_max_yen": 180000,
+      "condition_text": "耐震補強工事費補助と同様の対象住宅。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "⚠️低信頼度:公式ページ本文に具体額の記載なし、検索エンジンの要約情報に基づく。",
+      "deadline": null,
+      "official_url": "https://www.city.owase.lg.jp/0000011820.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "木造住宅無料耐震診断", "official_url": "https://www.city.owase.lg.jp/0000011820.html"}
+  ]
+}

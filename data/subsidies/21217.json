@@ -1,0 +1,32 @@
+{
+  "municipality_code": "21217",
+  "municipality": "飛騨市",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.hida.gifu.jp/soshiki/23/60596.html",
+    "https://www.city.hida.gifu.jp/soshiki/23/60595.html"
+  ],
+  "items": [
+    {
+      "id": "hida-wood-taishin-shelter",
+      "name": "木造住宅耐震補強工事費補助金(耐震シェルター設置含む)",
+      "amount_text": "耐震補強工事:1戸あたり上限200万円。耐震シェルター設置:1戸あたり上限30万円。",
+      "amount_max_yen": 2000000,
+      "condition_text": "昭和56年5月31日以前に建築された木造戸建て住宅の所有者。補強後の耐震評点が1.0以上となる必要がある。増築がある場合は事前相談必須。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "公式ページ(WebFetch)で確認済み。通年受付、予算件数に達し次第終了。着手前に必ず窓口で事前相談が必要。受付:平日9:00〜16:30。",
+      "deadline": null,
+      "official_url": "https://www.city.hida.gifu.jp/soshiki/23/60596.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "木造住宅耐震診断(無料)", "official_url": "https://www.city.hida.gifu.jp/soshiki/23/60595.html"}
+  ]
+}

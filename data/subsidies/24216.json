@@ -1,0 +1,58 @@
+{
+  "municipality_code": "24216",
+  "municipality": "伊賀市",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.iga.lg.jp/0000006528.html"
+  ],
+  "items": [
+    {
+      "id": "iga-shindan",
+      "name": "木造住宅耐震診断事業",
+      "amount_text": "無料(補助率100%、上限47,200円相当)",
+      "amount_max_yen": 47200,
+      "condition_text": "昭和56年(1981年)5月31日以前に建築された3階建て以下の木造住宅が対象。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": "申込期間:令和8年(2026年)4月10日〜11月30日。",
+      "deadline": "2026-11-30",
+      "official_url": "https://www.city.iga.lg.jp/0000006528.html"
+    },
+    {
+      "id": "iga-sekkei",
+      "name": "木造住宅耐震補強設計事業",
+      "amount_text": "補助率2/3、上限18万円",
+      "amount_max_yen": 180000,
+      "condition_text": "昭和56年5月31日以前に建築(着工含む)された3階建て以下の木造住宅。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": "⚠️低信頼度:公式ページ本文には金額記載がなく、検索エンジンの要約情報に基づく。公式PDF未確認のため要検証。",
+      "deadline": null,
+      "official_url": "https://www.city.iga.lg.jp/0000006528.html"
+    },
+    {
+      "id": "iga-hokyo",
+      "name": "木造住宅耐震補強事業(改修工事)",
+      "amount_text": "上限115万4千円",
+      "amount_max_yen": 1154000,
+      "condition_text": "昭和56年5月31日以前着工、3階建て以下の木造住宅。専用住宅・共同住宅・長屋建・併用住宅(住宅部分が延床面積の1/2以上)が対象。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": "⚠️低信頼度:公式ページ本文には金額記載がなく、検索エンジンの要約情報に基づく。公式PDF未確認のため要検証。",
+      "deadline": null,
+      "official_url": "https://www.city.iga.lg.jp/0000006528.html"
+    },
+    {
+      "id": "iga-reform",
+      "name": "耐震補強工事と同時に行うリフォーム補助",
+      "amount_text": "リフォーム工事費用の1/3、上限40万円",
+      "amount_max_yen": 400000,
+      "condition_text": "耐震補強工事と同時に実施するリフォーム工事のみ対象。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": "⚠️低信頼度:検索エンジンの要約情報に基づく、公式ページでの直接確認はできていない。",
+      "deadline": null,
+      "official_url": "https://www.city.iga.lg.jp/0000006528.html"
+    }
+  ],
+  "not_yet_covered": []
+}

@@ -1,0 +1,63 @@
+{
+  "municipality_code": "24210",
+  "municipality": "亀山市",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.kameyama.mie.jp/docs/2014112309867/22_mokuzou_taishin.html",
+    "https://www1.g-reiki.net/kameyama/reiki_honbun/r070RG00000530.html",
+    "https://www1.g-reiki.net/kameyama/reiki_honbun/r070RG00000771.html"
+  ],
+  "items": [
+    {
+      "id": "kameyama-taishin-keikaku",
+      "name": "木造住宅耐震補強計画事業補助金",
+      "amount_text": "一般診断法:上限18万円 / 精密診断法1・2:上限34万円(予算の範囲内で市長が決定)",
+      "amount_max_yen": 340000,
+      "condition_text": "昭和56年5月31日以前に着工した階数3以下の木造住宅で、耐震診断の結果評点0.7未満のものを1.0以上にする補強計画の作成が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "公式の例規集(条例本文)で金額を直接確認済み。",
+      "deadline": null,
+      "official_url": "https://www1.g-reiki.net/kameyama/reiki_honbun/r070RG00000771.html"
+    },
+    {
+      "id": "kameyama-taishin-koji",
+      "name": "木造住宅耐震補強等事業補助金(補強工事)",
+      "amount_text": "耐震補強工事費の3分の2以内、上限60万円",
+      "amount_max_yen": 600000,
+      "condition_text": "昭和56年5月31日以前に着工し工事完了済みの木造住宅(在来軸組工法・伝統的工法・枠組壁工法、階数3以下)。耐震診断評点0.7未満を1.0以上にする工事。1ha当たり住宅戸数10戸以上の区域等、市長が防災上必要と認める区域に所在すること。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "公式の例規集(条例本文)で金額を直接確認済み。事前の検索要約では「上限100万円」とあったが、条例本文では60万円が正しい。",
+      "deadline": null,
+      "official_url": "https://www1.g-reiki.net/kameyama/reiki_honbun/r070RG00000530.html"
+    },
+    {
+      "id": "kameyama-kyakyo",
+      "name": "木造住宅耐震補強等事業補助金(除却工事)",
+      "amount_text": "除却工事費の3分の2以内、上限30万円",
+      "amount_max_yen": 300000,
+      "condition_text": "耐震補強等事業補助金と同様の対象住宅の除却工事。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "公式の例規集(条例本文)で金額を直接確認済み。",
+      "deadline": null,
+      "official_url": "https://www1.g-reiki.net/kameyama/reiki_honbun/r070RG00000530.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "同時施工リフォーム工事補助(上限20万円)", "official_url": "https://www1.g-reiki.net/kameyama/reiki_honbun/r070RG00000530.html"}
+  ]
+}

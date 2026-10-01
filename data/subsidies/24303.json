@@ -1,0 +1,36 @@
+{
+  "municipality_code": "24303",
+  "municipality": "木曽岬町",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.pref.mie.lg.jp/JUTAKU/HP/35937031382.htm"
+  ],
+  "items": [
+    {
+      "id": "kisosaki-taishin-sekkei",
+      "name": "木造住宅耐震補強計画事業(設計)",
+      "amount_text": "補助率2/3、上限18万円",
+      "amount_max_yen": 180000,
+      "condition_text": "詳細条件は町公式ページで未確認。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": "⚠️低信頼度:町の公式ページを直接確認できず(ドメイン特定できず)、検索結果の要約に基づく。",
+      "deadline": null,
+      "official_url": null
+    },
+    {
+      "id": "kisosaki-taishin-hokyo",
+      "name": "木造住宅耐震補強工事・簡易耐震補強工事・リフォーム工事補助",
+      "amount_text": "上限100万円(代理受領制度あり)",
+      "amount_max_yen": 1000000,
+      "condition_text": "詳細条件は町公式ページで未確認。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": "三重県の市町別補助制度一覧ページ(公式)で上限100万円と確認。別の検索結果では上限50万円との記載もあり、金額に食い違いがあるため要確認。問い合わせ先:木曽岬町建設課 0567-68-6106",
+      "deadline": null,
+      "official_url": "https://www.pref.mie.lg.jp/JUTAKU/HP/35937031382.htm"
+    }
+  ],
+  "not_yet_covered": []
+}

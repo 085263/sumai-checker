@@ -1,0 +1,50 @@
+{
+  "municipality_code": "24202",
+  "municipality": "四日市市",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.yokkaichi.lg.jp/www/contents/1517481533493/index.html",
+    "https://www.city.yokkaichi.lg.jp/www/contents/1696126733610/index.html"
+  ],
+  "items": [
+    {
+      "id": "yokkaichi-hokyo-kouji",
+      "name": "木造住宅耐震補強工事費等補助制度(補強工事費補助)",
+      "amount_text": "全体改修:工事費100万円まで+工事費の40%以内で50万円まで(上限150万円)/部分・段階改修:上限80万円または70万円",
+      "amount_max_yen": 1500000,
+      "condition_text": "昭和56年5月31日以前に建てられた木造住宅で、耐震診断結果が0.7未満と判定されたものを1.0以上へ改修することが基本。住戸密度1haあたり10戸以上の建て込み区域または避難路沿いの住宅が対象。令和6〜8年度の3年間限定で拡大中。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": "申請期限の明記なし(完了報告は完了日より1か月以内かつ3月20日まで)。",
+      "deadline": null,
+      "official_url": "https://www.city.yokkaichi.lg.jp/www/contents/1517481533493/index.html"
+    },
+    {
+      "id": "yokkaichi-jokyaku",
+      "name": "木造住宅耐震補強工事費等補助制度(除却工事費補助)",
+      "amount_text": "工事費の23%以内、上限40万円",
+      "amount_max_yen": 400000,
+      "condition_text": "昭和56年5月31日以前の木造住宅で、(1)令和7年度新設の「容易な耐震診断」で倒壊危険性ありと判定、または(2)耐震診断評点0.7未満、のいずれかに該当する解体工事。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": "申請期限の明記なし。",
+      "deadline": null,
+      "official_url": "https://www.city.yokkaichi.lg.jp/www/contents/1696126733610/index.html"
+    },
+    {
+      "id": "yokkaichi-shindan",
+      "name": "木造住宅無料耐震診断",
+      "amount_text": "無料",
+      "amount_max_yen": 0,
+      "condition_text": "昭和56年5月31日までに着工した3階建て以下の木造住宅が対象。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": "⚠️WebSearch要約のみ、公式ページ本文は未確認。",
+      "deadline": null,
+      "official_url": null
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "木造住宅耐震補強設計費補助(上限18万円との情報あり、公式ページ未確認)", "official_url": null}
+  ]
+}

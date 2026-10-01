@@ -1,0 +1,14 @@
+{
+  "municipality_code": "21383",
+  "municipality": "安八町",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.town.anpachi.lg.jp/"
+  ],
+  "items": [],
+  "not_yet_covered": [],
+  "note": "公式サイトのトップページを確認したが、木造住宅耐震診断・耐震改修に関する補助金制度の専用ページを特定できなかった(感震ブレーカー支給事業のページは確認できたが、耐震診断・改修補助の詳細情報ではない)。役場への電話問合せ(0584-64-3111)での確認が必要。"
+}

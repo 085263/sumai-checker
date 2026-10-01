@@ -1,0 +1,47 @@
+{
+  "municipality_code": "24443",
+  "municipality": "大台町",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.pref.mie.lg.jp/JUTAKU/HP/35937031382.htm"
+  ],
+  "items": [
+    {
+      "id": "odai-shindan",
+      "name": "木造住宅無料耐震診断",
+      "amount_text": "無料",
+      "amount_max_yen": 0,
+      "condition_text": "詳細は大台町総務課(0598-82-3781)へ確認が必要。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "⚠️低信頼度:大台町公式サイトのページを特定できず、三重県の市町受付窓口一覧ページ(表形式)からの情報。金額等は要確認。",
+      "deadline": null,
+      "official_url": "https://www.pref.mie.lg.jp/JUTAKU/HP/35937031382.htm"
+    },
+    {
+      "id": "odai-hokyo",
+      "name": "耐震補強工事",
+      "amount_text": "上限157.5万円(三重県一覧表に記載の上限額)",
+      "amount_max_yen": 1575000,
+      "condition_text": "詳細は大台町総務課(0598-82-3781)へ確認が必要。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "⚠️低信頼度:大台町公式サイトのページを特定できず、三重県の市町受付窓口一覧ページ(表形式)からの情報。WebSearchのセッション上限に達したため、公式ページの直接確認ができていない。",
+      "deadline": null,
+      "official_url": "https://www.pref.mie.lg.jp/JUTAKU/HP/35937031382.htm"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "簡易耐震補強工事(一覧表に「あり」とのみ記載、金額不明)", "official_url": "https://www.pref.mie.lg.jp/JUTAKU/HP/35937031382.htm"},
+    {"name": "リフォーム工事(一覧表に「あり」とのみ記載、金額不明)", "official_url": "https://www.pref.mie.lg.jp/JUTAKU/HP/35937031382.htm"}
+  ]
+}

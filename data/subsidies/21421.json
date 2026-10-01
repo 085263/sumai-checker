@@ -1,0 +1,89 @@
+{
+  "municipality_code": "21421",
+  "municipality": "北方町",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.town.kitagata.gifu.jp/soshiki/toshikankyo/1/6/487.html"
+  ],
+  "items": [
+    {
+      "id": "kitagata-wood-shindan",
+      "name": "木造住宅耐震診断事業",
+      "amount_text": "無料(町が耐震診断士を派遣)",
+      "amount_max_yen": 0,
+      "condition_text": "昭和56年5月31日以前に着工された木造住宅。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "申請期限の記載なし、随時受付と思われる。",
+      "deadline": null,
+      "official_url": "https://www.town.kitagata.gifu.jp/soshiki/toshikankyo/1/6/487.html"
+    },
+    {
+      "id": "kitagata-wood-hokyo",
+      "name": "木造住宅耐震補強工事",
+      "amount_text": "工事費120万円以内:61.5% / 超過時:11.5%+60万円。評点1.0以上で上限108.9万円、評点0.7以上1.0未満で上限84万円",
+      "amount_max_yen": 1089000,
+      "condition_text": "昭和56年5月31日以前に着工された木造住宅で、耐震診断に基づく補強工事が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": null,
+      "deadline": null,
+      "official_url": "https://www.town.kitagata.gifu.jp/soshiki/toshikankyo/1/6/487.html"
+    },
+    {
+      "id": "kitagata-mansion",
+      "name": "分譲マンション耐震補強工事",
+      "amount_text": "補助率1/3以内、上限額=床面積×51,700円(免震工法は床面積×86,400円×0.23)",
+      "amount_max_yen": null,
+      "condition_text": "昭和56年以前着工、耐火建築物、延べ床面積1,000㎡以上の分譲マンション。",
+      "eligibility": {
+        "building_types": ["heavy_steel"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "上限額は床面積に応じて変動するため固定額なし。",
+      "deadline": null,
+      "official_url": "https://www.town.kitagata.gifu.jp/soshiki/toshikankyo/1/6/487.html"
+    },
+    {
+      "id": "kitagata-jokyaku",
+      "name": "木造住宅除却工事",
+      "amount_text": "補助率:工事費×0.23、上限97.8万円",
+      "amount_max_yen": 978000,
+      "condition_text": "昭和56年5月31日以前に着工された木造住宅の除却工事。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": null,
+      "deadline": null,
+      "official_url": "https://www.town.kitagata.gifu.jp/soshiki/toshikankyo/1/6/487.html"
+    },
+    {
+      "id": "kitagata-shelter",
+      "name": "耐震シェルター等設置",
+      "amount_text": "補助率2/3、上限30万円",
+      "amount_max_yen": 300000,
+      "condition_text": "昭和56年5月31日以前に着工された木造住宅が対象と推定。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": null,
+      "deadline": null,
+      "official_url": "https://www.town.kitagata.gifu.jp/soshiki/toshikankyo/1/6/487.html"
+    }
+  ],
+  "not_yet_covered": []
+}

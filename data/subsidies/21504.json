@@ -1,0 +1,49 @@
+{
+  "municipality_code": "21504",
+  "municipality": "七宗町",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.pref.gifu.lg.jp/page/838.html",
+    "https://www.pref.gifu.lg.jp/page/807.html",
+    "https://www.pref.gifu.lg.jp/page/426162.html"
+  ],
+  "items": [
+    {
+      "id": "shichiso-wood-taishin-kaishu",
+      "name": "木造住宅耐震改修工事(岐阜県共通制度)",
+      "amount_text": "一般補強工事:上限108.9万円/簡易耐震改修工事:上限84万円(評点0.7以上、家具固定を伴う)",
+      "amount_max_yen": 1089000,
+      "condition_text": "昭和56年5月31日以前に建設(着工)された木造の一戸建て住宅・長屋・共同住宅(店舗兼用住宅も一部対象)。在来軸組工法・枠組壁工法・伝統的構法のみ対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "⚠️低信頼度:七宗町独自の公式ページを直接確認できず、岐阜県公式サイト(建築指導課)の県内共通制度の説明をもとに記録。七宗町での実際の補助率・上限額・申請期限は未確認。町独自の上乗せや金額の違いがある可能性あり。",
+      "deadline": null,
+      "official_url": "https://www.pref.gifu.lg.jp/page/838.html"
+    },
+    {
+      "id": "shichiso-wood-taishin-shindan",
+      "name": "木造住宅耐震診断事業(岐阜県共通制度)",
+      "amount_text": "無料または補助(具体額は町ごとに確認が必要)",
+      "amount_max_yen": null,
+      "condition_text": "昭和56年5月31日以前に建設(着工)された木造住宅。丸太組工法・プレハブ工法等の特殊工法は対象外。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "⚠️低信頼度:七宗町独自の公式ページ未確認。岐阜県公式サイトの県内共通制度の説明のみ。",
+      "deadline": null,
+      "official_url": "https://www.pref.gifu.lg.jp/page/807.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "耐震シェルター等設置工事(岐阜県共通、上限45万円)", "official_url": "https://www.pref.gifu.lg.jp/page/426162.html"},
+    {"name": "七宗町独自の上乗せ制度の有無", "official_url": null}
+  ]
+}

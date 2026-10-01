@@ -1,0 +1,32 @@
+{
+  "municipality_code": "21210",
+  "municipality": "恵那市",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.ena.lg.jp/soshikiichiran/kensetsubu/toshijutakuka/1/10/3/1501.html",
+    "https://www.city.ena.lg.jp/life_scene/sumai_hikkoshi/jutakunikansurushienseido/index.html"
+  ],
+  "items": [
+    {
+      "id": "ena-wood-kaishu",
+      "name": "木造住宅耐震改修工事費補助事業",
+      "amount_text": "対象経費の2分の1以内かつ一戸当たり100万円を限度、さらに10分の4以内かつ一戸当たり57万5千円を限度を加算",
+      "amount_max_yen": 1000000,
+      "condition_text": "昭和56年5月31日以前に着工された木造軸組工法・枠組壁工法・伝統工法の住宅。診断結果の上部構造評点が1.0未満(または0.7未満)で、改修後に1.0以上(または0.7以上)となること。市税滞納がないこと。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "受付期間:令和8年5月11日〜11月27日。予算の範囲内で先着順。問合せ:建築住宅課(0573-26-6839)",
+      "deadline": "2026-11-27",
+      "official_url": "https://www.city.ena.lg.jp/soshikiichiran/kensetsubu/toshijutakuka/1/10/3/1501.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "木造住宅無料耐震診断", "official_url": "https://www.city.ena.lg.jp/ena_diary/19054.html"}
+  ]
+}

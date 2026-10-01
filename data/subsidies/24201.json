@@ -1,0 +1,57 @@
+{
+  "municipality_code": "24201",
+  "municipality": "津市",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [],
+  "items": [
+    {
+      "id": "tsu-taishin-kouji",
+      "name": "木造住宅耐震補強工事費補助(三重県木造住宅耐震補強工事等事業)",
+      "amount_text": "最大150万円程度(推定)",
+      "amount_max_yen": 1500000,
+      "condition_text": "昭和56年(1981年)5月31日以前に建築された木造住宅が対象と推定される(三重県内他市町村の同種制度と同水準)。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": "⚠️低信頼度:公式ページ(city.tsu.mie.jp)に接続できず、WebSearchの要約・比較サイト情報のみを根拠にしている。金額・条件とも未確認、要人力検証。",
+      "deadline": null,
+      "official_url": null
+    },
+    {
+      "id": "tsu-shindan",
+      "name": "木造住宅耐震診断事業",
+      "amount_text": "無料(専門家派遣による診断費用を全額補助)",
+      "amount_max_yen": 0,
+      "condition_text": "詳細未確認。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": "⚠️低信頼度:公式ページ未確認、WebSearch要約のみ。",
+      "deadline": null,
+      "official_url": null
+    },
+    {
+      "id": "tsu-hokyo-keikaku",
+      "name": "木造住宅耐震補強計画事業",
+      "amount_text": "上限18万円",
+      "amount_max_yen": 180000,
+      "condition_text": "詳細未確認。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": "⚠️低信頼度:公式ページ未確認、WebSearch要約のみ。",
+      "deadline": null,
+      "official_url": null
+    },
+    {
+      "id": "tsu-reform-doji",
+      "name": "耐震補強同時リフォーム工事補助",
+      "amount_text": "工事費の1/3、上限20万円/戸",
+      "amount_max_yen": 200000,
+      "condition_text": "耐震補強工事と同時に行う機能・性能向上リフォーム(屋根・外壁・サッシ・内装・キッチン・浴室等)が対象。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": "⚠️低信頼度:公式ページ未確認、WebSearch要約のみ。",
+      "deadline": null,
+      "official_url": null
+    }
+  ],
+  "not_yet_covered": [],
+  "research_note": "津市公式サイト(www.city.tsu.mie.jp)への接続に失敗(DNS解決エラー)。WebSearch予算も本セッション上限に達したため追加調査不可。本ファイルは比較サイト(reform-hojo.jp等)の要約のみに基づく暫定データであり、信頼度が低い。優先的に人力確認が必要。"
+}

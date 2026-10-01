@@ -1,0 +1,44 @@
+{
+  "municipality_code": "21341",
+  "municipality": "養老町",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [],
+  "items": [
+    {
+      "id": "yoro-wood-taishin-kaishu",
+      "name": "養老町木造住宅に係る住宅耐震改修工事費助成",
+      "amount_text": "上限25万円(WebSearch要約のみ、他自治体比でかなり低額なため要確認)",
+      "amount_max_yen": 250000,
+      "condition_text": "詳細不明(公式ページ未確認)。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": null,
+        "built_after": null
+      },
+      "note": "⚠️低信頼度:公式サイト(town.yoro.gifu.jp)トップページから該当ページへのリンクを辿れず、WebSearchの要約のみに基づく。金額(上限25万円)は他自治体の同種制度(100万円超が一般的)と比べ著しく低く、誤情報の可能性が高い。要電話確認。",
+      "deadline": null,
+      "official_url": null
+    },
+    {
+      "id": "yoro-taishin-shindan",
+      "name": "養老町建築物耐震診断事業費助成",
+      "amount_text": "工事費の2/3、限度額は一戸建て住宅13万6千円、その他建築物は最大150万円(数値の単位・桁に誤りの疑いあり)",
+      "amount_max_yen": null,
+      "condition_text": "昭和56年5月31日以前に着工した建築物が対象。",
+      "eligibility": {
+        "building_types": ["wood", "light_steel", "heavy_steel"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "⚠️低信頼度:金額の記載がWebSearch要約内で不整合(住宅限度額が診断事業としては低すぎる可能性)。公式ページ未確認のため amount_max_yen は null とした。要電話確認。",
+      "deadline": null,
+      "official_url": null
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "養老町分譲マンションに係る住宅耐震改修工事費助成", "official_url": null}
+  ]
+}

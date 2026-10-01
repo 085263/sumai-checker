@@ -1,0 +1,45 @@
+{
+  "municipality_code": "21361",
+  "municipality": "垂井町",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.town.tarui.lg.jp/life/1/13/56/",
+    "https://www.town.tarui.lg.jp/page/1862.html"
+  ],
+  "items": [
+    {
+      "id": "tarui-free-shindan",
+      "name": "木造住宅無料耐震診断",
+      "amount_text": "無料(岐阜県木造住宅耐震相談士を無料派遣)",
+      "amount_max_yen": 0,
+      "condition_text": "昭和56年5月31日以前に着工された木造の1戸建て住宅が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "申請期限の記載は確認できなかった。",
+      "deadline": null,
+      "official_url": "https://www.town.tarui.lg.jp/page/1862.html"
+    },
+    {
+      "id": "tarui-hokyo-koji",
+      "name": "木造住宅耐震補強工事費助成",
+      "amount_text": "評点1.0以上化:工事費120万円以内は61.5%、120万円超は11.5%+60万円(上限101.9万円)/ 評点0.7以上化:120万円以内は61.5%、120万円超は11.5%+60万円(上限84万円)",
+      "amount_max_yen": 1019000,
+      "condition_text": "昭和56年5月31日以前に着工された木造住宅で、所有者が実施する耐震補強工事が対象。町税の滞納がないこと。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "申請期限の記載は確認できなかった。問合先:都市計画課 都市計画整備係(0584-22-7513)",
+      "deadline": null,
+      "official_url": "https://www.town.tarui.lg.jp/page/1862.html"
+    }
+  ],
+  "not_yet_covered": []
+}

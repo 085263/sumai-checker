@@ -1,0 +1,74 @@
+{
+  "municipality_code": "24214",
+  "municipality": "いなべ市",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.inabe.mie.jp/kurashi/jutaku/1007395.html"
+  ],
+  "items": [
+    {
+      "id": "inabe-shindan",
+      "name": "木造住宅無料耐震診断",
+      "amount_text": "無料",
+      "amount_max_yen": 0,
+      "condition_text": "昭和56年5月31日以前に着工された木造住宅(3階以下、延床面積の2分の1以上が居住用)。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "公式ページで確認。",
+      "deadline": "2026-12-15",
+      "official_url": "https://www.city.inabe.mie.jp/kurashi/jutaku/1007395.html"
+    },
+    {
+      "id": "inabe-sekkei",
+      "name": "耐震補強設計費補助制度",
+      "amount_text": "上限18万円",
+      "amount_max_yen": 180000,
+      "condition_text": "耐震評点1.0未満の住宅を1.0以上にする補強設計。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "公式ページで確認。契約前に住宅課への相談が必要。",
+      "deadline": "2026-12-15",
+      "official_url": "https://www.city.inabe.mie.jp/kurashi/jutaku/1007395.html"
+    },
+    {
+      "id": "inabe-koji",
+      "name": "耐震補強工事費補助制度",
+      "amount_text": "上限115万円(リフォーム併施の場合は上限20万円追加)",
+      "amount_max_yen": 1150000,
+      "condition_text": "耐震評点0.7未満の住宅を1.0以上にする補強工事。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "公式ページで確認。契約前に住宅課への相談が必要。",
+      "deadline": "2026-12-15",
+      "official_url": "https://www.city.inabe.mie.jp/kurashi/jutaku/1007395.html"
+    },
+    {
+      "id": "inabe-jokyaku",
+      "name": "空き家除却工事費補助制度",
+      "amount_text": "上限40万円",
+      "amount_max_yen": 400000,
+      "condition_text": "耐震評点0.7未満の空き家の除却工事。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "公式ページで確認。",
+      "deadline": "2026-12-15",
+      "official_url": "https://www.city.inabe.mie.jp/kurashi/jutaku/1007395.html"
+    }
+  ],
+  "not_yet_covered": []
+}

@@ -1,0 +1,34 @@
+{
+  "municipality_code": "21207",
+  "municipality": "美濃市",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.mino.gifu.jp/kurashi/hojyo/",
+    "https://www.city.mino.gifu.jp/docs/608.html",
+    "https://www.city.mino.gifu.jp/docs/1578.html"
+  ],
+  "items": [
+    {
+      "id": "mino-wood-taishin",
+      "name": "木造住宅耐震補強工事費補助事業",
+      "amount_text": "評点1.0補強:工事費120万円以内は対象経費の90%(上限117万5千円)、120万円超は対象経費の40%+60万円。評点0.7補強(簡易):上限84万円",
+      "amount_max_yen": 1175000,
+      "condition_text": "昭和56年5月31日以前に着工された木造住宅で、耐震診断結果が評点1.0未満。岐阜県木造住宅耐震相談士による設計監理が必要。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "申請期限はページに記載なし、予算上限に達し次第受付終了。問合せ:都市整備課(0575-33-1122)",
+      "deadline": null,
+      "official_url": "https://www.city.mino.gifu.jp/docs/608.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "建築物耐震診断事業費補助事業", "official_url": "https://www.city.mino.gifu.jp/kurashi/hojyo/"},
+    {"name": "木造住宅耐震除却工事費補助事業", "official_url": "https://www.city.mino.gifu.jp/docs/1578.html"}
+  ]
+}

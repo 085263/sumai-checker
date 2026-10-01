@@ -1,0 +1,46 @@
+{
+  "municipality_code": "21220",
+  "municipality": "下呂市",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.gero.lg.jp/soshiki/19/1608.html"
+  ],
+  "items": [
+    {
+      "id": "gero-wood-taishin-kaishu",
+      "name": "木造住宅耐震改修工事費補助事業",
+      "amount_text": "最高117万5千円",
+      "amount_max_yen": 1175000,
+      "condition_text": "上部構造評点1.0未満の住宅で補強後1.0以上、または評点0.7未満で補強後0.7以上となる耐震改修工事が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "⚠️低信頼度:公式ページ(https://www.city.gero.lg.jp/soshiki/19/1608.html)が取得時点でHTTP 404となり直接確認できず、WebSearchの要約情報のみに基づく。ページ構成が変更された可能性があり要再確認。",
+      "deadline": null,
+      "official_url": "https://www.city.gero.lg.jp/soshiki/19/1608.html"
+    },
+    {
+      "id": "gero-wood-taishin-reform",
+      "name": "木造住宅耐震リフォーム工事費補助事業",
+      "amount_text": "耐震診断・設計・改修工事費用の1/3、上限50万円",
+      "amount_max_yen": 500000,
+      "condition_text": "市内の木造住宅が対象(詳細条件は公式ページ未確認)。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": null,
+        "built_after": null
+      },
+      "note": "⚠️低信頼度:公式ページ未確認、WebSearchの要約情報のみ。",
+      "deadline": null,
+      "official_url": "https://www.city.gero.lg.jp/soshiki/19/1608.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "木造住宅無料耐震診断事業", "official_url": "https://www.city.gero.lg.jp/soshiki/19/1608.html"}
+  ]
+}

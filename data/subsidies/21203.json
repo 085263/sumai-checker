@@ -1,0 +1,31 @@
+{
+  "municipality_code": "21203",
+  "municipality": "高山市",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.takayama.lg.jp/kurashi/1000013/1000080/1014291/1004129/1004132.html"
+  ],
+  "items": [
+    {
+      "id": "takayama-taishin-kaishu",
+      "name": "耐震改修工事費への補助",
+      "amount_text": "基準改修(改修後評点1.0以上):費用の3分の1以内、上限180万円(補助率10分の10)。基準未満改修(改修後評点0.7以上):費用の10分の3以内、上限120万円。",
+      "amount_max_yen": 1800000,
+      "condition_text": "昭和56年(1981年)5月31日以前に建設された木造住宅で、在来軸組み工法・伝統的工法・枠組み壁工法のいずれかであり、階数3以下・延床面積500平方メートル以下等の条件を満たすもの。所有者自身が実施する工事が対象。防火地域・準防火地域は補助限度額を30万円上乗せ。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "申請期限はページに記載なし。詳細は都市政策部建築住宅課(0577-35-3159)へ要確認。伝統構法木造建築物は別枠で上限180万円・補助率10分の10の制度あり。",
+      "deadline": null,
+      "official_url": "https://www.city.takayama.lg.jp/kurashi/1000013/1000080/1014291/1004129/1004132.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "伝統構法木造建築物耐震改修工事補助", "official_url": "https://www.city.takayama.lg.jp/kurashi/1000026/1003989.html"}
+  ]
+}

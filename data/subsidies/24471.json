@@ -1,0 +1,80 @@
+{
+  "municipality_code": "24471",
+  "municipality": "大紀町",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.town.taiki.mie.jp/soshiki/bosai_anzen/gyomu/sumai/537.html"
+  ],
+  "items": [
+    {
+      "id": "taiki-free-shindan",
+      "name": "木造住宅無料耐震診断",
+      "amount_text": "無料",
+      "amount_max_yen": 0,
+      "condition_text": "昭和56年5月31日以前に着工された木造住宅で、3階以下、延べ面積の半分以上が住宅用であること。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": "今年度の受付は終了済みとの記載あり(取得時点)。",
+      "deadline": null,
+      "official_url": "https://www.town.taiki.mie.jp/soshiki/bosai_anzen/gyomu/sumai/537.html"
+    },
+    {
+      "id": "taiki-sekkei",
+      "name": "木造住宅耐震補強設計事業補助金",
+      "amount_text": "上限18万円(精密診断法の場合はさらに16万円上乗せ、最大34万円)",
+      "amount_max_yen": 340000,
+      "condition_text": "耐震診断の結果、評点1.0未満と診断された木造住宅の補強設計が対象。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": "取得時点で受付終了の記載あり。",
+      "deadline": null,
+      "official_url": "https://www.town.taiki.mie.jp/soshiki/bosai_anzen/gyomu/sumai/537.html"
+    },
+    {
+      "id": "taiki-hokyo",
+      "name": "木造住宅耐震補強等事業補助金",
+      "amount_text": "上限150万円(国50万円+県・町50万円を含む枠組み)",
+      "amount_max_yen": 1500000,
+      "condition_text": "耐震診断の結果、評点0.7未満と診断された木造住宅の補強工事が対象。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": "取得時点で受付終了の記載あり。",
+      "deadline": null,
+      "official_url": "https://www.town.taiki.mie.jp/soshiki/bosai_anzen/gyomu/sumai/537.html"
+    },
+    {
+      "id": "taiki-reform",
+      "name": "リフォーム工事補助金",
+      "amount_text": "工事費の3分の1、上限20万円",
+      "amount_max_yen": 200000,
+      "condition_text": "評点0.7未満で補強設計を受けた住宅が対象。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": "取得時点で受付終了の記載あり。",
+      "deadline": null,
+      "official_url": "https://www.town.taiki.mie.jp/soshiki/bosai_anzen/gyomu/sumai/537.html"
+    },
+    {
+      "id": "taiki-jokyaku",
+      "name": "木造住宅空家除却工事補助金",
+      "amount_text": "工事費の23%、上限20万7千円",
+      "amount_max_yen": 207000,
+      "condition_text": "評点0.7未満と診断された空き家の除却工事が対象。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": "受付期間:5月1日〜12月28日。",
+      "deadline": "2026-12-28",
+      "official_url": "https://www.town.taiki.mie.jp/soshiki/bosai_anzen/gyomu/sumai/537.html"
+    },
+    {
+      "id": "taiki-shelter",
+      "name": "耐震シェルター等設置工事補助金",
+      "amount_text": "上限100万円",
+      "amount_max_yen": 1000000,
+      "condition_text": "評点0.7未満と診断された住宅が対象。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": "受付期間:5月1日〜12月28日。",
+      "deadline": "2026-12-28",
+      "official_url": "https://www.town.taiki.mie.jp/soshiki/bosai_anzen/gyomu/sumai/537.html"
+    }
+  ],
+  "not_yet_covered": []
+}

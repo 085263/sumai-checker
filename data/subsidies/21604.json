@@ -1,0 +1,33 @@
+{
+  "municipality_code": "21604",
+  "municipality": "白川村",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://sumai-hojo.com/category/tokai/gifu/%E7%99%BD%E5%B7%9D%E6%9D%91/",
+    "https://www.pref.gifu.lg.jp/page/807.html"
+  ],
+  "items": [
+    {
+      "id": "shirakawa-mura-wood-taishin-shindan",
+      "name": "白川村木造住宅耐震診断事業(無料派遣委託事業)",
+      "amount_text": "補助率100%、上限4万5000円(専門家の無料派遣)",
+      "amount_max_yen": 45000,
+      "condition_text": "昭和56年5月31日以前に建設された木造住宅。施工業者の制限なし。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "⚠️低信頼度:村公式ページを直接確認できず、第三者サイトの数値を記録。",
+      "deadline": null,
+      "official_url": null
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "木造住宅耐震改修工事(岐阜県共通制度、上限108.9万円相当)の村独自運用", "official_url": "https://www.pref.gifu.lg.jp/page/838.html"},
+    {"name": "耐震シェルター等設置工事の有無", "official_url": null}
+  ]
+}

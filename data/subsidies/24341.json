@@ -1,0 +1,58 @@
+{
+  "municipality_code": "24341",
+  "municipality": "菰野町",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www2.town.komono.mie.jp/soshiki/10/1780.html"
+  ],
+  "items": [
+    {
+      "id": "komono-shindan",
+      "name": "木造住宅耐震診断",
+      "amount_text": "無料",
+      "amount_max_yen": 0,
+      "condition_text": "昭和56年5月31日以前に建築された3階建て以下の木造住宅(共同住宅除く)。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": "申請期限:令和8年(2026年)5月15日〜5月29日、受付予定20件(先着順)。",
+      "deadline": "2026-05-29",
+      "official_url": "https://www2.town.komono.mie.jp/soshiki/10/1780.html"
+    },
+    {
+      "id": "komono-sekkei",
+      "name": "耐震補強設計",
+      "amount_text": "上限18万円(精密診断法は34万円)",
+      "amount_max_yen": 340000,
+      "condition_text": "耐震診断評点が1.0未満の住宅を1.0以上にする設計が対象。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": null,
+      "deadline": null,
+      "official_url": "https://www2.town.komono.mie.jp/soshiki/10/1780.html"
+    },
+    {
+      "id": "komono-hokyo",
+      "name": "耐震補強工事",
+      "amount_text": "県町負担上限92.5万円+国負担上限57.5万円(リフォーム同時施工で20万円追加可)",
+      "amount_max_yen": 1500000,
+      "condition_text": "耐震診断評点0.7未満を1.0以上にする工事で、耐震診断・耐震補強設計を実施済みの木造住宅が対象。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": null,
+      "deadline": null,
+      "official_url": "https://www2.town.komono.mie.jp/soshiki/10/1780.html"
+    },
+    {
+      "id": "komono-jokyaku",
+      "name": "木造住宅除却工事",
+      "amount_text": "上限40万円",
+      "amount_max_yen": 400000,
+      "condition_text": "耐震診断評点0.7未満で、敷地境界線までの距離が近い、または密集市街地内の住宅が対象。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": null,
+      "deadline": null,
+      "official_url": "https://www2.town.komono.mie.jp/soshiki/10/1780.html"
+    }
+  ],
+  "not_yet_covered": []
+}

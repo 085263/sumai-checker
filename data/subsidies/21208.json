@@ -1,0 +1,46 @@
+{
+  "municipality_code": "21208",
+  "municipality": "瑞浪市",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.mizunami.lg.jp/kurashi/sumai/1001153/1001591.html"
+  ],
+  "items": [
+    {
+      "id": "mizunami-wood-shindan",
+      "name": "木造住宅耐震診断(建築物等耐震化促進事業)",
+      "amount_text": "無料(市が派遣する耐震相談士が実施)",
+      "amount_max_yen": 0,
+      "condition_text": "昭和56年5月31日以前に着工された木造住宅。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": null,
+      "deadline": null,
+      "official_url": "https://www.city.mizunami.lg.jp/kurashi/sumai/1001153/1001591.html"
+    },
+    {
+      "id": "mizunami-wood-kaishu",
+      "name": "木造住宅耐震改修工事補助",
+      "amount_text": "一般改修(評点1.0以上):上限117万5千円 / 簡易改修(評点0.7以上):上限84万円",
+      "amount_max_yen": 1175000,
+      "condition_text": "昭和56年5月31日以前に着工された木造住宅。申請者は市税を滞納していないこと。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "受付期間:令和8年5月7日〜令和8年11月30日。募集件数に限りがあるため事前相談推奨。",
+      "deadline": "2026-11-30",
+      "official_url": "https://www.city.mizunami.lg.jp/kurashi/sumai/1001153/1001591.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "建築物耐震診断(木造以外)", "official_url": "https://www.city.mizunami.lg.jp/kurashi/sumai/1001153/1001591.html"}
+  ]
+}

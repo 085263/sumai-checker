@@ -1,0 +1,47 @@
+{
+  "municipality_code": "21212",
+  "municipality": "土岐市",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.toki.lg.jp/kurashi/sumai/1004714/1005471/1003766.html",
+    "https://www.city.toki.lg.jp/kurashi/sumai/1004714/1005471/1003759.html"
+  ],
+  "items": [
+    {
+      "id": "toki-wood-shindan",
+      "name": "木造住宅無料耐震診断事業",
+      "amount_text": "無料",
+      "amount_max_yen": 0,
+      "condition_text": "昭和56年5月31日以前に着工された木造の一戸建て住宅。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": null,
+      "deadline": null,
+      "official_url": "https://www.city.toki.lg.jp/kurashi/sumai/1004714/1005471/1003759.html"
+    },
+    {
+      "id": "toki-wood-hokyo",
+      "name": "木造住宅耐震補強工事費補助事業",
+      "amount_text": "評点1.0以上:最高117万5千円 / 評点0.7以上:最高84万円",
+      "amount_max_yen": 1175000,
+      "condition_text": "昭和56年5月31日以前に着工された木造一戸建て住宅(在来軸組構法・伝統的構法・枠組壁工法、3階建て以下)。市税を滞納していないこと。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "令和8年度募集期間:5月19日〜11月30日。募集件数は予算上限に達するまで(5件程度)。問合せ:都市計画課(0572-54-1165)",
+      "deadline": "2026-11-30",
+      "official_url": "https://www.city.toki.lg.jp/kurashi/sumai/1004714/1005471/1003766.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "空き家リフォーム補助金", "official_url": "https://www.city.toki.lg.jp/kurashi/sumai/1004714/1004715/1004291.html"}
+  ]
+}

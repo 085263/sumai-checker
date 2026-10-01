@@ -1,0 +1,96 @@
+{
+  "municipality_code": "24203",
+  "municipality": "伊勢市",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.ise.mie.jp/bousai_kyukyu/bousai/hojo/index.html",
+    "https://www.city.ise.mie.jp/bousai_kyukyu/bousai/hojo/1013783.html",
+    "https://www.city.ise.mie.jp/bousai_kyukyu/bousai/hojo/1004916.html",
+    "https://www.city.ise.mie.jp/bousai_kyukyu/bousai/hojo/1004977.html"
+  ],
+  "items": [
+    {
+      "id": "ise-shindan",
+      "name": "木造住宅の無料耐震診断",
+      "amount_text": "無料",
+      "amount_max_yen": 0,
+      "condition_text": "昭和56年5月31日以前に着工(完成含む)の木造住宅(在来軸組構法・伝統的構法・枠組壁工法)で3階以下。丸太組工法・プレハブは対象外。併用住宅は住宅部分が延床面積の過半。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": "随時受付、予算額到達で終了。",
+      "deadline": null,
+      "official_url": "https://www.city.ise.mie.jp/bousai_kyukyu/bousai/hojo/1004977.html"
+    },
+    {
+      "id": "ise-sekkei",
+      "name": "木造住宅耐震補強設計費補助",
+      "amount_text": "上限18万円(精密診断法の場合34万円)",
+      "amount_max_yen": 340000,
+      "condition_text": "昭和56年5月31日以前の木造住宅、診断評点0.7未満から1.0以上への改善設計。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": "随時受付、予算額到達で終了。交付決定から6か月以内に完了報告必要。",
+      "deadline": null,
+      "official_url": "https://www.city.ise.mie.jp/bousai_kyukyu/bousai/hojo/1013783.html"
+    },
+    {
+      "id": "ise-hokyo-kouji",
+      "name": "木造住宅耐震補強工事費補助",
+      "amount_text": "上限157.5万円",
+      "amount_max_yen": 1575000,
+      "condition_text": "昭和56年5月31日以前の木造住宅、診断評点0.7未満から1.0以上への改修工事。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": "随時受付、予算額到達で終了。",
+      "deadline": null,
+      "official_url": "https://www.city.ise.mie.jp/bousai_kyukyu/bousai/hojo/1013783.html"
+    },
+    {
+      "id": "ise-shelter",
+      "name": "耐震シェルター等設置補助",
+      "amount_text": "上限100万円",
+      "amount_max_yen": 1000000,
+      "condition_text": "昭和56年5月31日以前の木造住宅、原則1階部分への設置。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": "随時受付、予算額到達で終了。",
+      "deadline": null,
+      "official_url": "https://www.city.ise.mie.jp/bousai_kyukyu/bousai/hojo/1013783.html"
+    },
+    {
+      "id": "ise-akiya-jokyaku",
+      "name": "空き家除却工事補助",
+      "amount_text": "上限30万円",
+      "amount_max_yen": 300000,
+      "condition_text": "評点0.7未満で、居住者の転居・死亡等により空き家となった昭和56年5月31日以前の木造住宅。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": "随時受付、予算額到達で終了。",
+      "deadline": null,
+      "official_url": "https://www.city.ise.mie.jp/bousai_kyukyu/bousai/hojo/1013783.html"
+    },
+    {
+      "id": "ise-reform",
+      "name": "耐震補強同時リフォーム工事補助",
+      "amount_text": "上限20万円",
+      "amount_max_yen": 200000,
+      "condition_text": "耐震補強工事と同時に行うリフォーム工事。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": "随時受付、予算額到達で終了。",
+      "deadline": null,
+      "official_url": "https://www.city.ise.mie.jp/bousai_kyukyu/bousai/hojo/1013783.html"
+    },
+    {
+      "id": "ise-block-fence",
+      "name": "ブロック塀等撤去事業補助金",
+      "amount_text": "標準事業費(1mあたり1万円)と工事費の低い方の1/2、上限10万円",
+      "amount_max_yen": 100000,
+      "condition_text": "市内の道路等に面する高さ1m以上のブロック塀等で、全部撤去または高さ0.4m以下にする工事。",
+      "eligibility": {"building_types": ["wood", "light_steel", "heavy_steel"], "built_before": null, "built_after": null},
+      "note": "随時受付、予算額到達で終了。交付決定前の契約は補助対象外。",
+      "deadline": null,
+      "official_url": "https://www.city.ise.mie.jp/bousai_kyukyu/bousai/hojo/1004916.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "伊勢市建築物耐震改修促進計画(非木造建築物向け制度の有無要確認)", "official_url": "https://www.city.ise.mie.jp/bousai_kyukyu/bousai/hojo/1004917.html"}
+  ]
+}

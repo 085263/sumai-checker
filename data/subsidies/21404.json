@@ -1,0 +1,60 @@
+{
+  "municipality_code": "21404",
+  "municipality": "池田町",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.town.gifu-ikeda.lg.jp/0000000477.html",
+    "https://www.town.gifu-ikeda.lg.jp/0000001304.html"
+  ],
+  "items": [
+    {
+      "id": "ikeda-free-shindan",
+      "name": "木造住宅無料耐震診断事業",
+      "amount_text": "無料",
+      "amount_max_yen": 0,
+      "condition_text": "昭和56年5月31日以前に着工された一戸建て木造住宅。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "⚠️令和7年度の受付期間は4月1日〜12月8日と確認。2026年度(令和8年度)の期間は未確認のため要再確認。",
+      "deadline": null,
+      "official_url": "https://www.town.gifu-ikeda.lg.jp/0000000477.html"
+    },
+    {
+      "id": "ikeda-wood-kaishu",
+      "name": "木造住宅耐震改修工事費補助事業",
+      "amount_text": "工事費120万円以内:工事費の90% / 120〜125万円:工事費×40%+60万円 / 125万円超:定額110万円、上限110万円",
+      "amount_max_yen": 1100000,
+      "condition_text": "耐震診断で評点1.0未満のものを1.0以上にする改修工事が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "⚠️令和7年度の受付は終了済みと確認。2026年度(令和8年度)の新規受付有無・期間は未確認のため要再確認。",
+      "deadline": null,
+      "official_url": "https://www.town.gifu-ikeda.lg.jp/0000000477.html"
+    },
+    {
+      "id": "ikeda-non-wood-shindan",
+      "name": "建築物耐震診断事業(非木造)",
+      "amount_text": "補助対象費用(上限150万円)の3分の2以内、上限100万円",
+      "amount_max_yen": 1000000,
+      "condition_text": "昭和56年5月31日以前に着工された木造住宅以外の建築物。",
+      "eligibility": {
+        "building_types": ["light_steel", "heavy_steel"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "⚠️令和7年度の受付は終了済みと確認。2026年度の状況は要再確認。",
+      "deadline": null,
+      "official_url": "https://www.town.gifu-ikeda.lg.jp/0000000477.html"
+    }
+  ],
+  "not_yet_covered": []
+}

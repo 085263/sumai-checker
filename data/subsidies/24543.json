@@ -1,0 +1,74 @@
+{
+  "municipality_code": "24543",
+  "municipality": "紀北町",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.town.mie-kihoku.lg.jp/2025/08/28/11393/",
+    "https://www.town.mie-kihoku.lg.jp/2026/05/01/11389/",
+    "https://www.town.mie-kihoku.lg.jp/hojokin-joseikin/"
+  ],
+  "items": [
+    {
+      "id": "kihoku-free-shindan",
+      "name": "無料耐震診断",
+      "amount_text": "無料",
+      "amount_max_yen": 0,
+      "condition_text": "昭和56年5月31日以前に着工された木造住宅(3階建て以下)が対象。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": "募集期間:令和8年5月13日〜29日、募集10件。",
+      "deadline": "2026-05-29",
+      "official_url": "https://www.town.mie-kihoku.lg.jp/2025/08/28/11393/"
+    },
+    {
+      "id": "kihoku-sekkei",
+      "name": "耐震改修設計補助",
+      "amount_text": "上限18万円(精密診断法でさらに最大16万円上乗せ)",
+      "amount_max_yen": 340000,
+      "condition_text": "事前に耐震診断を受診していることが条件。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": "募集期間:令和8年5月13日〜29日、募集2件。",
+      "deadline": "2026-05-29",
+      "official_url": "https://www.town.mie-kihoku.lg.jp/2025/08/28/11393/"
+    },
+    {
+      "id": "kihoku-kaishu",
+      "name": "耐震改修工事補助",
+      "amount_text": "国補助57.5万円+町・県補助100万円(町内業者施工の場合さらに20万円加算、最大177.5万円)",
+      "amount_max_yen": 1775000,
+      "condition_text": "1ヘクタール当たり10戸以上の建て込み区域にあり、事前に補強設計を実施済みであること。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": "募集期間:令和8年8月3日〜18日、募集2件。",
+      "deadline": "2026-08-18",
+      "official_url": "https://www.town.mie-kihoku.lg.jp/2025/08/28/11393/"
+    },
+    {
+      "id": "kihoku-reform",
+      "name": "リフォーム工事補助",
+      "amount_text": "工事費の3分の1、上限20万円",
+      "amount_max_yen": 200000,
+      "condition_text": "耐震改修工事と同時施工が条件。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": null,
+      "deadline": null,
+      "official_url": "https://www.town.mie-kihoku.lg.jp/2025/08/28/11393/"
+    },
+    {
+      "id": "kihoku-jokyaku",
+      "name": "木造住宅の解体工事補助",
+      "amount_text": "解体工事費の23%、上限40万円",
+      "amount_max_yen": 400000,
+      "condition_text": "昭和56年5月31日以前着工、評点0.7未満、1ヘクタール当たり10戸以上の建て込み区域内の住宅が対象。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": "募集期間:令和8年7月21日〜8月6日、募集20件(超過時は8月20日抽選)。",
+      "deadline": "2026-08-06",
+      "official_url": "https://www.town.mie-kihoku.lg.jp/2026/05/01/11389/"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "耐震シェルター設置事業費補助金(金額未確認)", "official_url": "https://www.town.mie-kihoku.lg.jp/2019/04/01/364/"},
+    {"name": "ガラスフィルム補助金(65歳以上等対象、金額未確認)", "official_url": "https://www.town.mie-kihoku.lg.jp/2023/05/01/360/"}
+  ]
+}

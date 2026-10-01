@@ -1,0 +1,46 @@
+{
+  "municipality_code": "24441",
+  "municipality": "多気町",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.town.taki.mie.jp/life/soshiki/somu/anzen_anshin/4/3401.html"
+  ],
+  "items": [
+    {
+      "id": "taki-shelter",
+      "name": "耐震シェルター設置事業費補助金",
+      "amount_text": "設置費の半額(上限40万円)。災害時要援護者世帯は3分の2(上限40万円)",
+      "amount_max_yen": 400000,
+      "condition_text": "昭和56年5月31日以前に着工または完成している木造住宅で、階数が3階以下。過去に同補助金や耐震補強補助金の交付を受けていないこと。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "申請期限の記載なし。",
+      "deadline": null,
+      "official_url": "https://www.town.taki.mie.jp/life/soshiki/somu/anzen_anshin/4/3401.html"
+    },
+    {
+      "id": "taki-furniture",
+      "name": "家具転倒防止器具購入補助金",
+      "amount_text": "購入費の半額(上限5,000円)。災害時要援護者世帯は全額(上限10,000円)",
+      "amount_max_yen": 10000,
+      "condition_text": "町内在住者が自宅の家具固定器具を購入する場合。",
+      "eligibility": {
+        "building_types": ["wood", "light_steel", "heavy_steel"],
+        "built_before": null,
+        "built_after": null
+      },
+      "note": "耐震改修そのものではなく家具固定の補助。申請期限の記載なし。",
+      "deadline": null,
+      "official_url": "https://www.town.taki.mie.jp/life/soshiki/somu/anzen_anshin/4/3401.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "木造住宅耐震診断・耐震補強設計・耐震補強工事(金額等は公式ページに記載なし、要電話確認:環境生活課 0598-38-1152)", "official_url": "https://www.town.taki.mie.jp/life/soshiki/somu/anzen_anshin/4/3401.html"}
+  ]
+}

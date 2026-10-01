@@ -1,0 +1,91 @@
+{
+  "municipality_code": "24324",
+  "municipality": "東員町",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.town.toin.lg.jp/kurashi_tetsuzuki/sumai/2/1970.html"
+  ],
+  "items": [
+    {
+      "id": "toin-shindan",
+      "name": "木造住宅耐震診断等事業",
+      "amount_text": "無料",
+      "amount_max_yen": 0,
+      "condition_text": "昭和56年5月31日以前に着工の3階建て以下の木造住宅。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": "受付件数に限りあり(具体的期限は公式ページに記載なし)。",
+      "deadline": null,
+      "official_url": "https://www.town.toin.lg.jp/kurashi_tetsuzuki/sumai/2/1970.html"
+    },
+    {
+      "id": "toin-sekkei",
+      "name": "木造住宅耐震補強設計補助事業",
+      "amount_text": "上限18万円(精密診断法は34万円)",
+      "amount_max_yen": 340000,
+      "condition_text": "昭和56年5月31日以前着工、耐震評点1.0未満の木造住宅。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": null,
+      "deadline": null,
+      "official_url": "https://www.town.toin.lg.jp/kurashi_tetsuzuki/sumai/2/1970.html"
+    },
+    {
+      "id": "toin-hokyo",
+      "name": "木造住宅耐震補強補助事業",
+      "amount_text": "上限150万円",
+      "amount_max_yen": 1500000,
+      "condition_text": "昭和56年5月31日以前着工、耐震評点0.7未満の木造住宅。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": null,
+      "deadline": null,
+      "official_url": "https://www.town.toin.lg.jp/kurashi_tetsuzuki/sumai/2/1970.html"
+    },
+    {
+      "id": "toin-kani-hokyo",
+      "name": "木造住宅簡易耐震補強補助事業",
+      "amount_text": "上限30万円",
+      "amount_max_yen": 300000,
+      "condition_text": "昭和56年5月31日以前着工、耐震評点0.7未満の木造住宅。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": null,
+      "deadline": null,
+      "official_url": "https://www.town.toin.lg.jp/kurashi_tetsuzuki/sumai/2/1970.html"
+    },
+    {
+      "id": "toin-reform",
+      "name": "木造住宅耐震リフォーム補助事業",
+      "amount_text": "上限60万円",
+      "amount_max_yen": 600000,
+      "condition_text": "耐震補強工事と同時に行う、性能向上目的のリフォーム工事のみ対象。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": null,
+      "deadline": null,
+      "official_url": "https://www.town.toin.lg.jp/kurashi_tetsuzuki/sumai/2/1970.html"
+    },
+    {
+      "id": "toin-jokyaku",
+      "name": "木造空き家除却補助事業",
+      "amount_text": "上限40万円",
+      "amount_max_yen": 400000,
+      "condition_text": "昭和56年5月31日以前着工、耐震評点0.7未満、概ね1年以上の空き家。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": null,
+      "deadline": null,
+      "official_url": "https://www.town.toin.lg.jp/kurashi_tetsuzuki/sumai/2/1970.html"
+    },
+    {
+      "id": "toin-shelter",
+      "name": "耐震シェルター設置補助",
+      "amount_text": "上限50万円",
+      "amount_max_yen": 500000,
+      "condition_text": "昭和56年5月31日以前着工、3階建て以下の木造住宅。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": null,
+      "deadline": null,
+      "official_url": "https://www.town.toin.lg.jp/kurashi_tetsuzuki/sumai/2/1970.html"
+    }
+  ],
+  "not_yet_covered": []
+}

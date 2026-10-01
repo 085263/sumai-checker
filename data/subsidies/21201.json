@@ -1,0 +1,29 @@
+{
+  "municipality_code": "21201",
+  "municipality": "岐阜市",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.gifu.lg.jp/kurashi/sumai/1002456/1002463/1002467.html"
+  ],
+  "items": [
+    {
+      "id": "gifu-wood-taishin",
+      "name": "木造住宅耐震改修工事事業",
+      "amount_text": "改修後の評点が1.0以上となる工事:上限200万円(利子補給制度併用の場合は142.5万円)。改修後の評点が0.7以上となる工事:上限84万円。",
+      "amount_max_yen": 2000000,
+      "condition_text": "昭和56年(1981年)5月31日以前に着工された木造住宅。建防協マニュアルに基づく耐震診断が必須。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "申請期間:令和8年(2026年)5月7日〜10月30日。予算上限に達した時点で先着順受付終了。",
+      "deadline": "2026-10-30",
+      "official_url": "https://www.city.gifu.lg.jp/kurashi/sumai/1002456/1002463/1002467.html"
+    }
+  ],
+  "not_yet_covered": []
+}

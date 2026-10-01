@@ -1,0 +1,58 @@
+{
+  "municipality_code": "24205",
+  "municipality": "桑名市",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.kuwana.lg.jp/toshiseibi/kurashi/machidukuri/28-57351-321-329.html"
+  ],
+  "items": [
+    {
+      "id": "kuwana-shindan",
+      "name": "無料耐震診断",
+      "amount_text": "無料(国・県・市負担)",
+      "amount_max_yen": 0,
+      "condition_text": "昭和56年5月31日以前に着工・建築された3階以下の木造住宅。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": "受付期間:令和8年6月1日〜11月30日(受付終了)。",
+      "deadline": "2026-11-30",
+      "official_url": "https://www.city.kuwana.lg.jp/toshiseibi/kurashi/machidukuri/28-57351-321-329.html"
+    },
+    {
+      "id": "kuwana-sekkei",
+      "name": "補強設計補助",
+      "amount_text": "設計費の2/3、一般診断法:上限18万円/精密診断法:上限34万円",
+      "amount_max_yen": 340000,
+      "condition_text": "昭和56年5月31日以前の3階以下木造住宅。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": "受付期間:令和8年6月1日〜11月30日(精密診断法は受付終了)。",
+      "deadline": "2026-11-30",
+      "official_url": "https://www.city.kuwana.lg.jp/toshiseibi/kurashi/machidukuri/28-57351-321-329.html"
+    },
+    {
+      "id": "kuwana-hokyo-kouji",
+      "name": "耐震補強工事補助",
+      "amount_text": "上限100万円〜150万円(設計時期・工事内容により異なる)",
+      "amount_max_yen": 1500000,
+      "condition_text": "昭和56年5月31日以前の3階以下木造住宅。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": "受付期間:令和8年6月1日〜11月30日(受付終了)。",
+      "deadline": "2026-11-30",
+      "official_url": "https://www.city.kuwana.lg.jp/toshiseibi/kurashi/machidukuri/28-57351-321-329.html"
+    },
+    {
+      "id": "kuwana-jokyaku",
+      "name": "除却工事・空き家除却工事補助",
+      "amount_text": "除却工事費の23%、上限20.7万円",
+      "amount_max_yen": 207000,
+      "condition_text": "昭和56年5月31日以前の3階以下木造住宅。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": "受付期間:令和8年6月1日〜11月30日(受付継続中)。",
+      "deadline": "2026-11-30",
+      "official_url": "https://www.city.kuwana.lg.jp/toshiseibi/kurashi/machidukuri/28-57351-321-329.html"
+    }
+  ],
+  "not_yet_covered": []
+}

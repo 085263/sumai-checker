@@ -1,0 +1,74 @@
+{
+  "municipality_code": "21381",
+  "municipality": "神戸町",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.town.godo.gifu.jp/safety/safety13.html"
+  ],
+  "items": [
+    {
+      "id": "godo-free-shindan",
+      "name": "木造住宅無料耐震診断事業",
+      "amount_text": "無料(岐阜県木造住宅耐震相談士を無料派遣)",
+      "amount_max_yen": 0,
+      "condition_text": "昭和56年5月31日以前に着工された一戸建て住宅が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "申請期限:2026年10月30日",
+      "deadline": "2026-10-30",
+      "official_url": "https://www.town.godo.gifu.jp/safety/safety13.html"
+    },
+    {
+      "id": "godo-hokyo-koji",
+      "name": "木造住宅耐震補強工事費補助",
+      "amount_text": "一般補強工事:200万円以内(補助率100%) / 簡易補強工事:150万円以内(補助率100%)",
+      "amount_max_yen": 2000000,
+      "condition_text": "耐震診断で上部構造評点が1.0未満の住宅が対象。町税の滞納がないこと。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "申請期限:2026年10月30日",
+      "deadline": "2026-10-30",
+      "official_url": "https://www.town.godo.gifu.jp/safety/safety13.html"
+    },
+    {
+      "id": "godo-shelter",
+      "name": "耐震シェルター等設置補助",
+      "amount_text": "設置費用の3分の2または30万円のいずれか低い額",
+      "amount_max_yen": 300000,
+      "condition_text": "耐震診断で評点1.0未満と診断された住宅が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "申請期限:2026年10月30日",
+      "deadline": "2026-10-30",
+      "official_url": "https://www.town.godo.gifu.jp/safety/safety13.html"
+    },
+    {
+      "id": "godo-hi-mokuzo-shindan",
+      "name": "建築物耐震診断事業(非木造)",
+      "amount_text": "診断費用の2/3以内(上限100〜150万円)",
+      "amount_max_yen": 1500000,
+      "condition_text": "昭和56年5月31日以前の木造住宅以外の建築物が対象。",
+      "eligibility": {
+        "building_types": ["light_steel", "heavy_steel"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "申請期限:2026年10月30日",
+      "deadline": "2026-10-30",
+      "official_url": "https://www.town.godo.gifu.jp/safety/safety13.html"
+    }
+  ],
+  "not_yet_covered": []
+}

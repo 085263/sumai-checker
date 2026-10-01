@@ -1,0 +1,34 @@
+{
+  "municipality_code": "21506",
+  "municipality": "白川町",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.pref.gifu.lg.jp/page/838.html",
+    "https://www.town.shirakawa.lg.jp/"
+  ],
+  "items": [
+    {
+      "id": "shirakawa-cho-wood-taishin-kaishu",
+      "name": "木造住宅耐震改修工事(岐阜県共通制度)",
+      "amount_text": "一般補強工事:上限108.9万円",
+      "amount_max_yen": 1089000,
+      "condition_text": "昭和56年5月31日以前に建設(着工)された木造の一戸建て住宅・長屋・共同住宅。在来軸組工法・枠組壁工法・伝統的構法のみ対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "⚠️低信頼度:白川町独自の公式ページ(耐震補助の具体ページ)を直接確認できず、岐阜県公式サイトの県内共通制度説明をもとに記録。白川町独自の金額・申請期限は未確認。",
+      "deadline": null,
+      "official_url": "https://www.pref.gifu.lg.jp/page/838.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "木造住宅耐震診断事業", "official_url": null},
+    {"name": "耐震シェルター等設置工事", "official_url": null},
+    {"name": "白川町独自の上乗せ制度の有無", "official_url": null}
+  ]
+}

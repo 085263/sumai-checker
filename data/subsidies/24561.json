@@ -1,0 +1,25 @@
+{
+  "municipality_code": "24561",
+  "municipality": "御浜町",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.pref.mie.lg.jp/JUTAKU/HP/35937031382.htm"
+  ],
+  "items": [
+    {
+      "id": "mihama-taishin-unspecified",
+      "name": "木造住宅耐震関連補助(個別制度名未確認)",
+      "amount_text": "補助上限額157.5万円(三重県の市町別一覧ページに記載)",
+      "amount_max_yen": 1575000,
+      "condition_text": "詳細な対象条件・制度の内訳は未確認。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": "⚠️低信頼度:御浜町自身の公式ページを特定できず、三重県の市町別一覧ページ(県が作成)の記載のみを根拠にしている。個別の制度名・条件・申請期限は未確認。担当窓口:御浜町建設課(電話 05979-3-0521)への確認を強く推奨。",
+      "deadline": null,
+      "official_url": "https://www.pref.mie.lg.jp/JUTAKU/HP/35937031382.htm"
+    }
+  ],
+  "not_yet_covered": []
+}

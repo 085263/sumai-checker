@@ -1,0 +1,37 @@
+{
+  "municipality_code": "24562",
+  "municipality": "紀宝町",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.town.kiho.lg.jp/life/handbook/disaster_prevention/mokuzoutaisinsekkei/",
+    "https://www.town.kiho.lg.jp/reiki_int/reiki_honbun/i668RG00000792.html"
+  ],
+  "items": [
+    {
+      "id": "kiho-sekkei",
+      "name": "木造住宅耐震補強設計補助事業",
+      "amount_text": "設計費用の2/3以内、上限18万円(精密診断法の場合さらに16万円上乗せ、最大34万円)",
+      "amount_max_yen": 340000,
+      "condition_text": "昭和56年5月31日以前に着工された住宅で、耐震診断の結果評点0.7未満と診断されたものの補強工事設計が対象。募集戸数10戸。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": "申請期限の記載なし。",
+      "deadline": null,
+      "official_url": "https://www.town.kiho.lg.jp/life/handbook/disaster_prevention/mokuzoutaisinsekkei/"
+    },
+    {
+      "id": "kiho-hokyo",
+      "name": "紀宝町木造住宅耐震補強等事業費補助金(工事)",
+      "amount_text": "工事費の2/3以内で、通常の耐震補強工事:上限50万円/簡易な耐震補強工事:上限30万円/令和2年度以前に設計完了の場合:上限60万円。リフォーム工事は工事費の1/3以内、上限20万円",
+      "amount_max_yen": 600000,
+      "condition_text": "防災上必要な区域(戸数密度1ha当たり10戸以上、または指定避難路沿い)。評点0.7未満の旧基準木造住宅を1.0以上(簡易工事は0.7以上)にする工事。工事監理は受講耐震診断者が担当。同一棟につき補助は1回限り。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": "交付要綱(条例本文)から抽出。申請窓口は総務課防災対策室(0735-33-0335)。",
+      "deadline": null,
+      "official_url": "https://www.town.kiho.lg.jp/reiki_int/reiki_honbun/i668RG00000792.html"
+    }
+  ],
+  "not_yet_covered": []
+}

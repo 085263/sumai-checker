@@ -1,0 +1,68 @@
+{
+  "municipality_code": "24470",
+  "municipality": "度会町",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.town.watarai.lg.jp/contents_detail.php?co=cat&frmId=1412&frmCd=4-4-0-0-0"
+  ],
+  "items": [
+    {
+      "id": "watarai-shindan",
+      "name": "木造住宅無料耐震診断",
+      "amount_text": "無料",
+      "amount_max_yen": 0,
+      "condition_text": "昭和56年5月31日以前に建築、木造住宅、延べ面積の半分以上が住宅用、3階以下。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": "年度ごとの件数制限あり。申請期限の記載なし。",
+      "deadline": null,
+      "official_url": "https://www.town.watarai.lg.jp/contents_detail.php?co=cat&frmId=1412&frmCd=4-4-0-0-0"
+    },
+    {
+      "id": "watarai-sekkei",
+      "name": "耐震補強設計補助",
+      "amount_text": "設計費用の10/10(最大18万円)。精密診断法は最大34万円",
+      "amount_max_yen": 340000,
+      "condition_text": "耐震診断で評点1.0未満を1.0以上にする設計。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": "申請期限の記載なし。",
+      "deadline": null,
+      "official_url": "https://www.town.watarai.lg.jp/contents_detail.php?co=cat&frmId=1412&frmCd=4-4-0-0-0"
+    },
+    {
+      "id": "watarai-hokyo-koji",
+      "name": "耐震補強工事補助",
+      "amount_text": "工事費用の10/10(最大157万5千円)",
+      "amount_max_yen": 1575000,
+      "condition_text": "評点0.7未満を1.0以上にする工事。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": "申請期限の記載なし。",
+      "deadline": null,
+      "official_url": "https://www.town.watarai.lg.jp/contents_detail.php?co=cat&frmId=1412&frmCd=4-4-0-0-0"
+    },
+    {
+      "id": "watarai-kani-hokyo",
+      "name": "簡易耐震補強工事補助",
+      "amount_text": "工事費用の2/3(上限30万円)",
+      "amount_max_yen": 300000,
+      "condition_text": "評点0.7未満を0.7以上にする工事。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": "申請期限の記載なし。",
+      "deadline": null,
+      "official_url": "https://www.town.watarai.lg.jp/contents_detail.php?co=cat&frmId=1412&frmCd=4-4-0-0-0"
+    },
+    {
+      "id": "watarai-jokyaku",
+      "name": "空き家除却工事補助",
+      "amount_text": "工事費用の23%(最大20万7千円)",
+      "amount_max_yen": 207000,
+      "condition_text": "評点0.7未満で、沿道または敷地距離が近接した空き家。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": "申請期限の記載なし。",
+      "deadline": null,
+      "official_url": "https://www.town.watarai.lg.jp/contents_detail.php?co=cat&frmId=1412&frmCd=4-4-0-0-0"
+    }
+  ]
+}

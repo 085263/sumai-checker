@@ -1,0 +1,31 @@
+{
+  "municipality_code": "21213",
+  "municipality": "各務原市",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.kakamigahara.lg.jp/_res/projects/default_project/_page_/001/022/117/hojyokin_r7.pdf"
+  ],
+  "items": [
+    {
+      "id": "kakamigahara-wood-taishin",
+      "name": "建築物等耐震化促進事業(木造住宅耐震補強工事)",
+      "amount_text": "一般補強(評点1.0以上):助成対象事業費の90.0%、上限150万円。簡易補強(評点0.7以上):120万円以内は61.5%、120万円超は11.5%+60万円、上限84万円。令和6〜7年度は能登半島地震を踏まえた緊急取組期間として時限的に上限引き上げ中。",
+      "amount_max_yen": 1500000,
+      "condition_text": "昭和56年5月31日以前に着工、階数3以下、在来軸組構法・伝統的構法または枠組壁工法で建築された木造住宅。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "⚠️低信頼度:公式ページを直接WebFetchできず(PDFが404、セッションのWeb検索上限にも到達)、WebSearchの要約のみに基づく。耐震診断は本人負担無料。問い合わせ先:建築指導課(058-383-1482)。",
+      "deadline": null,
+      "official_url": "https://www.city.kakamigahara.lg.jp/"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "木造住宅耐震診断(無料)", "official_url": "https://www.city.kakamigahara.lg.jp/"}
+  ]
+}

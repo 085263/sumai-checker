@@ -1,0 +1,31 @@
+{
+  "municipality_code": "21219",
+  "municipality": "郡上市",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.gujo.gifu.jp/life/detail/30-6.html"
+  ],
+  "items": [
+    {
+      "id": "gujo-wood-taishin-hokyo",
+      "name": "木造住宅耐震補強工事費補助事業",
+      "amount_text": "補強後評点1.0以上となる工事:最高117万5千円 / 補強後評点0.7以上となる工事:最高84万円",
+      "amount_max_yen": 1175000,
+      "condition_text": "昭和56年5月31日以前に着工された木造住宅で、耐震診断結果で補強が必要と判定された住宅。現に居住または工事後に居住予定、市税滞納がないこと。岐阜県木造住宅耐震相談士による設計・工事監理が必要。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "申請期限:毎年4月1日〜12月中旬(予算満額で早期締切の可能性あり)。申請窓口:郡上市役所建設水道部都市住宅課(0575-67-1814)。公式ページで直接確認済み。",
+      "deadline": "2026-12-15",
+      "official_url": "https://www.city.gujo.gifu.jp/life/detail/30-6.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "木造住宅無料耐震診断", "official_url": "https://www.city.gujo.gifu.jp/life/detail/30-6.html"}
+  ]
+}

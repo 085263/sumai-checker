@@ -1,0 +1,32 @@
+{
+  "municipality_code": "21401",
+  "municipality": "揖斐川町",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.town.ibigawa.lg.jp/0000002913.html",
+    "https://www.town.ibigawa.lg.jp/page/1433.html"
+  ],
+  "items": [
+    {
+      "id": "ibigawa-jutaku-kaishu",
+      "name": "住宅改修等奨励金",
+      "amount_text": "金額不明(公式ページに補助率・上限額の記載を確認できず)",
+      "amount_max_yen": null,
+      "condition_text": "耐震性確保のための工事を含む住宅の修繕・補修・改修・増築等が対象(耐震専用の制度ではなく、一般的な住宅改修奨励金の対象工事の一つとして耐震工事が含まれる)。工事費が50万円以上であること。町内に所在し建築後1年以上経過、申請者本人が所有・居住していること。住宅1棟につき1回限り。過去の受給がないこと、町税等の滞納がないこと。",
+      "eligibility": {
+        "building_types": ["wood", "light_steel", "heavy_steel"],
+        "built_before": null,
+        "built_after": null
+      },
+      "note": "⚠️耐震診断・耐震改修専用の補助制度ではなく、一般的な住宅改修奨励金の対象の一つとして耐震工事が含まれる形。補助金額が確認できていないため要確認。",
+      "deadline": null,
+      "official_url": "https://www.town.ibigawa.lg.jp/0000002913.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "耐震診断・耐震改修専用の補助制度(存在するか含めて未確認)", "official_url": "https://www.town.ibigawa.lg.jp/"}
+  ]
+}

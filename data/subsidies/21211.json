@@ -1,0 +1,45 @@
+{
+  "municipality_code": "21211",
+  "municipality": "美濃加茂市",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.minokamo.lg.jp/soshiki/18/1857.html",
+    "https://www.city.minokamo.lg.jp/soshiki/18/1858.html"
+  ],
+  "items": [
+    {
+      "id": "minokamo-wood-shindan",
+      "name": "木造住宅無料耐震診断",
+      "amount_text": "無料",
+      "amount_max_yen": 0,
+      "condition_text": "昭和56年5月31日以前に着工された木造一戸建て住宅。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": null,
+      "deadline": null,
+      "official_url": "https://www.city.minokamo.lg.jp/soshiki/18/1858.html"
+    },
+    {
+      "id": "minokamo-wood-kaishu",
+      "name": "木造住宅耐震改修工事補助",
+      "amount_text": "評点1.0補強:工事費120万円以内は工事費の50%+40%、120万円超は工事費の40%+60万円(上限110万円)。評点0.7補強(簡易):上限84万円",
+      "amount_max_yen": 1100000,
+      "condition_text": "昭和56年5月31日以前に着工された木造住宅(昭和56年6月以降の増築がある場合は対象外の可能性あり)。岐阜県木造住宅耐震相談士による設計及び工事管理が必要。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "申請期限はページに記載なし。問合せ:都市計画課(0574-25-2111内線259)。「美濃加茂市住宅工事等補助金」との併用可。",
+      "deadline": null,
+      "official_url": "https://www.city.minokamo.lg.jp/soshiki/18/1857.html"
+    }
+  ],
+  "not_yet_covered": []
+}

@@ -1,0 +1,31 @@
+{
+  "municipality_code": "21214",
+  "municipality": "可児市",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.kani.lg.jp/5585.htm"
+  ],
+  "items": [
+    {
+      "id": "kani-wood-taishin",
+      "name": "木造住宅耐震改修工事",
+      "amount_text": "一般改修:上限110万円(評点1.0以上、120万円以内は改修工事費の40%+補助対象経費の50%、120万円超は改修工事費の40%+60万円)。簡易改修:上限84万円(評点0.7以上1.0未満、120万円以内は61.5%、120万円超は11.5%+60万円)。",
+      "amount_max_yen": 1100000,
+      "condition_text": "市内にある補助対象の木造住宅の所有者等が対象。岐阜県木造住宅耐震相談士による設計監理が必須。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "公式ページ(WebFetch)で確認済み。申請期限の記載なし、建築指導課へ要問合せ。",
+      "deadline": null,
+      "official_url": "https://www.city.kani.lg.jp/5585.htm"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "建築物等耐震促進事業(非木造)", "official_url": "https://www.city.kani.lg.jp/7078.htm"}
+  ]
+}

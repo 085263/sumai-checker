@@ -1,0 +1,33 @@
+{
+  "municipality_code": "21521",
+  "municipality": "御嵩町",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://reform-hojo.jp/subsidy/3945",
+    "https://www.j-reform.com/reform-support/joho/detail/id=25210203"
+  ],
+  "items": [
+    {
+      "id": "mitake-wood-taishin-hokyo",
+      "name": "御嵩町木造住宅に係る住宅耐震補強工事費補助事業",
+      "amount_text": "工事費の約8割(一般補強・評点1.0以上の場合)、限度額117万5000円",
+      "amount_max_yen": 1175000,
+      "condition_text": "戸建木造住宅で、昭和56年5月31日以前に着工された建築物。町税等に滞納がないこと。設計・工事監理は岐阜県登録の木造住宅耐震相談士が実施すること。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "⚠️低信頼度:御嵩町の公式ページを直接確認できず、第三者サイト(reform-hojo.jp、住宅リフォーム推進協議会)の数値を記録。「上限5万円」という別の表記も見つかっており、別制度(簡易診断等)との混同の可能性あり、要確認。先着順で予算終了の場合あり。",
+      "deadline": null,
+      "official_url": null
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "木造住宅耐震診断事業(無料診断等)の有無", "official_url": null},
+    {"name": "耐震シェルター等設置工事の有無", "official_url": null}
+  ]
+}

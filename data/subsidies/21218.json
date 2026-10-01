@@ -1,0 +1,29 @@
+{
+  "municipality_code": "21218",
+  "municipality": "本巣市",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.motosu.lg.jp/0000000842.html"
+  ],
+  "items": [
+    {
+      "id": "motosu-wood-taishin",
+      "name": "本巣市建築物等耐震化促進事業(木造住宅耐震改修)",
+      "amount_text": "改修後評点1.0以上:上限117万5千円。改修後評点0.7以上1.0未満:上限84万円。補助対象経費の3分の2以内(1,000円未満切り捨て)。",
+      "amount_max_yen": 1175000,
+      "condition_text": "昭和56年5月31日以前に着工された木造の一戸建て住宅。岐阜県木造住宅耐震相談士による設計・工事監理が必須。改修後の耐震性が規定基準以上となること。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "公式ページ(WebFetch)で確認済み。令和8年5月7日から受付開始、終了期限の記載なし(予算上限の可能性あり、要確認)。工事費が補助限度額を超える場合、超過分は全額自己負担。",
+      "deadline": null,
+      "official_url": "https://www.city.motosu.lg.jp/0000000842.html"
+    }
+  ],
+  "not_yet_covered": []
+}

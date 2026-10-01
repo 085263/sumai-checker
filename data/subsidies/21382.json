@@ -1,0 +1,14 @@
+{
+  "municipality_code": "21382",
+  "municipality": "輪之内町",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://town.wanouchi.gifu.jp/"
+  ],
+  "items": [],
+  "not_yet_covered": [],
+  "note": "公式サイトのトップページを確認したが、木造住宅耐震診断・耐震改修に関する補助金制度の専用ページを特定できなかった。サイト内検索機能や役場への電話問合せ(0584-69-3111)での確認が必要。制度自体が存在しない可能性と、単にページが見つからなかった可能性の両方がある。"
+}

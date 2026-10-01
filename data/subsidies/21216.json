@@ -1,0 +1,33 @@
+{
+  "municipality_code": "21216",
+  "municipality": "瑞穂市",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.mizuho.lg.jp/1521.htm",
+    "https://www.city.mizuho.lg.jp/1522.htm"
+  ],
+  "items": [
+    {
+      "id": "mizuho-gifu-wood-taishin",
+      "name": "木造住宅耐震改修工事費補助事業",
+      "amount_text": "評点1.0以上の補強:上限117万5千円。評点0.7以上の補強:上限84万円。工事費120万円以内は対象工事費の61.5%、120万円超は11.5%+60万円。",
+      "amount_max_yen": 1175000,
+      "condition_text": "瑞穂市建築物等耐震化促進事業の対象で、現に居住している住宅。岐阜県木造住宅耐震相談士による設計・監理が必須。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "公式ページ(WebFetch)で確認済み。令和8年度受付期間:5月7日(木)〜11月27日(金)、土日祝除く。問い合わせ:都市開発課(058-327-2101)。",
+      "deadline": "2026-11-27",
+      "official_url": "https://www.city.mizuho.lg.jp/1521.htm"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "建築物耐震改修工事費補助事業(非木造)", "official_url": "https://www.city.mizuho.lg.jp/1522.htm"},
+    {"name": "木造住宅耐震診断事業(無料)", "official_url": "https://www.city.mizuho.lg.jp/"}
+  ]
+}

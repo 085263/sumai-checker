@@ -1,0 +1,30 @@
+{
+  "municipality_code": "21221",
+  "municipality": "海津市",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [],
+  "items": [
+    {
+      "id": "kaizu-taishin-sokushin",
+      "name": "海津市建築物等耐震化促進事業(木造住宅耐震補強工事費補助)",
+      "amount_text": "詳細不明(WebSearch要約では「最大100万円程度」とする情報があるが数値の信頼性が低い)",
+      "amount_max_yen": null,
+      "condition_text": "昭和56年5月31日以前に着工された木造住宅が対象と推定されるが、公式ページで未確認。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "⚠️低信頼度:海津市の公式ドメイン(city.kaizu.lg.jp)上で該当ページを特定できず、WebSearchの要約(数値に誤変換の疑いあり)のみに基づく。金額は捏造を避けるためnullとした。要電話確認(市役所都市整備課等)。",
+      "deadline": null,
+      "official_url": null
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "木造住宅無料耐震診断", "official_url": null},
+    {"name": "耐震シェルター整備事業(推定)", "official_url": null}
+  ]
+}

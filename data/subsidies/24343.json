@@ -1,0 +1,48 @@
+{
+  "municipality_code": "24343",
+  "municipality": "朝日町",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www2.town.asahi.mie.jp/www/contents/1001000000535/index.html",
+    "https://www.pref.mie.lg.jp/JUTAKU/HP/35937031382.htm"
+  ],
+  "items": [
+    {
+      "id": "asahi-keikaku",
+      "name": "耐震改修計画策定(設計監理費)補助",
+      "amount_text": "対象経費の3分の2、上限20万円",
+      "amount_max_yen": 200000,
+      "condition_text": "建物の過半が昭和56年5月31日以前着工の木造在来軸組工法・2階建て以下の住宅で、耐震診断の総合判定Iw値が1.0未満のもの。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": null,
+      "deadline": null,
+      "official_url": "https://www2.town.asahi.mie.jp/www/contents/1001000000535/index.html"
+    },
+    {
+      "id": "asahi-kaishu",
+      "name": "耐震改修工事補助",
+      "amount_text": "上限115万円(三重県公式の市町別一覧ページで確認)",
+      "amount_max_yen": 1150000,
+      "condition_text": "建物の過半が昭和56年5月31日以前着工の木造在来軸組工法・2階建て以下の住宅で、耐震診断の総合判定Iw値が1.0未満のもの。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": "⚠️金額に情報源間の食い違いあり:町公式ページ経由の二次情報では「対象経費の5分の4、上限120万円」との記載もある。三重県公式ページの数値(115万円)を優先したが要確認。",
+      "deadline": null,
+      "official_url": "https://www2.town.asahi.mie.jp/www/contents/1001000000535/index.html"
+    },
+    {
+      "id": "asahi-reform",
+      "name": "耐震補強工事と同時施工のリフォーム補助",
+      "amount_text": "金額不明",
+      "amount_max_yen": null,
+      "condition_text": "木造住宅耐震補強工事と同時に施工するリフォーム工事が対象。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": "具体的な補助金額は確認できず。問い合わせ先:朝日町産業建設課 059-377-5658",
+      "deadline": null,
+      "official_url": "https://www2.town.asahi.mie.jp/www/contents/1001000000535/index.html"
+    }
+  ],
+  "not_yet_covered": []
+}

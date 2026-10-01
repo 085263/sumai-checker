@@ -1,0 +1,32 @@
+{
+  "municipality_code": "24442",
+  "municipality": "明和町",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.town.meiwa.mie.jp/main/soshiki/seikatu/jyutaku/2845.html"
+  ],
+  "items": [
+    {
+      "id": "meiwa-free-shindan",
+      "name": "木造住宅無料耐震診断",
+      "amount_text": "無料",
+      "amount_max_yen": 0,
+      "condition_text": "昭和56年5月31日以前に建築された木造住宅(3階以下)。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "件数限定のため早期相談推奨。申請期限の記載なし。",
+      "deadline": null,
+      "official_url": "https://www.town.meiwa.mie.jp/main/soshiki/seikatu/jyutaku/2845.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "木造住宅耐震補強設計補助(無料診断で評点1.0未満の住宅対象、具体額は公式ページに記載なし)", "official_url": "https://www.town.meiwa.mie.jp/main/soshiki/seikatu/jyutaku/2845.html"},
+    {"name": "木造住宅耐震補強工事補助(具体額は公式ページに記載なし、要問合せ:生活環境課)", "official_url": "https://www.town.meiwa.mie.jp/main/soshiki/seikatu/jyutaku/2845.html"}
+  ]
+}

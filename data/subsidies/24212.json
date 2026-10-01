@@ -1,0 +1,45 @@
+{
+  "municipality_code": "24212",
+  "municipality": "熊野市",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.kumano.lg.jp/life/?content=1659",
+    "https://www.city.kumano.lg.jp/life/?content=1658"
+  ],
+  "items": [
+    {
+      "id": "kumano-taishin-koji",
+      "name": "木造住宅耐震補強工事補助金",
+      "amount_text": "耐震補強工事費と150万円を比較して少ない方の額。同時リフォーム工事は別途上限20万円。",
+      "amount_max_yen": 1500000,
+      "condition_text": "昭和56年5月31日以前に着工された木造住宅で、耐震診断の結果評点0.7未満を1.0以上にする補強工事。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "公式ページで確認。申請期限の記載なし、防災対策推進課(0597-89-4111 内線336)へ要問合せ。",
+      "deadline": null,
+      "official_url": "https://www.city.kumano.lg.jp/life/?content=1659"
+    },
+    {
+      "id": "kumano-shelter",
+      "name": "耐震シェルター設置事業費補助金",
+      "amount_text": "設置費用の3分の2、上限50万円",
+      "amount_max_yen": 500000,
+      "condition_text": "昭和56年5月31日以前に着工された木造住宅(3階以下)で、耐震診断の結果評点0.7未満。熊野市内に住所があり対象住宅に居住していること。他の耐震補助金の交付を受けていないこと。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "公式ページで確認。申請期限の記載なし、防災対策推進課(0597-89-4111 内線336・337)へ要問合せ。",
+      "deadline": null,
+      "official_url": "https://www.city.kumano.lg.jp/life/?content=1658"
+    }
+  ],
+  "not_yet_covered": []
+}

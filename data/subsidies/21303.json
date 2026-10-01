@@ -1,0 +1,12 @@
+{
+  "municipality_code": "21303",
+  "municipality": "笠松町",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [],
+  "items": [],
+  "not_yet_covered": [],
+  "note": "WebSearchで笠松町独自の木造住宅耐震改修補助金制度を確認できなかった。公式サイト(town.kasamatsu.gifu.jp)への直接アクセス・サイト内検索はWeb検索の呼び出し上限に達したため未実施。制度が存在しないと断定はできず、要追加調査。"
+}

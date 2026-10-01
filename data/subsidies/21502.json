@@ -1,0 +1,32 @@
+{
+  "municipality_code": "21502",
+  "municipality": "富加町",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.town.tomika.gifu.jp/kurashi/sumai/jyosei/"
+  ],
+  "items": [
+    {
+      "id": "tomika-wood-hokyo",
+      "name": "木造住宅耐震補強工事(建築物等耐震化促進事業)",
+      "amount_text": "一般改修:工事費120万円以下61.5%+15万円/120万円超11.5%+75万円、上限115万円。簡易改修:補助率0.7、上限84万円",
+      "amount_max_yen": 1150000,
+      "condition_text": "昭和56年5月31日以前に着工された戸建(木造)・長屋建(木造)・その他の共同家(木造)。町税等の滞納がないこと。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "⚠️制度の存在・対象条件は町公式ページ(リンク一覧)で確認したが、金額は公式ページ本文に記載がなく第三者サイト(reform-hojo.jp)の情報に基づく。先着順で予算終了あり、工事着手前の申請が必須。詳細ページの直接URLは未特定のため要再確認。",
+      "deadline": null,
+      "official_url": "https://www.town.tomika.gifu.jp/kurashi/sumai/jyosei/"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "耐震改修に伴う固定資産税の減額制度", "official_url": "https://www.town.tomika.gifu.jp/kurashi/sumai/jyosei/"},
+    {"name": "木造住宅無料耐震診断", "official_url": "https://www.town.tomika.gifu.jp/kurashi/sumai/jyosei/"}
+  ]
+}

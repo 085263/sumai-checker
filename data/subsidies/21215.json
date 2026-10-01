@@ -1,0 +1,29 @@
+{
+  "municipality_code": "21215",
+  "municipality": "山県市",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.yamagata.gifu.jp/soshiki/kensetsu/3964.html"
+  ],
+  "items": [
+    {
+      "id": "yamagata-gifu-wood-taishin",
+      "name": "木造住宅耐震改修工事費補助",
+      "amount_text": "0.7簡易補強:上限84万円。1.0補強:通常地域上限117万5千円、多雪区域(美山地域)は上限140万円。",
+      "amount_max_yen": 1400000,
+      "condition_text": "昭和56年5月31日以前に着工された木造の一戸建て住宅(店舗併用は延べ床面積の2分の1以上が住宅部分)。在来軸組構法・伝統的構法・枠組壁工法のいずれか。所有者自身が実施し、岐阜県木造住宅耐震相談士が設計・工事監理を行うこと。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "公式ページ(WebFetch)で確認済み。申請締切は令和8年10月30日(金)、先着順で予算に達し次第終了。",
+      "deadline": "2026-10-30",
+      "official_url": "https://www.city.yamagata.gifu.jp/soshiki/kensetsu/3964.html"
+    }
+  ],
+  "not_yet_covered": []
+}

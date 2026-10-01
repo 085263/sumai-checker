@@ -1,0 +1,47 @@
+{
+  "municipality_code": "21507",
+  "municipality": "東白川村",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://rehome-navi.com/gifu/kamogunhigashishirakawamura/supports",
+    "https://www.pref.gifu.lg.jp/page/838.html"
+  ],
+  "items": [
+    {
+      "id": "higashishirakawa-wood-taishin-shindan",
+      "name": "木造住宅耐震診断助成事業(診断・設計費)",
+      "amount_text": "補助率100%、上限8万3000円",
+      "amount_max_yen": 83000,
+      "condition_text": "昭和56年5月31日以前に建設された木造住宅。施工業者の指定はなし。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "⚠️低信頼度:村公式ページを直接確認できず、第三者サイト(リショップナビ)の数値を記録。",
+      "deadline": null,
+      "official_url": null
+    },
+    {
+      "id": "higashishirakawa-wood-taishin-kaishu",
+      "name": "木造住宅耐震改修工事(岐阜県共通制度)",
+      "amount_text": "一般補強工事:上限108.9万円",
+      "amount_max_yen": 1089000,
+      "condition_text": "昭和56年5月31日以前に建設(着工)された木造住宅。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "⚠️低信頼度:村独自の公式ページ未確認。岐阜県公式サイトの県内共通制度説明のみ。",
+      "deadline": null,
+      "official_url": "https://www.pref.gifu.lg.jp/page/838.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "耐震シェルター等設置工事の有無", "official_url": null}
+  ]
+}

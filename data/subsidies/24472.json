@@ -1,0 +1,49 @@
+{
+  "municipality_code": "24472",
+  "municipality": "南伊勢町",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.town.minamiise.lg.jp/admin/shoshiki/bousai_anzen/bousai/mokutaishin/taishinhokyou.html",
+    "https://www.town.minamiise.lg.jp/admin/shoshiki/bousai_anzen/bousai/mokutaishin/taishinhokyousekkei.html",
+    "https://www.town.minamiise.lg.jp/admin/shoshiki/bousai_anzen/bousai/mokutaishin/taishinjyokyaku.html"
+  ],
+  "items": [
+    {
+      "id": "minamiise-hokyo",
+      "name": "南伊勢町木造住宅耐震補強事業費補助金",
+      "amount_text": "県・町補助 上限100万円 + 国補助(工事費の5分の2、上限57.5万円)。リフォーム工事は県補助で上限20万円",
+      "amount_max_yen": 1000000,
+      "condition_text": "町長が認める防災上必要な区域にある住宅。耐震診断評点0.7未満の木造住宅を1.0以上にする補強工事が対象。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": "公式ページ本文を直接確認済み。申請期限の記載なし(問い合わせ要)。",
+      "deadline": null,
+      "official_url": "https://www.town.minamiise.lg.jp/admin/shoshiki/bousai_anzen/bousai/mokutaishin/taishinhokyou.html"
+    },
+    {
+      "id": "minamiise-sekkei",
+      "name": "南伊勢町木造住宅耐震補強設計事業費補助金",
+      "amount_text": "一般診断法:上限18万円、精密診断法:上限34万円",
+      "amount_max_yen": 340000,
+      "condition_text": "耐震診断評点1.0未満の木造住宅の補強設計が対象。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": "⚠️低信頼度:公式ページ本文を直接確認できず、検索結果の要約のみで記録。",
+      "deadline": null,
+      "official_url": "https://www.town.minamiise.lg.jp/admin/shoshiki/bousai_anzen/bousai/mokutaishin/taishinhokyousekkei.html"
+    },
+    {
+      "id": "minamiise-jokyaku",
+      "name": "南伊勢町木造住宅耐震除却事業費補助金",
+      "amount_text": "除却工事費の23%以内、上限83,800円",
+      "amount_max_yen": 83800,
+      "condition_text": "耐震診断評点0.7未満で倒壊の可能性が高いと診断された木造住宅の解体工事が対象。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": "⚠️低信頼度:公式ページ本文を直接確認できず、検索結果の要約のみで記録。",
+      "deadline": null,
+      "official_url": "https://www.town.minamiise.lg.jp/admin/shoshiki/bousai_anzen/bousai/mokutaishin/taishinjyokyaku.html"
+    }
+  ],
+  "not_yet_covered": []
+}

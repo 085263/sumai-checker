@@ -1,0 +1,44 @@
+{
+  "municipality_code": "21403",
+  "municipality": "大野町",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.town-ono.jp/0000001556.html"
+  ],
+  "items": [
+    {
+      "id": "ono-wood-taishin-1.0",
+      "name": "木造住宅耐震改修工事費補助(評点1.0以上)",
+      "amount_text": "工事費120万円以下:工事費の90% / 120万円超:工事費×40%+60万円、上限117.5万円",
+      "amount_max_yen": 1175000,
+      "condition_text": "昭和56年5月31日以前に着工された木造住宅で、耐震診断の上部構造評点が1.0未満のものを1.0以上にする改修工事が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "随時受付だが先着順で予定戸数に達し次第終了。申請する年度の2月末日までに工事完了が必要。過去に補助を受けた建築物は対象外。",
+      "deadline": null,
+      "official_url": "https://www.town-ono.jp/0000001556.html"
+    },
+    {
+      "id": "ono-wood-taishin-0.7",
+      "name": "木造住宅耐震改修工事費補助(評点0.7以上)",
+      "amount_text": "補助率70%、上限84万円",
+      "amount_max_yen": 840000,
+      "condition_text": "昭和56年5月31日以前に着工された木造住宅で、耐震診断の上部構造評点が0.7未満のものを0.7以上にする改修工事が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "随時受付だが先着順で予定戸数に達し次第終了。",
+      "deadline": null,
+      "official_url": "https://www.town-ono.jp/0000001556.html"
+    }
+  ],
+  "not_yet_covered": []
+}

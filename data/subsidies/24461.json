@@ -1,0 +1,91 @@
+{
+  "municipality_code": "24461",
+  "municipality": "玉城町",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://kizuna.town.tamaki.mie.jp/bosaibohan/bosai/mokuzo_jutakuhojokin.html",
+    "https://kizuna.town.tamaki.mie.jp/kurashi/kensetsu/taisinkaisyuu.html"
+  ],
+  "items": [
+    {
+      "id": "tamaki-shindan",
+      "name": "木造住宅耐震診断",
+      "amount_text": "無料",
+      "amount_max_yen": 0,
+      "condition_text": "昭和56年5月31日以前着工の木造住宅、3階以下、在来軸組工法等。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": "申請期限の記載なし。",
+      "deadline": null,
+      "official_url": "https://kizuna.town.tamaki.mie.jp/bosaibohan/bosai/mokuzo_jutakuhojokin.html"
+    },
+    {
+      "id": "tamaki-sekkei",
+      "name": "木造住宅耐震補強設計事業費補助金",
+      "amount_text": "最大18万円(精密診断法使用時は最大34万円)",
+      "amount_max_yen": 340000,
+      "condition_text": "耐震診断評点1.0未満の住宅。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": "申請期限の記載なし。",
+      "deadline": null,
+      "official_url": "https://kizuna.town.tamaki.mie.jp/bosaibohan/bosai/mokuzo_jutakuhojokin.html"
+    },
+    {
+      "id": "tamaki-hokyo-koji",
+      "name": "木造住宅耐震補強工事費補助金",
+      "amount_text": "最大157万5千円",
+      "amount_max_yen": 1575000,
+      "condition_text": "診断評点0.7未満で補強設計済みの住宅。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": "申請期限の記載なし。",
+      "deadline": null,
+      "official_url": "https://kizuna.town.tamaki.mie.jp/bosaibohan/bosai/mokuzo_jutakuhojokin.html"
+    },
+    {
+      "id": "tamaki-kani-kaishu",
+      "name": "簡易改修工事補助金",
+      "amount_text": "工事費の2/3(最大30万円)",
+      "amount_max_yen": 300000,
+      "condition_text": "診断評点0.7未満で補強設計済みの住宅。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": "申請期限の記載なし。",
+      "deadline": null,
+      "official_url": "https://kizuna.town.tamaki.mie.jp/bosaibohan/bosai/mokuzo_jutakuhojokin.html"
+    },
+    {
+      "id": "tamaki-reform",
+      "name": "リフォーム工事補助金",
+      "amount_text": "工事費の1/3(最大20万円)",
+      "amount_max_yen": 200000,
+      "condition_text": "診断評点0.7未満で補強設計済み、機能向上目的。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": "申請期限の記載なし。",
+      "deadline": null,
+      "official_url": "https://kizuna.town.tamaki.mie.jp/bosaibohan/bosai/mokuzo_jutakuhojokin.html"
+    },
+    {
+      "id": "tamaki-jokyaku",
+      "name": "空家除却補助金",
+      "amount_text": "最大40万円",
+      "amount_max_yen": 400000,
+      "condition_text": "診断評点0.7未満の空き家。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": "申請期限の記載なし。",
+      "deadline": null,
+      "official_url": "https://kizuna.town.tamaki.mie.jp/bosaibohan/bosai/mokuzo_jutakuhojokin.html"
+    },
+    {
+      "id": "tamaki-shelter",
+      "name": "耐震シェルター等設置工事補助金",
+      "amount_text": "最大100万円",
+      "amount_max_yen": 1000000,
+      "condition_text": "昭和56年5月31日以前着工、1階部設置。耐震診断の事前申請は不要。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": "申請期限の記載なし。",
+      "deadline": null,
+      "official_url": "https://kizuna.town.tamaki.mie.jp/bosaibohan/bosai/mokuzo_jutakuhojokin.html"
+    }
+  ]
+}

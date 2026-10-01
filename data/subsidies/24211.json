@@ -1,0 +1,29 @@
+{
+  "municipality_code": "24211",
+  "municipality": "鳥羽市",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.toba.mie.jp/soshiki/machidukuri/gyomu/taishin/8046.html"
+  ],
+  "items": [
+    {
+      "id": "toba-taishin-koji",
+      "name": "木造住宅耐震補強工事",
+      "amount_text": "市補助上限100万円(令和8年度まで)。別途国の補助(工事費の5分の2、上限50.7万円)が加算可能。同時リフォーム工事は工事費の3分の1・上限20万円。",
+      "amount_max_yen": 1000000,
+      "condition_text": "昭和56年5月31日以前の木造住宅で、耐震診断の結果評点0.7未満を1.0以上にする改修。耐震補強設計費は別途上限18万円。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "⚠️公式ページに『受付終了しました』の表示あり。今年度分の受付は終了している可能性が高く、来年度以降の継続有無は建設課まちづくり整備室(0599-25-1175)への確認が必要。",
+      "deadline": null,
+      "official_url": "https://www.city.toba.mie.jp/soshiki/machidukuri/gyomu/taishin/8046.html"
+    }
+  ],
+  "not_yet_covered": []
+}

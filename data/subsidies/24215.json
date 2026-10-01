@@ -1,0 +1,49 @@
+{
+  "municipality_code": "24215",
+  "municipality": "志摩市",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.shima.mie.jp/kakuka/kensetsubu/eizenshitsu/eizen_bousai/jishin/1455764165583.html"
+  ],
+  "items": [
+    {
+      "id": "shima-taishin-sekkei",
+      "name": "耐震補強設計補助事業",
+      "amount_text": "上限18万円(精密診断法による場合は34万円)",
+      "amount_max_yen": 340000,
+      "condition_text": "市の無料耐震診断で耐震評点が1.0未満と判定された住宅が対象。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": "申請受付は令和8年(2026年)4月14日から。",
+      "deadline": null,
+      "official_url": "https://www.city.shima.mie.jp/kakuka/kensetsubu/eizenshitsu/eizen_bousai/jishin/1455764165583.html"
+    },
+    {
+      "id": "shima-taishin-hokyo",
+      "name": "耐震補強補助事業",
+      "amount_text": "上限157万5千円",
+      "amount_max_yen": 1575000,
+      "condition_text": "昭和56年(1981年)5月31日以前に着工された木造住宅で、市の無料耐震診断で評点0.7未満と判定されたものが対象。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": "申請受付は令和8年(2026年)4月14日から、完了報告期限は令和9年(2027年)2月28日。",
+      "deadline": "2027-02-28",
+      "official_url": "https://www.city.shima.mie.jp/kakuka/kensetsubu/eizenshitsu/eizen_bousai/jishin/1455764165583.html"
+    },
+    {
+      "id": "shima-taishin-kaishu",
+      "name": "耐震補強改修補助事業(リフォーム同時施工)",
+      "amount_text": "改修工事費用の3分の1、上限20万円のいずれか低い額",
+      "amount_max_yen": 200000,
+      "condition_text": "耐震補強工事と同時に実施する改修工事のみが対象。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": "申請受付は令和8年(2026年)4月14日から。",
+      "deadline": null,
+      "official_url": "https://www.city.shima.mie.jp/kakuka/kensetsubu/eizenshitsu/eizen_bousai/jishin/1455764165583.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "木造住宅耐震シェルター設置支援制度", "official_url": "https://www.city.shima.mie.jp/kakuka/bousakiki/bosai/bosai_ni_kansuru_hojo_joseikin/7054.html"}
+  ]
+}

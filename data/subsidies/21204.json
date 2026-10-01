@@ -1,0 +1,31 @@
+{
+  "municipality_code": "21204",
+  "municipality": "多治見市",
+  "ward": null,
+  "updated_at": "2026-10-01",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.tajimi.lg.jp/kurashi_tetsuduzuki/machizukuri/1005830/1005851/1005862/1005866.html"
+  ],
+  "items": [
+    {
+      "id": "tajimi-wood-taishin",
+      "name": "木造住宅耐震改修工事補助事業",
+      "amount_text": "改修後の評点が1.0以上となる工事:上限110万円。改修後の評点が0.7以上となる工事:上限84万円。",
+      "amount_max_yen": 1100000,
+      "condition_text": "1981年5月31日以前に建築された、市内にある木造戸建住宅。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "申請期限・受付状況はページ内の「お知らせ」リンクで要確認。詳細問い合わせ先:開発指導課(0572-22-1336)。",
+      "deadline": null,
+      "official_url": "https://www.city.tajimi.lg.jp/kurashi_tetsuduzuki/machizukuri/1005830/1005851/1005862/1005866.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "木造住宅無料耐震診断事業", "official_url": "https://www.city.tajimi.lg.jp/kurashi_tetsuduzuki/machizukuri/1005830/1005851/1005862.html"}
+  ]
+}
