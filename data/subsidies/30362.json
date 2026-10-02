@@ -7,12 +7,15 @@
   "verified_at": null,
   "source_urls": [
     "https://www.town.hirogawa.wakayama.jp/soumu/reformhojokin.html",
-    "https://www.town.hirogawa.wakayama.jp/soumu/akiyakaisyuu.html"
+    "https://www.town.hirogawa.wakayama.jp/soumu/akiyakaisyuu.html",
+    "https://www.pref.wakayama.lg.jp/prefg/080800/index_d/fil/jutakupanfu.pdf",
+    "https://www.pref.wakayama.lg.jp/prefg/080800/taishin/soudanmadoguchi.html"
   ],
   "items": [],
   "not_yet_covered": [
     {"name": "広川町住宅リフォーム補助金交付制度(耐震専用ではなく一般リフォーム補助、耐震工事が対象に含まれるか未確認)", "official_url": "https://www.town.hirogawa.wakayama.jp/soumu/reformhojokin.html"},
     {"name": "広川町空き家改修事業補助金(空き家向け、耐震専用ではない)", "official_url": "https://www.town.hirogawa.wakayama.jp/soumu/akiyakaisyuu.html"},
     {"name": "耐震相談窓口(総務課 0737-23-7732)はあるが、町独自の耐震診断・耐震改修専用補助金の一次情報源ページを発見できず", "official_url": "https://www.town.hirogawa.wakayama.jp/"}
-  ]
+  ],
+  "note": "2026-10-02再々調査済み(福岡県の同名「広川町」との混同に注意し、和歌山県有田郡広川町の情報のみ採用)。和歌山県公式パンフレット「住宅支援のあれこれ」(2026年4月版)で県共通の耐震診断・改修補助スキーム(詳細は30201和歌山市等の他市町ファイル参照)の問い合わせ窓口が「各市町村の担当窓口」とされ、広川町の窓口は総務課(0737-23-7732)と確認。ただし「市町村によって対象及び補助額が異なる場合があります」と明記されており、広川町が実際に参加しているか・金額は町公式ページ上で確認できなかった。電話確認推奨。"
 }

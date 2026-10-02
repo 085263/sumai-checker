@@ -6,10 +6,30 @@
   "verified_by_human": false,
   "verified_at": null,
   "source_urls": [
+    "https://www.town.iizuna.nagano.jp/docs/11797.html",
     "https://www.town.iizuna.nagano.jp/docs/taishin.html"
   ],
-  "items": [],
+  "items": [
+    {
+      "id": "iizuna-taishin-kaishu",
+      "name": "飯綱町住宅耐震改修補助",
+      "amount_text": "改修費用の4/5以内、限度額140万円(令和8年度予定)",
+      "amount_max_yen": 1400000,
+      "condition_text": "昭和56年(1981年)5月31日以前に着工された木造で、現住されている戸建住宅が対象(店舗併用の場合は住宅部分が1/2以上)。改修補助を受けるには、まず町が実施する耐震診断を受ける必要がある。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "2026-10-02に公式ページ(docs/11797.html、令和8年度向けページ)を直接確認。令和7年度の正確な条件は未確認(建設水道課 026-253-4766で要問合せ)。診断と改修は同一年度での実施が困難で、診断の翌年度内に改修補助を申請する運用。低信頼度(年度表記にやや注意)。",
+      "deadline": null,
+      "official_url": "https://www.town.iizuna.nagano.jp/docs/11797.html"
+    }
+  ],
   "not_yet_covered": [
-    {"name": "飯綱町耐震改修促進計画(第Ⅳ期)及び住宅の耐震診断・耐震改修補助制度(具体的な補助金額はページ内PDFのみに記載、本文からは未確認)", "official_url": "https://www.town.iizuna.nagano.jp/docs/taishin.html"}
+    {
+      "name": "飯綱町の耐震診断事業(無料診断、改修補助の前提として存在するが金額詳細は本文未確認)",
+      "official_url": "https://www.town.iizuna.nagano.jp/docs/taishin.html"
+    }
   ]
 }

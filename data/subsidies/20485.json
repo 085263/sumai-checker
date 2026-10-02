@@ -6,13 +6,19 @@
   "verified_by_human": false,
   "verified_at": null,
   "source_urls": [
-    "https://www.vill.hakuba.lg.jp/gyosei/soshikikarasagasu/kensetsuka/tochiriyou_kenchiku/hojokin/index.html"
+    "https://www.vill.hakuba.lg.jp/gyosei/soshikikarasagasu/kensetsuka/tochiriyou_kenchiku/hojokin/index.html",
+    "https://www.vill.hakuba.lg.jp/gyosei/kurashi_tetsuzuki/subsidy/index.html"
   ],
   "items": [],
   "not_yet_covered": [
     {
-      "name": "住宅耐震改修に伴う固定資産税の減額措置(補助金ではなく税制優遇)",
+      "name": "住宅耐震改修に伴う固定資産税の減額措置(補助金ではなく税制優遇、公式確認済み)",
       "official_url": "https://www.vill.hakuba.lg.jp/gyosei/soshikikarasagasu/zeimuka/kazeigakari/2/1/940.html"
+    },
+    {
+      "name": "耐震診断・耐震改修工事補助金(二次情報源で存在が示唆されるが公式ページ未確認、要注意)",
+      "official_url": "https://www.vill.hakuba.lg.jp/gyosei/soshikikarasagasu/kensetsuka/tochiriyou_kenchiku/hojokin/index.html"
     }
-  ]
+  ],
+  "note": "2026-10-02に再々調査を実施。建設課の補助金一覧ページ(index.html)には克雪住宅整備事業補助金とゼロエネ住宅普及支援事業補助金のみ掲載され、耐震関連補助金は確認できなかった。二次情報源(reform-hojo.jp、refo-sumu.jp等)では「住宅耐震化緊急加速事業補助金(上限50万円)」「住まいの安全倒壊防止対策事業補助金(上限100万円)」等、サイトごとに異なる制度名・金額が示されており、情報源間で一致しないため採用を見送った。公式サイトのsite内検索でもこれらの制度名はヒットせず、信頼性が低い。村役場建設課への電話確認を強く推奨。"
 }

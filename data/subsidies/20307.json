@@ -5,10 +5,43 @@
   "updated_at": "2026-10-02",
   "verified_by_human": false,
   "verified_at": null,
-  "source_urls": [],
-  "items": [],
+  "source_urls": [
+    "https://reform-hojo.jp/nagano/kitaaiki"
+  ],
+  "items": [
+    {
+      "id": "kitaaiki-taishin-shindan",
+      "name": "北相木村木造住宅耐震事業(耐震診断)",
+      "amount_text": "精密診断費用を全額補助",
+      "amount_max_yen": null,
+      "condition_text": "昭和56年5月31日以前に着工した既存木造住宅が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "二次情報源(reform-hojo.jp)のみで確認。公式サイト(vill.kitaaiki.nagano.jp)はTLS証明書エラーでWebFetch不可のため一次情報源未到達。低信頼度・要人力確認。",
+      "deadline": null,
+      "official_url": "http://www.vill.kitaaiki.nagano.jp/docs/kitaaikireforme.html"
+    },
+    {
+      "id": "kitaaiki-taishin-hokyo",
+      "name": "北相木村木造住宅耐震補強事業",
+      "amount_text": "対象経費の1/2、上限100万円",
+      "amount_max_yen": 1000000,
+      "condition_text": "昭和56年5月31日以前に着工した既存木造住宅の耐震補強工事が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "二次情報源(reform-hojo.jp)のみで確認。公式サイトTLS証明書エラーでWebFetch不可のため低信頼度・要人力確認。",
+      "deadline": null,
+      "official_url": "http://www.vill.kitaaiki.nagano.jp/docs/kitaaikireforme.html"
+    }
+  ],
   "not_yet_covered": [
-    {"name": "北相木村住宅耐震化緊急促進アクションプログラム(2024-03-22公表、具体的な補助金額は未確認)", "official_url": null},
-    {"name": "北相木村耐震改修促進計画(2021-10-12、具体的な補助金額は未確認)", "official_url": null}
-  ]
+    {"name": "北相木村住宅リフォーム助成事業(耐震補強含む一般改修、上限25万円、一般改修のため対象外)", "official_url": null}
+  ],
+  "note": "2026-10-02再調査:公式サイトのTLS証明書がAkamaiのものと一致せずWebFetch不可(複数回試行)。二次情報源(reform-hojo.jp)の記載内容をitemsに記録したが未検証。電話等での一次確認を推奨。"
 }

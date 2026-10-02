@@ -5,10 +5,49 @@
   "updated_at": "2026-10-02",
   "verified_by_human": false,
   "verified_at": null,
-  "source_urls": [],
-  "items": [],
+  "source_urls": [
+    "https://www.town.anpachi.lg.jp/0000000366.html"
+  ],
+  "items": [
+    {
+      "id": "anpachi-taishin-kaishu-ippan",
+      "name": "安八町木造住宅耐震化促進事業(耐震改修・一般補強)",
+      "amount_text": "工事費120万円以下は61.5%、120万円超は11.5%+60万円、上限108万9,000円",
+      "amount_max_yen": 1089000,
+      "condition_text": "昭和56年(1981年)5月31日以前に着工された木造の一戸建て住宅が対象。耐震診断を受けた上での改修工事が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "2026-10-02に公式ページを直接確認。申請期限はページに記載なし。",
+      "deadline": null,
+      "official_url": "https://www.town.anpachi.lg.jp/0000000366.html"
+    },
+    {
+      "id": "anpachi-taishin-kaishu-kani",
+      "name": "安八町木造住宅耐震化促進事業(簡易補強)",
+      "amount_text": "上限84万円",
+      "amount_max_yen": 840000,
+      "condition_text": "昭和56年(1981年)5月31日以前に着工された木造の一戸建て住宅が対象。一般補強より簡易な補強工事のコース。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "2026-10-02に公式ページを直接確認。補助率の詳細(一般補強と同一かは)ページ上明確でないため要確認。",
+      "deadline": null,
+      "official_url": "https://www.town.anpachi.lg.jp/0000000366.html"
+    }
+  ],
   "not_yet_covered": [
-    {"name": "木造住宅耐震診断事業(無料診断、昭和56年5月31日以前の木造住宅が対象と推定)", "official_url": null},
-    {"name": "耐震補強工事補助(一般補強・簡易補強制度の存在は示唆されるが詳細未確認)", "official_url": null}
+    {
+      "name": "安八町の無料耐震診断事業(町が岐阜県木造住宅耐震相談士を無料派遣、改修補助の前提として存在するが本ページでは金額詳細未確認)",
+      "official_url": "https://www.town.anpachi.lg.jp/0000000366.html"
+    },
+    {
+      "name": "耐震シェルター・防災ベッド設置費補助(存在は示唆されるが金額未確認)",
+      "official_url": null
+    }
   ]
 }

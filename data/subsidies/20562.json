@@ -6,17 +6,55 @@
   "verified_by_human": false,
   "verified_at": null,
   "source_urls": [
-    "https://www.vill.kijimadaira.lg.jp/index.html.r"
+    "https://www.vill.kijimadaira.lg.jp/articles/2017071400033/",
+    "http://www.vill.kijimadaira.lg.jp/articles/2017071900021"
   ],
-  "items": [],
-  "not_yet_covered": [
+  "items": [
     {
-      "name": "耐震診断・耐震改修に関する補助金制度(今回の調査では公式ページ未発見。トップページの「補助金・助成金」一般リンクのみ確認)",
-      "official_url": "https://www.vill.kijimadaira.lg.jp/index.html.r"
+      "id": "kijimadaira-taishin-shindan",
+      "name": "木島平村住宅耐震診断事業",
+      "amount_text": "無料(村が耐震診断士を派遣)",
+      "amount_max_yen": 0,
+      "condition_text": "昭和56年(1981年)5月31日以前(旧耐震基準)に着工された木造在来工法の住宅。空き家を除き、長屋・共同住宅でない個人所有住宅に限定。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "2026-10-02に公式サイト(vill.kijimadaira.lg.jp、正しいドメインはnagano.jpではなくlg.jp)で直接確認。過去の申込期限例は令和6年11月29日、予算の都合上件数に限りあり。",
+      "deadline": null,
+      "official_url": "https://www.vill.kijimadaira.lg.jp/articles/2017071400033/"
     },
     {
-      "name": "木島平村住まいづくり促進事業(新築向けの可能性が高く、耐震改修とは別制度の疑い)",
-      "official_url": "http://www.vill.kijimadaira.lg.jp/articles/2017072600012/"
+      "id": "kijimadaira-taishin-kaishu",
+      "name": "木島平村住宅耐震改修事業補助金(耐震改修)",
+      "amount_text": "耐震設計等及び工事費の80%以内、上限140万円",
+      "amount_max_yen": 1400000,
+      "condition_text": "昭和56年5月31日以前の旧耐震基準で着工された木造在来工法住宅。耐震診断で総合評点1.0未満と判定され、1.0以上にする改修工事が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "2026-10-02に公式サイトで直接確認。補助金交付決定があった年度の3月31日までに完成が必要。",
+      "deadline": null,
+      "official_url": "http://www.vill.kijimadaira.lg.jp/articles/2017071900021"
+    },
+    {
+      "id": "kijimadaira-jokyaku",
+      "name": "木島平村住宅耐震改修事業補助金(除却工事)",
+      "amount_text": "除却工事費の50%以内、上限97万8,600円",
+      "amount_max_yen": 978600,
+      "condition_text": "昭和56年5月31日以前の旧耐震基準で着工された木造在来工法住宅の除却工事。耐震診断実施済みで総合評点1.0未満が必須。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "2026-10-02に公式サイトで直接確認。",
+      "deadline": null,
+      "official_url": "http://www.vill.kijimadaira.lg.jp/articles/2017071900021"
     }
-  ]
+  ],
+  "not_yet_covered": []
 }

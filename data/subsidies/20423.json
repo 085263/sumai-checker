@@ -6,18 +6,19 @@
   "verified_by_human": false,
   "verified_at": null,
   "source_urls": [
-    "https://www.town.nagiso.nagano.jp/0000000230.html"
+    "https://www.town.nagiso.nagano.jp/0000000230.html",
+    "https://www.town.nagiso.nagano.jp/soshiki/6-3-0-0-0_4.html"
   ],
   "items": [],
   "not_yet_covered": [
     {
-      "name": "南木曽町住宅耐震化緊急促進アクションプログラム(詳細未確認)",
+      "name": "南木曽町住宅耐震化緊急促進アクションプログラム(リンクは確認、PDF本文の補助金額・条件は未到達)",
       "official_url": "https://www.town.nagiso.nagano.jp/soshiki/6-3-0-0-0_4.html"
     },
     {
-      "name": "南木曽町耐震改修促進計画(第4期)(詳細未確認)",
+      "name": "南木曽町耐震改修促進計画(第4期)(詳細未確認、filetype:pdf検索でも直接ヒットせず)",
       "official_url": "https://www.town.nagiso.nagano.jp/"
     }
   ],
-  "note": "「南木曽町住宅リフォーム補助事業」のページには耐震診断・改修の補助は含まれないことをWebFetchで確認。耐震関連は「住宅耐震化緊急促進アクションプログラム」「耐震改修促進計画」が担当と見られるが、具体的な補助金額・条件のページには到達できなかった。担当:環境住宅係(0264-57-2001)。要人力確認。"
+  "note": "「南木曽町住宅リフォーム補助事業」には耐震診断・改修は含まれないことをWebFetchで確認済み。2026-10-02に再々調査(filetype:pdf検索含む)を実施したが、アクションプログラムの本文(補助金額等)には到達できなかった。担当:環境住宅係(0264-57-2001)。要人力確認。"
 }

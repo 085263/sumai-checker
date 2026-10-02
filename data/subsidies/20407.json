@@ -6,14 +6,31 @@
   "verified_by_human": false,
   "verified_at": null,
   "source_urls": [
-    "https://www.vill.achi.lg.jp/life/3/3/79/"
+    "https://www.vill.achi.lg.jp/soshiki/5/juutakurifomuhojokin.html",
+    "https://www1.g-reiki.net/vill.achi/reiki_honbun/e755RG00000631.html"
   ],
-  "items": [],
+  "items": [
+    {
+      "id": "achi-taishin-kaishu",
+      "name": "阿智村木造住宅耐震改修補助事業",
+      "amount_text": "耐震改修工事費の1/2、上限50万円",
+      "amount_max_yen": 500000,
+      "condition_text": "村内施工業者を利用した木造住宅の耐震改修工事が対象と推定(詳細未確認)。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": null,
+        "built_after": null
+      },
+      "note": "制度の存在自体は村公式ページ(住宅リフォーム促進事業補助金は本事業と併用不可と明記)で一次確認済みだが、補助率・上限額・建築時期条件は二次情報源(WebSearch要約)のみで、当該制度専用の交付要綱(g-reiki)本文には到達できなかった。低信頼度・要人力確認。",
+      "deadline": null,
+      "official_url": null
+    }
+  ],
   "not_yet_covered": [
     {
-      "name": "阿智村住宅リフォーム促進事業補助金(耐震改修含む一般リフォーム、上限10万円)",
+      "name": "阿智村住宅リフォーム促進事業補助金(一般リフォーム、基本額10万円、耐震改修補助事業とは併用不可のため別制度として扱い対象外)",
       "official_url": "https://www.vill.achi.lg.jp/soshiki/5/juutakurifomuhojokin.html"
     }
   ],
-  "note": "村の「補助制度の一覧」ページおよびg-reiki条例検索で、耐震診断・耐震改修専用の補助金交付要綱は見当たらなかった。住宅リフォーム促進事業補助金(上限10万円)は耐震改修を含む複数目的の制度で、専用の耐震補助金ではないためitemsから除外。低信頼度・要人力確認。"
+  "note": "2026-10-02再調査:住宅リフォーム促進事業補助金の公式ページに「阿智村木造住宅耐震改修補助事業と併用不可」との記載があり、専用の耐震改修補助制度が別途存在することを一次情報源で確認。ただし当該制度自体の交付要綱本文(g-reiki)には到達できず、金額等はWebSearch要約に基づく低信頼度情報。"
 }

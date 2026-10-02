@@ -6,15 +6,13 @@
   "verified_by_human": false,
   "verified_at": null,
   "source_urls": [
-    "https://www.hirayamura.jp/"
+    "https://www.hirayamura.jp/",
+    "https://reform-hojo.jp/nagano/hiraya"
   ],
   "items": [],
   "not_yet_covered": [
-    {
-      "name": "家屋新築補助金(新築時の年齢・面積要件あり、耐震とは無関係)",
-      "official_url": "https://www.hirayamura.jp/"
-    }
+    {"name": "空き家取得改修等補助金(経費の1/2・上限50万円。空き家取得者向けで、居住中住宅の耐震改修とは無関係のため対象外)", "official_url": "https://www.hirayamura.jp/"},
+    {"name": "家屋新築補助金(新築時の年齢・面積要件あり、耐震とは無関係)", "official_url": "https://www.hirayamura.jp/"}
   ],
-  "note": "公式サイトのトップページ・移住定住ページを確認したが、耐震診断・耐震改修に関する補助金は見当たらなかった。人口約400人の小規模村のため制度自体が存在しない可能性がある。低信頼度・要人力確認(電話:0265-48-2211)。",
-  "deadline": null
+  "note": "2026-10-02再調査:公式サイト・二次情報源(reform-hojo.jp、全16件のリフォーム補助金リスト)のいずれにも、居住中の木造住宅を対象とした耐震診断・耐震改修専用の補助金は見当たらなかった。人口約380人の小規模村のため制度自体が存在しない可能性が高い。低信頼度・要電話確認(0265-48-2211)。"
 }

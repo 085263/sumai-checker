@@ -11,13 +11,17 @@
   "items": [],
   "not_yet_covered": [
     {
-      "name": "住宅リフォーム補助(耐震改修が対象か未確認)",
-      "official_url": "http://www.vill.ooshika.nagano.jp/rehome_hozyo/"
+      "name": "大鹿村耐震改修促進計画(存在は確認、個人住宅向け補助金額の記載は未確認)",
+      "official_url": "https://www.vill.ooshika.nagano.jp/category/village_admin/"
     },
     {
-      "name": "住宅新築等補助(45歳以下の定住者向け、耐震とは無関係)",
-      "official_url": "https://www.vill.ooshika.nagano.jp/shinchiku_hojo/"
+      "name": "大鹿村住宅耐震化緊急促進アクションプログラム(存在は確認、具体的な補助制度の内容は未確認)",
+      "official_url": "https://www.vill.ooshika.nagano.jp/category/living_info/"
+    },
+    {
+      "name": "住宅リフォーム補助(耐震改修が対象か未確認)",
+      "official_url": "http://www.vill.ooshika.nagano.jp/rehome_hozyo/"
     }
   ],
-  "note": "WebSearch・公式トップページのWebFetchでは専用の耐震診断・耐震改修補助金を確認できなかった。「住宅リフォーム補助」に耐震改修が含まれるかは要綱本文未確認のため不明。村役場への確認が必要。"
+  "note": "2026-10-02に再々調査(サイト内検索・複数キーワード)を実施。「大鹿村耐震改修促進計画」「大鹿村住宅耐震化緊急促進アクションプログラム」という文書名の存在はPDF検索結果から確認できたが、具体的なPDF本文(補助金額・条件)には到達できなかった。これらは目標設定計画であり、個人向け補助金制度そのものとは限らない点に注意。村役場への確認が必要。"
 }

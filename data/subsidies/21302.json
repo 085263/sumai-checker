@@ -7,11 +7,22 @@
   "verified_at": null,
   "source_urls": [
     "https://www.town.ginan.lg.jp/secure/1595/taishinshindanmoushikomi.pdf",
-    "https://www.town.ginan.lg.jp/2979.htm"
+    "https://www.town.ginan.lg.jp/2979.htm",
+    "https://www.pref.gifu.lg.jp/page/807.html"
   ],
   "items": [],
   "not_yet_covered": [
-    {"name": "岐南町木造住宅耐震診断事業(実施要綱・申込書の存在のみ確認、補助金額未到達)", "official_url": "https://www.town.ginan.lg.jp/secure/1595/taishinshindanmoushikomi.pdf"},
-    {"name": "危険ブロック塀等除去事業費補助金(耐震改修本体の補助ではない)", "official_url": "https://www.town.ginan.lg.jp/2979.htm"}
+    {
+      "name": "岐南町木造住宅耐震診断事業(2026-10-02再々調査:申込書PDFの存在は確認したがPDF破損のため内容読み取れず、無料か有償か・補助上限額は未確認のまま。岐阜県の県全体制度ページにも岐南町固有の記載なし)",
+      "official_url": "https://www.town.ginan.lg.jp/secure/1595/taishinshindanmoushikomi.pdf"
+    },
+    {
+      "name": "危険ブロック塀等除去事業費補助金(耐震改修本体の補助ではない)",
+      "official_url": "https://www.town.ginan.lg.jp/2979.htm"
+    },
+    {
+      "name": "木造住宅耐震改修工事の補助制度(2回の調査(2026-10-01, 2026-10-02)でも公式サイト・WebSearchいずれからも発見できず。電話確認を推奨)",
+      "official_url": null
+    }
   ]
 }

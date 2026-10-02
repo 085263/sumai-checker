@@ -6,17 +6,45 @@
   "verified_by_human": false,
   "verified_at": null,
   "source_urls": [
-    "https://www.town.sakaki.nagano.jp/www/contents/1585802818408/index.html"
+    "https://www.town.sakaki.nagano.jp/page/15216.html",
+    "https://www.town.sakaki.nagano.jp/page/10079.html"
   ],
-  "items": [],
-  "not_yet_covered": [
+  "items": [
     {
-      "name": "坂城町耐震改修促進計画(第4期)に基づく住宅耐震化支援(具体的な補助金制度ページ未発見)",
-      "official_url": "https://www.town.sakaki.nagano.jp/www/contents/1585802818408/index.html"
+      "id": "sakaki-taishin-kaishu",
+      "name": "坂城町木造住宅耐震改修事業等補助金(耐震改修)",
+      "amount_text": "対象経費の5分の4以内、上限115万円(長野県の上乗せ補助併用で最大165万円の可能性あり)",
+      "amount_max_yen": 1150000,
+      "condition_text": "昭和56年(1981年)5月31日以前に町内に着工された(旧耐震基準により建築された)木造住宅が対象。耐震診断で総合評点1.0未満と判定されたものを1.0以上にする改修工事が対象と推定(他市町村の同種制度と同基準)。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "2026-10-02に建設課ページ経由で公式ページ(page/15216.html)を直接確認。申請期限は明記なし、予算終了次第受付終了。補助金交付決定年度内の完了が必須。",
+      "deadline": null,
+      "official_url": "https://www.town.sakaki.nagano.jp/page/15216.html"
     },
     {
-      "name": "住宅リフォーム補助事業(耐震特化ではない可能性、要確認)",
-      "official_url": "https://www.town.sakaki.nagano.jp/www/contents/1001000000546/index.html"
+      "id": "sakaki-jokyaku",
+      "name": "坂城町木造住宅耐震改修事業等補助金(住宅除却)",
+      "amount_text": "対象経費の2分の1以内、上限98万円(単価上限1平方メートルあたり39,900円)",
+      "amount_max_yen": 980000,
+      "condition_text": "昭和56年(1981年)5月31日以前に町内に着工された(旧耐震基準により建築された)木造住宅の除却工事が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "2026-10-02に公式ページ(page/15216.html)を直接確認。申請期限は明記なし。",
+      "deadline": null,
+      "official_url": "https://www.town.sakaki.nagano.jp/page/15216.html"
+    }
+  ],
+  "not_yet_covered": [
+    {
+      "name": "坂城町耐震改修促進計画(第4期、補助金とは別の計画文書)",
+      "official_url": "https://www.town.sakaki.nagano.jp/page/10079.html"
     }
   ]
 }

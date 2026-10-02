@@ -6,11 +6,13 @@
   "verified_by_human": false,
   "verified_at": null,
   "source_urls": [
-    "https://www.town.susami.lg.jp/"
+    "https://www.town.susami.lg.jp/",
+    "https://www.pref.wakayama.lg.jp/prefg/080800/index_d/fil/jutakupanfu.pdf",
+    "https://www.pref.wakayama.lg.jp/prefg/080800/taishin/soudanmadoguchi.html"
   ],
   "items": [],
   "not_yet_covered": [
     {"name": "防災関連ページ(耐震関連の具体的な補助金ページは未発見)", "official_url": "https://www.town.susami.lg.jp/bousai/index.html"}
   ],
-  "note": "公式サイト内で木造住宅耐震診断・耐震改修の補助金制度ページを複数回の検索・閲覧で発見できなかった。町の規模が小さく、独自の耐震改修補助制度自体が存在しない可能性もある。要電話確認(すさみ町役場)。"
+  "note": "2026-10-02再々調査済み。公式サイト内で木造住宅耐震診断・耐震改修の補助金制度ページを複数回の検索・閲覧で発見できなかった。和歌山県公式パンフレット「住宅支援のあれこれ」(2026年4月版)で県共通の耐震診断・改修補助スキーム(詳細は30201和歌山市等の他市町ファイル参照)の問い合わせ窓口が「各市町村の担当窓口」とされ、すさみ町の窓口は総務課(0739-55-4802)と確認。ただし「市町村によって対象及び補助額が異なる場合があります」と明記されており、すさみ町が実際に参加しているか・金額は町公式ページ上で確認できなかった。町の規模が小さく独自制度自体が存在しない可能性もある。要電話確認。"
 }

@@ -5,12 +5,15 @@
   "updated_at": "2026-10-02",
   "verified_by_human": false,
   "verified_at": null,
-  "source_urls": [],
+  "source_urls": [
+    "https://www.town.nishikatsura.yamanashi.jp/divinfolist/4"
+  ],
   "items": [],
   "not_yet_covered": [
     {
-      "name": "耐震診断・耐震改修関連補助金(WebSearch/WebFetchで該当ページを発見できず)",
+      "name": "西桂町木造住宅耐震改修事業・西桂町木造住宅耐震診断事業(二次情報源のみ、公式ページ未確認)",
       "official_url": "https://www.town.nishikatsura.yamanashi.jp/divinfolist/4"
     }
-  ]
+  ],
+  "note": "2026-10-02再々調査:町公式サイトの建設産業課ページ(divinfolist/4)をWebFetchで確認したが、掲載事項は景観計画・町営住宅・土砂災害警戒区域・屋外広告物・ブロック塀補助金等のみで耐震診断・耐震改修補助金のページは存在しなかった。一方、二次情報源(reform-hojo.jp等)は「西桂町木造住宅耐震改修事業」(限度額143.75万円)・「西桂町木造住宅耐震診断事業」(上限6.6万円・100%補助)の存在を主張しているが、交付要綱等の一次情報源には到達できず裏付けが取れていない。制度が実在する可能性はあるが、本データには未反映。要人力確認(町役場建設産業課へ電話確認推奨)。"
 }

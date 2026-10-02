@@ -6,10 +6,12 @@
   "verified_by_human": false,
   "verified_at": null,
   "source_urls": [
-    "https://www.vill.kawakami.nagano.jp/www/genre/1000200000043/index.html"
+    "https://www.vill.kawakami.nagano.jp/www/genre/1000200000043/index.html",
+    "https://www.vill.kawakami.nagano.jp/www/genre/1000200000004/index.html"
   ],
   "items": [],
   "not_yet_covered": [
-    {"name": "川上村耐震改修促進計画(存在のみ言及あり、補助金の詳細は未確認)", "official_url": null}
-  ]
+    {"name": "川上村耐震改修促進計画(2025-04-01更新、計画の存在のみ確認、個人向け補助金の詳細は未確認)", "official_url": null}
+  ],
+  "note": "2026-10-02再調査:村公式サイトの「各種補助金」一覧(建設課・環境係・総務課・むらづくり推進課等)および「暮らし・手続き」ページを確認したが、耐震診断・耐震改修専用の補助金は掲載されていなかった(太陽光発電・エアコン設置・防犯等のみ)。制度自体が存在しない可能性が高い。低信頼度・要電話確認。"
 }

@@ -13,8 +13,12 @@
     {
       "name": "王滝村国土強靭化地域計画(公共施設の耐震化方針のみ、個人住宅向け補助の記載なし)",
       "official_url": "https://www.vill.otaki.nagano.jp/aboutus/keikaku/keikaku/documents/kokudokyojinka/kokudokyojinka.pdf"
+    },
+    {
+      "name": "耐震改修促進計画(村が改定作業中との記載を公共施設管理計画等で確認、個人住宅向け補助制度の有無は未確認)",
+      "official_url": "https://www.vill.otaki.nagano.jp/"
     }
   ],
-  "note": "公式サイトおよびサイト内検索で個人住宅向けの耐震診断・耐震改修補助金ページを発見できなかった。低信頼度・要人力確認(電話で村役場に確認推奨)。",
+  "note": "2026-10-02に再々調査(site:vill.otaki.nagano.jp 耐震 等)を実施。公式サイト内で「耐震」に言及する文書は国土強靭化計画・公共施設総合管理計画・長期振興計画等の公共施設関連が中心で、個人住宅向け耐震診断・改修補助金のページは発見できなかった。低信頼度・要人力確認(電話で村役場に確認推奨)。",
   "deadline": null
 }
