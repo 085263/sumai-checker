@@ -6,36 +6,38 @@
   "verified_by_human": false,
   "verified_at": null,
   "source_urls": [
-    "https://www.vill.aoki.nagano.jp/syoushiki.html"
+    "https://www.vill.aoki.nagano.jp/syoushiki.html",
+    "https://www.vill.aoki.nagano.jp/asset/00032/gyousei/syoukoukannkouijuuka/taishin/taishin-shindan-youkou_R05.pdf",
+    "https://www.vill.aoki.nagano.jp/asset/00032/gyousei/syoukoukannkouijuuka/taishin/taishin-hokyou-youkou_R05.pdf"
   ],
   "items": [
     {
       "id": "aoki-taishin-shindan",
       "name": "青木村木造住宅耐震診断事業",
-      "amount_text": "詳細不明(ページに金額記載なし)",
-      "amount_max_yen": null,
-      "condition_text": "木造住宅が対象。具体的な築年数・構造要件はページ上で確認できず。",
+      "amount_text": "無料(村が長野県木造住宅耐震診断士を派遣)",
+      "amount_max_yen": 0,
+      "condition_text": "昭和56年5月31日以前に村内で着工された木造在来工法の個人所有住宅(長屋・共同住宅・賃貸住宅を除く)。",
       "eligibility": {
         "building_types": ["wood"],
-        "built_before": null,
+        "built_before": "1981-06-01",
         "built_after": null
       },
-      "note": "低信頼度:申請様式ページのみ確認、要綱PDFは未取得。申請期限は令和8年(2026年)3月31日までと記載。",
+      "note": "2026-10-02、実施要綱PDFを取得し対象条件(築年数・構造)は確認できたが、PDFがCIDフォント埋め込みで自動テキスト抽出が不完全なため数値以外の詳細未確認部分あり。申請期限は令和8年(2026年)3月31日まで。",
       "deadline": "2026-03-31",
       "official_url": "https://www.vill.aoki.nagano.jp/syoushiki.html"
     },
     {
       "id": "aoki-taishin-hokyo",
       "name": "青木村木造住宅耐震補強事業補助金",
-      "amount_text": "詳細不明(ページに金額記載なし)",
+      "amount_text": "詳細不明(要綱PDFの自動テキスト抽出が不完全で金額を確定できず)。二次情報源(reform-hojo.jp)は上限100万円(長野県制度)と記載",
       "amount_max_yen": null,
-      "condition_text": "木造住宅が対象。具体的な築年数・構造要件はページ上で確認できず。",
+      "condition_text": "昭和56年5月31日以前に村内で着工された木造在来工法の個人所有住宅(長屋・共同住宅・賃貸住宅を除く)。精密耐震診断の結果、総合評点が一定基準未満であること。所得制限あり(別表に給与所得者1,442万円等・その他1,200万円等の記載を要綱内で確認)。",
       "eligibility": {
         "building_types": ["wood"],
-        "built_before": null,
+        "built_before": "1981-06-01",
         "built_after": null
       },
-      "note": "低信頼度:申請様式ページのみ確認、要綱PDFは未取得。申請期限は令和8年(2026年)3月31日までと記載。",
+      "note": "低信頼度:交付要綱PDFを取得・一部解析したが、CIDフォント埋め込みのため自動テキスト抽出で補助金額(上限額)の数値部分が確定できなかった。二次情報源(reform-hojo.jp)は上限100万円と記載(長野県の標準スキームと推定)。村振興観光課への電話確認推奨。申請期限は令和8年(2026年)3月31日まで。",
       "deadline": "2026-03-31",
       "official_url": "https://www.vill.aoki.nagano.jp/syoushiki.html"
     }

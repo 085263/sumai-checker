@@ -21,7 +21,7 @@
         "built_before": "1981-06-01",
         "built_after": null
       },
-      "note": "低信頼度:村の「耐震改修促進計画」PDFはバイナリ構造の都合で本文抽出ができず、WebSearchによるAI要約のみを根拠としている。一次情報源(交付要綱そのもの)は未発見。金額・条件の詳細は村役場への確認が必要。",
+      "note": "低信頼度:村の「耐震改修促進計画」PDFはバイナリ構造の都合で本文抽出ができず、WebSearchによるAI要約のみを根拠としている。2026-10-02に独立した2回目のWebSearchでも同一内容(診断無料)が示され、一定の裏付けは得られたが、一次情報源(交付要綱そのもの)への到達は依然未発見。金額・条件の詳細は村役場への確認が必要。",
       "deadline": null,
       "official_url": "https://www.vill.tabayama.yamanashi.jp/gyousei/files/taishin.pdf"
     },
@@ -36,7 +36,7 @@
         "built_before": "1981-06-01",
         "built_after": null
       },
-      "note": "低信頼度:同上。WebSearchのAI要約のみが根拠で、一次情報源(交付要綱)でのamount_max_yen等の確認が取れていない。要人力確認。",
+      "note": "低信頼度:同上。2026-10-02の2回目のWebSearchでも「耐震改修に要した費用の1/2以下かつ60万円を限度」という同一内容が示され、既存データと一致(裏付け強化)。ただしWebSearchのAI要約のみが根拠で、一次情報源(交付要綱)でのamount_max_yen等の直接確認は取れていない。要人力確認。",
       "deadline": null,
       "official_url": "https://www.vill.tabayama.yamanashi.jp/gyousei/files/taishin.pdf"
     }

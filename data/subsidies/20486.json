@@ -6,28 +6,58 @@
   "verified_by_human": false,
   "verified_at": null,
   "source_urls": [
-    "https://www.vill.otari.nagano.jp/www/contents/1727152957415/index.html"
+    "https://www.vill.otari.nagano.jp/kurashi-tetsuzuki/sumai/1254.html"
   ],
   "items": [
     {
       "id": "otari-wood-taishin",
-      "name": "住宅・建築物耐震改修促進事業補助金(木造住宅)",
-      "amount_text": "情報不足のため要確認(公式ページ内の補助率・上限額の具体的な記載箇所に到達できず)",
-      "amount_max_yen": null,
-      "condition_text": "昭和56年5月31日以前に着工された住宅(店舗等併用で店舗等の用に供する部分の床面積が延べ床面積の2分の1未満のものを含む)で、木造在来工法の住宅、かつ長屋・共同住宅・賃貸住宅以外の個人所有の一戸建て住宅。",
+      "name": "住宅・建築物耐震改修促進事業補助金(木造住宅・耐震改修)",
+      "amount_text": "補助対象経費の5分の4以内、上限140万円",
+      "amount_max_yen": 1400000,
+      "condition_text": "昭和56年5月31日以前に着工された木造在来工法の個人所有一戸建て住宅(長屋・共同住宅・賃貸住宅を除く)。",
       "eligibility": {
         "building_types": ["wood"],
         "built_before": "1981-06-01",
         "built_after": null
       },
-      "note": "低信頼度。WebSearch要約から対象条件は確認できたが、木造住宅向けの補助率・上限額が確認できていない。WebFetchは当該URLで404となり本文未到達。",
+      "note": "2026-10-02、公式サイトが令和8年3月27日に新URL構造(kurashi-tetsuzuki以下)へ移転していたことが判明、新URLで公式ページ本文を確認し金額を確定。",
       "deadline": null,
-      "official_url": "https://www.vill.otari.nagano.jp/www/contents/1727152957415/index.html"
+      "official_url": "https://www.vill.otari.nagano.jp/kurashi-tetsuzuki/sumai/1254.html"
+    },
+    {
+      "id": "otari-non-wood-taishin",
+      "name": "住宅・建築物耐震改修促進事業補助金(非木造住宅・耐震改修)",
+      "amount_text": "補助対象経費の5分の4以内、上限140万円(利子補給利用時は5分の2以内・上限70万円)",
+      "amount_max_yen": 1400000,
+      "condition_text": "昭和56年5月31日以前に着工された個人所有一戸建て非木造住宅(長屋・共同住宅・賃貸住宅を除く)。",
+      "eligibility": {
+        "building_types": ["light_steel", "heavy_steel"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "2026-10-02、公式ページ(新URL)で新規確認。",
+      "deadline": null,
+      "official_url": "https://www.vill.otari.nagano.jp/kurashi-tetsuzuki/sumai/1254.html"
+    },
+    {
+      "id": "otari-jokyaku",
+      "name": "住宅・建築物耐震改修促進事業補助金(除却工事)",
+      "amount_text": "対象経費の2分の1以内、上限97万8,600円",
+      "amount_max_yen": 978600,
+      "condition_text": "倒壊危険性ありと診断された住宅(賃貸住宅を除く)の除却工事。",
+      "eligibility": {
+        "building_types": ["wood", "light_steel", "heavy_steel"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "2026-10-02、公式ページ(新URL)で新規確認。",
+      "deadline": null,
+      "official_url": "https://www.vill.otari.nagano.jp/kurashi-tetsuzuki/sumai/1254.html"
     },
     {
       "id": "otari-non-wood-shindan",
       "name": "既存非木造住宅耐震診断事業",
-      "amount_text": "対象経費の3分の2以内、上限89,000円",
+      "amount_text": "対象経費の3分の2以内、上限89,000円(特定既存耐震不適格建築物は面積別の基準額)",
       "amount_max_yen": 89000,
       "condition_text": "村内の特定既存耐震不適格建築物等、非木造の既存住宅の耐震診断。",
       "eligibility": {
@@ -35,9 +65,9 @@
         "built_before": null,
         "built_after": null
       },
-      "note": "低信頼度。WebSearch要約からの抽出で、WebFetch本文での直接確認はできていない(対象URL404)。",
+      "note": "2026-10-02、公式ページ(新URL)で再確認。特定既存耐震不適格建築物は1,000㎡以内が1㎡あたり2,060円の3分の2、1,000〜2,000㎡が1,540円の3分の2、2,000㎡超が1,030円の3分の2。",
       "deadline": null,
-      "official_url": "https://www.vill.otari.nagano.jp/www/contents/1727152957415/index.html"
+      "official_url": "https://www.vill.otari.nagano.jp/kurashi-tetsuzuki/sumai/1254.html"
     }
   ],
   "not_yet_covered": []

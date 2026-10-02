@@ -20,7 +20,7 @@
         "built_before": null,
         "built_after": null
       },
-      "note": "低信頼度:WebSearchのAI要約のみで、WebFetchによる一次情報源(町公式ページ)の直接確認ができなかった(該当ページが404)。金額・条件とも要人力確認。",
+      "note": "低信頼度:WebSearchのAI要約のみで、WebFetchによる一次情報源(町公式ページ)の直接確認ができなかった(該当ページが404)。2026-10-02再調査でも町公式ページの該当ページを発見できず。長野県の耐震化窓口一覧(pref.nagano.lg.jp)で佐久穂町の窓口電話番号(0267-86-2542)を確認、金額・条件とも要電話確認。",
       "deadline": null,
       "official_url": "https://www.town.sakuho.nagano.jp/"
     }

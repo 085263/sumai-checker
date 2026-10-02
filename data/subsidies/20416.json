@@ -6,23 +6,53 @@
   "verified_by_human": false,
   "verified_at": null,
   "source_urls": [
-    "https://www.vill.nagano-toyooka.lg.jp/21oidenansyo/03josei/"
+    "https://www.vill.nagano-toyooka.lg.jp/09sumai/07juutaku/01taishin/"
   ],
   "items": [
     {
-      "id": "toyooka-taishin-hojo",
-      "name": "住宅(耐震診断・太陽光補助)",
-      "amount_text": "金額不明(「耐震診断・補強や太陽光発電システム設置に対する補助金」とのみ記載)",
-      "amount_max_yen": null,
-      "condition_text": "詳細不明。村公式サイトの定住促進助成制度一覧ページに項目名と一行説明のみ記載。",
+      "id": "toyooka-taishin-shindan",
+      "name": "耐震診断",
+      "amount_text": "無料(耐震診断士の派遣費用は村が負担)",
+      "amount_max_yen": 0,
+      "condition_text": "昭和56年5月31日以前に建築工事に着手した一戸建て住宅(店舗併用を含む)。在来工法木造住宅のみ(ツーバイフォー・非木造は対象外)。",
       "eligibility": {
         "building_types": ["wood"],
-        "built_before": null,
+        "built_before": "1981-06-01",
         "built_after": null
       },
-      "note": "低信頼度。一覧ページに制度名のみ掲載され、金額・対象条件の詳細な記載ページが見つからなかった。村役場(0265-35-3311)への確認が必要。",
+      "note": "2026-10-02、公式ページで確認。",
       "deadline": null,
-      "official_url": "https://www.vill.nagano-toyooka.lg.jp/21oidenansyo/03josei/"
+      "official_url": "https://www.vill.nagano-toyooka.lg.jp/09sumai/07juutaku/01taishin/"
+    },
+    {
+      "id": "toyooka-taishin-kaishu",
+      "name": "耐震改修工事補助",
+      "amount_text": "補助対象工事費の4/5以内、上限100万円",
+      "amount_max_yen": 1000000,
+      "condition_text": "耐震診断で「危険」または「やや危険」と判定された昭和56年5月31日以前着工の在来工法木造一戸建て住宅。国補助金を含むため、国の事業許可後に着工が必要(許可取得に2〜3ヶ月要する)。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "2026-10-02、公式ページで確認し金額を確定(従来「金額不明」としていたが、4/5・上限100万円と判明)。",
+      "deadline": null,
+      "official_url": "https://www.vill.nagano-toyooka.lg.jp/09sumai/07juutaku/01taishin/"
+    },
+    {
+      "id": "toyooka-jokyaku",
+      "name": "既存住宅除却補助",
+      "amount_text": "補助対象工事費の1/2以内、上限83.8万円",
+      "amount_max_yen": 838000,
+      "condition_text": "「危険」または「やや危険」で倒壊危険性がある住宅の除却工事。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "2026-10-02、公式ページで新規確認。",
+      "deadline": null,
+      "official_url": "https://www.vill.nagano-toyooka.lg.jp/09sumai/07juutaku/01taishin/"
     }
   ],
   "not_yet_covered": []

@@ -21,7 +21,7 @@
         "built_before": null,
         "built_after": null
       },
-      "note": "低信頼度:公式サイト(town.minobu.yamanashi.jpと推定)に直接アクセスできず(DNS解決失敗)、二次情報源(reform-hojo.jp、smart-hojokin.jp)のみで確認。建築年基準の明記なし。担当課は建設課。",
+      "note": "低信頼度:2026-10-02の再調査で、身延町の公式ドメインは town.minobu.yamanashi.jp ではなく town.minobu.lg.jp であることが判明(前回の「DNS解決失敗」はドメイン名の誤りが原因)。town.minobu.lg.jp 自体は到達可能だが、site内検索・直接アクセスの試行でも耐震改修・耐震診断の具体的な補助金ページ(URL)は特定できず、依然二次情報源(reform-hojo.jp、smart-hojokin.jp)のみに基づく。建築年基準の明記なし。担当課は建設課(0556-42-4808)。",
       "deadline": null,
       "official_url": null
     }

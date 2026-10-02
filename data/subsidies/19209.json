@@ -44,13 +44,13 @@
       "name": "ブロック塀等安全確保対策支援事業",
       "amount_text": "上限26万円(重要路線沿いは上限39万円)",
       "amount_max_yen": 390000,
-      "condition_text": "詳細条件はページに記載が薄いため要確認。",
+      "condition_text": "通学路・緊急輸送道路・住宅から避難所等へ至る道路など避難路に面したブロック塀等が対象。既設の塀の安全点検(外観に基づく点検項目)でいずれかの項目が不適となったものが該当。補助額は「補助対象経費合計額の3分の2以内」と「1mあたり1万9,500円(重要路線は3万2,500円)の3分の2以内」のいずれか少ない額。",
       "eligibility": {
         "building_types": ["wood", "light_steel", "heavy_steel"],
         "built_before": null,
         "built_after": null
       },
-      "note": "低信頼度:金額のみ確認、詳細要件は公式ページの別紙等で要確認。",
+      "note": "2026-10-02に公式ページ本文を再度WebFetchで直接確認し、対象条件・補助率の詳細を取得済み(低信頼度を解消)。",
       "deadline": null,
       "official_url": "https://www.city.hokuto.yamanashi.jp/docs/1448.html"
     }

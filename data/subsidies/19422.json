@@ -21,7 +21,7 @@
         "built_before": null,
         "built_after": null
       },
-      "note": "低信頼度:公式サイト(vill.doshi.lg.jp)に接続できず(接続エラー)、二次情報源(reform-hojo.jp)のみで確認。建築年基準の明記なし。申請窓口:産業振興課(0554-52-2114)。",
+      "note": "低信頼度:2026-10-02の再調査で vill.doshi.lg.jp 自体は到達可能であることを確認(他ページは閲覧できた)が、耐震改修補助金の具体的ページはsite内検索でも特定できず。さらに二次情報源(reform-hojo.jp)の別記事では本制度が「現在終了」と記載されており、制度が継続しているか不明。建築年基準の明記なし。申請窓口:産業振興課(0554-52-2114)、要電話確認。",
       "deadline": null,
       "official_url": null
     },
@@ -36,7 +36,7 @@
         "built_before": null,
         "built_after": null
       },
-      "note": "低信頼度:公式サイトに接続できず、二次情報源(reform-hojo.jp)のみで確認。",
+      "note": "低信頼度:公式サイト内に該当ページを特定できず、二次情報源(reform-hojo.jp)のみで確認。上記の耐震改修事業と同様、制度が現在も継続しているか不明(要電話確認)。",
       "deadline": null,
       "official_url": null
     }

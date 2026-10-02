@@ -6,13 +6,14 @@
   "verified_by_human": false,
   "verified_at": null,
   "source_urls": [
-    "https://www1.g-reiki.net/takayama/reiki_honbun/e249RG00000565.html"
+    "https://www1.g-reiki.net/takayama/reiki_honbun/e249RG00000565.html",
+    "https://www.vill.takayama.nagano.jp/docs/8334588.html"
   ],
   "items": [
     {
       "id": "takayama-shindan-haken",
       "name": "高山村木造住宅耐震診断者派遣事業",
-      "amount_text": "無料(村が耐震診断者を派遣)",
+      "amount_text": "無料(補助率100%、国・県・村が負担)",
       "amount_max_yen": 0,
       "condition_text": "昭和56年5月31日以前に着工された一戸建ての住宅又は併用住宅(住宅部分の床面積が2分の1以上)で、平屋建て又は2階建て、在来軸組工法によって建築されたもの。",
       "eligibility": {
@@ -20,15 +21,25 @@
         "built_before": "1981-06-01",
         "built_after": null
       },
-      "note": "低信頼度。実施要綱(条例集)から対象条件は確認できたが、耐震改修工事そのものへの金銭的補助制度は今回の調査で発見できなかった。",
+      "note": "長野県上高井郡高山村(群馬県吾妻郡にも同名の高山村が存在するため、ドメインがvill.takayama.nagano.jpであることを確認して混同を回避)。",
       "deadline": null,
       "official_url": "https://www1.g-reiki.net/takayama/reiki_honbun/e249RG00000565.html"
+    },
+    {
+      "id": "takayama-taishin-kaishu",
+      "name": "住宅の耐震診断・耐震改修補助制度(耐震改修工事補助)",
+      "amount_text": "対象工事費の8割以内、上限115万円(長野県の上乗せ補助最大50万円と併用可)",
+      "amount_max_yen": 1150000,
+      "condition_text": "昭和56年5月31日以前に建築工事に着手した木造在来工法の個人所有一戸建て住宅。耐震診断の総合評点が1.0未満である場合に改修補助の対象。申請者の所得要件あり。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "2026-10-02、公式ページ(令和8年度住宅の耐震診断・耐震改修補助制度のご案内)で金額を確定。ただし令和8年度分の募集は2026年6月30日時点で終了しており、現時点で新規申込は不可。制度自体の内容としては一次情報源で確認済み。",
+      "deadline": "2026-06-30",
+      "official_url": "https://www.vill.takayama.nagano.jp/docs/8334588.html"
     }
   ],
-  "not_yet_covered": [
-    {
-      "name": "耐震改修工事費補助(存在有無未確認、建設課0279-63-2111へ要確認)",
-      "official_url": null
-    }
-  ]
+  "not_yet_covered": []
 }

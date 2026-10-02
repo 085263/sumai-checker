@@ -20,7 +20,7 @@
         "built_before": "1981-06-01",
         "built_after": null
       },
-      "note": "低信頼度:公式PDF(https://www.city.koshu.yamanashi.jp/docs/2022040800028/file_contents/kaisyu.pdf)はWebFetchで404となり本文を直接確認できず、WebSearchの要約のみに基づく。検索結果によれば交付要綱は令和8年3月31日(2026-03-31)限りで失効との記載があり、現在(2026-10-02時点)制度が継続しているか要確認。甲州市建設課へ要電話確認。",
+      "note": "低信頼度:公式PDF(https://www.city.koshu.yamanashi.jp/docs/2022040800028/file_contents/kaisyu.pdf)はWebFetchで404となり本文を直接確認できず、2026-10-02の再調査でも同PDFへの直接アクセスは不可。ただしWebSearchの検索エンジンインデックス(タイトル「甲州市木造住宅耐震改修等事業費補助金交付要綱 令和3年4月1日 告示第70号」等)は2回の独立した検索で同一の補助限度額125万円・対象条件を示しており、金額自体の信頼度は中程度に上がった。一方で交付要綱が令和8年3月31日(2026-03-31)限りで失効との記載は変わらず確認できており、現在(2026-10-02時点)制度が継続しているかは未確認のまま。甲州市建設課へ要電話確認。",
       "deadline": null,
       "official_url": "https://www.city.koshu.yamanashi.jp/docs/2022040800028/file_contents/kaisyu.pdf"
     }

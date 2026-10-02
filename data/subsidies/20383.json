@@ -10,6 +10,21 @@
   ],
   "items": [
     {
+      "id": "minowa-taishin-shindan",
+      "name": "木造住宅精密耐震診断士派遣事業",
+      "amount_text": "無料(町が耐震診断士を派遣)",
+      "amount_max_yen": 0,
+      "condition_text": "昭和56年5月31日以前に着工された木造在来工法の個人所有戸建て住宅(長屋・共同住宅を除く)。店舗併用の場合は店舗部分が延べ床面積の2分の1未満。所有者に補強工事実施の意思があること。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "2026-10-02、公式ページ(town.minowa.lg.jp/soshiki/kensetu/gyomu/3/1/640.html)で無料であることを確認。申請は「箕輪町精密耐震診断士派遣申込書」を建設課に提出。",
+      "deadline": null,
+      "official_url": "https://www.town.minowa.lg.jp/soshiki/kensetu/gyomu/3/1/640.html"
+    },
+    {
       "id": "minowa-taishin-hokyo",
       "name": "箕輪町木造住宅耐震補強補助事業",
       "amount_text": "工事費の5分の4以内の額、上限130万円(うち町単独上乗せ15万円を含む)",
@@ -40,7 +55,5 @@
       "official_url": "https://www.town.minowa.lg.jp/soshiki/kensetu/gyomu/3/1/641.html"
     }
   ],
-  "not_yet_covered": [
-    {"name": "耐震診断(無料派遣等の制度が別途ある可能性が高いが、今回取得したページでは未確認)", "official_url": "https://www.town.minowa.lg.jp/soshiki/kensetu/gyomu/3/1/641.html"}
-  ]
+  "not_yet_covered": []
 }

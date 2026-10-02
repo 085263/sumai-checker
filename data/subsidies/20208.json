@@ -20,7 +20,7 @@
         "built_before": "1981-04-01",
         "built_after": null
       },
-      "note": "着工時期の基準日表記が『昭和56年3月31日』となっており、他の多くの自治体(5月31日)と異なる。要再確認。",
+      "note": "着工時期の基準日表記が『昭和56年3月31日』となっており、他の多くの自治体(5月31日)と異なる。2026-10-02に公式ページ本文を再度WebFetchで直接確認し、『昭和56年3月31日以前に工事着工された』という表記が誤記ではなく公式ページそのものの正式な記載であることを確認済み。",
       "deadline": "2026-10-30",
       "official_url": "https://www.city.komoro.lg.jp/soshikikarasagasu/kensetsusuidoubu/kensetsuka/1/3/3/16356.html"
     }
