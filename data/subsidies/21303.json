@@ -2,11 +2,43 @@
   "municipality_code": "21303",
   "municipality": "笠松町",
   "ward": null,
-  "updated_at": "2026-10-01",
+  "updated_at": "2026-10-02",
   "verified_by_human": false,
   "verified_at": null,
-  "source_urls": [],
-  "items": [],
-  "not_yet_covered": [],
-  "note": "WebSearchで笠松町独自の木造住宅耐震改修補助金制度を確認できなかった。公式サイト(town.kasamatsu.gifu.jp)への直接アクセス・サイト内検索はWeb検索の呼び出し上限に達したため未実施。制度が存在しないと断定はできず、要追加調査。"
+  "source_urls": [
+    "https://www.town.kasamatsu.gifu.jp/docs/2012121900310/"
+  ],
+  "items": [
+    {
+      "id": "kasamatsu-shindan-hojo",
+      "name": "建築物耐震診断助成事業",
+      "amount_text": "補助率2/3(上限額は建築物の種類・床面積により異なる、金額未確認)",
+      "amount_max_yen": null,
+      "condition_text": "一戸建ての木造住宅、木造以外の住宅、一般建築物等が対象。建築時期が分かる書類(固定資産税家屋証明書・建築確認通知書・登記簿謄本等)の提出が必要。",
+      "eligibility": {
+        "building_types": ["wood", "light_steel", "heavy_steel"],
+        "built_before": null,
+        "built_after": null
+      },
+      "note": "WebFetchが404のためWebSearch要約のみで低信頼度。上限金額が未確認のためamount_max_yen未設定。",
+      "deadline": null,
+      "official_url": "https://www.town.kasamatsu.gifu.jp/docs/2012121900310/"
+    },
+    {
+      "id": "kasamatsu-hokyo-hojo",
+      "name": "木造住宅耐震補強工事助成事業",
+      "amount_text": "金額未確認",
+      "amount_max_yen": null,
+      "condition_text": "耐震診断時の上部構造評点が1.0未満であった住宅を、補強後に1.0以上とする補強工事の実施が要件。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": null,
+        "built_after": null
+      },
+      "note": "WebFetchが404のためWebSearch要約のみで低信頼度。補助率・上限額とも未確認。",
+      "deadline": null,
+      "official_url": "https://www.town.kasamatsu.gifu.jp/docs/2012121900310/"
+    }
+  ],
+  "not_yet_covered": []
 }

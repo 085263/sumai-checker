@@ -2,10 +2,59 @@
   "municipality_code": "24344",
   "municipality": "川越町",
   "ward": null,
-  "updated_at": "2026-10-01",
+  "updated_at": "2026-10-02",
   "verified_by_human": false,
   "verified_at": null,
-  "source_urls": [],
-  "items": [],
-  "note": "公式サイト(town.kawagoe.mie.jp)を直接確認したが、サイトマップ・住まい関連ページ内に耐震関連補助金のページを発見できなかった。WebSearchの利用上限(セッション200回)に達したため、検索による深掘りができていない。制度が存在しない可能性と、見つけられていないだけの可能性の両方がある。要再調査。"
+  "source_urls": [
+    "https://www.town.kawagoe.mie.jp/gyousei/e-services/1002146/1002155/1004078.html",
+    "https://www.town.kawagoe.mie.jp/kurashi/bousai/1001533/1002416/1003188.html"
+  ],
+  "items": [
+    {
+      "id": "kawagoe-wood-shindan",
+      "name": "木造住宅耐震診断事業",
+      "amount_text": "無料",
+      "amount_max_yen": 0,
+      "condition_text": "昭和56年5月31日以前の旧耐震基準で建てられた木造住宅。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "",
+      "deadline": null,
+      "official_url": "https://www.town.kawagoe.mie.jp/gyousei/e-services/1002146/1002155/1004078.html"
+    },
+    {
+      "id": "kawagoe-wood-retrofit",
+      "name": "木造住宅耐震補強設計事業・耐震補強事業・除却事業",
+      "amount_text": "複数制度合算で補助上限額172.5万円(三重県資料による、内訳の個別上限は公式ページに記載なし)",
+      "amount_max_yen": 1725000,
+      "condition_text": "昭和56年5月31日以前の旧耐震基準で建てられた木造住宅。耐震診断の実施が前提。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "低信頼度:公式ページ(産業建設課)には耐震補強設計事業・耐震補強事業・木造住宅除却事業それぞれの個別補助額の記載がなかった。三重県公式ページ(pref.mie.lg.jp)の一覧表に『補助上限額172.5万円』との記載があったが、これが補強設計・補強工事・除却の合算上限か、補強工事単独の上限かは明確でないため要再確認。",
+      "deadline": null,
+      "official_url": "https://www.town.kawagoe.mie.jp/gyousei/e-services/1002146/1002155/1004078.html"
+    },
+    {
+      "id": "kawagoe-shelter",
+      "name": "耐震シェルター設置事業補助金",
+      "amount_text": "設置費用の2/3、上限25万円(一般の耐震シェルター) / 上限40万円(三重県型シェルター)",
+      "amount_max_yen": 400000,
+      "condition_text": "昭和56年5月31日以前に建築(着工含む)された木造住宅で階数2階以下、かつ耐震診断で評点0.7未満と判定されたもの。木造住宅耐震補強事業補助金を受けていないこと。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "",
+      "deadline": null,
+      "official_url": "https://www.town.kawagoe.mie.jp/kurashi/bousai/1001533/1002416/1003188.html"
+    }
+  ],
+  "not_yet_covered": []
 }

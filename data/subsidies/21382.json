@@ -2,13 +2,60 @@
   "municipality_code": "21382",
   "municipality": "輪之内町",
   "ward": null,
-  "updated_at": "2026-10-01",
+  "updated_at": "2026-10-02",
   "verified_by_human": false,
   "verified_at": null,
   "source_urls": [
-    "https://town.wanouchi.gifu.jp/"
+    "https://town.wanouchi.gifu.jp/portal/life-process/subsidy-allowance/about-residence/"
   ],
-  "items": [],
-  "not_yet_covered": [],
-  "note": "公式サイトのトップページを確認したが、木造住宅耐震診断・耐震改修に関する補助金制度の専用ページを特定できなかった。サイト内検索機能や役場への電話問合せ(0584-69-3111)での確認が必要。制度自体が存在しない可能性と、単にページが見つからなかった可能性の両方がある。"
+  "items": [
+    {
+      "id": "wanouchi-wood-shindan",
+      "name": "木造住宅耐震診断事業",
+      "amount_text": "町が全額負担(無料)",
+      "amount_max_yen": 0,
+      "condition_text": "昭和56年5月31日以前に着工された一戸建ての木造住宅(在来軸組工法・伝統的構法・枠組壁工法)。店舗等併用は住宅部分が延べ床面積の1/2以上であること。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "",
+      "deadline": null,
+      "official_url": "https://town.wanouchi.gifu.jp/portal/life-process/subsidy-allowance/about-residence/post0023317/"
+    },
+    {
+      "id": "wanouchi-wood-promotion",
+      "name": "木造住宅耐震化促進事業費補助金(耐震補強工事)",
+      "amount_text": "耐震補強工事費用(設計・工事監理費含む、最高120万円まで)の1/2以内、最高60万円。国交付金活用時は別途最高48.9万円上乗せ可能",
+      "amount_max_yen": 600000,
+      "condition_text": "昭和56年5月31日以前に着工された一戸建ての木造住宅(在来軸組工法・伝統的構法・枠組壁工法)。店舗等併用は住宅部分が延べ床面積の1/2以上であること。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "国交付金活用時の上乗せ(最高48.9万円)を含めると最大108.9万円相当になる可能性あり、要確認。住宅除却工事も同補助金の対象で最高48.9万円(国交付金活用時は別途最高48.9万円上乗せ)。申請期限は交付要綱に記載のためページ上は未確認。",
+      "deadline": null,
+      "official_url": "https://town.wanouchi.gifu.jp/portal/life-process/subsidy-allowance/about-residence/post0023329/"
+    },
+    {
+      "id": "wanouchi-shelter",
+      "name": "耐震シェルター等設置補助金",
+      "amount_text": "設置費用の2/3以内、上限30万円(千円未満切り捨て)",
+      "amount_max_yen": 300000,
+      "condition_text": "昭和56年5月31日以前に建築された木造住宅で、上部構造評点が1.0未満のもの。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "",
+      "deadline": null,
+      "official_url": "https://town.wanouchi.gifu.jp/portal/life-process/subsidy-allowance/about-residence/post0023408/"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "ブロック塀撤去補助金", "official_url": "https://town.wanouchi.gifu.jp/portal/life-process/subsidy-allowance/about-residence/post0023431/"}
+  ]
 }

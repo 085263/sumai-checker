@@ -2,13 +2,32 @@
   "municipality_code": "21362",
   "municipality": "関ケ原町",
   "ward": null,
-  "updated_at": "2026-10-01",
+  "updated_at": "2026-10-02",
   "verified_by_human": false,
   "verified_at": null,
   "source_urls": [
-    "https://www.town.sekigahara.gifu.jp/"
+    "https://www.town.sekigahara.gifu.jp/item/8662.htm",
+    "https://www.town.sekigahara.gifu.jp/5450.htm"
   ],
-  "items": [],
-  "not_yet_covered": [],
-  "note": "公式サイトのトップページ・産業建設課ページを確認したが、木造住宅耐震診断・耐震改修に関する補助金制度のページを特定できなかった。サイト内検索機能や電話問合せ(産業建設課 0584-43-3054)での確認が必要。制度自体が存在しない可能性と、単にページが見つからなかった可能性の両方がある。"
+  "items": [
+    {
+      "id": "sekigahara-shelter",
+      "name": "耐震シェルター等設置補助金交付事業",
+      "amount_text": "補助率・上限額は公式ページに明記なし(関ケ原町建築物等耐震化促進事業費補助金交付要綱を参照)",
+      "amount_max_yen": null,
+      "condition_text": "昭和56年(1981年)5月31日以前に建築または着工された木造住宅で、耐震診断の結果耐震性が低いとされた住宅への耐震シェルター・耐震ベッド設置が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "金額未確認のため低信頼度。問い合わせ先:産業建設課 0584-43-3052/3054。",
+      "deadline": null,
+      "official_url": "https://www.town.sekigahara.gifu.jp/item/8662.htm"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "木造住宅無料耐震診断", "official_url": "https://www.town.sekigahara.gifu.jp/5450.htm"},
+    {"name": "空き家リフォーム補助金(耐震改修本体の補助ではない)", "official_url": "https://www.town.sekigahara.gifu.jp/4567.htm"}
+  ]
 }

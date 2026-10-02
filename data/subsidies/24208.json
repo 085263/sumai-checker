@@ -2,10 +2,75 @@
   "municipality_code": "24208",
   "municipality": "名張市",
   "ward": null,
-  "updated_at": "2026-10-01",
+  "updated_at": "2026-10-02",
   "verified_by_human": false,
   "verified_at": null,
-  "source_urls": [],
-  "items": [],
-  "note": "WebSearchのセッション上限(200回)に達し、公式ページを特定できないまま調査を終了した。名張市公式サイト(nabari.lg.jp)を直接確認するか、建築課への問い合わせが必要。情報を捏造せず空のまま記録。"
+  "source_urls": [
+    "https://www.city.nabari.lg.jp/s043/030/080/180/20260217142240.html"
+  ],
+  "items": [
+    {
+      "id": "nabari-design",
+      "name": "木造住宅耐震補強工事設計費補助",
+      "amount_text": "一般診断法:最大18万円 / 精密診断法:最大34万円",
+      "amount_max_yen": 340000,
+      "condition_text": "昭和56年5月31日以前に着工または完成した木造住宅。耐震診断で評点1.0未満のものを1.0以上にする補強設計が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "",
+      "deadline": "2026-05-15",
+      "official_url": "https://www.city.nabari.lg.jp/s043/030/080/180/20260217142240.html"
+    },
+    {
+      "id": "nabari-retrofit",
+      "name": "木造住宅耐震補強工事費補助",
+      "amount_text": "最大157.5万円(国57.5万円・県50万円・市50万円)",
+      "amount_max_yen": 1575000,
+      "condition_text": "昭和56年5月31日以前に着工または完成した木造住宅で、耐震診断の総合評点が0.7未満のもの。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "",
+      "deadline": "2026-05-15",
+      "official_url": "https://www.city.nabari.lg.jp/s043/030/080/180/20260217142240.html"
+    },
+    {
+      "id": "nabari-reform",
+      "name": "耐震補強工事同時施工リフォーム工事補助",
+      "amount_text": "対象経費の1/3、上限20万円",
+      "amount_max_yen": 200000,
+      "condition_text": "耐震補強工事と同時に行うリフォーム工事が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "",
+      "deadline": "2026-05-15",
+      "official_url": "https://www.city.nabari.lg.jp/s043/030/080/180/20260217142240.html"
+    },
+    {
+      "id": "nabari-akiya-jokyaku",
+      "name": "空き家除却工事補助",
+      "amount_text": "除却工事費用の23%、上限20.7万円",
+      "amount_max_yen": 207000,
+      "condition_text": "木造住宅耐震補強等事業の対象空き家の除却工事。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "",
+      "deadline": "2026-11-30",
+      "official_url": "https://www.city.nabari.lg.jp/s043/030/080/180/20260217142240.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "木造住宅耐震診断事業(無料診断、別ページの可能性あり、本調査では未確認)", "official_url": null}
+  ]
 }

@@ -2,11 +2,29 @@
   "municipality_code": "21503",
   "municipality": "川辺町",
   "ward": null,
-  "updated_at": "2026-10-01",
+  "updated_at": "2026-10-02",
   "verified_by_human": false,
   "verified_at": null,
   "source_urls": [],
-  "items": [],
-  "not_yet_covered": [],
-  "note": "川辺町独自の耐震補助制度の公式ページを特定できなかった(検索結果は岐阜県全体の一般的な制度説明のみで、町公式サイトのドメイン・該当ページを確認できず)。セッションのWebSearch上限に達したため追加調査を中断。岐阜県内の多くの市町村が「昭和56年5月31日以前着工の木造住宅」を対象に同様の補助制度を持つ傾向があるため、川辺町にも同種の制度が存在する可能性は高いが未確認。次回、川辺町公式サイト(ドメイン要確認)からの再調査が必要。"
+  "items": [
+    {
+      "id": "kawabe-wood-shindan",
+      "name": "木造住宅耐震診断・耐震補強工事に対する補助(耐震診断部分)",
+      "amount_text": "町が全額負担(申請者無料)",
+      "amount_max_yen": 0,
+      "condition_text": "昭和56年5月31日以前に着工された一戸建ての木造住宅(店舗等併用は住宅部分が延べ床面積の1/2超)。在来軸組工法・伝統工法・枠組壁工法。岐阜県木造住宅耐震相談士が訪問診断。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "低信頼度:公式ページ(https://www.kawabe-gifu.jp/?p=52173 、タイトル『木造住宅耐震診断・耐震補強工事に対する補助について』)が取得時点でHTTP 404となり本文を直接確認できなかったため、検索エンジンのキャッシュ/AI要約から抽出した情報。要再確認。",
+      "deadline": null,
+      "official_url": "https://www.kawabe-gifu.jp/?p=52173"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "耐震補強工事費補助(金額未確認、公式ページ404のため要再調査)", "official_url": "https://www.kawabe-gifu.jp/?p=52173"},
+    {"name": "川辺町感震ブレーカー設置補助金", "official_url": "https://www.kawabe-gifu.jp/?page_id=62942"}
+  ]
 }

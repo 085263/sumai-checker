@@ -2,11 +2,16 @@
   "municipality_code": "21302",
   "municipality": "岐南町",
   "ward": null,
-  "updated_at": "2026-10-01",
+  "updated_at": "2026-10-02",
   "verified_by_human": false,
   "verified_at": null,
-  "source_urls": [],
+  "source_urls": [
+    "https://www.town.ginan.lg.jp/secure/1595/taishinshindanmoushikomi.pdf",
+    "https://www.town.ginan.lg.jp/2979.htm"
+  ],
   "items": [],
-  "not_yet_covered": [],
-  "note": "WebSearchで岐南町独自の木造住宅耐震改修補助金制度を確認できなかった。公式サイト(town.ginan.gifu.jp)への直接アクセス・サイト内検索はWeb検索の呼び出し上限に達したため未実施。制度が存在しないと断定はできず、要追加調査。"
+  "not_yet_covered": [
+    {"name": "岐南町木造住宅耐震診断事業(実施要綱・申込書の存在のみ確認、補助金額未到達)", "official_url": "https://www.town.ginan.lg.jp/secure/1595/taishinshindanmoushikomi.pdf"},
+    {"name": "危険ブロック塀等除去事業費補助金(耐震改修本体の補助ではない)", "official_url": "https://www.town.ginan.lg.jp/2979.htm"}
+  ]
 }

@@ -2,11 +2,61 @@
   "municipality_code": "21206",
   "municipality": "中津川市",
   "ward": null,
-  "updated_at": "2026-10-01",
+  "updated_at": "2026-10-02",
   "verified_by_human": false,
   "verified_at": null,
-  "source_urls": [],
-  "items": [],
-  "not_yet_covered": [],
-  "note": "このセッションのWebSearch利用上限(200回)に達したため、公式ページの特定・調査を実施できなかった。情報の捏造を避けるため空のまま記録。別途、再調査が必要。"
+  "source_urls": [
+    "https://www.city.nakatsugawa.lg.jp/soshikikarasagasu/kenchikujuutakuka/1/1/2067.html"
+  ],
+  "items": [
+    {
+      "id": "nakatsugawa-wood-hokyo",
+      "name": "木造住宅耐震補強工事補助(1.0補強)",
+      "amount_text": "工事費A≦120万円の場合 A×40%+(A+B)×50%、上限123.6万円",
+      "amount_max_yen": 1236000,
+      "condition_text": "昭和56年(1981年)5月31日以前着工の木造住宅で、市の耐震診断で「倒壊の恐れあり」と判定された建物の上部構造評点を1.0以上とする補強工事が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "先着順受付、予算上限到達次第終了。",
+      "deadline": null,
+      "official_url": "https://www.city.nakatsugawa.lg.jp/soshikikarasagasu/kenchikujuutakuka/1/1/2067.html"
+    },
+    {
+      "id": "nakatsugawa-wood-hokyo-07",
+      "name": "木造住宅耐震補強工事補助(0.7補強)",
+      "amount_text": "工事費A≦120万円の場合 A×61.5%、上限84万円",
+      "amount_max_yen": 840000,
+      "condition_text": "昭和56年5月31日以前着工の木造住宅で、上部構造評点を0.7以上とする簡易補強工事が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "先着順受付、予算上限到達次第終了。",
+      "deadline": null,
+      "official_url": "https://www.city.nakatsugawa.lg.jp/soshikikarasagasu/kenchikujuutakuka/1/1/2067.html"
+    },
+    {
+      "id": "nakatsugawa-shindan",
+      "name": "木造住宅耐震診断(無料派遣)",
+      "amount_text": "無料(市が耐震相談士を無料派遣)",
+      "amount_max_yen": 0,
+      "condition_text": "昭和56年5月31日以前に建築された木造住宅が対象。診断結果と補強工事費の概算額を提示。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": null,
+      "deadline": null,
+      "official_url": "https://www.city.nakatsugawa.lg.jp/soshikikarasagasu/kenchikujuutakuka/1/1/2067.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "住宅リフォーム補助(耐震改修併用)", "official_url": "https://www.city.nakatsugawa.lg.jp/soshikikarasagasu/kenchikujuutakuka/1/1/2069.html"},
+    {"name": "耐震改修融資あっせん利子補給", "official_url": "https://www.city.nakatsugawa.lg.jp/soshikikarasagasu/kenchikujuutakuka/1/1/2066.html"}
+  ]
 }

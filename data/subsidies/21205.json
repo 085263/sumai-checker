@@ -2,11 +2,46 @@
   "municipality_code": "21205",
   "municipality": "関市",
   "ward": null,
-  "updated_at": "2026-10-01",
+  "updated_at": "2026-10-02",
   "verified_by_human": false,
   "verified_at": null,
-  "source_urls": [],
-  "items": [],
-  "not_yet_covered": [],
-  "note": "このセッションのWebSearch利用上限(200回)に達したため、公式ページの特定・調査を実施できなかった。情報の捏造を避けるため空のまま記録。別途、再調査が必要。"
+  "source_urls": [
+    "https://www.city.seki.lg.jp/0000018217.html",
+    "https://www.city.seki.lg.jp/0000015217.html"
+  ],
+  "items": [
+    {
+      "id": "seki-wood-taishin-kaishu",
+      "name": "木造住宅耐震改修工事費補助",
+      "amount_text": "耐震改修工事費の8割、上限200万円",
+      "amount_max_yen": 2000000,
+      "condition_text": "昭和56年(1981年)5月31日以前着工の木造住宅で、上部構造評点1.0未満を1.0以上とする耐震改修工事、または0.7未満を0.7以上とする耐震改修工事が対象。着手前の申請が必要。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "令和8年度申請受付は4月1日開始、先着順(受付戸数に上限あり)。",
+      "deadline": null,
+      "official_url": "https://www.city.seki.lg.jp/0000018217.html"
+    },
+    {
+      "id": "seki-shelter",
+      "name": "木造住宅耐震シェルター等設置補助",
+      "amount_text": "対象経費の3分の2、上限30万円",
+      "amount_max_yen": 300000,
+      "condition_text": "昭和56年5月31日以前に着手された木造住宅で、耐震改修工事費補助を受けて耐震改修工事を実施していない建物が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "WebFetchは404のためWebSearch要約から抽出、低信頼度。",
+      "deadline": null,
+      "official_url": "https://www.city.seki.lg.jp/0000015217.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "建築物耐震診断補助", "official_url": "https://www.city.seki.lg.jp/0000018215.html"}
+  ]
 }
