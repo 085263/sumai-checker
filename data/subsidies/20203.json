@@ -1,0 +1,44 @@
+{
+  "municipality_code": "20203",
+  "municipality": "上田市",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.ueda.nagano.jp/soshiki/sido/1946.html"
+  ],
+  "items": [
+    {
+      "id": "ueda-wood-taishin-kaishu",
+      "name": "木造住宅耐震改修工事補助",
+      "amount_text": "工事費の8割以内、限度額115万円",
+      "amount_max_yen": 1150000,
+      "condition_text": "昭和56年5月31日以前に建築工事に着手した一戸建て木造住宅(在来工法)。増築等がある場合は旧耐震基準部分が延べ面積の2分の1以上であること。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "令和8年度は予算に達し申請受付が終了している(要確認)。長野県住宅耐震化緊急加速事業補助金による上乗せ(最大50万円)あり。無料耐震診断は令和8年4月1日以降受付中。",
+      "deadline": null,
+      "official_url": "https://www.city.ueda.nagano.jp/soshiki/sido/1946.html"
+    },
+    {
+      "id": "ueda-wood-taishin-jokyaku",
+      "name": "除却工事補助",
+      "amount_text": "工事費の5割以内、限度額97万8,000円",
+      "amount_max_yen": 978000,
+      "condition_text": "昭和56年5月31日以前に建築工事に着手した一戸建て木造住宅(在来工法)。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "令和8年度は予算に達し申請受付が終了している可能性(要確認)。",
+      "deadline": null,
+      "official_url": "https://www.city.ueda.nagano.jp/soshiki/sido/1946.html"
+    }
+  ],
+  "not_yet_covered": []
+}

@@ -1,0 +1,59 @@
+{
+  "municipality_code": "20209",
+  "municipality": "伊那市",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.inacity.jp/kurashi/hojo_enjo/kentikubutunotaisin/taisinhojo.html"
+  ],
+  "items": [
+    {
+      "id": "ina-taishin-hokyo",
+      "name": "伊那市住宅・建築物耐震改修促進事業補助金(耐震補強工事)",
+      "amount_text": "対象経費の5分の4以内、上限115万円",
+      "amount_max_yen": 1150000,
+      "condition_text": "市が派遣した耐震診断士による精密耐震診断の結果、総合評点が1.0未満の既存木造住宅。改修後に総合評点0.7以上かつ工事前を上回ることが必要。収入基準・市税等の滞納がないことも条件。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": null,
+        "built_after": null
+      },
+      "note": "着工基準日の明記はページから確認できず(他自治体同様、昭和56年5月31日以前が前提と推測されるが要確認)。申請は補助申請年度内(2月末)に工事完了が条件。",
+      "deadline": null,
+      "official_url": "https://www.inacity.jp/kurashi/hojo_enjo/kentikubutunotaisin/taisinhojo.html"
+    },
+    {
+      "id": "ina-taishin-tatekae",
+      "name": "伊那市住宅・建築物耐震改修促進事業補助金(建替工事)",
+      "amount_text": "対象経費の2分の1以内、上限97万6,000円",
+      "amount_max_yen": 976000,
+      "condition_text": "耐震診断の結果、総合評点が1.0未満の既存木造住宅を建て替える場合が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": null,
+        "built_after": null
+      },
+      "note": null,
+      "deadline": null,
+      "official_url": "https://www.inacity.jp/kurashi/hojo_enjo/kentikubutunotaisin/taisinhojo.html"
+    },
+    {
+      "id": "ina-taishin-shindan",
+      "name": "耐震診断(無料派遣)",
+      "amount_text": "無料",
+      "amount_max_yen": 0,
+      "condition_text": "伊那市内の既存木造住宅が対象。耐震診断士を無料派遣。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": null,
+        "built_after": null
+      },
+      "note": null,
+      "deadline": null,
+      "official_url": "https://www.inacity.jp/kurashi/hojo_enjo/kentikubutunotaisin/taisinhojo.html"
+    }
+  ],
+  "not_yet_covered": []
+}

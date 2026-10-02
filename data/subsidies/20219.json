@@ -1,0 +1,60 @@
+{
+  "municipality_code": "20219",
+  "municipality": "東御市",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.tomi.nagano.jp/category/jyokyokaitai/156610.html",
+    "https://www1.g-reiki.net/tomi/reiki_honbun/r038RG00000955.html"
+  ],
+  "items": [
+    {
+      "id": "tomi-shindanshi-haken",
+      "name": "耐震診断士派遣事業",
+      "amount_text": "全額市負担(無料)",
+      "amount_max_yen": 0,
+      "condition_text": "昭和56年5月31日以前に建築工事に着手した一戸建ての在来工法による木造住宅(個人所有)。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "令和8年度募集は終了。次年度は令和9年(2027年)4月1日から開始予定。問い合わせ:建設課住宅係(0268-64-5882)。",
+      "deadline": null,
+      "official_url": "https://www.city.tomi.nagano.jp/category/jyokyokaitai/156610.html"
+    },
+    {
+      "id": "tomi-kaishu",
+      "name": "木造住宅耐震改修事業補助金",
+      "amount_text": "工事費の5分の4以内、上限100万円",
+      "amount_max_yen": 1000000,
+      "condition_text": "昭和56年5月31日以前に建築工事に着手した一戸建ての在来工法による木造住宅(個人所有)。壁・柱・梁および基礎などの補強により一定の強度が得られる工事。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "令和8年度募集は終了。次年度は令和9年(2027年)4月1日から開始予定。予算に達した場合は翌年度対応。問い合わせ:建設課住宅係(0268-64-5882)。",
+      "deadline": null,
+      "official_url": "https://www.city.tomi.nagano.jp/category/jyokyokaitai/156610.html"
+    },
+    {
+      "id": "tomi-jokyaku",
+      "name": "住宅除却補助金",
+      "amount_text": "工事費の2分の1以内、上限83.8万円",
+      "amount_max_yen": 838000,
+      "condition_text": "昭和56年5月31日以前に建築工事に着手した一戸建ての在来工法による木造住宅(個人所有)で耐震性能が不足するものの除却。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "令和8年度募集は終了。次年度は令和9年(2027年)4月1日から開始予定。問い合わせ:建設課住宅係(0268-64-5882)。",
+      "deadline": null,
+      "official_url": "https://www.city.tomi.nagano.jp/category/jyokyokaitai/156610.html"
+    }
+  ],
+  "not_yet_covered": []
+}

@@ -1,0 +1,46 @@
+{
+  "municipality_code": "20583",
+  "municipality": "信濃町",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.town.shinano.lg.jp/docs/677.html"
+  ],
+  "items": [
+    {
+      "id": "shinano-taishin-shindan",
+      "name": "耐震診断(木造住宅)",
+      "amount_text": "無料(町が長野県木造住宅耐震診断士を派遣)",
+      "amount_max_yen": 0,
+      "condition_text": "昭和56年5月31日以前に着工された木造在来工法の個人所有戸建て住宅(長屋・共同住宅を除く)。耐震補強工事を行う意思のある方が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": null,
+      "deadline": null,
+      "official_url": "https://www.town.shinano.lg.jp/docs/677.html"
+    },
+    {
+      "id": "shinano-taishin-kaishu",
+      "name": "耐震改修工事補助金(木造住宅)",
+      "amount_text": "工事費用の1/2、最大100万円",
+      "amount_max_yen": 1000000,
+      "condition_text": "耐震診断の結果、総合評点が1.0未満であり、改修後の総合評点が0.7以上かつ改修前を上回ること。給与収入1,442万円以下、その他の方は所得1,200万円以下であること。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": null,
+      "deadline": null,
+      "official_url": "https://www.town.shinano.lg.jp/docs/677.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "耐震診断補助金(特定既存耐震不適格建築物)", "official_url": "https://www.town.shinano.lg.jp/docs/677.html"}
+  ]
+}

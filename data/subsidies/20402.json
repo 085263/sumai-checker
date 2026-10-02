@@ -1,0 +1,60 @@
+{
+  "municipality_code": "20402",
+  "municipality": "松川町",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.town.matsukawa.lg.jp/soshikikarasagasu/kensetsusuidouriniataisakuka/kensetsukanrigakari/1/1/1213.html",
+    "https://www.town.matsukawa.lg.jp/soshikikarasagasu/kensetsusuidouriniataisakuka/kensetsukanrigakari/1/1/1396.html"
+  ],
+  "items": [
+    {
+      "id": "matsukawa-taishin-hokyo",
+      "name": "木造住宅耐震補強補助事業",
+      "amount_text": "補強工事費の4/5以内、上限115万円",
+      "amount_max_yen": 1150000,
+      "condition_text": "町の耐震診断結果で総合評点が1.0未満の住宅が対象。工事後の総合評点が工事前を上回り、かつ0.7を超えること。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": null,
+        "built_after": null
+      },
+      "note": "ページに建築時期の明記なし(他町村の同種制度は昭和56年5月31日以前が通例、要再確認)。",
+      "deadline": null,
+      "official_url": "https://www.town.matsukawa.lg.jp/soshikikarasagasu/kensetsusuidouriniataisakuka/kensetsukanrigakari/1/1/1213.html"
+    },
+    {
+      "id": "matsukawa-jokyaku",
+      "name": "木造住宅除却工事補助",
+      "amount_text": "除却工事費の1/2以内、上限97万8,600円",
+      "amount_max_yen": 978600,
+      "condition_text": "耐震診断結果で総合評点1.0未満の木造住宅の除却工事。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": null,
+        "built_after": null
+      },
+      "note": "ページに建築時期の明記なし(要再確認)。",
+      "deadline": null,
+      "official_url": "https://www.town.matsukawa.lg.jp/soshikikarasagasu/kensetsusuidouriniataisakuka/kensetsukanrigakari/1/1/1213.html"
+    },
+    {
+      "id": "matsukawa-taishin-shindan",
+      "name": "木造住宅の耐震診断",
+      "amount_text": "無料(町が詳細耐震診断を実施)",
+      "amount_max_yen": 0,
+      "condition_text": "東海地震の「地震防災対策強化地域」に指定されている松川町が木造住宅の詳細耐震診断を実施。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": null,
+        "built_after": null
+      },
+      "note": null,
+      "deadline": null,
+      "official_url": "https://www.town.matsukawa.lg.jp/soshikikarasagasu/kensetsusuidouriniataisakuka/kensetsukanrigakari/1/1/1396.html"
+    }
+  ],
+  "not_yet_covered": []
+}

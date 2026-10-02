@@ -1,0 +1,59 @@
+{
+  "municipality_code": "20213",
+  "municipality": "飯山市",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.iiyama.nagano.jp/soshiki/ijyuteijyusuisinka/jyuutaku/news/45894"
+  ],
+  "items": [
+    {
+      "id": "iiyama-taishin-shinda",
+      "name": "住宅耐震診断事業",
+      "amount_text": "全額補助(無料)",
+      "amount_max_yen": 0,
+      "condition_text": "昭和56年5月31日以前に着工された木造在来工法の個人所有住宅(長屋・共同住宅を除く)。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "長野県と飯山市の補助金併用で最大150万円の補助との記載あり。",
+      "deadline": "2026-10-30",
+      "official_url": "https://www.city.iiyama.nagano.jp/soshiki/ijyuteijyusuisinka/jyuutaku/news/45894"
+    },
+    {
+      "id": "iiyama-taishin-kaishu",
+      "name": "住宅耐震改修事業補助金",
+      "amount_text": "工事費の5分の4以内、上限140万円",
+      "amount_max_yen": 1400000,
+      "condition_text": "昭和56年5月31日以前に着工された木造在来工法の個人所有住宅(長屋・共同住宅を除く)。耐震診断で評点1.0未満のものを対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "申請期限:令和8年(2026年)10月30日まで。問い合わせ:移住定住推進課住宅係(0269-67-0740)。",
+      "deadline": "2026-10-30",
+      "official_url": "https://www.city.iiyama.nagano.jp/soshiki/ijyuteijyusuisinka/jyuutaku/news/45894"
+    },
+    {
+      "id": "iiyama-jokyaku",
+      "name": "住宅除却事業補助金",
+      "amount_text": "工事費の2分の1以内、上限97.86万円",
+      "amount_max_yen": 978600,
+      "condition_text": "昭和56年5月31日以前に着工された木造在来工法の個人所有住宅で、耐震性が不足するものの除却。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "申請期限:令和8年(2026年)10月30日まで。",
+      "deadline": "2026-10-30",
+      "official_url": "https://www.city.iiyama.nagano.jp/soshiki/ijyuteijyusuisinka/jyuutaku/news/45894"
+    }
+  ],
+  "not_yet_covered": []
+}

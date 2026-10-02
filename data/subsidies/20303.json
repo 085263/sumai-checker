@@ -1,0 +1,44 @@
+{
+  "municipality_code": "20303",
+  "municipality": "小海町",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www1.g-reiki.net/koumi-town/reiki_honbun/e721RG00000573.html"
+  ],
+  "items": [
+    {
+      "id": "koumi-taishin-kaishu",
+      "name": "小海町木造住宅耐震改修事業補助金(耐震補強工事)",
+      "amount_text": "補助率5分の4、限度額100万円",
+      "amount_max_yen": 1000000,
+      "condition_text": "昭和56年5月31日以前に町内に着工された木造在来工法住宅で、個人所有(長屋・共同住宅・賃貸住宅は除外)。耐震診断で総合評点1.0未満であることが前提。店舗併用の場合は店舗等部分の床面積が延べ面積の1/2未満であること。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "出典は条例集サイト(g-reiki)の交付要綱。町公式サイト本体の該当ページ・申請期限は未特定のため要確認。",
+      "deadline": null,
+      "official_url": "https://www1.g-reiki.net/koumi-town/reiki_honbun/e721RG00000573.html"
+    },
+    {
+      "id": "koumi-jokyaku",
+      "name": "小海町木造住宅耐震改修事業補助金(除却工事)",
+      "amount_text": "補助率2分の1、限度額83万8,000円",
+      "amount_max_yen": 838000,
+      "condition_text": "昭和56年5月31日以前に町内に着工された木造在来工法住宅の除却工事が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "出典は条例集サイト(g-reiki)の交付要綱。町公式サイト本体の該当ページ・申請期限は未特定のため要確認。",
+      "deadline": null,
+      "official_url": "https://www1.g-reiki.net/koumi-town/reiki_honbun/e721RG00000573.html"
+    }
+  ],
+  "not_yet_covered": []
+}

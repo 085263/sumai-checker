@@ -1,0 +1,44 @@
+{
+  "municipality_code": "20204",
+  "municipality": "岡谷市",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.okaya.lg.jp/soshikikarasagasu/toshikeikakuka/633/A/20548.html"
+  ],
+  "items": [
+    {
+      "id": "okaya-wood-taishin-kaishu",
+      "name": "住宅の耐震診断・耐震改修補助制度(耐震改修工事)",
+      "amount_text": "対象工事費の80%以内、上限115万円",
+      "amount_max_yen": 1150000,
+      "condition_text": "昭和56年5月31日以前に建築工事に着手した木造住宅(併用住宅の場合は店舗部分が延べ面積の1/2未満)。個人所有の一戸建てで、過去に本制度の診断を受けていないこと。増改築がある場合は昭和56年5月31日以前着工部分が延べ面積の1/2以上であること。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "耐震診断申込受付は4月1日より、診断開始は6月頃予定。申込受付期間は令和8年4月1日〜11月末。長野県上乗せ補助(上限50万円)あり。",
+      "deadline": "2026-11-30",
+      "official_url": "https://www.city.okaya.lg.jp/soshikikarasagasu/toshikeikakuka/633/A/20548.html"
+    },
+    {
+      "id": "okaya-genchi-tatekae",
+      "name": "現地建替え工事(除却)補助",
+      "amount_text": "除却部分経費の50%以内、上限97万8,600円",
+      "amount_max_yen": 978600,
+      "condition_text": "昭和56年5月31日以前に建築工事に着手した木造住宅。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": null,
+      "deadline": "2026-11-30",
+      "official_url": "https://www.city.okaya.lg.jp/soshikikarasagasu/toshikeikakuka/633/A/20548.html"
+    }
+  ],
+  "not_yet_covered": []
+}

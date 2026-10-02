@@ -1,0 +1,59 @@
+{
+  "municipality_code": "20451",
+  "municipality": "朝日村",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.vill.asahi.nagano.jp/official/soshikikarasagasu/kensetsukankyoka/doboku_kankyotanto/2/1302.html"
+  ],
+  "items": [
+    {
+      "id": "asahi-nagano-shindan",
+      "name": "朝日村耐震診断事業",
+      "amount_text": "無料",
+      "amount_max_yen": 0,
+      "condition_text": "昭和56年5月31日以前に着工された一戸建て木造住宅(個人所有)。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": null,
+      "deadline": "2026-08-31",
+      "official_url": "https://www.vill.asahi.nagano.jp/official/soshikikarasagasu/kensetsukankyoka/doboku_kankyotanto/2/1302.html"
+    },
+    {
+      "id": "asahi-nagano-hokyo",
+      "name": "朝日村既存住宅耐震補強補助金",
+      "amount_text": "耐震改修工事費の4/5に相当する額、上限115万円",
+      "amount_max_yen": 1150000,
+      "condition_text": "昭和56年5月31日以前に着工された在来工法木造住宅(個人所有)。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": null,
+      "deadline": "2026-08-31",
+      "official_url": "https://www.vill.asahi.nagano.jp/official/soshikikarasagasu/kensetsukankyoka/doboku_kankyotanto/2/1302.html"
+    },
+    {
+      "id": "asahi-nagano-block-fence",
+      "name": "朝日村ブロック塀等撤去事業補助金",
+      "amount_text": "対象経費の3分の2、上限10万円",
+      "amount_max_yen": 100000,
+      "condition_text": "通学路沿道または避難地に面した危険ブロック塀等の撤去。",
+      "eligibility": {
+        "building_types": ["wood", "light_steel", "heavy_steel"],
+        "built_before": null,
+        "built_after": null
+      },
+      "note": null,
+      "deadline": null,
+      "official_url": "https://www.vill.asahi.nagano.jp/official/soshikikarasagasu/kensetsukankyoka/doboku_kankyotanto/2/1302.html"
+    }
+  ],
+  "not_yet_covered": []
+}

@@ -1,0 +1,29 @@
+{
+  "municipality_code": "20305",
+  "municipality": "南牧村",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.minamimakimura.jp/main/gov/sanken/kankyoueisei/1252.html"
+  ],
+  "items": [
+    {
+      "id": "minamimaki-taishin-kaishu",
+      "name": "南牧村住宅耐震改修事業補助金",
+      "amount_text": "補助対象経費の2分の1以内、限度額100万円",
+      "amount_max_yen": 1000000,
+      "condition_text": "昭和56年5月31日以前に着工された住宅で、村が実施した精密耐震診断の総合評点が1.0未満のものを、改修により0.7以上かつ改修前を上回る評点にする工事が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "耐震診断補助金制度そのものの詳細(金額等)は本ページに記載なし。村が実施した精密診断が前提。申請期限の明記なし。",
+      "deadline": null,
+      "official_url": "https://www.minamimakimura.jp/main/gov/sanken/kankyoueisei/1252.html"
+    }
+  ],
+  "not_yet_covered": []
+}

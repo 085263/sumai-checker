@@ -1,0 +1,33 @@
+{
+  "municipality_code": "20422",
+  "municipality": "上松町",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [],
+  "items": [
+    {
+      "id": "agematsu-taishin-kaishu",
+      "name": "上松町住宅耐震改修事業補助金",
+      "amount_text": "金額不明(要綱本文未確認)",
+      "amount_max_yen": null,
+      "condition_text": "昭和56年(1981年)5月31日以前に町内で着工された木造在来工法の既存木造住宅が対象(長屋・共同住宅・賃貸住宅・個人所有以外は対象外)。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "低信頼度。「上松町住宅耐震改修事業補助金交付要綱」という制度名自体はWebSearchで確認できたが、要綱本文のページ(reiki.town.agematsu.nagano.jp)はTLS証明書エラー(ホスト名不一致)でWebFetchによる直接確認ができなかった。町公式トップページにも該当ページへのリンクが見当たらない。金額・申請期限は未確認。町役場への確認が必要。",
+      "deadline": null,
+      "official_url": "http://reiki.town.agematsu.nagano.jp/reiki_honbun/e769RG00000566.html"
+    }
+  ],
+  "not_yet_covered": [
+    {
+      "name": "上松町住宅リフォーム補助金交付制度(耐震化リフォームも対象の可能性)",
+      "official_url": "https://www.town.agematsu.nagano.jp/"
+    }
+  ],
+  "note": "要綱ページがTLS証明書エラーで直接確認できなかった特殊ケース。金額等は未確認、要人力確認・要電話確認。"
+}

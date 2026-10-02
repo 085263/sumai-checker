@@ -1,0 +1,46 @@
+{
+  "municipality_code": "20382",
+  "municipality": "辰野町",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.town.tatsuno.lg.jp/gyosei/soshiki/kensetsusuidoka/kurashi_tetsuzuki/1/1/994.html"
+  ],
+  "items": [
+    {
+      "id": "tatsuno-taishin-sindan",
+      "name": "耐震診断事業",
+      "amount_text": "無料派遣(町が長野県木造住宅耐震診断士を派遣)",
+      "amount_max_yen": 0,
+      "condition_text": "昭和56年5月31日以前に建築工事に着手した在来工法の木造一戸建て住宅(店舗等併用住宅を含む)。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "令和8年度募集は10戸(先着順)。応募多数の場合、実施が翌年度になることがある。",
+      "deadline": null,
+      "official_url": "https://www.town.tatsuno.lg.jp/gyosei/soshiki/kensetsusuidoka/kurashi_tetsuzuki/1/1/994.html"
+    },
+    {
+      "id": "tatsuno-taishin-hokyo",
+      "name": "耐震補強補助事業",
+      "amount_text": "耐震補強工事に直接かかる費用の5分の4以内、上限115万円",
+      "amount_max_yen": 1150000,
+      "condition_text": "昭和56年5月31日以前に建築工事に着手した在来工法の木造一戸建て住宅(店舗等併用住宅を含む)。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "令和8年度募集は3戸(先着順)。応募多数の場合、実施が翌年度になることがある。",
+      "deadline": null,
+      "official_url": "https://www.town.tatsuno.lg.jp/gyosei/soshiki/kensetsusuidoka/kurashi_tetsuzuki/1/1/994.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "除却工事補助(金額未確認。WebSearch要約では「費用の50%・上限97.86万円」との情報もあるが、公式ページ本文では金額の明記が確認できず要再確認)", "official_url": "https://www.town.tatsuno.lg.jp/gyosei/soshiki/kensetsusuidoka/kurashi_tetsuzuki/1/1/994.html"}
+  ]
+}

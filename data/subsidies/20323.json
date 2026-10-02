@@ -1,0 +1,45 @@
+{
+  "municipality_code": "20323",
+  "municipality": "御代田町",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.town.miyota.nagano.jp/category/taishin/154893.html",
+    "https://www.town.miyota.nagano.jp/category/taishin/158703.html"
+  ],
+  "items": [
+    {
+      "id": "miyota-taishin-shindan",
+      "name": "御代田町木造住宅耐震診断事業",
+      "amount_text": "無料",
+      "amount_max_yen": 0,
+      "condition_text": "昭和56年5月31日以前に建築された木造在来工法の一戸建て住宅。町内に所在。店舗併用住宅は店舗部分が延べ床面積の2分の1以上でないこと。平成17年6月1日以降の増築がないこと。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "令和8年度分は予算終了、令和9年度分は2027年4月1日受付開始予定。",
+      "deadline": null,
+      "official_url": "https://www.town.miyota.nagano.jp/category/taishin/154893.html"
+    },
+    {
+      "id": "miyota-taishin-kaishu",
+      "name": "御代田町木造住宅耐震改修事業補助金",
+      "amount_text": "耐震補強工事:上限115万円/耐震改修促進リフォーム工事:上限30万円/除却工事:上限97.86万円",
+      "amount_max_yen": 1150000,
+      "condition_text": "前年度までに町の耐震診断を受け、総合評点が1.0未満と判定された住宅が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": null,
+        "built_after": null
+      },
+      "note": "実績報告書の提出期限は令和9年2月26日までとの記載あり(年度により変動する可能性)。",
+      "deadline": "2027-02-26",
+      "official_url": "https://www.town.miyota.nagano.jp/category/taishin/158703.html"
+    }
+  ],
+  "not_yet_covered": []
+}

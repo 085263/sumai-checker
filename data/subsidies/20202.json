@@ -1,0 +1,44 @@
+{
+  "municipality_code": "20202",
+  "municipality": "松本市",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www1.g-reiki.net/city.matsumoto/reiki_honbun/e703RG00001225.html"
+  ],
+  "items": [
+    {
+      "id": "matsumoto-wood-taishin-kyoka",
+      "name": "住宅・建築物耐震改修促進事業補助金(耐震補強工事)",
+      "amount_text": "補助対象経費の5分の4以内、上限115万円(利子補給制度利用時は5分の2・上限57万5,000円)",
+      "amount_max_yen": 1150000,
+      "condition_text": "昭和56年5月31日以前に市内で着工した木造在来構法または木造伝統的構法の住宅。個人所有(非賃貸・非共同住宅)で、耐震評点1.0未満であること。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "非木造住宅・特定既存耐震不適格建築物向けの耐震診断補助(上限9万円、または基準額の3分の2相当+設計復元等追加経費157万円まで加算)も別途あり。",
+      "deadline": null,
+      "official_url": "https://www1.g-reiki.net/city.matsumoto/reiki_honbun/e703RG00001225.html"
+    },
+    {
+      "id": "matsumoto-wood-taishin-jokyaku",
+      "name": "住宅・建築物耐震改修促進事業補助金(除却工事)",
+      "amount_text": "補助対象経費の2分の1以内、上限97万8,600円",
+      "amount_max_yen": 978600,
+      "condition_text": "昭和56年5月31日以前に市内で着工した木造在来構法または木造伝統的構法の住宅。個人所有(非賃貸・非共同住宅)。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": null,
+      "deadline": null,
+      "official_url": "https://www1.g-reiki.net/city.matsumoto/reiki_honbun/e703RG00001225.html"
+    }
+  ],
+  "not_yet_covered": []
+}

@@ -1,0 +1,46 @@
+{
+  "municipality_code": "20563",
+  "municipality": "野沢温泉村",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.vill.nozawaonsen.nagano.jp/www/contents/1050000000112/index.html"
+  ],
+  "items": [
+    {
+      "id": "nozawaonsen-taishin-kaishu",
+      "name": "住宅耐震改修事業",
+      "amount_text": "耐震改修・補強工事に係る経費の一部補助、上限100万円",
+      "amount_max_yen": 1000000,
+      "condition_text": "昭和56年5月31日以前に建設した住宅が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "補助率等の詳細は建設水道課に要確認。",
+      "deadline": null,
+      "official_url": "https://www.vill.nozawaonsen.nagano.jp/www/contents/1050000000112/index.html"
+    },
+    {
+      "id": "nozawaonsen-taishin-shindan",
+      "name": "住宅耐震診断事業",
+      "amount_text": "戸建住宅は上限8.8万円、戸建以外は事業費の2/3以内",
+      "amount_max_yen": 88000,
+      "condition_text": "昭和56年5月31日以前に建設した住宅が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": null,
+      "deadline": null,
+      "official_url": "https://www.vill.nozawaonsen.nagano.jp/www/contents/1050000000112/index.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "特定建築物耐震診断事業", "official_url": "https://www.vill.nozawaonsen.nagano.jp/www/contents/1050000000112/index.html"}
+  ]
+}

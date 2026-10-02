@@ -1,0 +1,44 @@
+{
+  "municipality_code": "20415",
+  "municipality": "喬木村",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www1.g-reiki.net/takagi/reiki_honbun/e763RG00000129.html"
+  ],
+  "items": [
+    {
+      "id": "takagi-wood-taishin-hokyo",
+      "name": "木造住宅耐震補強事業(耐震補強工事)",
+      "amount_text": "対象経費の5分の4以内、上限115万円",
+      "amount_max_yen": 1150000,
+      "condition_text": "総合評点1.0未満の既存木造住宅が対象。工事後の総合評点が0.7以上、かつ工事前の評点を超えることが要件。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": null,
+        "built_after": null
+      },
+      "note": "村の補助金等交付規則(g-reiki)をWebFetchで直接確認。建築時期条件(昭和56年基準等)の明記が見当たらず不明のため低信頼度。",
+      "deadline": null,
+      "official_url": "https://www1.g-reiki.net/takagi/reiki_honbun/e763RG00000129.html"
+    },
+    {
+      "id": "takagi-wood-taishin-jokyaku",
+      "name": "木造住宅耐震補強事業(除却工事)",
+      "amount_text": "上限978,600円",
+      "amount_max_yen": 978600,
+      "condition_text": "総合評点1.0未満の既存木造住宅の除却工事が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": null,
+        "built_after": null
+      },
+      "note": "同上。建築時期条件の明記なし、低信頼度。",
+      "deadline": null,
+      "official_url": "https://www1.g-reiki.net/takagi/reiki_honbun/e763RG00000129.html"
+    }
+  ],
+  "not_yet_covered": []
+}

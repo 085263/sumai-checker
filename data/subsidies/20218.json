@@ -1,0 +1,44 @@
+{
+  "municipality_code": "20218",
+  "municipality": "千曲市",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.chikuma.lg.jp/soshiki/kenchiku/2/7952.html"
+  ],
+  "items": [
+    {
+      "id": "chikuma-shindan",
+      "name": "木造住宅耐震診断",
+      "amount_text": "全額補助(無料)",
+      "amount_max_yen": 0,
+      "condition_text": "昭和56年5月31日以前に着工された木造在来工法の平屋又は2階建て個人所有一戸建て住宅(店舗兼用の場合は住宅部分が延床面積の2分の1以上)。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "令和8年度受付開始は令和8年(2026年)4月1日。問い合わせ:建築課(026-273-1111)。",
+      "deadline": null,
+      "official_url": "https://www.city.chikuma.lg.jp/soshiki/kenchiku/2/7952.html"
+    },
+    {
+      "id": "chikuma-kaishu",
+      "name": "木造住宅耐震改修工事補助金",
+      "amount_text": "工事費用の5分の4(80%)以内、上限115万円(利子補給制度利用時は40%・上限57万5千円、長野県上乗せ補助で最大50万円追加可能)",
+      "amount_max_yen": 1150000,
+      "condition_text": "昭和56年5月31日以前に着工された木造在来工法の平屋又は2階建て個人所有一戸建て住宅。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "耐震改修工事申請受付は令和8年(2026年)5月11日(月)午前9時〜先着順。実績報告は申請年度の2月中旬まで。問い合わせ:建築課(026-273-1111)。",
+      "deadline": "2027-02-15",
+      "official_url": "https://www.city.chikuma.lg.jp/soshiki/kenchiku/2/7952.html"
+    }
+  ],
+  "not_yet_covered": []
+}

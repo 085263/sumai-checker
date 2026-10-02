@@ -1,0 +1,74 @@
+{
+  "municipality_code": "20482",
+  "municipality": "松川村",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.vill.matsukawa.nagano.jp/life/?content=246"
+  ],
+  "items": [
+    {
+      "id": "matsukawa-nagano-kaishu",
+      "name": "松川村住宅耐震改修事業補助金",
+      "amount_text": "対象工事費の8割以内、上限115万円",
+      "amount_max_yen": 1150000,
+      "condition_text": "昭和56年5月31日以前に着工された木造在来工法の個人所有住宅(賃貸住宅・長屋・共同住宅を除く)。耐震診断結果が総合評点1.0未満。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": null,
+      "deadline": null,
+      "official_url": "https://www.vill.matsukawa.nagano.jp/life/?content=246"
+    },
+    {
+      "id": "matsukawa-nagano-bubun-shelter",
+      "name": "松川村木造住宅耐震化促進事業補助金(部分耐震補強・シェルター設置)",
+      "amount_text": "対象工事費の1/2以内、上限40万円",
+      "amount_max_yen": 400000,
+      "condition_text": "昭和56年5月31日以前に着工された木造在来工法の個人所有住宅。部分的な耐震補強工事または耐震シェルター設置が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": null,
+      "deadline": null,
+      "official_url": "https://www.vill.matsukawa.nagano.jp/life/?content=246"
+    },
+    {
+      "id": "matsukawa-nagano-jokyaku",
+      "name": "除却工事補助金",
+      "amount_text": "対象工事費の1/2以内、上限97万8,600円",
+      "amount_max_yen": 978600,
+      "condition_text": "耐震診断結果が総合評点1.0未満の住宅の除却工事。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": null,
+      "deadline": null,
+      "official_url": "https://www.vill.matsukawa.nagano.jp/life/?content=246"
+    },
+    {
+      "id": "matsukawa-nagano-pref-uwanose",
+      "name": "長野県上乗せ補助(住宅耐震改修)",
+      "amount_text": "最大50万円",
+      "amount_max_yen": 500000,
+      "condition_text": "村の耐震改修補助の交付決定を受けていること。改修後の総合評点が1.0以上であること。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "長野県の制度(令和8年度〜)。村補助と併用。",
+      "deadline": null,
+      "official_url": "https://www.vill.matsukawa.nagano.jp/life/?content=246"
+    }
+  ],
+  "not_yet_covered": []
+}

@@ -1,0 +1,22 @@
+{
+  "municipality_code": "20521",
+  "municipality": "坂城町",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.town.sakaki.nagano.jp/www/contents/1585802818408/index.html"
+  ],
+  "items": [],
+  "not_yet_covered": [
+    {
+      "name": "坂城町耐震改修促進計画(第4期)に基づく住宅耐震化支援(具体的な補助金制度ページ未発見)",
+      "official_url": "https://www.town.sakaki.nagano.jp/www/contents/1585802818408/index.html"
+    },
+    {
+      "name": "住宅リフォーム補助事業(耐震特化ではない可能性、要確認)",
+      "official_url": "https://www.town.sakaki.nagano.jp/www/contents/1001000000546/index.html"
+    }
+  ]
+}

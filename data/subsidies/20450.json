@@ -1,0 +1,44 @@
+{
+  "municipality_code": "20450",
+  "municipality": "山形村",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.vill.yamagata.nagano.jp/docs/46514.html"
+  ],
+  "items": [
+    {
+      "id": "yamagata-nagano-wood-shindan",
+      "name": "木造住宅耐震診断士派遣事業(無料耐震診断)",
+      "amount_text": "無料",
+      "amount_max_yen": 0,
+      "condition_text": "昭和56年5月31日以前に着工された木造在来工法の個人所有住宅(長屋・共同住宅・賃貸住宅を除く)。原則として居住していること。増改築がある場合、昭和56年5月31日以前の部分が延べ床面積の半分以上であること。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "令和8年度は予算上限(5件)に達し次第受付終了。",
+      "deadline": null,
+      "official_url": "https://www.vill.yamagata.nagano.jp/docs/46514.html"
+    },
+    {
+      "id": "yamagata-nagano-kaishu",
+      "name": "住宅・建築物耐震改修促進事業補助金",
+      "amount_text": "対象工事費の8割以内、上限115万円",
+      "amount_max_yen": 1150000,
+      "condition_text": "昭和56年5月31日以前に着工された木造在来工法の個人所有住宅(長屋・共同住宅・賃貸住宅を除く)。耐震診断の実施が前提。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "令和8年度は予算上限(1件)に達し次第受付終了。",
+      "deadline": null,
+      "official_url": "https://www.vill.yamagata.nagano.jp/docs/46514.html"
+    }
+  ],
+  "not_yet_covered": []
+}

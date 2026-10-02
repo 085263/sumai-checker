@@ -1,0 +1,74 @@
+{
+  "municipality_code": "20214",
+  "municipality": "茅野市",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.chino.lg.jp/soshiki/toshikeikaku/taishin2026.html"
+  ],
+  "items": [
+    {
+      "id": "chino-shindanshi-haken",
+      "name": "耐震診断士派遣事業",
+      "amount_text": "全額補助(無料)",
+      "amount_max_yen": 0,
+      "condition_text": "昭和56年5月31日以前に着工された木造在来工法住宅。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "受付開始:令和8年(2026年)4月1日。",
+      "deadline": null,
+      "official_url": "https://www.city.chino.lg.jp/soshiki/toshikeikaku/taishin2026.html"
+    },
+    {
+      "id": "chino-shindan",
+      "name": "住宅耐震診断事業",
+      "amount_text": "自己負担する耐震診断費用の3分の2以内、上限9万円/戸",
+      "amount_max_yen": 90000,
+      "condition_text": "昭和56年5月31日以前着工の既存木造住宅またはその他住宅。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "受付開始:令和8年(2026年)4月1日。",
+      "deadline": null,
+      "official_url": "https://www.city.chino.lg.jp/soshiki/toshikeikaku/taishin2026.html"
+    },
+    {
+      "id": "chino-kaishu",
+      "name": "耐震改修工事補助",
+      "amount_text": "工事費の5分の4以内、上限115万円/戸",
+      "amount_max_yen": 1150000,
+      "condition_text": "昭和56年5月31日以前着工で、耐震診断の結果が評点1.0未満の住宅。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "受付開始:令和8年(2026年)4月1日。問い合わせ:都市計画課建築係(0266-72-2101 内線539・540)。",
+      "deadline": null,
+      "official_url": "https://www.city.chino.lg.jp/soshiki/toshikeikaku/taishin2026.html"
+    },
+    {
+      "id": "chino-jokyaku",
+      "name": "除却工事補助",
+      "amount_text": "工事費の2分の1以内、上限97.8万円/戸",
+      "amount_max_yen": 978000,
+      "condition_text": "建替え時の既存住宅全部除却が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "受付開始:令和8年(2026年)4月1日。",
+      "deadline": null,
+      "official_url": "https://www.city.chino.lg.jp/soshiki/toshikeikaku/taishin2026.html"
+    }
+  ],
+  "not_yet_covered": []
+}

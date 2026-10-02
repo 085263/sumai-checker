@@ -1,0 +1,59 @@
+{
+  "municipality_code": "20220",
+  "municipality": "安曇野市",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.azumino.nagano.jp/site/bousaijouhou/1310.html"
+  ],
+  "items": [
+    {
+      "id": "azumino-taishin-shindan",
+      "name": "無料耐震診断士派遣事業",
+      "amount_text": "無料(市が耐震診断士を無料派遣)",
+      "amount_max_yen": 0,
+      "condition_text": "昭和56年5月31日以前に着工された木造在来工法住宅が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": null,
+      "deadline": null,
+      "official_url": "https://www.city.azumino.nagano.jp/site/bousaijouhou/1310.html"
+    },
+    {
+      "id": "azumino-taishin-kaishu",
+      "name": "住宅耐震改修促進事業補助金(耐震改修工事)",
+      "amount_text": "補助率5分の4、限度額115万円(県上乗せ補助50万円を含めると最大165万円)",
+      "amount_max_yen": 1650000,
+      "condition_text": "昭和56年5月31日以前に着工された木造在来工法住宅で、耐震診断の結果、評点1.0未満のものを改修工事により1.0以上にすること。令和7年度より県が50万円上乗せ補助。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "受付は予算上限に達し次第終了(2026年8月24日時点で受付中)。具体的な締切日の明記なし。",
+      "deadline": null,
+      "official_url": "https://www.city.azumino.nagano.jp/site/bousaijouhou/1310.html"
+    },
+    {
+      "id": "azumino-jokyaku",
+      "name": "住宅耐震改修促進事業補助金(除却工事)",
+      "amount_text": "補助率2分の1、限度額97万8,600円",
+      "amount_max_yen": 978600,
+      "condition_text": "昭和56年5月31日以前に着工された木造在来工法住宅の除却工事が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": null,
+      "deadline": null,
+      "official_url": "https://www.city.azumino.nagano.jp/site/bousaijouhou/1310.html"
+    }
+  ],
+  "not_yet_covered": []
+}

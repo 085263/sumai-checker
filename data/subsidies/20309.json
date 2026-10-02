@@ -1,0 +1,29 @@
+{
+  "municipality_code": "20309",
+  "municipality": "佐久穂町",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.town.sakuho.nagano.jp/"
+  ],
+  "items": [
+    {
+      "id": "sakuho-taishin-kaishu",
+      "name": "木造住宅耐震診断・耐震補強事業",
+      "amount_text": "耐震補強工事:県の上乗せ補助込みで上限165万円程度(自己負担なしとの情報あり)",
+      "amount_max_yen": 1650000,
+      "condition_text": "詳細な築年数・構造条件は一次情報源で未確認。一般的な県内自治体の基準(昭和56年5月31日以前着工の木造住宅)に準じるとみられるが未確認。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": null,
+        "built_after": null
+      },
+      "note": "低信頼度:WebSearchのAI要約のみで、WebFetchによる一次情報源(町公式ページ)の直接確認ができなかった(該当ページが404)。金額・条件とも要人力確認。",
+      "deadline": null,
+      "official_url": "https://www.town.sakuho.nagano.jp/"
+    }
+  ],
+  "not_yet_covered": []
+}

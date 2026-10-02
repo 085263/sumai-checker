@@ -1,0 +1,31 @@
+{
+  "municipality_code": "20413",
+  "municipality": "天龍村",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.vill-tenryu.jp/administrative/living-procedures/housing/ijyu_hojo/"
+  ],
+  "items": [
+    {
+      "id": "tenryu-taishin-kaishu-low-confidence",
+      "name": "木造住宅耐震改修事業(推定)",
+      "amount_text": "上限100万円程度(WebSearch要約のみ、一次情報源未確認)",
+      "amount_max_yen": 1000000,
+      "condition_text": "詳細不明。長野県制度(県+村上乗せ)に準拠する可能性が高いが、村独自の交付要綱に一次情報源で到達できなかった。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "低信頼度。公式ページ(ijyu_hojo)には住宅新築・増改築・空き家関連補助のみ記載があり耐震改修補助の明記なし。建設課(0260-32-1022)への確認が必要。",
+      "deadline": null,
+      "official_url": "https://www.vill-tenryu.jp/administrative/living-procedures/housing/ijyu_hojo/"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "天龍村耐震改修促進計画(第III期)", "official_url": "https://www.vill-tenryu.jp/"}
+  ]
+}

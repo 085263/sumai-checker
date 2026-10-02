@@ -1,0 +1,44 @@
+{
+  "municipality_code": "20486",
+  "municipality": "小谷村",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.vill.otari.nagano.jp/www/contents/1727152957415/index.html"
+  ],
+  "items": [
+    {
+      "id": "otari-wood-taishin",
+      "name": "住宅・建築物耐震改修促進事業補助金(木造住宅)",
+      "amount_text": "情報不足のため要確認(公式ページ内の補助率・上限額の具体的な記載箇所に到達できず)",
+      "amount_max_yen": null,
+      "condition_text": "昭和56年5月31日以前に着工された住宅(店舗等併用で店舗等の用に供する部分の床面積が延べ床面積の2分の1未満のものを含む)で、木造在来工法の住宅、かつ長屋・共同住宅・賃貸住宅以外の個人所有の一戸建て住宅。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "低信頼度。WebSearch要約から対象条件は確認できたが、木造住宅向けの補助率・上限額が確認できていない。WebFetchは当該URLで404となり本文未到達。",
+      "deadline": null,
+      "official_url": "https://www.vill.otari.nagano.jp/www/contents/1727152957415/index.html"
+    },
+    {
+      "id": "otari-non-wood-shindan",
+      "name": "既存非木造住宅耐震診断事業",
+      "amount_text": "対象経費の3分の2以内、上限89,000円",
+      "amount_max_yen": 89000,
+      "condition_text": "村内の特定既存耐震不適格建築物等、非木造の既存住宅の耐震診断。",
+      "eligibility": {
+        "building_types": ["light_steel", "heavy_steel"],
+        "built_before": null,
+        "built_after": null
+      },
+      "note": "低信頼度。WebSearch要約からの抽出で、WebFetch本文での直接確認はできていない(対象URL404)。",
+      "deadline": null,
+      "official_url": "https://www.vill.otari.nagano.jp/www/contents/1727152957415/index.html"
+    }
+  ],
+  "not_yet_covered": []
+}

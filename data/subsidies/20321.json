@@ -1,0 +1,31 @@
+{
+  "municipality_code": "20321",
+  "municipality": "軽井沢町",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.town.karuizawa.lg.jp/page/1467.html"
+  ],
+  "items": [
+    {
+      "id": "karuizawa-taishin-shindan",
+      "name": "木造住宅耐震診断",
+      "amount_text": "詳細不明(診断事業として実施、金額の明記なし)",
+      "amount_max_yen": null,
+      "condition_text": "昭和56年(1981年)5月31日以前に着工された木造在来工法の住宅(2×4・丸太組construction除く)。個人所有の居住用で賃貸は対象外。併用住宅の場合は住宅部分が延べ床面積の過半であること。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "年間の診断可能件数に限りがあるとの記載あり。耐震改修工事への補助金制度の有無はこのページからは確認できず、低信頼度。",
+      "deadline": null,
+      "official_url": "https://www.town.karuizawa.lg.jp/page/1467.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "耐震改修工事補助金(存在有無未確認)", "official_url": "https://www.town.karuizawa.lg.jp/page/1467.html"}
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "municipality_code": "20210",
+  "municipality": "駒ヶ根市",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.komagane.nagano.jp/soshikiichiran/toshikeikakuka/keikankenchikugakari/3/1/1654.html"
+  ],
+  "items": [
+    {
+      "id": "komagane-hokyo-hyoten1",
+      "name": "木造住宅等耐震推進事業(耐震補強工事・評点1.0以上)",
+      "amount_text": "対象経費の10分の10以内、上限165万円",
+      "amount_max_yen": 1650000,
+      "condition_text": "昭和56年5月31日以前に着工した木造在来工法の戸建住宅(自己所有・居住中)。耐震改修後に評点1.0以上を達成する工事が対象。2025年度に拡充されたが応募多数で受付終了となった年度もあるため要確認。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "WebSearch要約によれば2025年度申請は予算上限に到達済みとの情報あり。2026年度の募集状況は公式ページで要確認。",
+      "deadline": null,
+      "official_url": "https://www.city.komagane.nagano.jp/soshikiichiran/toshikeikakuka/keikankenchikugakari/3/1/1654.html"
+    },
+    {
+      "id": "komagane-hokyo-hyoten07",
+      "name": "木造住宅等耐震推進事業(耐震補強工事・評点0.7〜1.0未満)",
+      "amount_text": "対象経費の5分の4以内、上限115万円",
+      "amount_max_yen": 1150000,
+      "condition_text": "昭和56年5月31日以前に着工した木造在来工法の戸建住宅(自己所有・居住中)。改修後に評点0.7以上1.0未満を達成する工事が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": null,
+      "deadline": null,
+      "official_url": "https://www.city.komagane.nagano.jp/soshikiichiran/toshikeikakuka/keikankenchikugakari/3/1/1654.html"
+    },
+    {
+      "id": "komagane-jokyaku",
+      "name": "木造住宅等耐震推進事業(除却工事)",
+      "amount_text": "対象経費の2分の1以内、上限97万8,000円",
+      "amount_max_yen": 978000,
+      "condition_text": "昭和56年5月31日以前に着工した木造在来工法の戸建住宅の解体工事が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": null,
+      "deadline": null,
+      "official_url": "https://www.city.komagane.nagano.jp/soshikiichiran/toshikeikakuka/keikankenchikugakari/3/1/1654.html"
+    },
+    {
+      "id": "komagane-shindan",
+      "name": "木造住宅等耐震推進事業(耐震診断)",
+      "amount_text": "無料",
+      "amount_max_yen": 0,
+      "condition_text": "昭和56年5月31日以前に着工した木造在来工法の戸建住宅が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": null,
+      "deadline": null,
+      "official_url": "https://www.city.komagane.nagano.jp/soshikiichiran/toshikeikakuka/keikankenchikugakari/3/1/1654.html"
+    }
+  ],
+  "not_yet_covered": []
+}

@@ -1,0 +1,29 @@
+{
+  "municipality_code": "20411",
+  "municipality": "下條村",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.vill-shimojo.jp/gyousei/gyousei-info/kakuka/shinkou_osirase/2011-0525-1742-7.html"
+  ],
+  "items": [
+    {
+      "id": "shimojo-taishin-shindan-kaishu",
+      "name": "住宅耐震診断・改修(補強)事業補助金",
+      "amount_text": "耐震診断は無料、耐震補強は事業費の半額補助・上限100万円",
+      "amount_max_yen": 1000000,
+      "condition_text": "昭和56年以前に着工された木造戸建住宅。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "詳細条件は下條村耐震改修促進計画PDFを要確認。問い合わせ:村役場振興課建設係(0260-27-2311)。",
+      "deadline": null,
+      "official_url": "https://www.vill-shimojo.jp/gyousei/gyousei-info/kakuka/shinkou_osirase/2011-0525-1742-7.html"
+    }
+  ],
+  "not_yet_covered": []
+}

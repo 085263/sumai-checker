@@ -1,0 +1,59 @@
+{
+  "municipality_code": "20541",
+  "municipality": "小布施町",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.town.obuse.nagano.jp/docs/2894.html"
+  ],
+  "items": [
+    {
+      "id": "obuse-shindan",
+      "name": "耐震診断補助事業",
+      "amount_text": "無料(町が診断費用を負担)",
+      "amount_max_yen": 0,
+      "condition_text": "昭和56年5月31日以前に着工された木造在来工法の住宅で、長屋・共同住宅以外の個人所有住宅。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": null,
+      "deadline": null,
+      "official_url": "https://www.town.obuse.nagano.jp/docs/2894.html"
+    },
+    {
+      "id": "obuse-kaishu",
+      "name": "耐震改修工事補助事業",
+      "amount_text": "耐震改修工事費の5分の4又は115万円のいずれか低い額(県上乗せ補助50万円上限と併用可)",
+      "amount_max_yen": 1150000,
+      "condition_text": "昭和56年5月31日以前に着工された木造在来工法の住宅で、長屋・共同住宅以外の個人所有住宅。耐震診断で総合評点1.0未満と診断されたもの。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": null,
+      "deadline": null,
+      "official_url": "https://www.town.obuse.nagano.jp/docs/2894.html"
+    },
+    {
+      "id": "obuse-jokyaku",
+      "name": "除却工事補助事業(令和6年度新設)",
+      "amount_text": "除却工事費の2分の1又は97万8千円のいずれか低い額",
+      "amount_max_yen": 978000,
+      "condition_text": "昭和56年5月31日以前に着工された木造在来工法の住宅で、長屋・共同住宅以外の個人所有住宅の除却(解体)工事。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": null,
+      "deadline": null,
+      "official_url": "https://www.town.obuse.nagano.jp/docs/2894.html"
+    }
+  ],
+  "not_yet_covered": []
+}

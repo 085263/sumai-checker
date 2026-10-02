@@ -1,0 +1,29 @@
+{
+  "municipality_code": "20446",
+  "municipality": "麻績村",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.vill.omi.nagano.jp/omimura/shisaku_keikaku/shinko159.html"
+  ],
+  "items": [
+    {
+      "id": "omimura-taishin-kaishu",
+      "name": "麻績村住宅・建築物耐震改修促進事業",
+      "amount_text": "具体的な金額の記載なし(低信頼度、要再確認)",
+      "amount_max_yen": null,
+      "condition_text": "昭和56年5月31日以前に建築された戸建て木造住宅(在来工法)が対象。非木造・伝統工法は別途相談可能。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "低信頼度:補助金額・上限額がWebFetchで確認できず(「麻績村住宅・建築物耐震改修促進事業補助金交付要綱」を参照とのみ記載)。募集戸数に限りがあり先着順。申請期限の記載なし。問い合わせ:振興課(0263-67-4853)",
+      "deadline": null,
+      "official_url": "https://www.vill.omi.nagano.jp/omimura/shisaku_keikaku/shinko159.html"
+    }
+  ],
+  "not_yet_covered": []
+}

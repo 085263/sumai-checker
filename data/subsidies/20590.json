@@ -1,0 +1,15 @@
+{
+  "municipality_code": "20590",
+  "municipality": "飯綱町",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.town.iizuna.nagano.jp/docs/taishin.html"
+  ],
+  "items": [],
+  "not_yet_covered": [
+    {"name": "飯綱町耐震改修促進計画(第Ⅳ期)及び住宅の耐震診断・耐震改修補助制度(具体的な補助金額はページ内PDFのみに記載、本文からは未確認)", "official_url": "https://www.town.iizuna.nagano.jp/docs/taishin.html"}
+  ]
+}

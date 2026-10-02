@@ -1,0 +1,59 @@
+{
+  "municipality_code": "20212",
+  "municipality": "大町市",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.omachi.nagano.jp/kurashi/jutaku/reform/dm5lcg8yxmo0fg9jgloyrue2"
+  ],
+  "items": [
+    {
+      "id": "omachi-taishin-kaishu",
+      "name": "大町市住宅・建築物耐震改修促進事業補助金(耐震改修工事)",
+      "amount_text": "対象工事費の8割以内、上限115万円",
+      "amount_max_yen": 1150000,
+      "condition_text": "昭和56年5月31日以前に建築工事に着手した木造在来工法の一戸建て住宅(階数3階以下かつ階高3m以下)。店舗等併用住宅で店舗部分が延べ面積の2分の1未満のものを含む。賃貸住宅を除く。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "令和8年度(2026年度)募集戸数は耐震改修工事10戸程度中7戸(2026年6月10日時点)で残枠あり。工事完了期限は2027年1月29日。",
+      "deadline": "2027-01-29",
+      "official_url": "https://www.city.omachi.nagano.jp/kurashi/jutaku/reform/dm5lcg8yxmo0fg9jgloyrue2"
+    },
+    {
+      "id": "omachi-jokyaku",
+      "name": "大町市住宅・建築物耐震改修促進事業補助金(除却工事)",
+      "amount_text": "対象工事費の1/2以内、上限97万8,000円",
+      "amount_max_yen": 978000,
+      "condition_text": "昭和56年5月31日以前に建築工事に着手した木造在来工法の一戸建て住宅の解体工事。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "令和8年度募集戸数は除却工事10戸程度中8戸(2026年6月10日時点)で残枠あり。工事完了期限は2027年1月29日。",
+      "deadline": "2027-01-29",
+      "official_url": "https://www.city.omachi.nagano.jp/kurashi/jutaku/reform/dm5lcg8yxmo0fg9jgloyrue2"
+    },
+    {
+      "id": "omachi-shindan",
+      "name": "耐震診断",
+      "amount_text": "無料",
+      "amount_max_yen": 0,
+      "condition_text": "昭和56年5月31日以前に建築工事に着手した木造在来工法の一戸建て住宅。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "令和8年度募集戸数は耐震診断30戸中20戸(2026年6月10日時点)で残枠あり。",
+      "deadline": null,
+      "official_url": "https://www.city.omachi.nagano.jp/kurashi/jutaku/reform/dm5lcg8yxmo0fg9jgloyrue2"
+    }
+  ],
+  "not_yet_covered": []
+}

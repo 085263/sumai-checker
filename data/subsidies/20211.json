@@ -1,0 +1,44 @@
+{
+  "municipality_code": "20211",
+  "municipality": "中野市",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.nakano.nagano.jp/docs/2024032200038/"
+  ],
+  "items": [
+    {
+      "id": "nakano-taishin-kaishu",
+      "name": "既存木造住宅耐震改修事業",
+      "amount_text": "耐震補強工事費の8/10以内、上限115万円(多雪区域は140万円)。長野県上乗せ補助として別途最大50万円あり。耐震補強以外の付随費用は上限80万円。",
+      "amount_max_yen": 1400000,
+      "condition_text": "1981年(昭和56年)5月31日以前に着工した木造在来工法の個人所有一戸建て住宅(賃貸を除く、居住用)。耐震診断で総合評点1.0未満、改修後0.7以上かつ工事前を上回ることが条件。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "実績報告書を2027年2月27日までに提出可能な工事が対象。多雪区域かどうかでamount_max_yenが異なる(通常115万円/多雪区域140万円、ここでは上限値140万円を記載)。",
+      "deadline": "2027-02-27",
+      "official_url": "https://www.city.nakano.nagano.jp/docs/2024032200038/"
+    },
+    {
+      "id": "nakano-jokyaku",
+      "name": "既存木造住宅除却事業",
+      "amount_text": "除却工事費の1/2以内、上限97万8,000円",
+      "amount_max_yen": 978000,
+      "condition_text": "1981年(昭和56年)5月31日以前に着工した木造在来工法の個人所有一戸建て住宅(賃貸を除く、居住用)の解体工事。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "実績報告書を2027年2月27日までに提出可能な工事が対象。",
+      "deadline": "2027-02-27",
+      "official_url": "https://www.city.nakano.nagano.jp/docs/2024032200038/"
+    }
+  ],
+  "not_yet_covered": []
+}

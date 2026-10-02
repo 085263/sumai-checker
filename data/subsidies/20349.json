@@ -1,0 +1,44 @@
+{
+  "municipality_code": "20349",
+  "municipality": "青木村",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.vill.aoki.nagano.jp/syoushiki.html"
+  ],
+  "items": [
+    {
+      "id": "aoki-taishin-shindan",
+      "name": "青木村木造住宅耐震診断事業",
+      "amount_text": "詳細不明(ページに金額記載なし)",
+      "amount_max_yen": null,
+      "condition_text": "木造住宅が対象。具体的な築年数・構造要件はページ上で確認できず。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": null,
+        "built_after": null
+      },
+      "note": "低信頼度:申請様式ページのみ確認、要綱PDFは未取得。申請期限は令和8年(2026年)3月31日までと記載。",
+      "deadline": "2026-03-31",
+      "official_url": "https://www.vill.aoki.nagano.jp/syoushiki.html"
+    },
+    {
+      "id": "aoki-taishin-hokyo",
+      "name": "青木村木造住宅耐震補強事業補助金",
+      "amount_text": "詳細不明(ページに金額記載なし)",
+      "amount_max_yen": null,
+      "condition_text": "木造住宅が対象。具体的な築年数・構造要件はページ上で確認できず。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": null,
+        "built_after": null
+      },
+      "note": "低信頼度:申請様式ページのみ確認、要綱PDFは未取得。申請期限は令和8年(2026年)3月31日までと記載。",
+      "deadline": "2026-03-31",
+      "official_url": "https://www.vill.aoki.nagano.jp/syoushiki.html"
+    }
+  ],
+  "not_yet_covered": []
+}

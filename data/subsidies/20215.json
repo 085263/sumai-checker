@@ -1,0 +1,78 @@
+{
+  "municipality_code": "20215",
+  "municipality": "塩尻市",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.shiojiri.lg.jp/soshiki/34/2959.html",
+    "https://www.city.shiojiri.lg.jp/soshiki/34/2967.html"
+  ],
+  "items": [
+    {
+      "id": "shiojiri-sekkei",
+      "name": "住宅・建築物耐震改修促進事業補助金(設計のみ)",
+      "amount_text": "補助対象工事費の8/10以内、上限15万円",
+      "amount_max_yen": 150000,
+      "condition_text": "昭和56年5月31日以前に建築工事に着手した個人所有住宅。申請者自ら居住。長屋・共同住宅・賃貸は除外。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "問い合わせ:建築住宅課(0263-52-0280)。申請期限の明記なし、実績報告は3月10日までとの記載あり。",
+      "deadline": null,
+      "official_url": "https://www.city.shiojiri.lg.jp/soshiki/34/2959.html"
+    },
+    {
+      "id": "shiojiri-kaishu",
+      "name": "住宅・建築物耐震改修促進事業補助金(改修工事)",
+      "amount_text": "補助対象工事費の8/10以内、上限100万円(総合評点0.7以上1.0未満の場合は70万円)",
+      "amount_max_yen": 1000000,
+      "condition_text": "昭和56年5月31日以前に建築工事に着手した個人所有住宅。耐震診断で評点1.0未満のものを対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "問い合わせ:建築住宅課(0263-52-0280)。",
+      "deadline": null,
+      "official_url": "https://www.city.shiojiri.lg.jp/soshiki/34/2959.html"
+    },
+    {
+      "id": "shiojiri-sekkei-kouji",
+      "name": "住宅・建築物耐震改修促進事業補助金(設計・工事一括)",
+      "amount_text": "補助対象工事費の8/10以内、上限115万円",
+      "amount_max_yen": 1150000,
+      "condition_text": "昭和56年5月31日以前に建築工事に着手した個人所有住宅。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "問い合わせ:建築住宅課(0263-52-0280)。",
+      "deadline": null,
+      "official_url": "https://www.city.shiojiri.lg.jp/soshiki/34/2959.html"
+    },
+    {
+      "id": "shiojiri-jokyaku",
+      "name": "住宅・建築物耐震改修促進事業補助金(除却工事)",
+      "amount_text": "補助対象工事費の1/2以内、上限50万円",
+      "amount_max_yen": 500000,
+      "condition_text": "昭和56年5月31日以前に建築工事に着手した個人所有住宅で耐震性が不足するものの除却。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "問い合わせ:建築住宅課(0263-52-0280)。",
+      "deadline": null,
+      "official_url": "https://www.city.shiojiri.lg.jp/soshiki/34/2959.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "耐震診断事業・その他住宅耐震診断事業・住宅耐震設計事業", "official_url": "https://www.city.shiojiri.lg.jp/soshiki/34/2967.html"},
+    {"name": "緊急輸送道路沿道建築物の耐震化補助金", "official_url": "https://www.city.shiojiri.lg.jp/soshiki/34/2963.html"}
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "municipality_code": "20485",
+  "municipality": "白馬村",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.vill.hakuba.lg.jp/gyosei/soshikikarasagasu/kensetsuka/tochiriyou_kenchiku/hojokin/index.html"
+  ],
+  "items": [],
+  "not_yet_covered": [
+    {
+      "name": "住宅耐震改修に伴う固定資産税の減額措置(補助金ではなく税制優遇)",
+      "official_url": "https://www.vill.hakuba.lg.jp/gyosei/soshikikarasagasu/zeimuka/kazeigakari/2/1/940.html"
+    }
+  ]
+}

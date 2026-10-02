@@ -1,0 +1,59 @@
+{
+  "municipality_code": "20217",
+  "municipality": "佐久市",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.saku.nagano.jp/kurashi/tochi_jutaku/jutakutou/house-taishin-hokyo.html"
+  ],
+  "items": [
+    {
+      "id": "saku-hokyo",
+      "name": "木造住宅の耐震補強工事補助金",
+      "amount_text": "対象工事費の5分の4以内、上限115万円(県上乗せで最大50万円追加可能)",
+      "amount_max_yen": 1150000,
+      "condition_text": "昭和56年5月31日以前に建てられた(工事着手された)木造在来工法による一戸建て住宅で、市の耐震診断の結果、総合評点1.0未満のもの。補強工事は評点0.7以上かつ工事前評点を上回ることが条件。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "事前の耐震診断(無料)が必要。補助金交付決定後に工事契約すること。実績報告は令和9年(2027年)1月30日まで。問い合わせ:建築住宅課(0267-62-6637/0267-62-3430)。",
+      "deadline": "2027-01-30",
+      "official_url": "https://www.city.saku.nagano.jp/kurashi/tochi_jutaku/jutakutou/house-taishin-hokyo.html"
+    },
+    {
+      "id": "saku-reform",
+      "name": "耐震改修促進リフォーム工事補助",
+      "amount_text": "対象工事費の2分の1以内、上限30万円",
+      "amount_max_yen": 300000,
+      "condition_text": "耐震補強工事に付随して同時に行う、筋かいや耐震壁等を設置した部分以外の同一室内外の床・壁・天井・外壁等の仕上げ工事。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "耐震補強工事とあわせて申請する制度。",
+      "deadline": "2027-01-30",
+      "official_url": "https://www.city.saku.nagano.jp/kurashi/tochi_jutaku/jutakutou/house-taishin-hokyo.html"
+    },
+    {
+      "id": "saku-jokyaku",
+      "name": "木造住宅除却工事補助金",
+      "amount_text": "対象工事費の2分の1以内、上限97.8万円",
+      "amount_max_yen": 978000,
+      "condition_text": "昭和56年5月31日以前に建てられた木造在来工法の一戸建て住宅で、耐震性が不足するものの除却。令和8年度より開始。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "令和8年度(2026年度)より除却工事への補助を開始。",
+      "deadline": "2027-01-30",
+      "official_url": "https://www.city.saku.nagano.jp/kurashi/tochi_jutaku/jutakutou/house-taishin-hokyo.html"
+    }
+  ],
+  "not_yet_covered": []
+}

@@ -1,0 +1,23 @@
+{
+  "municipality_code": "20417",
+  "municipality": "大鹿村",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.vill.ooshika.nagano.jp/"
+  ],
+  "items": [],
+  "not_yet_covered": [
+    {
+      "name": "住宅リフォーム補助(耐震改修が対象か未確認)",
+      "official_url": "http://www.vill.ooshika.nagano.jp/rehome_hozyo/"
+    },
+    {
+      "name": "住宅新築等補助(45歳以下の定住者向け、耐震とは無関係)",
+      "official_url": "https://www.vill.ooshika.nagano.jp/shinchiku_hojo/"
+    }
+  ],
+  "note": "WebSearch・公式トップページのWebFetchでは専用の耐震診断・耐震改修補助金を確認できなかった。「住宅リフォーム補助」に耐震改修が含まれるかは要綱本文未確認のため不明。村役場への確認が必要。"
+}

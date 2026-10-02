@@ -1,0 +1,29 @@
+{
+  "municipality_code": "20201",
+  "municipality": "長野市",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.nagano.nagano.jp/n183500/contents/p003357.html"
+  ],
+  "items": [
+    {
+      "id": "nagano-city-wood-taishin",
+      "name": "既存木造住宅の耐震改修工事補助金",
+      "amount_text": "工事費の5分の4以内、上限115万円/戸(令和7年度までに無料診断済みの場合は上限150万円/戸、令和8年度限定)",
+      "amount_max_yen": 1150000,
+      "condition_text": "昭和56年5月31日以前に建築工事を着手した在来軸組構法の木造住宅(平屋建てまたは2階建て)。個人所有の一戸建てで、耐震診断の結果、総合評点1.0未満であること。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "別途、長野県上乗せ補助(上限50万円)・低所得者向け上乗せ補助(上限20万円/戸)あり。申請期限は明記されておらず、年度ごとの予定件数到達時に受付終了。",
+      "deadline": null,
+      "official_url": "https://www.city.nagano.nagano.jp/n183500/contents/p003357.html"
+    }
+  ],
+  "not_yet_covered": []
+}

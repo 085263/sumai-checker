@@ -1,0 +1,44 @@
+{
+  "municipality_code": "20425",
+  "municipality": "木祖村",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.vill.kiso.nagano.jp/kurashi_joho/hojokin/"
+  ],
+  "items": [
+    {
+      "id": "kiso-vill-taishin-shindan",
+      "name": "木造住宅耐震診断事業",
+      "amount_text": "長野県登録耐震診断士の派遣費用を100%補助(自己負担なし)",
+      "amount_max_yen": null,
+      "condition_text": "昭和56年5月31日以前に着工された木造在来工法の個人所有住宅(長屋・共同住宅を除く)が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "上限額・申請期限の明記なし。問い合わせ先:木祖村産業振興課。",
+      "deadline": null,
+      "official_url": "https://www.vill.kiso.nagano.jp/kurashi_joho/hojokin/"
+    },
+    {
+      "id": "kiso-vill-taishin-kaishu",
+      "name": "木造住宅耐震改修事業補助金",
+      "amount_text": "改修工事費用の80%以内・上限115万円 / 除却工事費用の50%以内・上限97万8,600円",
+      "amount_max_yen": 1150000,
+      "condition_text": "精密耐震診断の結果「やや危険」または「危険」と診断された住宅が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "除却工事は別枠(上限97万8,600円)。申請期限の明記なし。",
+      "deadline": null,
+      "official_url": "https://www.vill.kiso.nagano.jp/kurashi_joho/hojokin/jyuutakutaisinkaisyuuhojyokin.html"
+    }
+  ],
+  "not_yet_covered": []
+}

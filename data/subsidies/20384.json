@@ -1,0 +1,59 @@
+{
+  "municipality_code": "20384",
+  "municipality": "飯島町",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.town.iijima.lg.jp/life/?content=430"
+  ],
+  "items": [
+    {
+      "id": "iijima-taishin-sindan",
+      "name": "飯島町木造住宅等耐震診断事業",
+      "amount_text": "無料(町が費用負担)",
+      "amount_max_yen": 0,
+      "condition_text": "昭和56年5月31日以前に在来工法で建てられた一戸建ての木造住宅。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "予算に限りがあるため事前相談が必要。申請期限の明記なし。",
+      "deadline": null,
+      "official_url": "https://www.town.iijima.lg.jp/life/?content=430"
+    },
+    {
+      "id": "iijima-taishin-hokyo",
+      "name": "飯島町住宅耐震補強事業補助金",
+      "amount_text": "対象工事費の5分の4以内、上限115万円",
+      "amount_max_yen": 1150000,
+      "condition_text": "昭和56年5月31日以前に在来工法で建てられた一戸建ての木造住宅。耐震診断の総合評点が1.0未満であること。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "長野県の上乗せ補助(上限50万円)を別途利用できる場合がある。予算に限りがあるため事前相談が必要。",
+      "deadline": null,
+      "official_url": "https://www.town.iijima.lg.jp/life/?content=430"
+    },
+    {
+      "id": "iijima-jokyaku",
+      "name": "除却工事補助",
+      "amount_text": "工事費の2分の1以内、上限97万8千円",
+      "amount_max_yen": 978000,
+      "condition_text": "昭和56年5月31日以前に在来工法で建てられた一戸建ての木造住宅。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "申請期限の明記なし。公式ページURLはクエリ文字列形式(content=430)で将来変わる可能性あり。",
+      "deadline": null,
+      "official_url": "https://www.town.iijima.lg.jp/life/?content=430"
+    }
+  ],
+  "not_yet_covered": []
+}

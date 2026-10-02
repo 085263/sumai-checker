@@ -1,0 +1,59 @@
+{
+  "municipality_code": "20206",
+  "municipality": "諏訪市",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.suwa.lg.jp/soshiki/21/1262.html"
+  ],
+  "items": [
+    {
+      "id": "suwa-wood-taishin-kaishu",
+      "name": "諏訪市木造住宅耐震改修補助事業(耐震改修工事)",
+      "amount_text": "補助対象経費の4/5以内、最大115万円",
+      "amount_max_yen": 1150000,
+      "condition_text": "昭和56年5月31日以前に建築工事に着手した在来軸組構法・枠組壁工法・伝統的構法のいずれかの住宅。個人所有(長屋・共同住宅を除く)で、耐震診断の総合評点が1.0未満であること。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "申請年度の2月末までに工事を完了し実績報告書を提出する必要あり。",
+      "deadline": null,
+      "official_url": "https://www.city.suwa.lg.jp/soshiki/21/1262.html"
+    },
+    {
+      "id": "suwa-wood-taishin-jokyaku",
+      "name": "諏訪市木造住宅耐震改修補助事業(除却工事)",
+      "amount_text": "補助対象経費の1/2以内、最大97万8千円",
+      "amount_max_yen": 978000,
+      "condition_text": "昭和56年5月31日以前に建築工事に着手した在来軸組構法・枠組壁工法・伝統的構法のいずれかの住宅。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": null,
+      "deadline": null,
+      "official_url": "https://www.city.suwa.lg.jp/soshiki/21/1262.html"
+    },
+    {
+      "id": "suwa-wood-taishin-sonota",
+      "name": "諏訪市木造住宅耐震改修補助事業(その他工事:部分改修・耐震シェルター等)",
+      "amount_text": "最大30万円",
+      "amount_max_yen": 300000,
+      "condition_text": "昭和56年5月31日以前に建築工事に着手した在来軸組構法・枠組壁工法・伝統的構法のいずれかの住宅。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": null,
+      "deadline": null,
+      "official_url": "https://www.city.suwa.lg.jp/soshiki/21/1262.html"
+    }
+  ],
+  "not_yet_covered": []
+}

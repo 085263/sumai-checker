@@ -1,0 +1,20 @@
+{
+  "municipality_code": "20429",
+  "municipality": "王滝村",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.vill.otaki.nagano.jp/"
+  ],
+  "items": [],
+  "not_yet_covered": [
+    {
+      "name": "王滝村国土強靭化地域計画(公共施設の耐震化方針のみ、個人住宅向け補助の記載なし)",
+      "official_url": "https://www.vill.otaki.nagano.jp/aboutus/keikaku/keikaku/documents/kokudokyojinka/kokudokyojinka.pdf"
+    }
+  ],
+  "note": "公式サイトおよびサイト内検索で個人住宅向けの耐震診断・耐震改修補助金ページを発見できなかった。低信頼度・要人力確認(電話で村役場に確認推奨)。",
+  "deadline": null
+}

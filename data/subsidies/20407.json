@@ -1,0 +1,19 @@
+{
+  "municipality_code": "20407",
+  "municipality": "阿智村",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.vill.achi.lg.jp/life/3/3/79/"
+  ],
+  "items": [],
+  "not_yet_covered": [
+    {
+      "name": "阿智村住宅リフォーム促進事業補助金(耐震改修含む一般リフォーム、上限10万円)",
+      "official_url": "https://www.vill.achi.lg.jp/soshiki/5/juutakurifomuhojokin.html"
+    }
+  ],
+  "note": "村の「補助制度の一覧」ページおよびg-reiki条例検索で、耐震診断・耐震改修専用の補助金交付要綱は見当たらなかった。住宅リフォーム促進事業補助金(上限10万円)は耐震改修を含む複数目的の制度で、専用の耐震補助金ではないためitemsから除外。低信頼度・要人力確認。"
+}

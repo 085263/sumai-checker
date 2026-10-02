@@ -1,0 +1,46 @@
+{
+  "municipality_code": "20383",
+  "municipality": "箕輪町",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.town.minowa.lg.jp/soshiki/kensetu/gyomu/3/1/641.html"
+  ],
+  "items": [
+    {
+      "id": "minowa-taishin-hokyo",
+      "name": "箕輪町木造住宅耐震補強補助事業",
+      "amount_text": "工事費の5分の4以内の額、上限130万円(うち町単独上乗せ15万円を含む)",
+      "amount_max_yen": 1300000,
+      "condition_text": "昭和56年5月31日以前に着工された木造在来工法の個人所有戸建て住宅(長屋・共同住宅を除く)。精密耐震診断の結果、総合評点が1.0未満であること。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "申請期限の明記なし。",
+      "deadline": null,
+      "official_url": "https://www.town.minowa.lg.jp/soshiki/kensetu/gyomu/3/1/641.html"
+    },
+    {
+      "id": "minowa-jokyaku",
+      "name": "除却工事補助",
+      "amount_text": "工事費の23%の2分の1、または床面積による交付対象限度額のいずれか低い額、上限97万8,600円",
+      "amount_max_yen": 978600,
+      "condition_text": "昭和56年5月31日以前に着工された木造在来工法の個人所有戸建て住宅(長屋・共同住宅を除く)。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "補助額の算定方法が工事費ベースと床面積ベースの比較方式でやや複雑なため、詳細は要確認。",
+      "deadline": null,
+      "official_url": "https://www.town.minowa.lg.jp/soshiki/kensetu/gyomu/3/1/641.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "耐震診断(無料派遣等の制度が別途ある可能性が高いが、今回取得したページでは未確認)", "official_url": "https://www.town.minowa.lg.jp/soshiki/kensetu/gyomu/3/1/641.html"}
+  ]
+}

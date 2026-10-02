@@ -1,0 +1,59 @@
+{
+  "municipality_code": "20362",
+  "municipality": "富士見町",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.town.fujimi.lg.jp/page/taisinsindan-taisinkaisyu.html"
+  ],
+  "items": [
+    {
+      "id": "fujimi-taishin-sindan",
+      "name": "精密耐震診断事業",
+      "amount_text": "全額補助",
+      "amount_max_yen": 0,
+      "condition_text": "昭和56年5月31日以前に着工された木造在来工法の個人所有住宅。長屋・共同住宅は対象外。店舗併用の場合は商業部分が延べ面積の2分の1未満であること。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "申請期限の明記なし。年度の途中で申請受付を終了する場合がある。",
+      "deadline": null,
+      "official_url": "https://www.town.fujimi.lg.jp/page/taisinsindan-taisinkaisyu.html"
+    },
+    {
+      "id": "fujimi-taishin-kaishu",
+      "name": "木造住宅耐震改修事業補助金",
+      "amount_text": "補助対象経費の5分の4、上限115万円",
+      "amount_max_yen": 1150000,
+      "condition_text": "昭和56年5月31日以前に着工された木造在来工法の個人所有住宅。長屋・共同住宅は対象外。店舗併用の場合は商業部分が延べ面積の2分の1未満であること。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "申請期限の明記なし。年度の途中で申請受付を終了する場合がある。",
+      "deadline": null,
+      "official_url": "https://www.town.fujimi.lg.jp/page/taisinsindan-taisinkaisyu.html"
+    },
+    {
+      "id": "fujimi-jokyaku",
+      "name": "除却工事補助金",
+      "amount_text": "費用の23%(上限97万8,600円)。ただし令和10年3月31日までは50%(上限同額)",
+      "amount_max_yen": 978600,
+      "condition_text": "昭和56年5月31日以前に着工された木造在来工法の個人所有住宅。長屋・共同住宅は対象外。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "補助率が令和10年3月末まで時限的に50%へ引き上げられており、それ以降は23%に変更予定。",
+      "deadline": null,
+      "official_url": "https://www.town.fujimi.lg.jp/page/taisinsindan-taisinkaisyu.html"
+    }
+  ],
+  "not_yet_covered": []
+}

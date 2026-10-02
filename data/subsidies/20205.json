@@ -1,0 +1,44 @@
+{
+  "municipality_code": "20205",
+  "municipality": "飯田市",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.iida.lg.jp/soshiki/35/taishinkaishu-hojokinshinsei.html"
+  ],
+  "items": [
+    {
+      "id": "iida-wood-taishin-kyoka",
+      "name": "住宅耐震改修総合支援事業補助金(補強工事)",
+      "amount_text": "補助対象経費の5分の4、または115万円のいずれか低い額",
+      "amount_max_yen": 1150000,
+      "condition_text": "昭和56年5月31日以前に着工した木造在来工法の住宅(非木造・混構造は対象外)。個人所有で飯田市内に所在し、所有者等が居住目的で使用すること。耐震診断の総合評点が0.7未満であること。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "公式サイト記載の申請期限(令和8年5月29日)は取得時点(2026-10-02)で既に経過しており、最新の受付状況は飯田市危機管理課へ要確認。令和8年度は4/15〜5/8に個別相談会を実施。",
+      "deadline": "2026-05-29",
+      "official_url": "https://www.city.iida.lg.jp/soshiki/35/taishinkaishu-hojokinshinsei.html"
+    },
+    {
+      "id": "iida-wood-taishin-jokyaku",
+      "name": "住宅耐震改修総合支援事業補助金(除却工事)",
+      "amount_text": "補助対象経費の2分の1、または97万8,600円のいずれか低い額",
+      "amount_max_yen": 978600,
+      "condition_text": "昭和56年5月31日以前に着工した木造在来工法の住宅。個人所有で飯田市内に所在すること。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "申請期限は補強工事と同様、最新状況は要確認。",
+      "deadline": "2026-05-29",
+      "official_url": "https://www.city.iida.lg.jp/soshiki/35/taishinkaishu-hojokinshinsei.html"
+    }
+  ],
+  "not_yet_covered": []
+}

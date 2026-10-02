@@ -1,0 +1,45 @@
+{
+  "municipality_code": "20602",
+  "municipality": "栄村",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "http://www.vill.sakae.nagano.jp/docs/2763.html",
+    "https://www.jutaku-hojokin.jp/city/nagano/sakae/renovation"
+  ],
+  "items": [
+    {
+      "id": "sakae-taishin-shindan",
+      "name": "木造住宅の無料耐震診断",
+      "amount_text": "無料",
+      "amount_max_yen": 0,
+      "condition_text": "昭和56年5月31日以前に建築された木造在来工法の個人所有戸建て住宅(長屋・共同住宅を除く)。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "公式ページ(vill.sakae.nagano.jp)はTLS証明書エラーのためWebFetchで本文確認できず、WebSearch要約に基づく。",
+      "deadline": null,
+      "official_url": "http://www.vill.sakae.nagano.jp/docs/2763.html"
+    },
+    {
+      "id": "sakae-taishin-kaishu",
+      "name": "住宅耐震改修促進事業補助金",
+      "amount_text": "上限140万円",
+      "amount_max_yen": 1400000,
+      "condition_text": "昭和56年5月以前に建築された木造在来工法住宅で、村の耐震診断により「危険」と判定され、改修後の総合評点が0.7以上となる耐震補強工事が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "二次情報源(jutaku-hojokin.jp)のみに基づく。公式ページがTLS証明書エラーでWebFetch不可のため低信頼度。要人力確認。",
+      "deadline": null,
+      "official_url": "http://www.vill.sakae.nagano.jp/docs/2763.html"
+    }
+  ],
+  "not_yet_covered": []
+}

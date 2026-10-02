@@ -1,0 +1,15 @@
+{
+  "municipality_code": "20304",
+  "municipality": "川上村",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.vill.kawakami.nagano.jp/www/genre/1000200000043/index.html"
+  ],
+  "items": [],
+  "not_yet_covered": [
+    {"name": "川上村耐震改修促進計画(存在のみ言及あり、補助金の詳細は未確認)", "official_url": null}
+  ]
+}

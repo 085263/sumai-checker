@@ -1,0 +1,44 @@
+{
+  "municipality_code": "20403",
+  "municipality": "高森町",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.town.nagano-takamori.lg.jp/docs/13278.html"
+  ],
+  "items": [
+    {
+      "id": "takamori-taishin-shindan",
+      "name": "耐震診断事業",
+      "amount_text": "補助率100%、上限6.4万円(実質無料)",
+      "amount_max_yen": 64000,
+      "condition_text": "木造戸建て在来工法住宅で、昭和56年5月31日以前に着工したもの。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": null,
+      "deadline": null,
+      "official_url": "https://www.town.nagano-takamori.lg.jp/docs/13278.html"
+    },
+    {
+      "id": "takamori-taishin-hokyo",
+      "name": "木造住宅耐震補強事業",
+      "amount_text": "工事費の1/2、上限115万円(令和7年度に100万円から引き上げ)",
+      "amount_max_yen": 1150000,
+      "condition_text": "昭和56年5月31日以前に着工した在来工法の木造住宅。総合評点0.7以上かつ工事前の評点を上回る工事が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "県補助(長野県住宅耐震化緊急加速事業補助金、最大50万円)込みで最大165万円。",
+      "deadline": null,
+      "official_url": "https://www.town.nagano-takamori.lg.jp/docs/13278.html"
+    }
+  ],
+  "not_yet_covered": []
+}

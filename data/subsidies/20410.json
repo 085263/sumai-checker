@@ -1,0 +1,15 @@
+{
+  "municipality_code": "20410",
+  "municipality": "根羽村",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.nebamura.jp/nebalife/promotion/"
+  ],
+  "items": [],
+  "not_yet_covered": [
+    {"name": "耐震診断・耐震改修補助制度(存在有無未確認、村役場振興課(0265-49-2111)への直接確認が必要)", "official_url": "https://www.nebamura.jp/"}
+  ]
+}

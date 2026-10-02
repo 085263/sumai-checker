@@ -1,0 +1,59 @@
+{
+  "municipality_code": "20363",
+  "municipality": "原村",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.vill.hara.lg.jp/docs/2656.html"
+  ],
+  "items": [
+    {
+      "id": "hara-taishin-sindan",
+      "name": "原村木造住宅耐震診断士派遣事業",
+      "amount_text": "全額補助(個人負担なし)",
+      "amount_max_yen": 0,
+      "condition_text": "昭和56年5月31日以前に建築着手した木造在来工法の個人所有戸建て住宅。村税を滞納していないこと。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "申請期限の明記なし(予算に限りあり)。",
+      "deadline": null,
+      "official_url": "https://www.vill.hara.lg.jp/docs/2656.html"
+    },
+    {
+      "id": "hara-taishin-kaishu",
+      "name": "原村耐震改修事業補助金",
+      "amount_text": "補助対象工事費の4/5以内(令和8年度補助額上限115万円)",
+      "amount_max_yen": 1150000,
+      "condition_text": "昭和56年5月31日以前に建築着手した木造在来工法の個人所有戸建て住宅。村税滞納なし。申請前年の給与収入1,422万円以下または他の所得1,200万円以下。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "長野県の上乗せ補助(村補助額を除いた費用へ上限50万円)を別途利用できる場合がある。申請期限の明記なし。",
+      "deadline": null,
+      "official_url": "https://www.vill.hara.lg.jp/docs/2656.html"
+    },
+    {
+      "id": "hara-jokyaku",
+      "name": "原村除却補助金",
+      "amount_text": "補助対象工事費の1/2以内、上限97万8,600円",
+      "amount_max_yen": 978600,
+      "condition_text": "昭和56年5月31日以前に建築着手した木造在来工法の個人所有戸建て住宅。村税滞納なし。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "申請期限の明記なし。",
+      "deadline": null,
+      "official_url": "https://www.vill.hara.lg.jp/docs/2656.html"
+    }
+  ],
+  "not_yet_covered": []
+}

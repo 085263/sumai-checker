@@ -1,0 +1,44 @@
+{
+  "municipality_code": "20414",
+  "municipality": "泰阜村",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.vill.yasuoka.nagano.jp/docs/328648.html"
+  ],
+  "items": [
+    {
+      "id": "yasuoka-taishin-shindan",
+      "name": "泰阜村耐震診断補助金",
+      "amount_text": "無料(村が診断費用を負担)",
+      "amount_max_yen": 0,
+      "condition_text": "昭和56年(1981年)5月31日以前に建設された既存木造住宅が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "村公式サイト「令和8年度 泰阜村くらしの助成金等一覧」をWebFetchで直接確認。申請期限の記載なし。問い合わせ先:住民福祉課 住宅水道係(0260-26-2111)。",
+      "deadline": null,
+      "official_url": "https://www.vill.yasuoka.nagano.jp/docs/328648.html"
+    },
+    {
+      "id": "yasuoka-taishin-hokyo",
+      "name": "泰阜村既存住宅耐震補強補助金",
+      "amount_text": "耐震改修費の2分の1以内、上限100万円",
+      "amount_max_yen": 1000000,
+      "condition_text": "精密耐震診断の結果、危険度が高いと判定された既存木造住宅が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "村公式サイトで確認。申請期限の記載なし。問い合わせ先:住民福祉課 住宅水道係(0260-26-2111)。",
+      "deadline": null,
+      "official_url": "https://www.vill.yasuoka.nagano.jp/docs/328648.html"
+    }
+  ],
+  "not_yet_covered": []
+}

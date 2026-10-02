@@ -1,0 +1,59 @@
+{
+  "municipality_code": "20432",
+  "municipality": "木曽町",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.town-kiso.com/kurashi/hojyokin1/100257/m100086/"
+  ],
+  "items": [
+    {
+      "id": "kiso-town-taishin-hokyo",
+      "name": "木曽町住宅耐震改修等事業補助金(耐震補強工事)",
+      "amount_text": "工事費の5分の4(80%)以内、上限150万円",
+      "amount_max_yen": 1500000,
+      "condition_text": "昭和56年5月31日以前に建てられた木造住宅で、耐震診断の結果、総合評点1.0未満のものが対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "予算に達し次第終了。申請は「耐震診断意向確認票」提出後、診断を経て「交付申請書」を提出する二段階方式。問い合わせ:木曽町町民課住宅係(0264-22-4281)。",
+      "deadline": null,
+      "official_url": "https://www.town-kiso.com/kurashi/hojyokin1/100257/m100086/"
+    },
+    {
+      "id": "kiso-town-taishin-jokyaku",
+      "name": "木曽町住宅耐震改修等事業補助金(建替え除却工事)",
+      "amount_text": "工事費の2分の1(50%)以内、上限97万8,600円",
+      "amount_max_yen": 978600,
+      "condition_text": "昭和56年5月31日以前に建てられた木造住宅で、耐震診断の結果、総合評点1.0未満のものが対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "予算に達し次第終了。",
+      "deadline": null,
+      "official_url": "https://www.town-kiso.com/kurashi/hojyokin1/100257/m100086/"
+    },
+    {
+      "id": "kiso-town-taishin-shelter",
+      "name": "木曽町住宅耐震改修等事業補助金(耐震シェルター設置)",
+      "amount_text": "設置費用の3分の2以内、上限30万円",
+      "amount_max_yen": 300000,
+      "condition_text": "昭和56年5月31日以前に建てられた木造住宅で、耐震診断の結果、総合評点1.0未満のものが対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "予算に達し次第終了。",
+      "deadline": null,
+      "official_url": "https://www.town-kiso.com/kurashi/hojyokin1/100257/m100086/"
+    }
+  ],
+  "not_yet_covered": []
+}

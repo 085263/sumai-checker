@@ -1,0 +1,45 @@
+{
+  "municipality_code": "20588",
+  "municipality": "小川村",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.vill.ogawa.nagano.jp/",
+    "https://reform-hojo.jp/guide/nagano-mokuzo-taishin-2026"
+  ],
+  "items": [
+    {
+      "id": "ogawa-taishin-shindan",
+      "name": "既存木造住宅耐震診断事業",
+      "amount_text": "無料(個人負担なし)",
+      "amount_max_yen": 0,
+      "condition_text": "昭和56年5月以前に在来工法で建てられた住宅の所有者が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "二次情報源(reform-hojo.jp等)のみに基づく。村公式サイト内で該当ページを発見できず、低信頼度。要人力確認。",
+      "deadline": null,
+      "official_url": "https://www.vill.ogawa.nagano.jp/"
+    },
+    {
+      "id": "ogawa-taishin-kaishu",
+      "name": "耐震改修事業",
+      "amount_text": "補助対象経費の半額、上限60万円",
+      "amount_max_yen": 600000,
+      "condition_text": "村内の既存木造住宅所有者が対象。地震災害対策工事(耐震診断・設計を含む)が対象経費。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "二次情報源(reform-hojo.jp等)のみに基づく。村公式サイト内で該当ページを発見できず、低信頼度。要人力確認。",
+      "deadline": null,
+      "official_url": "https://www.vill.ogawa.nagano.jp/"
+    }
+  ],
+  "not_yet_covered": []
+}

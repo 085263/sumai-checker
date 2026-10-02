@@ -1,0 +1,44 @@
+{
+  "municipality_code": "20207",
+  "municipality": "須坂市",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.suzaka.nagano.jp/soshiki/6010/3/640.html"
+  ],
+  "items": [
+    {
+      "id": "suzaka-taishin-kaishu",
+      "name": "住宅・建築物耐震改修事業補助金(耐震改修工事補助)",
+      "amount_text": "改修費用の5分の4以内、上限100万円(長野県上乗せ補助として別途最大50万円あり)",
+      "amount_max_yen": 1000000,
+      "condition_text": "昭和56年5月31日以前に建築工事に着手した木造住宅(個人所有、長屋・共同住宅を除く)が対象。他構造は要相談。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "受付開始は毎年4月1日〜予定件数に達するまで。2026年時点で本年度予算上限に達したため受付を一時停止中との記載あり。",
+      "deadline": null,
+      "official_url": "https://www.city.suzaka.nagano.jp/soshiki/6010/3/640.html"
+    },
+    {
+      "id": "suzaka-taishin-shindan",
+      "name": "耐震診断補助",
+      "amount_text": "無料(市が耐震診断士を派遣)",
+      "amount_max_yen": 0,
+      "condition_text": "昭和56年5月31日以前に建築工事に着手した既存木造住宅の所有者が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": null,
+      "deadline": null,
+      "official_url": "https://www.city.suzaka.nagano.jp/soshiki/6010/3/640.html"
+    }
+  ],
+  "not_yet_covered": []
+}

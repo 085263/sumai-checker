@@ -1,0 +1,45 @@
+{
+  "municipality_code": "20430",
+  "municipality": "大桑村",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.okuwa.jp/kurashi/sumai-jukyo/jutakuhojoseido/index.html",
+    "https://www.vill.okuwa.lg.jp/kurashi/sumai-jukyo/jutakuhojoseido/shindan_hojokin.html"
+  ],
+  "items": [
+    {
+      "id": "okuwa-taishin-shindan",
+      "name": "住宅・建築物耐震診断事業",
+      "amount_text": "無料(村が耐震診断士を派遣)",
+      "amount_max_yen": 0,
+      "condition_text": "昭和56年5月31日以前に建築工事に着手した木造住宅が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "申請期限の明記なし。問い合わせ先:大桑村役場住民課生活環境係(0264-55-3080)。",
+      "deadline": null,
+      "official_url": "https://www.vill.okuwa.lg.jp/kurashi/sumai-jukyo/jutakuhojoseido/shindan_hojokin.html"
+    },
+    {
+      "id": "okuwa-taishin-hokyo",
+      "name": "既存住宅耐震補強補助金",
+      "amount_text": "補助対象経費の5分の4(80%)以内、上限115万円",
+      "amount_max_yen": 1150000,
+      "condition_text": "昭和56年5月31日以前に建築工事に着手した木造住宅で、耐震診断の結果補強が必要と判定された住宅が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "申請期限の明記なし。",
+      "deadline": null,
+      "official_url": "https://www.okuwa.jp/kurashi/sumai-jukyo/jutakuhojoseido/index.html"
+    }
+  ],
+  "not_yet_covered": []
+}

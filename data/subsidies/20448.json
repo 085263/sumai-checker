@@ -1,0 +1,59 @@
+{
+  "municipality_code": "20448",
+  "municipality": "生坂村",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.village.ikusaka.nagano.jp/gyousei/sinkouka/jutaku_top.htm"
+  ],
+  "items": [
+    {
+      "id": "ikusakamura-taishin-shindan",
+      "name": "耐震診断",
+      "amount_text": "住宅所有者負担なし(全額補助)",
+      "amount_max_yen": null,
+      "condition_text": "昭和56年5月31日以前に着工した木造住宅が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "申請期限の記載なし。問い合わせ:振興課(0263-69-3112)",
+      "deadline": null,
+      "official_url": "https://www.village.ikusaka.nagano.jp/gyousei/sinkouka/jutaku_top.htm"
+    },
+    {
+      "id": "ikusakamura-taishin-kaishu",
+      "name": "耐震改修補助",
+      "amount_text": "対象経費の8割以内、上限115万円",
+      "amount_max_yen": 1150000,
+      "condition_text": "耐震診断の結果、耐震改修工事が必要と判定された住宅が対象。住宅リフォーム等補助と併用可。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "申請期限の記載なし。",
+      "deadline": null,
+      "official_url": "https://www.village.ikusaka.nagano.jp/gyousei/sinkouka/jutaku_top.htm"
+    },
+    {
+      "id": "ikusakamura-shelter",
+      "name": "耐震シェルター設置補助",
+      "amount_text": "対象経費の5割以内、上限20万円",
+      "amount_max_yen": 200000,
+      "condition_text": "耐震診断の結果、耐震改修工事が必要と判定された家屋が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "申請期限の記載なし。",
+      "deadline": null,
+      "official_url": "https://www.village.ikusaka.nagano.jp/gyousei/sinkouka/jutaku_top.htm"
+    }
+  ],
+  "not_yet_covered": []
+}

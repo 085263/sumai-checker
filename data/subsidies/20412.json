@@ -1,0 +1,29 @@
+{
+  "municipality_code": "20412",
+  "municipality": "売木村",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.urugi.jp/top/administration_living/living_procedures/living_environment/housing/"
+  ],
+  "items": [
+    {
+      "id": "urugi-mokuzou-taishin-hokyo",
+      "name": "木造住宅耐震補強工事費補助制度",
+      "amount_text": "対象経費の1/2以内、上限60万円",
+      "amount_max_yen": 600000,
+      "condition_text": "耐震診断の結果、総合評点が1.0未満の木造住宅が対象。改修工事は工事後の総合評点が0.7以上かつ工事前の評点を上回ることが条件。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": null,
+        "built_after": null
+      },
+      "note": "建築時期の基準・申請期限はページに明記なし(他自治体と同様に昭和56年5月31日以前が基準と推定されるが未確認)。問い合わせ:村役場(0260-28-2311)。",
+      "deadline": null,
+      "official_url": "https://www.urugi.jp/top/administration_living/living_procedures/living_environment/housing/"
+    }
+  ],
+  "not_yet_covered": []
+}

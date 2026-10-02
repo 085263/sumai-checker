@@ -1,0 +1,20 @@
+{
+  "municipality_code": "20409",
+  "municipality": "平谷村",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.hirayamura.jp/"
+  ],
+  "items": [],
+  "not_yet_covered": [
+    {
+      "name": "家屋新築補助金(新築時の年齢・面積要件あり、耐震とは無関係)",
+      "official_url": "https://www.hirayamura.jp/"
+    }
+  ],
+  "note": "公式サイトのトップページ・移住定住ページを確認したが、耐震診断・耐震改修に関する補助金は見当たらなかった。人口約400人の小規模村のため制度自体が存在しない可能性がある。低信頼度・要人力確認(電話:0265-48-2211)。",
+  "deadline": null
+}

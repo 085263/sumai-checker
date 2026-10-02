@@ -1,0 +1,31 @@
+{
+  "municipality_code": "20306",
+  "municipality": "南相木村",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.minamiaiki.jp/"
+  ],
+  "items": [
+    {
+      "id": "minamiaiki-taishin-kaishu",
+      "name": "南相木村住宅耐震改修事業補助金",
+      "amount_text": "工事費・設計費の2分の1、限度額100万円",
+      "amount_max_yen": 1000000,
+      "condition_text": "既存木造住宅を対象に、地震災害対策工事および耐震診断・設計を含む補強計画の実施に対し補助。南相木村が実施する耐震診断の受診が必須。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": null,
+        "built_after": null
+      },
+      "note": "二次情報源(リフォーム比較サイト等)のみで確認した情報であり、村公式サイト上で該当ページを特定できなかったため低信頼度。建築時期条件は情報源に明記なし(他市町村の例から昭和56年5月31日以前が通例と推測されるが未確認)。要電話確認(村役場 0267-78-2121)。",
+      "deadline": null,
+      "official_url": null
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "南相木村住環境リフォーム助成事業(耐震化リフォームが対象、限度額50万円、耐震専用制度ではない)", "official_url": "https://www.minamiaiki.jp/subsidy/11928/"}
+  ]
+}

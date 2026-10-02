@@ -1,0 +1,29 @@
+{
+  "municipality_code": "20452",
+  "municipality": "筑北村",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.vill.chikuhoku.lg.jp/docs/408.html"
+  ],
+  "items": [
+    {
+      "id": "chikuhoku-wood-taishin",
+      "name": "筑北村木造住宅耐震補強補助事業補助金",
+      "amount_text": "情報不足のため要確認(交付要綱PDFに記載があるが本文未到達)",
+      "amount_max_yen": null,
+      "condition_text": "詳細不明。長野県内の同種制度は概ね昭和56年5月31日以前着工の木造在来工法住宅が対象だが、本制度の具体的な対象条件は交付要綱PDFの確認が必要。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "低信頼度。公式ページに「筑北村木造住宅耐震補強補助事業補助金交付要綱」(PDF)と「木造住宅耐震診断及び耐震補強事業について」(PDF)へのリンクがあるが、WebFetchではPDF内の補助率・上限額・申請期限を直接確認できなかった。問い合わせ先:筑北村建設課 0263-66-2111。",
+      "deadline": null,
+      "official_url": "https://www.vill.chikuhoku.lg.jp/docs/408.html"
+    }
+  ],
+  "not_yet_covered": []
+}

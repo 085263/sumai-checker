@@ -1,0 +1,44 @@
+{
+  "municipality_code": "20561",
+  "municipality": "山ノ内町",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.town.yamanouchi.nagano.jp/soshiki/keikakukanri/gyomu/kaihatsu_kenchiku/848.html"
+  ],
+  "items": [
+    {
+      "id": "yamanouchi-shindan",
+      "name": "住宅及び避難施設耐震診断事業",
+      "amount_text": "無料",
+      "amount_max_yen": 0,
+      "condition_text": "昭和56年5月31日以前に建築された町内の木造住宅・避難施設(木造・非木造)・非木造住宅・ホテル旅館等。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": null,
+      "deadline": "年度内に工事が終わるものに限る",
+      "official_url": "https://www.town.yamanouchi.nagano.jp/soshiki/keikakukanri/gyomu/kaihatsu_kenchiku/848.html"
+    },
+    {
+      "id": "yamanouchi-kaishu",
+      "name": "住宅・建築物耐震改修促進事業補助金",
+      "amount_text": "耐震改修費用の5分の4、上限140万円(長野県上乗せ補助は総合評点1.0以上で最大50万円、併用可)",
+      "amount_max_yen": 1400000,
+      "condition_text": "昭和56年5月31日以前に建築された町内の木造住宅。耐震診断の結果、耐震性がないと判断された場合が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": null,
+      "deadline": "年度内に工事が終わるものに限る",
+      "official_url": "https://www.town.yamanouchi.nagano.jp/soshiki/keikakukanri/gyomu/kaihatsu_kenchiku/848.html"
+    }
+  ],
+  "not_yet_covered": []
+}

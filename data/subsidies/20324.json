@@ -1,0 +1,31 @@
+{
+  "municipality_code": "20324",
+  "municipality": "立科町",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.town.tateshina.nagano.jp/kurashi/todokede_shomei/hojo_josei/2381.html"
+  ],
+  "items": [
+    {
+      "id": "tateshina-taishin-shindan",
+      "name": "木造住宅無料耐震診断事業",
+      "amount_text": "無料",
+      "amount_max_yen": 0,
+      "condition_text": "昭和56年5月31日以前に着工された木造在来工法の住宅。長屋及び共同住宅以外の個人所有住宅。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "申込者多数の場合は先着順、予算額に達し次第終了(その場合診断実施は翌年度以降)。耐震改修工事への補助金額はページに明記なく低信頼度。",
+      "deadline": null,
+      "official_url": "https://www.town.tateshina.nagano.jp/kurashi/todokede_shomei/hojo_josei/2381.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "耐震改修工事補助金(金額未確認)", "official_url": "https://www.town.tateshina.nagano.jp/kurashi/todokede_shomei/hojo_josei/index.html"}
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "municipality_code": "20350",
+  "municipality": "長和町",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.town.nagawa.nagano.jp/soshiki/juminseikatsuka/kankyoondankataisaku/1/1/2306.html"
+  ],
+  "items": [
+    {
+      "id": "nagawa-taishin-shindan",
+      "name": "長和町木造住宅・避難施設耐震診断事業",
+      "amount_text": "無料",
+      "amount_max_yen": 0,
+      "condition_text": "昭和56年5月31日以前に着工された木造在来工法の住宅。長屋・共同住宅以外の個人所有物件。所有者が町税・公共料金等の滞納がないこと。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": null,
+      "deadline": null,
+      "official_url": "https://www.town.nagawa.nagano.jp/soshiki/juminseikatsuka/kankyoondankataisaku/1/1/2306.html"
+    },
+    {
+      "id": "nagawa-taishin-kaishu",
+      "name": "長和町木造住宅耐震改修事業補助金",
+      "amount_text": "工事費の80%(上限115万円)。長野県上乗せ補助併用で最大50万円加算(総合評点1.0以上達成が条件)",
+      "amount_max_yen": 1150000,
+      "condition_text": "昭和56年5月31日以前に着工された木造在来工法の住宅。長屋・共同住宅以外の個人所有物件。所有者が町税・公共料金等の滞納がないこと。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "令和8年度分は予定数に達したため受付終了との記載あり。",
+      "deadline": null,
+      "official_url": "https://www.town.nagawa.nagano.jp/soshiki/juminseikatsuka/kankyoondankataisaku/1/1/2306.html"
+    }
+  ],
+  "not_yet_covered": []
+}

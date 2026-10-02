@@ -1,0 +1,29 @@
+{
+  "municipality_code": "20416",
+  "municipality": "豊丘村",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.vill.nagano-toyooka.lg.jp/21oidenansyo/03josei/"
+  ],
+  "items": [
+    {
+      "id": "toyooka-taishin-hojo",
+      "name": "住宅(耐震診断・太陽光補助)",
+      "amount_text": "金額不明(「耐震診断・補強や太陽光発電システム設置に対する補助金」とのみ記載)",
+      "amount_max_yen": null,
+      "condition_text": "詳細不明。村公式サイトの定住促進助成制度一覧ページに項目名と一行説明のみ記載。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": null,
+        "built_after": null
+      },
+      "note": "低信頼度。一覧ページに制度名のみ掲載され、金額・対象条件の詳細な記載ページが見つからなかった。村役場(0265-35-3311)への確認が必要。",
+      "deadline": null,
+      "official_url": "https://www.vill.nagano-toyooka.lg.jp/21oidenansyo/03josei/"
+    }
+  ],
+  "not_yet_covered": []
+}

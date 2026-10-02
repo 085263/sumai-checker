@@ -1,0 +1,44 @@
+{
+  "municipality_code": "20386",
+  "municipality": "中川村",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.vill.nakagawa.nagano.jp/soshiki/kensetsu/13165.html"
+  ],
+  "items": [
+    {
+      "id": "nakagawa-taishin-kaishu",
+      "name": "木造住宅耐震改修工事補助",
+      "amount_text": "改修工事費の5分の4以内、上限115万円(長野県上乗せで最大165万円)",
+      "amount_max_yen": 1150000,
+      "condition_text": "昭和56年5月31日以前に着工した木造住宅で、個人所有かつ申請者自ら居住するもの。長屋・共同住宅・賃貸住宅は対象外。耐震診断で「倒壊の可能性がある」または「可能性が高い」と判定されたもの。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "長野県上乗せ補助(改修後評点1.0以上で上限50万円)込みで最大165万円。希望調査票の受付期間は例年12月〜1月(予定)。",
+      "deadline": null,
+      "official_url": "https://www.vill.nakagawa.nagano.jp/soshiki/kensetsu/13165.html"
+    },
+    {
+      "id": "nakagawa-jokyaku",
+      "name": "木造住宅除却工事補助",
+      "amount_text": "除去工事費の2分の1以内、上限97万8,600円",
+      "amount_max_yen": 978600,
+      "condition_text": "昭和56年5月31日以前に着工した木造住宅の除却工事。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": null,
+      "deadline": null,
+      "official_url": "https://www.vill.nakagawa.nagano.jp/soshiki/kensetsu/13165.html"
+    }
+  ],
+  "not_yet_covered": []
+}

@@ -1,0 +1,13 @@
+{
+  "municipality_code": "20388",
+  "municipality": "宮田村",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [],
+  "items": [],
+  "not_yet_covered": [
+    {"name": "宮田村住宅リフォーム補助事業(耐震専用ではなくバリアフリー・老朽化改修等が対象の一般改修補助。二次情報源のみで未確認。耐震専用制度は検索・公式サイト確認で発見できず、要人力確認)", "official_url": "https://www.j-reform.com/reform-support/joho/detail/id=25200183"}
+  ]
+}

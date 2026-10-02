@@ -1,0 +1,75 @@
+{
+  "municipality_code": "20361",
+  "municipality": "下諏訪町",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.town.shimosuwa.lg.jp/www/contents/1001000000642/index.html",
+    "https://www.town.shimosuwa.lg.jp/www/contents/1583288792049/index.html"
+  ],
+  "items": [
+    {
+      "id": "shimosuwa-taishin-sindan",
+      "name": "耐震診断補助制度",
+      "amount_text": "無料(国・県・町が負担)",
+      "amount_max_yen": 0,
+      "condition_text": "昭和56年5月31日以前に工事着手した木造住宅。一戸建ての住宅または2分の1以上が住宅として使用されている併用住宅。在来工法で階数が2階以下の住宅。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "申請期限の明記なし。年度途中に予告なく受付を終了する場合がある。",
+      "deadline": null,
+      "official_url": "https://www.town.shimosuwa.lg.jp/www/contents/1001000000642/index.html"
+    },
+    {
+      "id": "shimosuwa-taishin-kaishu",
+      "name": "耐震改修工事補助制度",
+      "amount_text": "耐震改修工事費等に要する費用の5分の4、限度額115万円",
+      "amount_max_yen": 1150000,
+      "condition_text": "耐震診断の結果、総合評点が1.0未満の対象住宅(昭和56年5月31日以前着工の在来工法木造住宅、2階以下)。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "申請期限の明記なし。年度途中に予告なく受付を終了する場合がある。",
+      "deadline": null,
+      "official_url": "https://www.town.shimosuwa.lg.jp/www/contents/1001000000642/index.html"
+    },
+    {
+      "id": "shimosuwa-jokyaku",
+      "name": "除却工事補助制度",
+      "amount_text": "除却工事に要する費用の2分の1、限度額97.86万円",
+      "amount_max_yen": 978600,
+      "condition_text": "耐震診断の結果、総合評点が1.0未満の対象住宅(昭和56年5月31日以前着工の在来工法木造住宅、2階以下)。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "申請期限の明記なし。年度途中に予告なく受付を終了する場合がある。",
+      "deadline": null,
+      "official_url": "https://www.town.shimosuwa.lg.jp/www/contents/1001000000642/index.html"
+    },
+    {
+      "id": "shimosuwa-anshin-anzen-reform",
+      "name": "安心安全対策・住宅省エネ化リフォーム補助事業(安心安全対策部分)",
+      "amount_text": "工事費相当額、上限20万円(空き家バンク登録物件は30万円)",
+      "amount_max_yen": 200000,
+      "condition_text": "昭和56年5月31日以前に着工された町内の住宅。耐震シェルター・耐震ベッド等の設備導入及び構造補強工事(筋交い・耐力壁等)が対象。工事経費10万円以上。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "受付期間:令和8年4月1日〜令和9年2月15日17時。工事完了は令和9年3月31日までに完了届提出。上記の耐震診断・改修・除却補助制度とは別メニュー。併用可否は未確認のため要確認。",
+      "deadline": "2027-02-15",
+      "official_url": "https://www.town.shimosuwa.lg.jp/www/contents/1583288792049/index.html"
+    }
+  ],
+  "not_yet_covered": []
+}

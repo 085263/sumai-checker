@@ -1,0 +1,61 @@
+{
+  "municipality_code": "20385",
+  "municipality": "南箕輪村",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.vill.minamiminowa.lg.jp/soshiki/kensetsu/taishinhojo11.html"
+  ],
+  "items": [
+    {
+      "id": "minamiminowa-taishin-shindan",
+      "name": "耐震診断(村診断士による耐震診断事業)",
+      "amount_text": "全額補助(自己負担なし)",
+      "amount_max_yen": 0,
+      "condition_text": "昭和56年6月以前に建築を開始された木造在来工法住宅が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": null,
+      "deadline": null,
+      "official_url": "https://www.vill.minamiminowa.lg.jp/soshiki/kensetsu/taishinhojo11.html"
+    },
+    {
+      "id": "minamiminowa-taishin-hokyo",
+      "name": "耐震補強補助金(既存住宅等耐震改修補助金)",
+      "amount_text": "工事費の2分の1以内、上限115万円(県上乗せで最大150万円)",
+      "amount_max_yen": 1150000,
+      "condition_text": "昭和56年5月31日以前に着工した木造在来工法住宅。長野県住宅耐震化緊急加速事業補助金の上乗せにより最大150万円まで補助可能(令和6年4月1日より)。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "県上乗せ補助込みで最大150万円。申請期限の記載なし。",
+      "deadline": null,
+      "official_url": "https://www.vill.minamiminowa.lg.jp/soshiki/kensetsu/taishinhojo11.html"
+    },
+    {
+      "id": "minamiminowa-jokyaku",
+      "name": "除却補助金(既存住宅等耐震改修補助金)",
+      "amount_text": "工事費の2分の1、上限97万8,600円",
+      "amount_max_yen": 978600,
+      "condition_text": "昭和56年5月31日以前に着工した木造在来工法住宅の除却工事。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": null,
+      "deadline": null,
+      "official_url": "https://www.vill.minamiminowa.lg.jp/soshiki/kensetsu/taishinhojo11.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "ブロック塀撤去補助金(既存住宅等耐震改修補助金)", "official_url": "https://www.vill.minamiminowa.lg.jp/soshiki/kensetsu/taishinhojo11.html"}
+  ]
+}

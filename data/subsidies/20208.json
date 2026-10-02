@@ -1,0 +1,29 @@
+{
+  "municipality_code": "20208",
+  "municipality": "小諸市",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.komoro.lg.jp/soshikikarasagasu/kensetsusuidoubu/kensetsuka/1/3/3/16356.html"
+  ],
+  "items": [
+    {
+      "id": "komoro-mokuzo-taishin-kaishu",
+      "name": "木造住宅の耐震改修工事補助金",
+      "amount_text": "耐震工事費の5分の4(8割)以内、上限100万円(長野県上乗せ補助として別途最大50万円あり)",
+      "amount_max_yen": 1000000,
+      "condition_text": "昭和56年3月31日以前に工事着工された木造在来工法の一戸建て住宅。市の耐震診断で総合評点が1.0未満、改修後は0.7以上かつ工事前を上回ることが条件。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-04-01",
+        "built_after": null
+      },
+      "note": "着工時期の基準日表記が『昭和56年3月31日』となっており、他の多くの自治体(5月31日)と異なる。要再確認。",
+      "deadline": "2026-10-30",
+      "official_url": "https://www.city.komoro.lg.jp/soshikikarasagasu/kensetsusuidoubu/kensetsuka/1/3/3/16356.html"
+    }
+  ],
+  "not_yet_covered": []
+}

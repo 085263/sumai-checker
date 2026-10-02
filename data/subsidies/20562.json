@@ -1,0 +1,22 @@
+{
+  "municipality_code": "20562",
+  "municipality": "木島平村",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.vill.kijimadaira.lg.jp/index.html.r"
+  ],
+  "items": [],
+  "not_yet_covered": [
+    {
+      "name": "耐震診断・耐震改修に関する補助金制度(今回の調査では公式ページ未発見。トップページの「補助金・助成金」一般リンクのみ確認)",
+      "official_url": "https://www.vill.kijimadaira.lg.jp/index.html.r"
+    },
+    {
+      "name": "木島平村住まいづくり促進事業(新築向けの可能性が高く、耐震改修とは別制度の疑い)",
+      "official_url": "http://www.vill.kijimadaira.lg.jp/articles/2017072600012/"
+    }
+  ]
+}
