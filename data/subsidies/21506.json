@@ -2,7 +2,7 @@
   "municipality_code": "21506",
   "municipality": "白川町",
   "ward": null,
-  "updated_at": "2026-10-01",
+  "updated_at": "2026-10-02",
   "verified_by_human": false,
   "verified_at": null,
   "source_urls": [
@@ -11,9 +11,24 @@
   ],
   "items": [
     {
+      "id": "shirakawa-cho-wood-shindan",
+      "name": "木造住宅無料耐震診断(令和6年能登半島地震後の実施)",
+      "amount_text": "無料",
+      "amount_max_yen": 0,
+      "condition_text": "昭和56年5月31日以前に建設(着工)された木造住宅。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "2026-10-02再調査:町公式サイトで「地震に自信を・木造住宅耐震強化プロジェクト」として、令和6年能登半島地震を受けた無料耐震診断の実施、および低コスト耐震改修手法の実証研究(補助後自己負担70万円程度、工期約3週間のモデルを参照研究中)を確認。従来の岐阜県共通制度(上限108.9万円)による固定の補助金とは別に、実証的な取組みが進行中である可能性があり、現時点でのどちらが適用されるか公式ページ上で確定できず低信頼度。町建設課で要確認。",
+      "deadline": null,
+      "official_url": "https://www.town.shirakawa.lg.jp/"
+    },
+    {
       "id": "shirakawa-cho-wood-taishin-kaishu",
-      "name": "木造住宅耐震改修工事(岐阜県共通制度)",
-      "amount_text": "一般補強工事:上限108.9万円",
+      "name": "木造住宅耐震改修工事(岐阜県共通制度・推定)",
+      "amount_text": "一般補強工事:上限108.9万円(岐阜県内共通制度からの推定)",
       "amount_max_yen": 1089000,
       "condition_text": "昭和56年5月31日以前に建設(着工)された木造の一戸建て住宅・長屋・共同住宅。在来軸組工法・枠組壁工法・伝統的構法のみ対象。",
       "eligibility": {
@@ -21,14 +36,13 @@
         "built_before": "1981-06-01",
         "built_after": null
       },
-      "note": "⚠️低信頼度:白川町独自の公式ページ(耐震補助の具体ページ)を直接確認できず、岐阜県公式サイトの県内共通制度説明をもとに記録。白川町独自の金額・申請期限は未確認。",
+      "note": "2026-10-02再調査:白川町例規集(町公式reiki_int)を体系目次・キーワード検索したが耐震改修補助そのものの個別要綱ページには到達できず。固定資産税減額制度(建築後1982年1月1日以前の住宅が対象、工事完了後1年間1/2減額)の存在は確認。耐震改修工事補助の具体的上限額は岐阜県公式サイトの県内共通制度説明からの推定のまま低信頼度。町建設課(0574-72-2211)で要確認。",
       "deadline": null,
       "official_url": "https://www.pref.gifu.lg.jp/page/838.html"
     }
   ],
   "not_yet_covered": [
-    {"name": "木造住宅耐震診断事業", "official_url": null},
-    {"name": "耐震シェルター等設置工事", "official_url": null},
+    {"name": "木造住宅耐震シェルター等設置工事の有無", "official_url": null},
     {"name": "白川町独自の上乗せ制度の有無", "official_url": null}
   ]
 }

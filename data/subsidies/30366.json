@@ -35,15 +35,29 @@
         "built_before": "2000-05-31",
         "built_after": null
       },
-      "note": "要再確認:公式サイト上で「募集戸数に達したため受け付け終了」の記載があり、2026年度の募集再開状況は未確認。問い合わせ先:有田川町建設課(吉備庁舎) 0737-52-2111。",
+      "note": "2026-10-02再調査:公式ページで「令和8年度は募集戸数に達したため受け付けは終了しました」と確定(受付期間:令和8年5月11日〜5月22日、定員5件)。2027年度の募集再開は未確認。問い合わせ先:有田川町建設課(吉備庁舎) 0737-52-2111。",
       "deadline": null,
       "official_url": "https://www.town.aridagawa.lg.jp/top/sinseisho/kennsetu/jyuutakukankei/3665.html"
+    },
+    {
+      "id": "aridagawa-shelter",
+      "name": "耐震ベッド・耐震シェルター購入設置補助",
+      "amount_text": "設置工事費の3分の2、上限26万6千円",
+      "amount_max_yen": 266000,
+      "condition_text": "耐震診断の結果、倒壊の恐れがあると評価された個人所有の木造一戸建て住宅が対象(推定、耐震改修工事と同様の条件)。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "2000-05-31",
+        "built_after": null
+      },
+      "note": "2026-10-02に公式ページ(936.html)を直接確認し金額を確定。",
+      "deadline": null,
+      "official_url": "https://www.town.aridagawa.lg.jp/top/kakuka/kibi/4/1/2/3/936.html"
     }
   ],
   "not_yet_covered": [
-    {"name": "木造住宅耐震補強設計審査事業(無料設計審査サービス)", "official_url": "https://www.town.aridagawa.lg.jp/top/kakuka/kibi/4/1/2/3/index.html"},
-    {"name": "耐震ベッド・耐震シェルター設置補助(金額未確認)", "official_url": "https://www.town.aridagawa.lg.jp/top/kakuka/kibi/4/1/2/3/index.html"},
-    {"name": "移動(除却工事)補助(耐震性住宅への住み替え時の除却費補助、金額未確認)", "official_url": "https://www.town.aridagawa.lg.jp/top/kakuka/kibi/4/1/2/3/index.html"},
-    {"name": "ブロック塀撤去補助(令和8年度、金額未確認)", "official_url": "https://www.town.aridagawa.lg.jp/top/kakuka/kibi/4/1/2/3/index.html"}
+    {"name": "木造住宅耐震補強設計審査事業(無料設計審査サービス)", "official_url": "https://www.town.aridagawa.lg.jp/top/kakuka/kibi/4/1/2/3/6493.html"},
+    {"name": "移動(除却工事)補助(耐震性住宅への住み替え時の除却費補助、金額未確認)", "official_url": "https://www.town.aridagawa.lg.jp/top/kakuka/kibi/4/1/2/3/9371.html"},
+    {"name": "ブロック塀撤去補助(令和8年度、金額未確認)", "official_url": "https://www.town.aridagawa.lg.jp/top/kakuka/kibi/4/1/2/3/3884.html"}
   ]
 }

@@ -2,41 +2,41 @@
   "municipality_code": "21507",
   "municipality": "東白川村",
   "ward": null,
-  "updated_at": "2026-10-01",
+  "updated_at": "2026-10-02",
   "verified_by_human": false,
   "verified_at": null,
   "source_urls": [
-    "https://rehome-navi.com/gifu/kamogunhigashishirakawamura/supports",
+    "https://www.vill.higashishirakawa.gifu.jp/kurashi/sumai/taishinjyosei/",
     "https://www.pref.gifu.lg.jp/page/838.html"
   ],
   "items": [
     {
       "id": "higashishirakawa-wood-taishin-shindan",
-      "name": "木造住宅耐震診断助成事業(診断・設計費)",
-      "amount_text": "補助率100%、上限8万3000円",
-      "amount_max_yen": 83000,
-      "condition_text": "昭和56年5月31日以前に建設された木造住宅。施工業者の指定はなし。",
+      "name": "木造住宅耐震診断・耐震補強工事助成事業(診断)",
+      "amount_text": "無料(岐阜県耐震診断士による無料診断)",
+      "amount_max_yen": 0,
+      "condition_text": "昭和56年5月31日以前に着工された木造住宅で、一戸建て(または住宅部分が過半の併用住宅)。在来軸組工法・伝統的構法・枠組壁工法のみ対象。",
       "eligibility": {
         "building_types": ["wood"],
         "built_before": "1981-06-01",
         "built_after": null
       },
-      "note": "⚠️低信頼度:村公式ページを直接確認できず、第三者サイト(リショップナビ)の数値を記録。",
+      "note": "2026-10-02、村公式ページ(vill.higashishirakawa.gifu.jp/kurashi/sumai/taishinjyosei/)で直接確認し信頼度を向上。申請期間は例年5〜6月の広報で告知〜同年11月末まで、建設環境課へ申請。",
       "deadline": null,
-      "official_url": null
+      "official_url": "https://www.vill.higashishirakawa.gifu.jp/kurashi/sumai/taishinjyosei/"
     },
     {
       "id": "higashishirakawa-wood-taishin-kaishu",
-      "name": "木造住宅耐震改修工事(岐阜県共通制度)",
-      "amount_text": "一般補強工事:上限108.9万円",
+      "name": "木造住宅耐震診断・耐震補強工事助成事業(補強工事、岐阜県共通制度水準)",
+      "amount_text": "一般補強工事:上限108.9万円(岐阜県内共通制度水準からの推定)",
       "amount_max_yen": 1089000,
-      "condition_text": "昭和56年5月31日以前に建設(着工)された木造住宅。",
+      "condition_text": "昭和56年5月31日以前に着工された木造住宅。",
       "eligibility": {
         "building_types": ["wood"],
         "built_before": "1981-06-01",
         "built_after": null
       },
-      "note": "⚠️低信頼度:村独自の公式ページ未確認。岐阜県公式サイトの県内共通制度説明のみ。",
+      "note": "2026-10-02再調査:村公式ページの耐震助成事業トップでは診断部分の記載が中心で、補強工事の具体的上限額はページ本文に明記なし。岐阜県内共通制度水準(108.9万円)からの推定で低信頼度のまま。建設環境課(0574-78-3111)で要確認。",
       "deadline": null,
       "official_url": "https://www.pref.gifu.lg.jp/page/838.html"
     }

@@ -2,24 +2,38 @@
   "municipality_code": "24561",
   "municipality": "御浜町",
   "ward": null,
-  "updated_at": "2026-10-01",
+  "updated_at": "2026-10-02",
   "verified_by_human": false,
   "verified_at": null,
   "source_urls": [
-    "https://www.pref.mie.lg.jp/JUTAKU/HP/35937031382.htm"
+    "https://www.pref.mie.lg.jp/JUTAKU/HP/35937031382.htm",
+    "https://www.town.mihama.mie.jp/kurashinojoho/sumai_tochi/483.html"
   ],
   "items": [
     {
-      "id": "mihama-taishin-unspecified",
-      "name": "木造住宅耐震関連補助(個別制度名未確認)",
-      "amount_text": "補助上限額157.5万円(三重県の市町別一覧ページに記載)",
-      "amount_max_yen": 1575000,
-      "condition_text": "詳細な対象条件・制度の内訳は未確認。",
+      "id": "mihama-shindan",
+      "name": "木造住宅耐震診断",
+      "amount_text": "無料",
+      "amount_max_yen": 0,
+      "condition_text": "昭和56年5月以前に着工された3階建て以下の木造住宅が対象(三重県内共通基準)。",
       "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
-      "note": "⚠️低信頼度:御浜町自身の公式ページを特定できず、三重県の市町別一覧ページ(県が作成)の記載のみを根拠にしている。個別の制度名・条件・申請期限は未確認。担当窓口:御浜町建設課(電話 05979-3-0521)への確認を強く推奨。",
+      "note": "2026-10-02再調査:御浜町自身の制度ページを特定できなかったが、三重県公式パンフレット「住まいの耐震化(令和7年度版)」の市町一覧表に御浜町(建設課 05979-3-0521)が掲載されており、県内標準スキームへの参加が確認できる。耐震診断のフォーム自体は町公式サイト内に存在(無料診断申込書の記載あり)。金額は県標準値を採用した中程度の信頼度。",
+      "deadline": null,
+      "official_url": "https://www.pref.mie.lg.jp/JUTAKU/HP/35937031382.htm"
+    },
+    {
+      "id": "mihama-hokyo",
+      "name": "耐震補強工事(県標準スキーム)",
+      "amount_text": "国が工事費の2/5(上限57.5万円)+県・町が上限100万円、合計最大157.5万円",
+      "amount_max_yen": 1575000,
+      "condition_text": "診断結果「倒壊する可能性がある、または高い」(評点1.0未満)の住宅が対象(三重県標準スキーム)。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": "2026-10-02再調査:町独自の金額ページは未発見。三重県公式パンフレット記載の県内標準上限額をそのまま採用しており、御浜町が実際にこの上限額で運用しているかは未確認。低信頼度。要電話確認(御浜町建設課 05979-3-0521)。",
       "deadline": null,
       "official_url": "https://www.pref.mie.lg.jp/JUTAKU/HP/35937031382.htm"
     }
   ],
-  "not_yet_covered": []
+  "not_yet_covered": [
+    {"name": "御浜町建築物耐震改修促進計画", "official_url": "https://www.town.mihama.mie.jp/kurashinojoho/sumai_tochi/483.html"}
+  ]
 }

@@ -2,7 +2,7 @@
   "municipality_code": "21220",
   "municipality": "下呂市",
   "ward": null,
-  "updated_at": "2026-10-01",
+  "updated_at": "2026-10-02",
   "verified_by_human": false,
   "verified_at": null,
   "source_urls": [
@@ -20,7 +20,7 @@
         "built_before": "1981-06-01",
         "built_after": null
       },
-      "note": "⚠️低信頼度:公式ページ(https://www.city.gero.lg.jp/soshiki/19/1608.html)が取得時点でHTTP 404となり直接確認できず、WebSearchの要約情報のみに基づく。ページ構成が変更された可能性があり要再確認。",
+      "note": "2026-10-02再調査:公式ページ(1608.html)は今回もWebFetch/curlで一貫して404となり、構造的に到達不可能と判明(一時的障害ではない)。ただし複数の独立したWebSearchで「下呂市ホームページ」を出典とする同一の117.5万円という数値が再現確認され、かつ近隣の海津市・各務原市で公式に確認済みの同一計算式(40%+60万円、上限117.5万円)と完全一致するため、中程度の信頼度に引き上げた。問い合わせ先:下呂市住宅対策課(0576-24-2222)。",
       "deadline": null,
       "official_url": "https://www.city.gero.lg.jp/soshiki/19/1608.html"
     },

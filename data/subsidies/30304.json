@@ -50,7 +50,7 @@
         "built_before": "2000-06-01",
         "built_after": null
       },
-      "note": "補助上限額がページ上で確認できず低信頼度。",
+      "note": "2026-10-02再調査:公式ページ本文を再度WebFetchで直接確認したが、耐震ベッド・耐震シェルター補助の上限額はこのページに掲載されていないことを確定(推測ではなく確認済みの事実)。他の制度(耐震補強設計・改修工事補助)は最大116万6千円と明記されているのと対照的。詳細は紀美野町総務課へ要確認。",
       "deadline": null,
       "official_url": "https://www.town.kimino.wakayama.jp/sagasu/somuka/anshinanzen/bosaijoho/2949.html"
     },

@@ -6,7 +6,8 @@
   "verified_by_human": false,
   "verified_at": null,
   "source_urls": [
-    "https://www.city.hashimoto.lg.jp/guide/kensetsubu/kentikujutaku/jutakusisaku/taishin/taishinnzigyoukakuseido/12608.html"
+    "https://www.city.hashimoto.lg.jp/guide/kensetsubu/kentikujutaku/jutakusisaku/taishin/taishinnzigyoukakuseido/12608.html",
+    "https://www.city.hashimoto.lg.jp/section/reiki_honbun/r282RG00000712.html"
   ],
   "items": [
     {
@@ -17,10 +18,10 @@
       "condition_text": "耐震診断で倒壊の危険性ありと判定された木造住宅。一般工法の場合は上部構造評点1.0以上への改修が対象。耐震改修工事は令和9年2月26日(金)までに完了すること。",
       "eligibility": {
         "building_types": ["wood"],
-        "built_before": null,
+        "built_before": "2000-05-31",
         "built_after": null
       },
-      "note": "建築時期条件は本ページから直接確認できず(和歌山県内他市と同じ平成12年5月31日基準の可能性が高いが未確認)。追加募集期限:令和8年10月30日(金)16:30まで(郵送は同日消印有効)。募集戸数5戸で先着順、予定件数到達時点で受付終了。",
+      "note": "2026-10-02再調査:交付要綱(r282RG00000712)を公式サイトで直接確認し建築時期条件を確定。木造住宅は平成12年5月31日以前着工・延床面積400㎡以下、非木造住宅(別枠、未収録)は昭和56年5月31日以前着工・延床面積200㎡以下・地上2階以下が基準。追加募集期限:令和8年10月30日(金)16:30まで(郵送は同日消印有効)。募集戸数5戸で先着順、予定件数到達時点で受付終了。",
       "deadline": "2026-10-30",
       "official_url": "https://www.city.hashimoto.lg.jp/guide/kensetsubu/kentikujutaku/jutakusisaku/taishin/taishinnzigyoukakuseido/12608.html"
     }

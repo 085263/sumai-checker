@@ -2,31 +2,73 @@
   "municipality_code": "21501",
   "municipality": "坂祝町",
   "ward": null,
-  "updated_at": "2026-10-01",
+  "updated_at": "2026-10-02",
   "verified_by_human": false,
   "verified_at": null,
   "source_urls": [
-    "https://media.bisenn.jp/reform-subsidy/gifu/sakahogi/"
+    "https://www.town.sakahogi.gifu.jp/life/home/home03.html"
   ],
   "items": [
     {
-      "id": "sakahogi-wood-hokyo",
-      "name": "木造住宅耐震補強工事費補助(推定)",
-      "amount_text": "工事費120万円以下:61.5%+15万円 / 120万円超:11.5%+75万円、上限115万円",
-      "amount_max_yen": 1150000,
-      "condition_text": "昭和56年5月31日以前に着工された木造の戸建て・長屋建て住宅が対象(推定)。所有者本人が申請者であること。",
+      "id": "sakahogi-wood-shindan",
+      "name": "木造住宅耐震診断",
+      "amount_text": "無料(全額補助)",
+      "amount_max_yen": 0,
+      "condition_text": "昭和56年5月31日以前に着工された木造住宅が対象。",
       "eligibility": {
         "building_types": ["wood"],
         "built_before": "1981-06-01",
         "built_after": null
       },
-      "note": "⚠️低信頼度:坂祝町の公式ページを特定・直接確認できなかった(参照した民間まとめサイトも現在アクセス不可)。金額・条件は未確認情報であり、実際の制度と異なる可能性がある。公式サイト(town.sakahogi.gifu.jp等)での確認が必須。",
+      "note": "2026-10-02、公式ページ(town.sakahogi.gifu.jp/life/home/home03.html、坂祝町耐震改修促進計画)で確認。",
       "deadline": null,
-      "official_url": null
+      "official_url": "https://www.town.sakahogi.gifu.jp/life/home/home03.html"
+    },
+    {
+      "id": "sakahogi-wood-hokyo",
+      "name": "木造住宅耐震補強工事費補助",
+      "amount_text": "工事費の7割、上限84万円(評点1.0以上まで補強する場合は上限108.9万円)",
+      "amount_max_yen": 1089000,
+      "condition_text": "昭和56年5月31日以前に着工された木造住宅が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "2026-10-02、公式ページで確認し金額を確定。申請期限の明記はなく、詳細は水道建設課(0574-66-2407)へ要確認。",
+      "deadline": null,
+      "official_url": "https://www.town.sakahogi.gifu.jp/life/home/home03.html"
+    },
+    {
+      "id": "sakahogi-wood-jokyaku",
+      "name": "木造住宅除却工事費補助",
+      "amount_text": "工事費の約2割、上限83.8万円",
+      "amount_max_yen": 838000,
+      "condition_text": "昭和56年5月31日以前に着工された木造住宅が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "2026-10-02、公式ページで確認し金額を確定。",
+      "deadline": null,
+      "official_url": "https://www.town.sakahogi.gifu.jp/life/home/home03.html"
+    },
+    {
+      "id": "sakahogi-shelter",
+      "name": "耐震シェルター等設置工事費補助",
+      "amount_text": "工事費の約7割、上限30万円",
+      "amount_max_yen": 300000,
+      "condition_text": "昭和56年5月31日以前に着工された木造住宅が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "2026-10-02、公式ページで確認し金額を確定。",
+      "deadline": null,
+      "official_url": "https://www.town.sakahogi.gifu.jp/life/home/home03.html"
     }
   ],
-  "not_yet_covered": [
-    {"name": "住宅耐震診断", "official_url": null},
-    {"name": "非住宅建築物耐震化支援(推定、昭和56年以前対象)", "official_url": null}
-  ]
+  "not_yet_covered": []
 }

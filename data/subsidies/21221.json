@@ -2,29 +2,45 @@
   "municipality_code": "21221",
   "municipality": "海津市",
   "ward": null,
-  "updated_at": "2026-10-01",
+  "updated_at": "2026-10-02",
   "verified_by_human": false,
   "verified_at": null,
-  "source_urls": [],
+  "source_urls": [
+    "https://www.city.kaizu.lg.jp/kurashi/0000003375.html"
+  ],
   "items": [
     {
-      "id": "kaizu-taishin-sokushin",
-      "name": "海津市建築物等耐震化促進事業(木造住宅耐震補強工事費補助)",
-      "amount_text": "詳細不明(WebSearch要約では「最大100万円程度」とする情報があるが数値の信頼性が低い)",
-      "amount_max_yen": null,
-      "condition_text": "昭和56年5月31日以前に着工された木造住宅が対象と推定されるが、公式ページで未確認。",
+      "id": "kaizu-taishin-sokushin-ippan",
+      "name": "海津市建築物等耐震化促進事業(木造住宅一般補強工事費補助、評点1.0以上)",
+      "amount_text": "工事費120万円以内:工事費×90%。120万円超:工事費×40%+60万円、上限117万5千円。",
+      "amount_max_yen": 1175000,
+      "condition_text": "昭和56年5月31日以前に着工された木造住宅。",
       "eligibility": {
         "building_types": ["wood"],
         "built_before": "1981-06-01",
         "built_after": null
       },
-      "note": "⚠️低信頼度:海津市の公式ドメイン(city.kaizu.lg.jp)上で該当ページを特定できず、WebSearchの要約(数値に誤変換の疑いあり)のみに基づく。金額は捏造を避けるためnullとした。要電話確認(市役所都市整備課等)。",
-      "deadline": null,
-      "official_url": null
+      "note": "2026-10-02再調査:公式ページ(令和8年度耐震診断および耐震補助事業について)を直接WebFetchし確定。募集期間:5月11日〜10月30日、募集戸数1戸(先着順)。木造住宅無料耐震診断も別途あり。",
+      "deadline": "2026-10-30",
+      "official_url": "https://www.city.kaizu.lg.jp/kurashi/0000003375.html"
+    },
+    {
+      "id": "kaizu-taishin-sokushin-kani",
+      "name": "海津市建築物等耐震化促進事業(木造住宅簡易補強工事費補助、評点0.7以上1.0未満)",
+      "amount_text": "工事費120万円以内:工事費×61.5%。120万円超:工事費×11.5%+60万円、上限84万円。",
+      "amount_max_yen": 840000,
+      "condition_text": "昭和56年5月31日以前に着工された木造住宅。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "2026-10-02再調査:公式ページを直接WebFetchし確定。募集期間:5月11日〜10月30日、募集戸数1戸(先着順)。",
+      "deadline": "2026-10-30",
+      "official_url": "https://www.city.kaizu.lg.jp/kurashi/0000003375.html"
     }
   ],
   "not_yet_covered": [
-    {"name": "木造住宅無料耐震診断", "official_url": null},
-    {"name": "耐震シェルター整備事業(推定)", "official_url": null}
+    {"name": "耐震シェルター整備事業(推定、未確認)", "official_url": null}
   ]
 }

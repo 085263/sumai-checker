@@ -2,7 +2,7 @@
   "municipality_code": "21604",
   "municipality": "白川村",
   "ward": null,
-  "updated_at": "2026-10-01",
+  "updated_at": "2026-10-02",
   "verified_by_human": false,
   "verified_at": null,
   "source_urls": [
@@ -17,17 +17,25 @@
       "amount_max_yen": 45000,
       "condition_text": "昭和56年5月31日以前に建設された木造住宅。施工業者の制限なし。",
       "eligibility": {
-        "building_types": ["wood"],
+        "building_types": [
+          "wood"
+        ],
         "built_before": "1981-06-01",
         "built_after": null
       },
-      "note": "⚠️低信頼度:村公式ページを直接確認できず、第三者サイトの数値を記録。",
+      "note": "2026-10-02再調査:正しい公式ドメイン(vill.shirakawa.lg.jp)でsite内検索したが該当ページは発見できず。独立した第三者サイトの数値(補助率100%・上限4万5000円)は以前から変わらず、低信頼度のまま維持。",
       "deadline": null,
       "official_url": null
     }
   ],
   "not_yet_covered": [
-    {"name": "木造住宅耐震改修工事(岐阜県共通制度、上限108.9万円相当)の村独自運用", "official_url": "https://www.pref.gifu.lg.jp/page/838.html"},
-    {"name": "耐震シェルター等設置工事の有無", "official_url": null}
+    {
+      "name": "木造住宅耐震改修工事(岐阜県共通制度:対象工事費120万円以下なら61.5%、120万円超なら11.5%+60万円という式が第三者サイトで言及されているが、白川村独自の運用状況は未確認)",
+      "official_url": "https://www.pref.gifu.lg.jp/page/838.html"
+    },
+    {
+      "name": "耐震シェルター等設置工事の有無",
+      "official_url": null
+    }
   ]
 }

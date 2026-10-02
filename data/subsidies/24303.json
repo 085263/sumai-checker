@@ -2,34 +2,79 @@
   "municipality_code": "24303",
   "municipality": "木曽岬町",
   "ward": null,
-  "updated_at": "2026-10-01",
+  "updated_at": "2026-10-02",
   "verified_by_human": false,
   "verified_at": null,
   "source_urls": [
+    "https://www.town.kisosaki.lg.jp/0000000175.html",
     "https://www.pref.mie.lg.jp/JUTAKU/HP/35937031382.htm"
   ],
   "items": [
     {
+      "id": "kisosaki-taishin-shindan",
+      "name": "木造住宅耐震診断",
+      "amount_text": "無料(国1/2、県・町1/2で全額補助)",
+      "amount_max_yen": 0,
+      "condition_text": "昭和56年5月以前に着工された3階建て以下の木造住宅が対象。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": "2026-10-02、町公式ページ(0000000175.html)で確認。",
+      "deadline": null,
+      "official_url": "https://www.town.kisosaki.lg.jp/0000000175.html"
+    },
+    {
       "id": "kisosaki-taishin-sekkei",
       "name": "木造住宅耐震補強計画事業(設計)",
-      "amount_text": "補助率2/3、上限18万円",
+      "amount_text": "県・町が所要額の2/3、上限18万円",
       "amount_max_yen": 180000,
-      "condition_text": "詳細条件は町公式ページで未確認。",
+      "condition_text": "評点0.7未満の住宅を1.0以上に改善する補強設計が対象。",
       "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
-      "note": "⚠️低信頼度:町の公式ページを直接確認できず(ドメイン特定できず)、検索結果の要約に基づく。",
+      "note": "2026-10-02、町公式ページで確認。",
       "deadline": null,
-      "official_url": null
+      "official_url": "https://www.town.kisosaki.lg.jp/0000000175.html"
     },
     {
       "id": "kisosaki-taishin-hokyo",
-      "name": "木造住宅耐震補強工事・簡易耐震補強工事・リフォーム工事補助",
-      "amount_text": "上限100万円(代理受領制度あり)",
+      "name": "木造住宅耐震補強工事",
+      "amount_text": "国が所要額の2/5(上限50万円)+県・町が所要額の2/3(上限50万円)、合計最大100万円",
       "amount_max_yen": 1000000,
-      "condition_text": "詳細条件は町公式ページで未確認。",
+      "condition_text": "評点を0.7未満から1.0以上へ改善する工事が対象。",
       "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
-      "note": "三重県の市町別補助制度一覧ページ(公式)で上限100万円と確認。別の検索結果では上限50万円との記載もあり、金額に食い違いがあるため要確認。問い合わせ先:木曽岬町建設課 0567-68-6106",
+      "note": "2026-10-02、町公式ページで確認。従来の低信頼度フラグを解消(金額は既存データと一致)。",
       "deadline": null,
-      "official_url": "https://www.pref.mie.lg.jp/JUTAKU/HP/35937031382.htm"
+      "official_url": "https://www.town.kisosaki.lg.jp/0000000175.html"
+    },
+    {
+      "id": "kisosaki-kan-i-hokyo",
+      "name": "簡易耐震補強工事",
+      "amount_text": "国・県・町で所要額の2/3、上限30万円",
+      "amount_max_yen": 300000,
+      "condition_text": "評点0.7未満の住宅を対象とした簡易的な補強工事。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": "2026-10-02、町公式ページで新たに確認(従来未掲載)。",
+      "deadline": null,
+      "official_url": "https://www.town.kisosaki.lg.jp/0000000175.html"
+    },
+    {
+      "id": "kisosaki-reform",
+      "name": "耐震補強工事と同時施工のリフォーム補助",
+      "amount_text": "県が所要額の1/3、上限20万円",
+      "amount_max_yen": 200000,
+      "condition_text": "耐震補強工事と同時に施工するリフォーム工事が対象。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": "2026-10-02、町公式ページで新たに確認(従来未掲載)。",
+      "deadline": null,
+      "official_url": "https://www.town.kisosaki.lg.jp/0000000175.html"
+    },
+    {
+      "id": "kisosaki-kaitai",
+      "name": "空き家等の解体工事補助",
+      "amount_text": "県が工事費の23%、上限40万円",
+      "amount_max_yen": 400000,
+      "condition_text": "耐震性のない木造住宅(空き家)の解体・除却が対象。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": "2026-10-02、町公式ページで新たに確認(従来未掲載)。",
+      "deadline": null,
+      "official_url": "https://www.town.kisosaki.lg.jp/0000000175.html"
     }
   ],
   "not_yet_covered": []

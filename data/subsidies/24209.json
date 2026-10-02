@@ -2,7 +2,7 @@
   "municipality_code": "24209",
   "municipality": "尾鷲市",
   "ward": null,
-  "updated_at": "2026-10-01",
+  "updated_at": "2026-10-02",
   "verified_by_human": false,
   "verified_at": null,
   "source_urls": [
@@ -17,11 +17,13 @@
       "amount_max_yen": 500000,
       "condition_text": "昭和56年5月31日以前に建築された木造住宅(階数3以下、延床面積の過半が住宅用途、丸太組・プレハブ工法を除く)。",
       "eligibility": {
-        "building_types": ["wood"],
+        "building_types": [
+          "wood"
+        ],
         "built_before": "1981-06-01",
         "built_after": null
       },
-      "note": "⚠️低信頼度:公式ページ本文には具体額の記載がなく、添付PDFまたは問い合わせ(0597-23-8243)が必要との案内のみ。金額は検索エンジンの要約情報に基づく。",
+      "note": "2026-10-02再調査:公式ページ(0000011820.html)を再度WebFetchで直接確認したが、前回同様「補助要件及び補助金額の詳細につきましては建築係へ連絡下さい」との案内のみで具体額の記載なし(公式ページの仕様として金額非公開と判明)。金額は検索エンジンの要約情報に基づく低信頼度のまま。要問い合わせ(建築係 0597-23-8243)。",
       "deadline": null,
       "official_url": "https://www.city.owase.lg.jp/0000011820.html"
     },
@@ -32,16 +34,21 @@
       "amount_max_yen": 180000,
       "condition_text": "耐震補強工事費補助と同様の対象住宅。",
       "eligibility": {
-        "building_types": ["wood"],
+        "building_types": [
+          "wood"
+        ],
         "built_before": "1981-06-01",
         "built_after": null
       },
-      "note": "⚠️低信頼度:公式ページ本文に具体額の記載なし、検索エンジンの要約情報に基づく。",
+      "note": "2026-10-02再調査:公式ページを再確認したが同様に具体額の記載なし、検索エンジンの要約情報に基づく低信頼度のまま。",
       "deadline": null,
       "official_url": "https://www.city.owase.lg.jp/0000011820.html"
     }
   ],
   "not_yet_covered": [
-    {"name": "木造住宅無料耐震診断", "official_url": "https://www.city.owase.lg.jp/0000011820.html"}
+    {
+      "name": "木造住宅無料耐震診断",
+      "official_url": "https://www.city.owase.lg.jp/0000011820.html"
+    }
   ]
 }

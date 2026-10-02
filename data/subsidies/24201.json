@@ -2,56 +2,71 @@
   "municipality_code": "24201",
   "municipality": "津市",
   "ward": null,
-  "updated_at": "2026-10-01",
+  "updated_at": "2026-10-02",
   "verified_by_human": false,
   "verified_at": null,
-  "source_urls": [],
+  "source_urls": [
+    "https://www.info.city.tsu.mie.jp/www/contents/1001000009275/index.html",
+    "https://www.info.city.tsu.mie.jp/_res/projects/default_project/_page_/001/001/978/kouzi8-1.pdf"
+  ],
   "items": [
-    {
-      "id": "tsu-taishin-kouji",
-      "name": "木造住宅耐震補強工事費補助(三重県木造住宅耐震補強工事等事業)",
-      "amount_text": "最大150万円程度(推定)",
-      "amount_max_yen": 1500000,
-      "condition_text": "昭和56年(1981年)5月31日以前に建築された木造住宅が対象と推定される(三重県内他市町村の同種制度と同水準)。",
-      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
-      "note": "⚠️低信頼度:公式ページ(city.tsu.mie.jp)に接続できず、WebSearchの要約・比較サイト情報のみを根拠にしている。金額・条件とも未確認、要人力検証。",
-      "deadline": null,
-      "official_url": null
-    },
     {
       "id": "tsu-shindan",
       "name": "木造住宅耐震診断事業",
       "amount_text": "無料(専門家派遣による診断費用を全額補助)",
       "amount_max_yen": 0,
-      "condition_text": "詳細未確認。",
+      "condition_text": "昭和56年5月31日以前に建てられた(着工された)木造住宅。",
       "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
-      "note": "⚠️低信頼度:公式ページ未確認、WebSearch要約のみ。",
+      "note": "2026-10-02再調査:公式一覧ページ(index.html)で制度名を確認。具体的な受付期間は4月〜翌1月末(予算上限で早期終了の可能性あり)と公式ページに記載。",
       "deadline": null,
-      "official_url": null
+      "official_url": "https://www.info.city.tsu.mie.jp/www/contents/1001000009275/index.html"
     },
     {
       "id": "tsu-hokyo-keikaku",
       "name": "木造住宅耐震補強計画事業",
-      "amount_text": "上限18万円",
-      "amount_max_yen": 180000,
-      "condition_text": "詳細未確認。",
+      "amount_text": "一般診断法:上限18万円/精密診断法:上限34万円",
+      "amount_max_yen": 340000,
+      "condition_text": "昭和56年5月31日以前の木造住宅、耐震診断評点0.7未満。",
       "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
-      "note": "⚠️低信頼度:公式ページ未確認、WebSearch要約のみ。",
+      "note": "2026-10-02再調査:公式一覧ページでは制度名のみ確認、金額自体はWebSearch要約(複数情報源で一致)に基づく中程度の信頼度。",
       "deadline": null,
-      "official_url": null
+      "official_url": "https://www.info.city.tsu.mie.jp/www/contents/1001000009275/index.html"
+    },
+    {
+      "id": "tsu-taishin-kouji",
+      "name": "耐震補強工事補助事業",
+      "amount_text": "補強工事費の全額、最高157.5万円(令和6〜8年度は期間限定で通常107.5万円から50万円増額中)。耐震補強工事後の評点が1.0以上となるもの",
+      "amount_max_yen": 1575000,
+      "condition_text": "①耐震診断評点0.7未満 ②昭和56年5月31日以前に建てられた(着工された)木造住宅 ③3階建て以下 ④延べ床面積の過半が住宅用途 ⑤在来軸組工法・伝統工法・枠組工法(丸太組工法・プレハブ工法等は除く) ⑥現に居住or居住見込み ⑦1ヘクタール当たり10戸以上の建て込み区域内。賃貸住宅も対象。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": "2026-10-02再調査:公式交付要綱PDF(令和8年度版)を直接確認し確定。従来の「150万円程度(推定)」を修正。",
+      "deadline": null,
+      "official_url": "https://www.info.city.tsu.mie.jp/_res/projects/default_project/_page_/001/001/978/kouzi8-1.pdf"
+    },
+    {
+      "id": "tsu-jun-taishin-kouji",
+      "name": "準耐震補強工事補助事業",
+      "amount_text": "補強工事費の3分の2、最高30万円。耐震補強工事後の評点が0.7以上1.0未満となるもの",
+      "amount_max_yen": 300000,
+      "condition_text": "耐震補強工事補助事業と同様の対象住宅(評点0.7未満の昭和56年5月31日以前の木造住宅等)。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": "2026-10-02新規追加:公式交付要綱PDF(令和8年度版)で確認。",
+      "deadline": null,
+      "official_url": "https://www.info.city.tsu.mie.jp/_res/projects/default_project/_page_/001/001/978/kouzi8-1.pdf"
     },
     {
       "id": "tsu-reform-doji",
-      "name": "耐震補強同時リフォーム工事補助",
-      "amount_text": "工事費の1/3、上限20万円/戸",
+      "name": "リフォーム工事補助事業(耐震補強同時)",
+      "amount_text": "リフォーム工事費の3分の1、最高20万円。耐震補強工事(または準耐震補強工事)と合わせて行う機能向上工事が対象",
       "amount_max_yen": 200000,
-      "condition_text": "耐震補強工事と同時に行う機能・性能向上リフォーム(屋根・外壁・サッシ・内装・キッチン・浴室等)が対象。",
+      "condition_text": "耐震補強工事と同時に行う機能・性能向上リフォームで、施工者が県内に本店・支店・営業所を有する建設業者であること。",
       "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
-      "note": "⚠️低信頼度:公式ページ未確認、WebSearch要約のみ。",
+      "note": "2026-10-02再調査:公式交付要綱PDF(令和8年度版)で確定。従来のWebSearch要約値と一致。",
       "deadline": null,
-      "official_url": null
+      "official_url": "https://www.info.city.tsu.mie.jp/_res/projects/default_project/_page_/001/001/978/kouzi8-1.pdf"
     }
   ],
-  "not_yet_covered": [],
-  "research_note": "津市公式サイト(www.city.tsu.mie.jp)への接続に失敗(DNS解決エラー)。WebSearch予算も本セッション上限に達したため追加調査不可。本ファイルは比較サイト(reform-hojo.jp等)の要約のみに基づく暫定データであり、信頼度が低い。優先的に人力確認が必要。"
+  "not_yet_covered": [
+    {"name": "耐震シェルター設置事業・木造住宅除却補助(公式一覧ページに名称のみ掲載、金額未確認)", "official_url": "https://www.info.city.tsu.mie.jp/www/contents/1001000009275/index.html"}
+  ]
 }

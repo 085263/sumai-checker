@@ -21,7 +21,7 @@
         "built_before": "1981-06-01",
         "built_after": null
       },
-      "note": "⚠️低信頼度:公式ページ本体には具体的な補助金額・申請期限の記載が無く、検索結果の二次情報(要綱PDF等の要約)に基づく数値。要電話確認(清須市都市計画課 052-400-2974)。",
+      "note": "⚠️2026-10-02再調査:低信頼度のまま。公式ページ(taishin_shindan.html)には制度概要PDFへのリンクがあるが、除却費補助金のPDF(zyokyaku_gaiyo.pdf)とは異なるファイル名規則のため直接のURLを特定できず、本文確認に至らなかった。除却費補助(本ファイルの別item)は同PDFで上限20万円と直接確認済みであり、公式サイト自体の信頼性は高い。要電話確認(清須市都市計画課 052-400-2911)。",
       "deadline": null,
       "official_url": "https://www.city.kiyosu.aichi.jp/kurashi_joho/shinseisho_download/kotsu_bosai/taishin_shindan_kaishu.html"
     },
@@ -36,7 +36,7 @@
         "built_before": "1981-06-01",
         "built_after": null
       },
-      "note": "⚠️低信頼度:公式ページ本体には金額記載がなく二次情報に基づく。要確認。",
+      "note": "2026-10-02再調査で解決:公式PDF(zyokyaku_gaiyo.pdf)を直接確認し上限20万円を確定。建築年基準(1981年5月31日以前)・耐震診断判定値1.0未満も公式PDFで確認。問い合わせ先:清須市建設部都市計画課計画建築係 052-400-2911。",
       "deadline": null,
       "official_url": "https://www.city.kiyosu.aichi.jp/kurashi_joho/shinseisho_download/kotsu_bosai/taishin_shindan.files/zyokyaku_gaiyo.pdf"
     }

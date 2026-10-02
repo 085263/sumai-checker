@@ -2,46 +2,80 @@
   "municipality_code": "24443",
   "municipality": "大台町",
   "ward": null,
-  "updated_at": "2026-10-01",
+  "updated_at": "2026-10-02",
   "verified_by_human": false,
   "verified_at": null,
   "source_urls": [
+    "https://www.odaitown.jp/soshiki/yakuba/10/6/13/2138.html",
     "https://www.pref.mie.lg.jp/JUTAKU/HP/35937031382.htm"
   ],
   "items": [
     {
       "id": "odai-shindan",
-      "name": "木造住宅無料耐震診断",
+      "name": "木造住宅耐震診断",
       "amount_text": "無料",
       "amount_max_yen": 0,
-      "condition_text": "詳細は大台町総務課(0598-82-3781)へ確認が必要。",
-      "eligibility": {
-        "building_types": ["wood"],
-        "built_before": "1981-06-01",
-        "built_after": null
-      },
-      "note": "⚠️低信頼度:大台町公式サイトのページを特定できず、三重県の市町受付窓口一覧ページ(表形式)からの情報。金額等は要確認。",
+      "condition_text": "昭和56年5月31日以前に建築された、3階建て以下で延べ面積の過半が住宅として使用されている木造住宅が対象。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": "2026-10-02、町公式ページ(odaitown.jp)を直接確認し解決。従来の低信頼度フラグを解消。",
       "deadline": null,
-      "official_url": "https://www.pref.mie.lg.jp/JUTAKU/HP/35937031382.htm"
+      "official_url": "https://www.odaitown.jp/soshiki/yakuba/10/6/13/2138.html"
+    },
+    {
+      "id": "odai-sekkei",
+      "name": "耐震補強設計",
+      "amount_text": "補助基本額の上限27万円のうち設計費の1/3(上限9万円)を町が補助、県事業併用で最大2/3(上限18万円)",
+      "amount_max_yen": 180000,
+      "condition_text": "診断結果「倒壊する可能性がある、または高い」(評点1.0未満)の住宅を「一応倒壊しない」(評点1.0以上)にするための補強設計。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": "2026-10-02、町公式ページで確認。",
+      "deadline": null,
+      "official_url": "https://www.odaitown.jp/soshiki/yakuba/10/6/13/2138.html"
     },
     {
       "id": "odai-hokyo",
       "name": "耐震補強工事",
-      "amount_text": "上限157.5万円(三重県一覧表に記載の上限額)",
+      "amount_text": "上限157万5千円",
       "amount_max_yen": 1575000,
-      "condition_text": "詳細は大台町総務課(0598-82-3781)へ確認が必要。",
-      "eligibility": {
-        "building_types": ["wood"],
-        "built_before": "1981-06-01",
-        "built_after": null
-      },
-      "note": "⚠️低信頼度:大台町公式サイトのページを特定できず、三重県の市町受付窓口一覧ページ(表形式)からの情報。WebSearchのセッション上限に達したため、公式ページの直接確認ができていない。",
+      "condition_text": "耐震診断で「倒壊する可能性が高い」(評点0.7未満)と診断された旧基準木造住宅が対象。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": "2026-10-02、町公式ページで確認。従来の低信頼度フラグを解消(金額は既存データと一致)。",
       "deadline": null,
-      "official_url": "https://www.pref.mie.lg.jp/JUTAKU/HP/35937031382.htm"
+      "official_url": "https://www.odaitown.jp/soshiki/yakuba/10/6/13/2138.html"
+    },
+    {
+      "id": "odai-kan-i-hokyo",
+      "name": "簡易耐震補強工事",
+      "amount_text": "補助率2/3、上限30万円",
+      "amount_max_yen": 300000,
+      "condition_text": "評点0.7未満の住宅を対象とした簡易的な補強工事。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": "2026-10-02、町公式ページで新たに確認(従来未掲載)。",
+      "deadline": null,
+      "official_url": "https://www.odaitown.jp/soshiki/yakuba/10/6/13/2138.html"
+    },
+    {
+      "id": "odai-reform",
+      "name": "耐震補強工事と同時施工のリフォーム工事補助",
+      "amount_text": "補助率1/3、上限20万円",
+      "amount_max_yen": 200000,
+      "condition_text": "耐震補強工事と同時に施工するリフォーム工事が対象。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": "2026-10-02、町公式ページで新たに確認(従来未掲載)。",
+      "deadline": null,
+      "official_url": "https://www.odaitown.jp/soshiki/yakuba/10/6/13/2138.html"
+    },
+    {
+      "id": "odai-kaitai",
+      "name": "解体工事補助",
+      "amount_text": "工事費の23%、上限40万円",
+      "amount_max_yen": 400000,
+      "condition_text": "耐震性のない木造住宅(空き家)の解体・除却が対象。",
+      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "note": "2026-10-02、町公式ページで新たに確認(従来未掲載)。",
+      "deadline": null,
+      "official_url": "https://www.odaitown.jp/soshiki/yakuba/10/6/13/2138.html"
     }
   ],
-  "not_yet_covered": [
-    {"name": "簡易耐震補強工事(一覧表に「あり」とのみ記載、金額不明)", "official_url": "https://www.pref.mie.lg.jp/JUTAKU/HP/35937031382.htm"},
-    {"name": "リフォーム工事(一覧表に「あり」とのみ記載、金額不明)", "official_url": "https://www.pref.mie.lg.jp/JUTAKU/HP/35937031382.htm"}
-  ]
+  "not_yet_covered": []
 }

@@ -2,7 +2,7 @@
   "municipality_code": "24207",
   "municipality": "鈴鹿市",
   "ward": null,
-  "updated_at": "2026-10-01",
+  "updated_at": "2026-10-02",
   "verified_by_human": false,
   "verified_at": null,
   "source_urls": [
@@ -15,7 +15,13 @@
       "amount_text": "4/1〜翌1/31申請・2/15までに完了報告:除却費と概算補強工事費の少ない方の23%以内、上限20万円/それ以外(3/31までに完了報告):上限10万円",
       "amount_max_yen": 200000,
       "condition_text": "昭和56年5月31日以前の木造住宅で、無料耐震診断で総合評点0.7未満「倒壊可能性が高い」、または容易な耐震診断調査で「倒壊の危険性がある」と判断されたもの。除却工事着手前に交付申請が必須。",
-      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "eligibility": {
+        "building_types": [
+          "wood"
+        ],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
       "note": "令和8年度は当初予定数に達したため受付を一時停止中(再開は10月以降の案内)。",
       "deadline": null,
       "official_url": "https://www.city.suzuka.lg.jp/kurashi/safe/1001523/1001555/1001568.html"
@@ -26,21 +32,33 @@
       "amount_text": "上限157.5万円、同時リフォームは工事費の1/3・上限20万円",
       "amount_max_yen": 1575000,
       "condition_text": "昭和56年5月31日以前の木造住宅が対象と推定。",
-      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
-      "note": "⚠️低信頼度:WebSearch要約のみ、公式ページ本文は未確認。予算上限到達で受付終了する場合あり。",
+      "eligibility": {
+        "building_types": [
+          "wood"
+        ],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "2026-10-02再調査:公式ページ(1001567.html)をWebFetchで直接確認し確定。耐震補強工事費用の上限157.5万円、同時リフォームは工事費1/3・上限20万円。予算上限到達で受付終了する場合あり。",
       "deadline": null,
-      "official_url": null
+      "official_url": "https://www.city.suzuka.lg.jp/kurashi/safe/1001523/1001555/1001567.html"
     },
     {
       "id": "suzuka-keikaku",
       "name": "木造住宅耐震補強計画補助",
-      "amount_text": "設計費の2/3、上限18万円〜34万円(診断方法により異なる)",
+      "amount_text": "一般診断法:上限18万円/精密診断法:上限34万円",
       "amount_max_yen": 340000,
-      "condition_text": "詳細未確認。",
-      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
-      "note": "⚠️低信頼度:WebSearch要約のみ、公式ページ本文は未確認。",
+      "condition_text": "昭和56年5月31日以前の木造住宅、耐震診断評点0.7未満。先着順(予算上限あり)。",
+      "eligibility": {
+        "building_types": [
+          "wood"
+        ],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "2026-10-02再調査:公式ページ(1001566.html)をWebFetchで直接確認し確定。",
       "deadline": null,
-      "official_url": null
+      "official_url": "https://www.city.suzuka.lg.jp/kurashi/safe/1001523/1001555/1001566.html"
     }
   ],
   "not_yet_covered": []

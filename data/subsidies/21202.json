@@ -2,11 +2,12 @@
   "municipality_code": "21202",
   "municipality": "大垣市",
   "ward": null,
-  "updated_at": "2026-10-01",
+  "updated_at": "2026-10-02",
   "verified_by_human": false,
   "verified_at": null,
   "source_urls": [
-    "https://www.city.ogaki.lg.jp/0000005734.html"
+    "https://www.city.ogaki.lg.jp/0000005734.html",
+    "https://www.city.ogaki.lg.jp/0000050149.html"
   ],
   "items": [
     {
@@ -14,60 +15,60 @@
       "name": "耐震設計費補助(大垣市建築物等耐震化促進事業費補助金)",
       "amount_text": "⚠️低信頼度:費用の3分の1以内、上限10万円",
       "amount_max_yen": 100000,
-      "condition_text": "昭和56年(1981年)5月31日以前に建築された木造住宅。",
+      "condition_text": "昭和56年(1981年)5月31日以前に建築又は着工された木造住宅。",
       "eligibility": {
         "building_types": ["wood"],
         "built_before": "1981-06-01",
         "built_after": null
       },
-      "note": "⚠️低信頼度:公式ページ本体に金額・期限の記載がなく、要綱PDFや二次情報源からの推定値。都市計画部建築指導課(0584-47-8436)への確認を推奨。",
-      "deadline": null,
-      "official_url": "https://www.city.ogaki.lg.jp/0000005734.html"
+      "note": "2026-10-02再調査:公式ページ(0000050149.html、令和8年度版)で申請期間(令和8年5月15日〜12月28日)と対象建物の建築時期は確認できたが、補助率・上限額は表が画像(hyou.jpg)で埋め込まれており依然テキスト確認不可。⚠️低信頼度の金額は要綱PDF・二次情報源からの推定値のまま。都市計画部建築指導課(0584-47-8436)への確認を推奨。",
+      "deadline": "2026-12-28",
+      "official_url": "https://www.city.ogaki.lg.jp/0000050149.html"
     },
     {
       "id": "ogaki-wood-taishin",
       "name": "木造住宅耐震改修工事補助金",
       "amount_text": "⚠️低信頼度:上限84万円程度(年間を通じ予算の範囲内で受付)",
       "amount_max_yen": 840000,
-      "condition_text": "昭和56年(1981年)5月31日以前に建築された木造住宅。",
+      "condition_text": "昭和56年(1981年)5月31日以前に建築又は着工された木造住宅。",
       "eligibility": {
         "building_types": ["wood"],
         "built_before": "1981-06-01",
         "built_after": null
       },
-      "note": "⚠️低信頼度:公式ページ本体に金額記載なく、要綱PDFや二次情報源からの推定値。要電話確認(0584-47-8436)。",
-      "deadline": null,
-      "official_url": "https://www.city.ogaki.lg.jp/0000005734.html"
+      "note": "2026-10-02再調査:申請期間(令和8年5月15日〜12月28日)は公式ページで確認。補助率・上限額は画像埋め込みで未確認のまま⚠️低信頼度。近隣の海津市・各務原市は同様の制度で一般補強117.5万円/簡易補強84万円という公式確認済みの値があり、大垣市も同額の可能性があるが未確定。要電話確認(0584-47-8436)。",
+      "deadline": "2026-12-28",
+      "official_url": "https://www.city.ogaki.lg.jp/0000050149.html"
     },
     {
       "id": "ogaki-demolition",
       "name": "木造住宅除却工事補助金",
       "amount_text": "⚠️低信頼度:上限60万円程度",
       "amount_max_yen": 600000,
-      "condition_text": "昭和56年(1981年)5月31日以前に建築された木造住宅。",
+      "condition_text": "昭和56年(1981年)5月31日以前に建築又は着工された木造の一戸建て住宅。",
       "eligibility": {
         "building_types": ["wood"],
         "built_before": "1981-06-01",
         "built_after": null
       },
-      "note": "⚠️低信頼度:公式ページ本体に金額記載なく二次情報源からの推定値。要電話確認(0584-47-8436)。",
-      "deadline": null,
-      "official_url": "https://www.city.ogaki.lg.jp/0000005734.html"
+      "note": "2026-10-02再調査:申請期間(令和8年5月15日〜12月28日)は公式ページで確認。金額は画像埋め込みで未確認のまま⚠️低信頼度。要電話確認(0584-47-8436)。",
+      "deadline": "2026-12-28",
+      "official_url": "https://www.city.ogaki.lg.jp/0000050149.html"
     },
     {
       "id": "ogaki-shelter",
       "name": "木造住宅耐震シェルター等設置工事補助金",
       "amount_text": "⚠️低信頼度:上限30万円程度",
       "amount_max_yen": 300000,
-      "condition_text": "昭和56年(1981年)5月31日以前に建築された木造住宅。",
+      "condition_text": "昭和56年(1981年)5月31日以前に建築又は着工された木造住宅。",
       "eligibility": {
         "building_types": ["wood"],
         "built_before": "1981-06-01",
         "built_after": null
       },
-      "note": "⚠️低信頼度:公式ページ本体に金額記載なく二次情報源からの推定値。要電話確認(0584-47-8436)。",
-      "deadline": null,
-      "official_url": "https://www.city.ogaki.lg.jp/0000005734.html"
+      "note": "2026-10-02再調査:申請期間(令和8年5月15日〜12月28日)は公式ページで確認。金額は画像埋め込みで未確認のまま⚠️低信頼度。要電話確認(0584-47-8436)。",
+      "deadline": "2026-12-28",
+      "official_url": "https://www.city.ogaki.lg.jp/0000050149.html"
     }
   ],
   "not_yet_covered": [

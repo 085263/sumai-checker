@@ -2,46 +2,46 @@
   "municipality_code": "21505",
   "municipality": "八百津町",
   "ward": null,
-  "updated_at": "2026-10-01",
+  "updated_at": "2026-10-02",
   "verified_by_human": false,
   "verified_at": null,
   "source_urls": [
-    "https://www.town.yaotsu.lg.jp/4875.htm",
-    "https://media.bisenn.jp/reform-subsidy/gifu/yaotsu/earthquake-resistance/"
+    "https://www.town.yaotsu.lg.jp/1403.htm"
   ],
   "items": [
     {
-      "id": "yaotsu-wood-taishin-kaishu",
-      "name": "木造住宅耐震改修工事費補助事業",
-      "amount_text": "工事費120万円以下:補助率61.5%/工事費120万円超:11.5%+60万円。補助限度額 約101万9000円",
-      "amount_max_yen": 1019000,
-      "condition_text": "昭和56年5月31日以前に建設(着工)された木造住宅が対象(岐阜県共通制度の町実施分)。",
-      "eligibility": {
-        "building_types": ["wood"],
-        "built_before": "1981-06-01",
-        "built_after": null
-      },
-      "note": "⚠️低信頼度:町公式ページ(town.yaotsu.lg.jp/4875.htm)はリンク集のみで具体額の記載を直接確認できず、第三者サイト(コトイエナビ)の数値を記録。要確認。",
-      "deadline": null,
-      "official_url": "https://www.town.yaotsu.lg.jp/4875.htm"
-    },
-    {
       "id": "yaotsu-wood-taishin-shindan",
       "name": "木造住宅耐震診断事業",
-      "amount_text": "補助率100%、補助限度額 約4万7000円",
-      "amount_max_yen": 47000,
-      "condition_text": "昭和56年5月31日以前に建設(着工)された木造住宅。",
+      "amount_text": "無料または低額補助(具体額はページに記載なし)",
+      "amount_max_yen": null,
+      "condition_text": "昭和56年5月31日以前に着工された木造住宅が対象。",
       "eligibility": {
         "building_types": ["wood"],
         "built_before": "1981-06-01",
         "built_after": null
       },
-      "note": "⚠️低信頼度:町公式ページで具体額を直接確認できず、第三者サイトの数値を記録。",
+      "note": "2026-10-02、公式ページ(town.yaotsu.lg.jp/1403.htm)で対象条件・申請方法(毎年5〜6月頃に広報やおつで案内、受付期間内に役場3階建設課管理係へ提出)を確認。補助率・上限額の記載はページになく未確認。",
       "deadline": null,
-      "official_url": "https://www.town.yaotsu.lg.jp/4875.htm"
+      "official_url": "https://www.town.yaotsu.lg.jp/1403.htm"
+    },
+    {
+      "id": "yaotsu-wood-taishin-kaishu",
+      "name": "木造住宅耐震改修工事費補助事業",
+      "amount_text": "工事費120万円以下:補助率61.5%/工事費120万円超:11.5%+60万円。補助限度額 約101万9000円(二次情報源、要確認)",
+      "amount_max_yen": 1019000,
+      "condition_text": "昭和56年5月31日以前に建設(着工)された木造住宅が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "2026-10-02再調査:公式ページに「木造住宅補強工事の補助制度もあります」との言及とサイドメニューへのリンクは確認できたが、具体額を記載した本文ページには到達できず、二次情報源(コトイエナビ)の数値(101.9万円)を維持。近隣町(坂祝町84万/108.9万円、富加町108.9万/84万円)の標準額と異なるため要注意、低信頼度を維持。",
+      "deadline": null,
+      "official_url": "https://www.town.yaotsu.lg.jp/1403.htm"
     }
   ],
   "not_yet_covered": [
-    {"name": "耐震シェルター等設置工事の有無", "official_url": null}
+    {"name": "耐震シェルター等設置工事の有無", "official_url": null},
+    {"name": "耐震改修工事に係る固定資産税の減額措置", "official_url": null}
   ]
 }

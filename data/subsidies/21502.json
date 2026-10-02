@@ -2,31 +2,76 @@
   "municipality_code": "21502",
   "municipality": "富加町",
   "ward": null,
-  "updated_at": "2026-10-01",
+  "updated_at": "2026-10-02",
   "verified_by_human": false,
   "verified_at": null,
   "source_urls": [
+    "https://www.town.tomika.gifu.jp/docs/7061.html",
     "https://www.town.tomika.gifu.jp/kurashi/sumai/jyosei/"
   ],
   "items": [
     {
+      "id": "tomika-wood-shindan",
+      "name": "木造住宅無料耐震診断",
+      "amount_text": "無料(全額補助)",
+      "amount_max_yen": 0,
+      "condition_text": "昭和56年5月31日以前に着工された木造住宅が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "2026-10-02、公式ページ(docs/7061.html)で確認。申請期限は毎年11月末まで、役場建設課都市計画係へ申込。",
+      "deadline": null,
+      "official_url": "https://www.town.tomika.gifu.jp/docs/7061.html"
+    },
+    {
       "id": "tomika-wood-hokyo",
-      "name": "木造住宅耐震補強工事(建築物等耐震化促進事業)",
-      "amount_text": "一般改修:工事費120万円以下61.5%+15万円/120万円超11.5%+75万円、上限115万円。簡易改修:補助率0.7、上限84万円",
-      "amount_max_yen": 1150000,
+      "name": "耐震補強工事費補助金",
+      "amount_text": "上限108万9千円(簡易補強の場合は上限84万円)",
+      "amount_max_yen": 1089000,
       "condition_text": "昭和56年5月31日以前に着工された戸建(木造)・長屋建(木造)・その他の共同家(木造)。町税等の滞納がないこと。",
       "eligibility": {
         "building_types": ["wood"],
         "built_before": "1981-06-01",
         "built_after": null
       },
-      "note": "⚠️制度の存在・対象条件は町公式ページ(リンク一覧)で確認したが、金額は公式ページ本文に記載がなく第三者サイト(reform-hojo.jp)の情報に基づく。先着順で予算終了あり、工事着手前の申請が必須。詳細ページの直接URLは未特定のため要再確認。",
+      "note": "2026-10-02、公式ページ(docs/7061.html)で金額を確定。申請期限は毎年11月末まで、役場建設課都市計画係へ申込。先着順(予定戸数1戸)で予算終了の可能性あり。",
       "deadline": null,
-      "official_url": "https://www.town.tomika.gifu.jp/kurashi/sumai/jyosei/"
+      "official_url": "https://www.town.tomika.gifu.jp/docs/7061.html"
+    },
+    {
+      "id": "tomika-shelter",
+      "name": "耐震シェルター等設置工事費補助金",
+      "amount_text": "上限30万円",
+      "amount_max_yen": 300000,
+      "condition_text": "昭和56年5月31日以前に着工された木造住宅が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "2026-10-02、公式ページ(docs/7061.html)で確認。先着順(予定戸数1戸)。",
+      "deadline": null,
+      "official_url": "https://www.town.tomika.gifu.jp/docs/7061.html"
+    },
+    {
+      "id": "tomika-jokyaku",
+      "name": "除却工事費補助金",
+      "amount_text": "上限97万8千円",
+      "amount_max_yen": 978000,
+      "condition_text": "昭和56年5月31日以前に着工された木造住宅が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "2026-10-02、公式ページ(docs/7061.html)で確認。先着順(予定戸数1戸)。",
+      "deadline": null,
+      "official_url": "https://www.town.tomika.gifu.jp/docs/7061.html"
     }
   ],
   "not_yet_covered": [
-    {"name": "耐震改修に伴う固定資産税の減額制度", "official_url": "https://www.town.tomika.gifu.jp/kurashi/sumai/jyosei/"},
-    {"name": "木造住宅無料耐震診断", "official_url": "https://www.town.tomika.gifu.jp/kurashi/sumai/jyosei/"}
+    {"name": "耐震改修に伴う固定資産税の減額制度", "official_url": "https://www.town.tomika.gifu.jp/docs/2678632.html"}
   ]
 }

@@ -2,7 +2,7 @@
   "municipality_code": "24204",
   "municipality": "松阪市",
   "ward": null,
-  "updated_at": "2026-10-01",
+  "updated_at": "2026-10-02",
   "verified_by_human": false,
   "verified_at": null,
   "source_urls": [
@@ -17,7 +17,13 @@
       "amount_text": "一般診断法:上限18万円/精密診断法:上限34万円",
       "amount_max_yen": 340000,
       "condition_text": "昭和56年5月31日以前に着工または完成した木造住宅、耐震評点1.0未満から1.0以上への改修計画。",
-      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "eligibility": {
+        "building_types": [
+          "wood"
+        ],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
       "note": "受付期間:令和8年4月1日〜令和8年12月25日。補助件数上限あり。",
       "deadline": "2026-12-25",
       "official_url": "https://www.city.matsusaka.mie.jp/site/bousai/taishinsekkei.html"
@@ -28,7 +34,13 @@
       "amount_text": "補助対象経費の1/2、上限100万円",
       "amount_max_yen": 1000000,
       "condition_text": "昭和56年5月31日以前に建築された3階以下の木造住宅。初めての利用、耐震補強補助金の交付を受けていないこと、個人所有(賃貸不可)。",
-      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "eligibility": {
+        "building_types": [
+          "wood"
+        ],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
       "note": "令和8年度分受付中、予算上限に達し次第終了。",
       "deadline": null,
       "official_url": "https://www.city.matsusaka.mie.jp/site/bousai/taishinshelter.html"
@@ -39,7 +51,13 @@
       "amount_text": "除却工事費の23%、上限30万円",
       "amount_max_yen": 300000,
       "condition_text": "昭和56年5月31日以前の3階以下木造住宅で、耐震診断評点0.7未満または容易な耐震診断調査票で対象と認められたもの。",
-      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
+      "eligibility": {
+        "building_types": [
+          "wood"
+        ],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
       "note": "受付期間:令和8年4月1日〜令和8年12月25日。予算上限あり。",
       "deadline": "2026-12-25",
       "official_url": "https://www.city.matsusaka.mie.jp/site/bousai/mokuzoujokyaku.html"
@@ -50,10 +68,16 @@
       "amount_text": "令和6〜8年度申請:上限157.5万円/令和9年度以降申請:上限100万円",
       "amount_max_yen": 1575000,
       "condition_text": "昭和56年5月31日以前に着工または完成した木造住宅で、耐震診断評点0.7未満を対象。",
-      "eligibility": {"building_types": ["wood"], "built_before": "1981-06-01", "built_after": null},
-      "note": "⚠️低信頼度:WebSearch要約のみ、公式ページ本文は未確認(ページ自体を特定できず)。",
+      "eligibility": {
+        "building_types": [
+          "wood"
+        ],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "2026-10-02再調査:公式ページ(taishinhokyou.html)をWebFetchで直接確認し確定。「令和6〜8年度は補強工事費157.5万円+同時リフォーム工事費1/3(上限20万円)=合計最高177.5万円」「令和9年度以降は補強工事費100万円上限」が正式な制度構造と判明。",
       "deadline": null,
-      "official_url": null
+      "official_url": "https://www.city.matsusaka.mie.jp/site/bousai/taishinhokyou.html"
     }
   ],
   "not_yet_covered": []
