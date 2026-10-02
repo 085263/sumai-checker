@@ -7,7 +7,7 @@
   "verified_at": null,
   "source_urls": [
     "https://reform-hojo.jp/wakayama/gobo",
-    "http://www.city.gobo.wakayama.jp/sinseisyo/tosikeikaku/1434672900746.html"
+    "https://www.city.gobo.lg.jp/sinseisyo/tosikeikaku/1434672900746.html"
   ],
   "items": [
     {
@@ -21,9 +21,9 @@
         "built_before": null,
         "built_after": null
       },
-      "note": "低信頼度:公式サイト(city.gobo.wakayama.jp)の該当ページ本文をWebFetchで直接確認できず、民間リフォーム補助金サイト(reform-hojo.jp)の情報のみに基づく。建築時期条件・申請期限は要人力確認。公式問い合わせ先:御坊市都市建設課 0738-23-5512。",
-      "deadline": null,
-      "official_url": "http://www.city.gobo.wakayama.jp/sinseisyo/tosikeikaku/1434672900746.html"
+      "note": "2026-10-02再調査:公式ドメインがcity.gobo.wakayama.jpからcity.gobo.lg.jpに変更されていたことを確認、WebFetchで直接確認し受付期間(令和8年4月1日〜令和9年1月29日)を確定。金額は依然ページ本文に数値記載がなく民間サイト(reform-hojo.jp)の情報のみで低信頼度。建築時期条件も要人力確認。公式問い合わせ先:御坊市産業建設部建築住宅課 0738-23-5521。",
+      "deadline": "2027-01-29",
+      "official_url": "https://www.city.gobo.lg.jp/sinseisyo/tosikeikaku/1434672900746.html"
     },
     {
       "id": "gobo-wood-shindan",
@@ -37,8 +37,8 @@
         "built_after": null
       },
       "note": "低信頼度:二次情報源(reform-hojo.jp)のみに基づく。要人力確認。",
-      "deadline": null,
-      "official_url": "http://www.city.gobo.wakayama.jp/sinseisyo/tosikeikaku/1434672900746.html"
+      "deadline": "2027-01-29",
+      "official_url": "https://www.city.gobo.lg.jp/sinseisyo/tosikeikaku/1434672900746.html"
     }
   ],
   "not_yet_covered": []

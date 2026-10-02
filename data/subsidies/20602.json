@@ -21,7 +21,7 @@
         "built_before": "1981-06-01",
         "built_after": null
       },
-      "note": "公式ページ(vill.sakae.nagano.jp)はTLS証明書エラーのためWebFetchで本文確認できず、WebSearch要約に基づく。",
+      "note": "2026-10-02再調査:httpとhttps両方で試したが、公式ページ(vill.sakae.nagano.jp)はホスト名とCDN証明書(Akamai)の不一致により構造的にWebFetch不可と判明。WebSearch要約に基づく。",
       "deadline": null,
       "official_url": "http://www.vill.sakae.nagano.jp/docs/2763.html"
     },
@@ -36,7 +36,7 @@
         "built_before": "1981-06-01",
         "built_after": null
       },
-      "note": "二次情報源(jutaku-hojokin.jp)のみに基づく。公式ページがTLS証明書エラーでWebFetch不可のため低信頼度。要人力確認。",
+      "note": "2026-10-02再調査:公式ページはCDN証明書の不一致で構造的にWebFetch不可と確認(httpsでも同様のエラー)。二次情報源(jutaku-hojokin.jp)のみに基づき低信頼度。要人力確認(栄村総務課)。",
       "deadline": null,
       "official_url": "http://www.vill.sakae.nagano.jp/docs/2763.html"
     }
