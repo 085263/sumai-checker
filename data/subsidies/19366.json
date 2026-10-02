@@ -1,0 +1,44 @@
+{
+  "municipality_code": "19366",
+  "municipality": "南部町",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.town.nanbu.yamanashi.jp/kakuka/koutsuubousai/mokuzou-taishin.html"
+  ],
+  "items": [
+    {
+      "id": "nanbu-taishin-shindan",
+      "name": "木造住宅耐震診断費補助",
+      "amount_text": "補助率10分の10(全額補助)、補助対象限度額66,000円",
+      "amount_max_yen": 66000,
+      "condition_text": "昭和56年(1981年)5月31日以前に建てられた木造個人住宅。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "公式ページで確認。事業期間は令和12年度まで。",
+      "deadline": null,
+      "official_url": "https://www.town.nanbu.yamanashi.jp/kakuka/koutsuubousai/mokuzou-taishin.html"
+    },
+    {
+      "id": "nanbu-taishin-kaishu",
+      "name": "木造住宅耐震改修事業(県割増補助)",
+      "amount_text": "定額20万円",
+      "amount_max_yen": 200000,
+      "condition_text": "耐震診断による総合評点が1.0未満と診断された既存木造住宅に対し、評点を1.0以上とするため低コスト工法にて改修工事を実施した住宅。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "低信頼度:WebSearchの二次情報サマリーのみで、公式ページ本文から直接の裏付けが取れていない。交通防災課(町公式サイトに掲載)へ要確認。",
+      "deadline": null,
+      "official_url": null
+    }
+  ],
+  "not_yet_covered": []
+}

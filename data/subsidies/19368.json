@@ -1,0 +1,46 @@
+{
+  "municipality_code": "19368",
+  "municipality": "富士川町",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.town.fujikawa.yamanashi.jp/docs/2024093000011/",
+    "https://www.town.fujikawa.yamanashi.jp/docs/2023082300231/",
+    "https://www.town.fujikawa.yamanashi.jp/docs/2023082300217/"
+  ],
+  "items": [
+    {
+      "id": "fujikawa-kyoju-anshin",
+      "name": "富士川町木造住宅居住安心支援事業費補助",
+      "amount_text": "耐震改修工事費または建替え工事費を限度に、最大143万7,500円",
+      "amount_max_yen": 1437500,
+      "condition_text": "耐震診断による総合評点が1.0未満の木造住宅。耐震改修または建替え工事を実施するもの。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": null,
+        "built_after": null
+      },
+      "note": "公式ページで確認。補助率・建築年月日基準・申請期限の具体的記載はページ上になし。詳細は都市整備課住宅担当(0556-22-7214)または交付要綱PDFを要確認。",
+      "deadline": null,
+      "official_url": "https://www.town.fujikawa.yamanashi.jp/docs/2023082300231/"
+    },
+    {
+      "id": "fujikawa-taishin-shelter",
+      "name": "富士川町木造住宅耐震シェルター設置事業費補助",
+      "amount_text": "設置に要する工事費を限度に、最大36万円",
+      "amount_max_yen": 360000,
+      "condition_text": "耐震診断による総合評点が0.7未満の木造住宅に耐震シェルターまたは防災ベッドを設置する工事。補助対象シェルターはパンフレット掲載品または他都道府県奨励品等に限る。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": null,
+        "built_after": null
+      },
+      "note": "公式ページで確認。補助率・申請期限の具体的記載はページ上になし。",
+      "deadline": null,
+      "official_url": "https://www.town.fujikawa.yamanashi.jp/docs/2023082300217/"
+    }
+  ],
+  "not_yet_covered": []
+}

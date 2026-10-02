@@ -1,0 +1,59 @@
+{
+  "municipality_code": "19424",
+  "municipality": "忍野村",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.vill.oshino.lg.jp/page/1035.html"
+  ],
+  "items": [
+    {
+      "id": "oshino-wood-taishin-kaishu",
+      "name": "木造住宅耐震化補助事業(耐震改修工事)",
+      "amount_text": "耐震改修工事費用を補助、上限143万7,500円",
+      "amount_max_yen": 1437500,
+      "condition_text": "昭和56年5月31日以前に着工された、ツーバイフォーを除く2階建て以下の木造住宅で、現在も居住していること。着手前の申請が必須。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "耐震診断は無料実施との記載あり(WebSearch要約情報、ページ直接確認はできず低信頼度)。",
+      "deadline": null,
+      "official_url": "https://www.vill.oshino.lg.jp/page/1035.html"
+    },
+    {
+      "id": "oshino-wood-taishin-tatekae",
+      "name": "木造住宅耐震化補助事業(建替え工事)",
+      "amount_text": "建替え工事費用を補助、上限143万7,500円",
+      "amount_max_yen": 1437500,
+      "condition_text": "昭和56年5月31日以前に着工された、ツーバイフォーを除く2階建て以下の木造住宅で、現在も居住していること。着手前の申請が必須。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": null,
+      "deadline": null,
+      "official_url": "https://www.vill.oshino.lg.jp/page/1035.html"
+    },
+    {
+      "id": "oshino-wood-taishin-shelter",
+      "name": "木造住宅耐震化補助事業(耐震シェルター設置工事)",
+      "amount_text": "設置費用を補助、上限24万円",
+      "amount_max_yen": 240000,
+      "condition_text": "昭和56年5月31日以前に着工された、ツーバイフォーを除く2階建て以下の木造住宅で、現在も居住していること。着手前の申請が必須。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": null,
+      "deadline": null,
+      "official_url": "https://www.vill.oshino.lg.jp/page/1035.html"
+    }
+  ],
+  "not_yet_covered": []
+}

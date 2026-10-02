@@ -1,0 +1,19 @@
+{
+  "municipality_code": "13363",
+  "municipality": "新島村",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "http://www.niijima.com/reiki_int/reiki_honbun/g158RG00000474.html"
+  ],
+  "items": [],
+  "not_yet_covered": [
+    {
+      "name": "新島村定住化対策事業交付金(空き家改修等)",
+      "official_url": "http://www.niijima.com/reiki_int/reiki_honbun/g158RG00000474.html"
+    }
+  ],
+  "note": "個人住宅向けの専用耐震診断・耐震改修補助金は確認できず。要綱本文(WebFetchで確認済み)によれば「新島村定住化対策事業交付金」が存在するが、対象は空き家バンク登録物件の改修・除却・伐開で、交付率50%・上限100万円。工事内容にバリアフリー改修、省エネ改修、子育て配慮改修、耐震改修工事のいずれかを含めばよいとされ、耐震改修専用制度ではない。空き家バンク未登録の一般住宅は対象外のためitemsには含めなかった。要人力確認。"
+}

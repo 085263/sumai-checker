@@ -1,0 +1,45 @@
+{
+  "municipality_code": "19208",
+  "municipality": "南アルプス市",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.minami-alps.yamanashi.jp/docs/1499.html",
+    "https://www.city.minami-alps.yamanashi.jp/gyousei/hojyo/"
+  ],
+  "items": [
+    {
+      "id": "minami-alps-wood-taishin-kaishu",
+      "name": "木造住宅耐震改修事業費補助金",
+      "amount_text": "上限143万7,500円",
+      "amount_max_yen": 1437500,
+      "condition_text": "昭和56年5月31日以前に着工した木造在来工法の2階建て以下の個人住宅で、耐震診断の結果、総合評点が1.0未満と判定されたものが対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "令和8年度は4月6日より受付開始、戸数に限りあり。",
+      "deadline": null,
+      "official_url": "https://www.city.minami-alps.yamanashi.jp/docs/1499.html"
+    },
+    {
+      "id": "minami-alps-taishin-shelter",
+      "name": "木造住宅耐震シェルター設置補助事業",
+      "amount_text": "上限36万円",
+      "amount_max_yen": 360000,
+      "condition_text": "昭和56年5月31日以前に着工した木造在来工法の2階建て以下の個人住宅で、耐震診断の結果、総合評点が0.7未満と判定されたものが対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "令和8年度は4月6日より受付開始、戸数に限りあり。",
+      "deadline": null,
+      "official_url": "https://www.city.minami-alps.yamanashi.jp/docs/1499.html"
+    }
+  ],
+  "not_yet_covered": []
+}

@@ -1,0 +1,45 @@
+{
+  "municipality_code": "19422",
+  "municipality": "道志村",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://reform-hojo.jp/subsidy/3474",
+    "https://reform-hojo.jp/yamanashi/doshi"
+  ],
+  "items": [
+    {
+      "id": "doshi-taishin-kaishu",
+      "name": "道志村木造住宅耐震改修事業",
+      "amount_text": "工事費の2分の1、上限50万円",
+      "amount_max_yen": 500000,
+      "condition_text": "道志村内の木造住宅を対象とした耐震診断・耐震改修工事。工事着手前の申請が必要で、先着順(予算到達次第終了の場合あり)。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": null,
+        "built_after": null
+      },
+      "note": "低信頼度:公式サイト(vill.doshi.lg.jp)に接続できず(接続エラー)、二次情報源(reform-hojo.jp)のみで確認。建築年基準の明記なし。申請窓口:産業振興課(0554-52-2114)。",
+      "deadline": null,
+      "official_url": null
+    },
+    {
+      "id": "doshi-taishin-sekkei",
+      "name": "道志村木造住宅耐震改修設計事業",
+      "amount_text": "設計費用の50%、上限10万円",
+      "amount_max_yen": 100000,
+      "condition_text": "木造住宅の耐震改修工事に係る設計費用が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": null,
+        "built_after": null
+      },
+      "note": "低信頼度:公式サイトに接続できず、二次情報源(reform-hojo.jp)のみで確認。",
+      "deadline": null,
+      "official_url": null
+    }
+  ],
+  "not_yet_covered": []
+}

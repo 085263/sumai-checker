@@ -1,0 +1,59 @@
+{
+  "municipality_code": "19429",
+  "municipality": "鳴沢村",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.vill.narusawa.yamanashi.jp/gyosei/machizukuri_kankyo/kenchiku_kaihatsu/974.html"
+  ],
+  "items": [
+    {
+      "id": "narusawa-wood-shindan",
+      "name": "耐震診断支援事業",
+      "amount_text": "無料(村が費用を負担)",
+      "amount_max_yen": 0,
+      "condition_text": "昭和56年5月31日以前に着工された木造在来工法の2階建て以下、延べ床面積300平方メートル以下の専用・併用住宅(住宅部分が過半)で、村内に住所を有する所有者が居住していること。世帯全員が村税を滞納していないこと。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": null,
+      "deadline": null,
+      "official_url": "https://www.vill.narusawa.yamanashi.jp/gyosei/machizukuri_kankyo/kenchiku_kaihatsu/974.html"
+    },
+    {
+      "id": "narusawa-wood-kaishu",
+      "name": "耐震改修支援事業",
+      "amount_text": "上限143万7,500円",
+      "amount_max_yen": 1437500,
+      "condition_text": "昭和56年5月31日以前に着工された木造在来工法の2階建て以下、延べ床面積300平方メートル以下の専用・併用住宅(住宅部分が過半)で、村内に住所を有する所有者が居住していること。世帯全員が村税を滞納していないこと。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": null,
+      "deadline": null,
+      "official_url": "https://www.vill.narusawa.yamanashi.jp/gyosei/machizukuri_kankyo/kenchiku_kaihatsu/974.html"
+    },
+    {
+      "id": "narusawa-wood-shelter",
+      "name": "耐震シェルター設置支援事業",
+      "amount_text": "上限24万円",
+      "amount_max_yen": 240000,
+      "condition_text": "昭和56年5月31日以前に着工された木造在来工法の2階建て以下、延べ床面積300平方メートル以下の専用・併用住宅(住宅部分が過半)で、村内に住所を有する所有者が居住していること。世帯全員が村税を滞納していないこと。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": null,
+      "deadline": null,
+      "official_url": "https://www.vill.narusawa.yamanashi.jp/gyosei/machizukuri_kankyo/kenchiku_kaihatsu/974.html"
+    }
+  ],
+  "not_yet_covered": []
+}

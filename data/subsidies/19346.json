@@ -1,0 +1,59 @@
+{
+  "municipality_code": "19346",
+  "municipality": "市川三郷町",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.town.ichikawamisato.yamanashi.jp/40administration/05kensetsu/taishinzigyou.html"
+  ],
+  "items": [
+    {
+      "id": "ichikawamisato-taishin-kaishu",
+      "name": "市川三郷町木造住宅耐震改修事業",
+      "amount_text": "最大143万7,500円(諸条件により変動、要相談)",
+      "amount_max_yen": 1437500,
+      "condition_text": "昭和56年5月31日以前着工の木造住宅、延べ床面積300㎡以内・2階建て以下、耐震診断で総合評点1.0未満。着工・着手前に申請が必須。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "申請期限の明記なし。予算終了時に受付終了の可能性あり。必ず事前相談が必要。",
+      "deadline": null,
+      "official_url": "https://www.town.ichikawamisato.yamanashi.jp/40administration/05kensetsu/taishinzigyou.html"
+    },
+    {
+      "id": "ichikawamisato-taishin-tatekae",
+      "name": "市川三郷町木造住宅耐震化建替事業",
+      "amount_text": "最大143万7,500円(諸条件により変動、要相談)",
+      "amount_max_yen": 1437500,
+      "condition_text": "上記と同条件(総合評点1.0未満の木造住宅を建て替える場合)。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "申請期限の明記なし。交付決定前の着工は対象外。",
+      "deadline": null,
+      "official_url": "https://www.town.ichikawamisato.yamanashi.jp/40administration/05kensetsu/taishinzigyou.html"
+    },
+    {
+      "id": "ichikawamisato-taishin-shelter",
+      "name": "市川三郷町木造住宅耐震シェルター設置事業",
+      "amount_text": "最大24万円(諸条件により変動、要相談)",
+      "amount_max_yen": 240000,
+      "condition_text": "耐震診断で総合評点0.7未満の木造住宅。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "申請期限の明記なし、予算終了時終了。",
+      "deadline": null,
+      "official_url": "https://www.town.ichikawamisato.yamanashi.jp/40administration/05kensetsu/taishinzigyou.html"
+    }
+  ],
+  "not_yet_covered": []
+}

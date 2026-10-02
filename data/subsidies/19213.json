@@ -1,0 +1,29 @@
+{
+  "municipality_code": "19213",
+  "municipality": "甲州市",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.koshu.yamanashi.jp/docs/2022040800028/file_contents/kaisyu.pdf"
+  ],
+  "items": [
+    {
+      "id": "koshu-taishin-kaishu",
+      "name": "甲州市木造住宅耐震改修等事業費補助金",
+      "amount_text": "補助限度額125万円",
+      "amount_max_yen": 1250000,
+      "condition_text": "昭和56年5月31日以前に着工され木造在来軸組工法で建築された2階建て以下の住宅(長屋・共同住宅・借家を除く)で、市内に住所を有する個人所有の既存木造住宅。市税滞納なきこと、同種補助金の未受領が条件。1戸につき交付は1回限り。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "低信頼度:公式PDF(https://www.city.koshu.yamanashi.jp/docs/2022040800028/file_contents/kaisyu.pdf)はWebFetchで404となり本文を直接確認できず、WebSearchの要約のみに基づく。検索結果によれば交付要綱は令和8年3月31日(2026-03-31)限りで失効との記載があり、現在(2026-10-02時点)制度が継続しているか要確認。甲州市建設課へ要電話確認。",
+      "deadline": null,
+      "official_url": "https://www.city.koshu.yamanashi.jp/docs/2022040800028/file_contents/kaisyu.pdf"
+    }
+  ],
+  "not_yet_covered": []
+}

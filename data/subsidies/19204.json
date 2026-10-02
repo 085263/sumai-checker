@@ -1,0 +1,75 @@
+{
+  "municipality_code": "19204",
+  "municipality": "都留市",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.tsuru.yamanashi.jp/soshiki/kensetsu/kenchikujuutaku_t/855.html",
+    "https://www.city.tsuru.yamanashi.jp/soshiki/kensetsu/kenchikujuutaku_t/5993.html"
+  ],
+  "items": [
+    {
+      "id": "tsuru-shindan",
+      "name": "木造住宅耐震診断支援事業",
+      "amount_text": "無料(全額助成)",
+      "amount_max_yen": 0,
+      "condition_text": "昭和56年5月31日以前の木造住宅(2階建以下)。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "件数に限りあり、事前相談が必須。",
+      "deadline": null,
+      "official_url": "https://www.city.tsuru.yamanashi.jp/soshiki/kensetsu/kenchikujuutaku_t/855.html"
+    },
+    {
+      "id": "tsuru-kaishu",
+      "name": "木造住宅耐震改修事業費助成金",
+      "amount_text": "上限143万7,500円程度(検索結果に125万円とする情報源もあり、金額の表記に揺れあり)",
+      "amount_max_yen": 1437500,
+      "condition_text": "昭和56年5月31日以前の木造住宅が対象。対象建築物の耐震改修設計・工事または建替えに伴う新築設計・工事の費用の一部を助成。補助金交付決定前に契約・着工した場合は対象外。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "低信頼度:公式概要ページ(855.html)には具体的な上限額の記載がなく、二次情報源間で125万円/143.75万円と金額に食い違いがある。件数に限りあり。正確な金額は建設課(0554-43-1111 内線136・137)へ要確認。",
+      "deadline": null,
+      "official_url": "https://www.city.tsuru.yamanashi.jp/soshiki/kensetsu/kenchikujuutaku_t/855.html"
+    },
+    {
+      "id": "tsuru-shelter",
+      "name": "木造住宅耐震シェルター設置事業費補助金",
+      "amount_text": "上限36万円(二次情報源による、公式概要ページには金額記載なし)",
+      "amount_max_yen": 360000,
+      "condition_text": "昭和56年5月31日以前の木造住宅が対象。耐震シェルターの設置・購入費用の一部を補助。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "低信頼度:公式概要ページには具体的な上限額の記載なし。二次情報源の数値。件数に限りあり。",
+      "deadline": null,
+      "official_url": "https://www.city.tsuru.yamanashi.jp/soshiki/kensetsu/kenchikujuutaku_t/855.html"
+    },
+    {
+      "id": "tsuru-block-fence",
+      "name": "ブロック塀等耐震改修促進事業費補助金",
+      "amount_text": "補助対象経費または延長1mあたり1万5千円のいずれか少ない額の3分の2以内、上限20万円",
+      "amount_max_yen": 200000,
+      "condition_text": "道路・公園・広場・公共建築物の敷地等に面したブロック塀・石塀・れんが塀等で、高さ1m以上(擁壁上の塀は擁壁含め1m以上かつ塀本体30cm以上)。国・地方公共団体、過去受給者、市税滞納者は対象外。交付決定前の契約・工事は対象外。",
+      "eligibility": {
+        "building_types": ["wood", "light_steel", "heavy_steel"],
+        "built_before": null,
+        "built_after": null
+      },
+      "note": null,
+      "deadline": null,
+      "official_url": "https://www.city.tsuru.yamanashi.jp/soshiki/kensetsu/kenchikujuutaku_t/5993.html"
+    }
+  ],
+  "not_yet_covered": []
+}

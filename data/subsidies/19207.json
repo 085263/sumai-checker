@@ -1,0 +1,44 @@
+{
+  "municipality_code": "19207",
+  "municipality": "韮崎市",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.nirasaki.lg.jp/soshikiichiran/eizenjyutakuka/jutakukannritanto/2/6351.html"
+  ],
+  "items": [
+    {
+      "id": "nirasaki-wood-taishin-kaishu",
+      "name": "木造住宅耐震化事業費補助金(耐震改修・建替)",
+      "amount_text": "補助対象経費の全額、上限143万7,500円",
+      "amount_max_yen": 1437500,
+      "condition_text": "昭和56年5月31日以前に着工した木造在来工法の2階建て以下・延床面積300平方メートル以下の個人所有住宅(長屋・共同住宅を除く)で、耐震診断の結果、総合評点が1.0未満と判定されたものを1.0以上にする改修または建替え工事が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "事業完了期日:令和9年2月26日。補助金上限件数に達したため本年度の受付は終了したとの記載あり(次年度以降は要確認)。",
+      "deadline": "2027-02-26",
+      "official_url": "https://www.city.nirasaki.lg.jp/soshikiichiran/eizenjyutakuka/jutakukannritanto/2/6351.html"
+    },
+    {
+      "id": "nirasaki-taishin-shelter",
+      "name": "耐震シェルター設置事業費補助金",
+      "amount_text": "上限36万円",
+      "amount_max_yen": 360000,
+      "condition_text": "昭和56年5月31日以前に着工した木造在来工法の2階建て以下・延床面積300平方メートル以下の個人所有住宅が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "事業完了期日:令和9年2月26日。申請件数が上限に達し次第終了予定。",
+      "deadline": "2027-02-26",
+      "official_url": "https://www.city.nirasaki.lg.jp/soshikiichiran/eizenjyutakuka/jutakukannritanto/2/6351.html"
+    }
+  ],
+  "not_yet_covered": []
+}

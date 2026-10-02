@@ -1,0 +1,59 @@
+{
+  "municipality_code": "19214",
+  "municipality": "中央市",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.chuo.yamanashi.jp/soshiki/kensetsu/doboku/371.html"
+  ],
+  "items": [
+    {
+      "id": "chuo-taishin-shindan",
+      "name": "木造住宅耐震診断",
+      "amount_text": "無料",
+      "amount_max_yen": 0,
+      "condition_text": "昭和56年5月31日以前着工、木造在来軸組工法、延べ床面積300㎡以下、2階建て以下の住宅。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "申請期限:令和9年3月31日(2027-03-31)まで。",
+      "deadline": "2027-03-31",
+      "official_url": "https://www.city.chuo.yamanashi.jp/soshiki/kensetsu/doboku/371.html"
+    },
+    {
+      "id": "chuo-taishin-kaishu",
+      "name": "木造住宅耐震改修事業",
+      "amount_text": "改修費用の4/5以内、限度額100万円",
+      "amount_max_yen": 1000000,
+      "condition_text": "耐震診断の結果、総合評点が1.0未満と診断された住宅。市税等滞納がないこと、申請年度中に工事完了が必要。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "申請期限:令和9年3月31日(2027-03-31)まで。",
+      "deadline": "2027-03-31",
+      "official_url": "https://www.city.chuo.yamanashi.jp/soshiki/kensetsu/doboku/371.html"
+    },
+    {
+      "id": "chuo-taishin-shelter",
+      "name": "木造住宅耐震シェルター設置事業",
+      "amount_text": "設置費用の2/3以内、限度額24万円",
+      "amount_max_yen": 240000,
+      "condition_text": "耐震診断の結果、総合評点が0.7未満と診断された住宅。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "申請期限:令和9年3月31日(2027-03-31)まで。",
+      "deadline": "2027-03-31",
+      "official_url": "https://www.city.chuo.yamanashi.jp/soshiki/kensetsu/doboku/371.html"
+    }
+  ],
+  "not_yet_covered": []
+}

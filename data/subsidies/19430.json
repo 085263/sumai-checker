@@ -1,0 +1,60 @@
+{
+  "municipality_code": "19430",
+  "municipality": "富士河口湖町",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www1.g-reiki.net/fujikawaguchiko/reiki_honbun/r015RG00000649.html",
+    "https://www.town.fujikawaguchiko.lg.jp/ka/info.php?if_id=2935"
+  ],
+  "items": [
+    {
+      "id": "fujikawaguchiko-wood-kaishu",
+      "name": "木造住宅耐震改修事業費補助金(耐震改修工事)",
+      "amount_text": "耐震改修工事に係る経費以内、上限143万7,500円(1,000円未満切り捨て)",
+      "amount_max_yen": 1437500,
+      "condition_text": "昭和56年5月31日以前に着工された木造在来軸組工法の2階建て以下の住宅で、町内に住所を有する個人が所有し居住していること。長屋・共同住宅は対象外。事業着手前に申請が必須。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "耐震診断は山梨県木造住宅耐震診断マニュアル等に基づく診断が対象。診断自体の補助金額はページから確認できず(低信頼度)。",
+      "deadline": null,
+      "official_url": "https://www1.g-reiki.net/fujikawaguchiko/reiki_honbun/r015RG00000649.html"
+    },
+    {
+      "id": "fujikawaguchiko-wood-tatekae",
+      "name": "木造住宅耐震改修事業費補助金(建替え工事)",
+      "amount_text": "改修相当額と建替え工事費を比較し低い方の額、上限143万7,500円(1,000円未満切り捨て)",
+      "amount_max_yen": 1437500,
+      "condition_text": "昭和56年5月31日以前に着工された木造在来軸組工法の2階建て以下の住宅で、町内に住所を有する個人が所有し居住していること。土砂災害特別警戒区域外が原則。事業着手前に申請が必須。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": null,
+      "deadline": null,
+      "official_url": "https://www1.g-reiki.net/fujikawaguchiko/reiki_honbun/r015RG00000649.html"
+    },
+    {
+      "id": "fujikawaguchiko-reform-taishin-futai",
+      "name": "住宅リフォーム工事補助金(耐震改修関連付帯工事)",
+      "amount_text": "耐震改修工事の付帯工事費の20%、上限20万円",
+      "amount_max_yen": 200000,
+      "condition_text": "富士河口湖町木造住宅耐震改修事業費補助金交付要綱に基づく耐震改修工事に付帯する工事が対象。町民の持家住宅で、町内業者と契約して行う工事であること。交付決定前の着手は対象外。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": null,
+        "built_after": null
+      },
+      "note": "受付期間:令和8年4月1日〜予算がなくなり次第終了。問い合わせ先:都市整備課都市計画係 0555-72-1976。",
+      "deadline": null,
+      "official_url": "https://www.town.fujikawaguchiko.lg.jp/ka/info.php?if_id=2935"
+    }
+  ],
+  "not_yet_covered": []
+}

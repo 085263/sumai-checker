@@ -1,0 +1,19 @@
+{
+  "municipality_code": "13381",
+  "municipality": "三宅村",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.vill.miyake.tokyo.jp/kakuka/kikakuzaisei/news/2019-0116-1618-10.html"
+  ],
+  "items": [],
+  "not_yet_covered": [
+    {
+      "name": "三宅村空き家活用対策事業補助金(耐震改修専用ではない)",
+      "official_url": "https://www.vill.miyake.tokyo.jp/kakuka/kikakuzaisei/news/2019-0116-1618-10.html"
+    }
+  ],
+  "note": "低信頼度:個人住宅向けの専用耐震診断・耐震改修補助金は確認できず。WebSearch結果(二次情報源)によれば「空き家活用対策事業補助金」(工事費用50%・上限100万円、空き家の改修・修繕が対象)や省エネ改修事業(上限300万円)はあるが、いずれも耐震改修専用ではなくWebFetchでの一次情報源確認も未実施。要人力確認。"
+}

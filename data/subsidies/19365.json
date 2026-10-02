@@ -1,0 +1,33 @@
+{
+  "municipality_code": "19365",
+  "municipality": "身延町",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://reform-hojo.jp/yamanashi/minobu",
+    "https://www.smart-hojokin.jp/subsidy/prefectures/19/areas/1369"
+  ],
+  "items": [
+    {
+      "id": "minobu-taishin-shelter",
+      "name": "身延町木造住宅耐震シェルター設置事業費補助金",
+      "amount_text": "設置費用の補助、上限48万円",
+      "amount_max_yen": 480000,
+      "condition_text": "木造住宅耐震診断により総合評点0.7未満と診断された既存木造住宅で、身延町木造住宅耐震改修事業の補助を受けていないもの。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": null,
+        "built_after": null
+      },
+      "note": "低信頼度:公式サイト(town.minobu.yamanashi.jpと推定)に直接アクセスできず(DNS解決失敗)、二次情報源(reform-hojo.jp、smart-hojokin.jp)のみで確認。建築年基準の明記なし。担当課は建設課。",
+      "deadline": null,
+      "official_url": null
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "身延町木造住宅耐震改修事業(詳細金額未確認、二次情報源で「4つの独自制度・最大48万円」との記載あり)", "official_url": null},
+    {"name": "身延町木造住宅耐震診断事業(詳細未確認)", "official_url": null}
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "municipality_code": "19206",
+  "municipality": "大月市",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.otsuki.yamanashi.jp/kurashi/sumai/taishinnkaisyuu100309.html"
+  ],
+  "items": [
+    {
+      "id": "otsuki-shindan",
+      "name": "大月市木造個人住宅耐震診断事業",
+      "amount_text": "最大45,000円(100%助成、二次情報源による)",
+      "amount_max_yen": 45000,
+      "condition_text": "昭和56年5月31日以前着工の木造住宅(推定、他の山梨県内自治体と同基準)。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "低信頼度:二次情報源(jutaku-hojokin.jp)からの金額。公式ページでは耐震改修等事業のみ直接確認。",
+      "deadline": null,
+      "official_url": "https://www.city.otsuki.yamanashi.jp/kurashi/sumai/taishinnkaisyuu100309.html"
+    },
+    {
+      "id": "otsuki-kaishu",
+      "name": "大月市木造住宅耐震改修等事業",
+      "amount_text": "限度額143万7,500円、補助率は工事費の4/5(低コスト工法利用時は最大20万円割増、二次情報源による)",
+      "amount_max_yen": 1437500,
+      "condition_text": "耐震診断で総合評点1.0未満と診断された住宅の耐震改修工事または耐震建替工事。市税(市民税・固定資産税・軽自動車税・国民健康保険税)滞納がないこと。土砂災害特別警戒区域内の建替は対象外。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "令和7年度分は予定件数到達のため受付終了(公式ページで確認)。次年度の受付再開時期は要確認。建築時期条件(昭和56年5月31日以前)は他の山梨県内自治体の同種制度から推定、公式ページ本文には明記なし。",
+      "deadline": null,
+      "official_url": "https://www.city.otsuki.yamanashi.jp/kurashi/sumai/taishinnkaisyuu100309.html"
+    },
+    {
+      "id": "otsuki-shelter",
+      "name": "大月市木造住宅耐震シェルター設置事業",
+      "amount_text": "上限24万円(二次情報源による)",
+      "amount_max_yen": 240000,
+      "condition_text": "昭和56年5月31日以前着工の木造住宅(推定)。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "低信頼度:二次情報源(jutaku-hojokin.jp)からの金額。公式ページでは未確認。",
+      "deadline": null,
+      "official_url": "https://www.city.otsuki.yamanashi.jp/kurashi/sumai/taishinnkaisyuu100309.html"
+    }
+  ],
+  "not_yet_covered": []
+}

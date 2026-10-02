@@ -1,0 +1,74 @@
+{
+  "municipality_code": "19205",
+  "municipality": "山梨市",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.yamanashi.yamanashi.jp/soshiki/20/1432.html"
+  ],
+  "items": [
+    {
+      "id": "yamanashi-shindan",
+      "name": "木造住宅耐震診断事業",
+      "amount_text": "無料",
+      "amount_max_yen": 0,
+      "condition_text": "昭和56年5月31日以前に着工された住宅で、木造在来軸組工法、2階建て以下、延床面積300㎡以下。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": null,
+      "deadline": null,
+      "official_url": "https://www.city.yamanashi.yamanashi.jp/soshiki/20/1432.html"
+    },
+    {
+      "id": "yamanashi-kaishu",
+      "name": "木造住宅耐震改修等支援事業費補助金",
+      "amount_text": "上限143万7,500円",
+      "amount_max_yen": 1437500,
+      "condition_text": "耐震診断で評点1.0未満と診断された、昭和56年5月31日以前着工の木造住宅の耐震改修または建替え。過去に本補助金の交付を受けていない所有者。市税滞納なし。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": null,
+      "deadline": null,
+      "official_url": "https://www.city.yamanashi.yamanashi.jp/soshiki/20/1432.html"
+    },
+    {
+      "id": "yamanashi-shelter",
+      "name": "木造住宅耐震シェルター設置事業費補助金",
+      "amount_text": "上限36万円",
+      "amount_max_yen": 360000,
+      "condition_text": "耐震診断結果で総合評点0.7未満と診断された既存木造住宅の所有者。市税滞納なし。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": null,
+      "deadline": null,
+      "official_url": "https://www.city.yamanashi.yamanashi.jp/soshiki/20/1432.html"
+    },
+    {
+      "id": "yamanashi-block-fence",
+      "name": "ブロック塀等安全確保対策支援事業費補助金",
+      "amount_text": "上限20万円",
+      "amount_max_yen": 200000,
+      "condition_text": "避難路・通学路沿いの危険ブロック塀(高さ1m以上)。市税滞納なし。",
+      "eligibility": {
+        "building_types": ["wood", "light_steel", "heavy_steel"],
+        "built_before": null,
+        "built_after": null
+      },
+      "note": null,
+      "deadline": null,
+      "official_url": "https://www.city.yamanashi.yamanashi.jp/soshiki/20/1432.html"
+    }
+  ],
+  "not_yet_covered": []
+}

@@ -1,0 +1,62 @@
+{
+  "municipality_code": "19210",
+  "municipality": "甲斐市",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.kai.yamanashi.jp/page/4656.html"
+  ],
+  "items": [
+    {
+      "id": "kai-taishin-kaishu",
+      "name": "耐震改修工事費補助事業",
+      "amount_text": "上限143万7,500円",
+      "amount_max_yen": 1437500,
+      "condition_text": "昭和56年5月31日以前に着工した木造在来軸組工法の住宅で、耐震診断の結果、総合評点が1.0未満のものを1.0以上に改修する工事が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "",
+      "deadline": null,
+      "official_url": "https://www.city.kai.yamanashi.jp/page/4656.html"
+    },
+    {
+      "id": "kai-tatekae",
+      "name": "建替え工事費補助事業",
+      "amount_text": "上限143万7,500円",
+      "amount_max_yen": 1437500,
+      "condition_text": "昭和56年5月31日以前に着工した木造在来軸組工法の住宅で、耐震診断結果が総合評点1.0未満の住宅の建替えが対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "",
+      "deadline": null,
+      "official_url": "https://www.city.kai.yamanashi.jp/page/4656.html"
+    },
+    {
+      "id": "kai-taishin-shelter",
+      "name": "耐震シェルター設置工事費補助事業",
+      "amount_text": "上限36万円",
+      "amount_max_yen": 360000,
+      "condition_text": "昭和56年5月31日以前に着工した木造在来軸組工法の住宅で、耐震診断で総合評点が0.7未満の住宅が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "",
+      "deadline": null,
+      "official_url": "https://www.city.kai.yamanashi.jp/page/4656.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "木造住宅耐震診断(無料)", "official_url": "https://www.city.kai.yamanashi.jp/soshikinogoannai/jutaku/kaihatu/1_1/1042.html"},
+    {"name": "避難路沿道建築物耐震診断義務化関連", "official_url": "https://www.city.kai.yamanashi.jp/soshikinogoannai/jutaku/kaihatu/1_1/6524.html"}
+  ]
+}

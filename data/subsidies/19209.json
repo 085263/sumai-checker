@@ -1,0 +1,59 @@
+{
+  "municipality_code": "19209",
+  "municipality": "北杜市",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.hokuto.yamanashi.jp/docs/1448.html"
+  ],
+  "items": [
+    {
+      "id": "hokuto-wood-taishin-kaishu",
+      "name": "木造住宅耐震改修等支援事業(耐震改修・建替工事)",
+      "amount_text": "上限143万7,500円",
+      "amount_max_yen": 1437500,
+      "condition_text": "昭和56年5月31日以前に着工した木造在来軸組工法・伝統工法の戸建て住宅(長屋・共同住宅を除く)で2階建て以下、北杜市内に所有・居住し市税滞納がないことが条件。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "申請期限の明記なし。定数になり次第締め切りとの記載あり。",
+      "deadline": null,
+      "official_url": "https://www.city.hokuto.yamanashi.jp/docs/1448.html"
+    },
+    {
+      "id": "hokuto-taishin-shelter",
+      "name": "木造住宅耐震改修等支援事業(耐震シェルター等設置工事)",
+      "amount_text": "上限24万円",
+      "amount_max_yen": 240000,
+      "condition_text": "昭和56年5月31日以前に着工した木造在来軸組工法・伝統工法の戸建て住宅(長屋・共同住宅を除く)で2階建て以下が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "申請期限の明記なし。定数になり次第締め切りとの記載あり。",
+      "deadline": null,
+      "official_url": "https://www.city.hokuto.yamanashi.jp/docs/1448.html"
+    },
+    {
+      "id": "hokuto-block-fence",
+      "name": "ブロック塀等安全確保対策支援事業",
+      "amount_text": "上限26万円(重要路線沿いは上限39万円)",
+      "amount_max_yen": 390000,
+      "condition_text": "詳細条件はページに記載が薄いため要確認。",
+      "eligibility": {
+        "building_types": ["wood", "light_steel", "heavy_steel"],
+        "built_before": null,
+        "built_after": null
+      },
+      "note": "低信頼度:金額のみ確認、詳細要件は公式ページの別紙等で要確認。",
+      "deadline": null,
+      "official_url": "https://www.city.hokuto.yamanashi.jp/docs/1448.html"
+    }
+  ],
+  "not_yet_covered": []
+}

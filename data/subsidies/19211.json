@@ -1,0 +1,31 @@
+{
+  "municipality_code": "19211",
+  "municipality": "笛吹市",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.fuefuki.yamanashi.jp/machizukuri/taisin/taisin.html"
+  ],
+  "items": [
+    {
+      "id": "fuefuki-wood-taishin",
+      "name": "笛吹市木造住宅居住安心支援事業費補助金(耐震改修・耐震化建替)",
+      "amount_text": "補助率10/10。上限額はページに明記なし(令和7年度から限度額拡充と記載、他市の同種制度に準じ140万円台の可能性。要確認)",
+      "amount_max_yen": null,
+      "condition_text": "昭和56年5月31日以前に着工された木造在来軸組工法の住宅で、耐震診断の結果「耐震性なし」と診断された住宅が対象。昭和56年6月1日以降に増築している場合は原則対象外。事業着手(契約締結)後の申請は補助対象外のため事前相談必須。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "低信頼度:上限金額が公式ページに明記されておらず未確認。申請年度の2月末までに完了必須。問い合わせ先:笛吹市建設部まちづくり整備課(055-261-3334)。",
+      "deadline": null,
+      "official_url": "https://www.city.fuefuki.yamanashi.jp/machizukuri/taisin/taisin.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "耐震シェルター設置等", "official_url": "https://www.city.fuefuki.yamanashi.jp/machizukuri/taisin/taisin.html"}
+  ]
+}

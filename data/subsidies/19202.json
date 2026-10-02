@@ -1,0 +1,74 @@
+{
+  "municipality_code": "19202",
+  "municipality": "富士吉田市",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.fujiyoshida.yamanashi.jp/page/1389.html"
+  ],
+  "items": [
+    {
+      "id": "fujiyoshida-shindan",
+      "name": "木造住宅耐震診断支援事業",
+      "amount_text": "無料(市が費用を負担)",
+      "amount_max_yen": 0,
+      "condition_text": "昭和56年5月31日以前に着工し建てられた木造住宅(在来工法、2階建て以下、延べ床面積300㎡以下)。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "定員制。令和8年度は30件の診断予定。",
+      "deadline": null,
+      "official_url": "https://www.city.fujiyoshida.yamanashi.jp/page/1389.html"
+    },
+    {
+      "id": "fujiyoshida-kaishu",
+      "name": "木造住宅耐震改修事業",
+      "amount_text": "一戸当たり上限143万7,500円(工事費がこれを下回る場合はその額)",
+      "amount_max_yen": 1437500,
+      "condition_text": "昭和56年5月31日以前に着工し建てられた木造在来工法の2階建て以下の住宅。延べ床面積300㎡以下。個人が所有・居住(長屋・共同住宅を除く)。耐震診断の結果に基づく耐震改修工事。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "定員制。申請から同一年度内にすべて完了させる必要あり。",
+      "deadline": null,
+      "official_url": "https://www.city.fujiyoshida.yamanashi.jp/page/1389.html"
+    },
+    {
+      "id": "fujiyoshida-tatekae",
+      "name": "木造住宅耐震建替事業",
+      "amount_text": "一戸当たり上限143万7,500円(既存改修工事費との比較で少ない方)",
+      "amount_max_yen": 1437500,
+      "condition_text": "昭和56年5月31日以前に着工し建てられた木造在来工法の2階建て以下の住宅を除却し建替える工事。延べ床面積300㎡以下。個人が所有・居住。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "定員制。申請から同一年度内にすべて完了させる必要あり。",
+      "deadline": null,
+      "official_url": "https://www.city.fujiyoshida.yamanashi.jp/page/1389.html"
+    },
+    {
+      "id": "fujiyoshida-shelter",
+      "name": "木造住宅耐震シェルター設置事業",
+      "amount_text": "一戸当たり上限54万円",
+      "amount_max_yen": 540000,
+      "condition_text": "昭和56年5月31日以前に着工し建てられた木造在来工法の2階建て以下の住宅。延べ床面積300㎡以下。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "定員制。",
+      "deadline": null,
+      "official_url": "https://www.city.fujiyoshida.yamanashi.jp/page/1389.html"
+    }
+  ],
+  "not_yet_covered": []
+}

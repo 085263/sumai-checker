@@ -1,0 +1,46 @@
+{
+  "municipality_code": "19212",
+  "municipality": "上野原市",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www1.g-reiki.net/uenohara/reiki_honbun/r175RG00001286.html"
+  ],
+  "items": [
+    {
+      "id": "uenohara-taishin-kaishu",
+      "name": "上野原市木造住宅居住安心支援事業費補助金(耐震改修・建替え)",
+      "amount_text": "耐震改修工事または建替え工事につき143万7,500円を限度",
+      "amount_max_yen": 1437500,
+      "condition_text": "上野原市内に存する、昭和56年5月31日以前に着工された木造在来工法の2階建て以下(地階なし)の住宅で、長屋・共同住宅を除く個人所有住宅。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "交付要綱本文に申請期限・問い合わせ先の記載なし。予算状況等は市建設課都市計画担当(0554-62-3123)に要確認。",
+      "deadline": null,
+      "official_url": "https://www1.g-reiki.net/uenohara/reiki_honbun/r175RG00001286.html"
+    },
+    {
+      "id": "uenohara-taishin-shelter",
+      "name": "上野原市木造住宅耐震シェルター設置支援事業",
+      "amount_text": "36万円を限度",
+      "amount_max_yen": 360000,
+      "condition_text": "上記と同条件の木造住宅が対象。耐震診断で評点が低いと判定された住宅に設置するシェルター費用を補助。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "詳細条件・申請期限は要綱に明記なし。要電話確認。",
+      "deadline": null,
+      "official_url": "https://www1.g-reiki.net/uenohara/reiki_honbun/r175RG00001286.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "上野原市木造住宅耐震診断支援事業(専門家派遣)", "official_url": null}
+  ]
+}

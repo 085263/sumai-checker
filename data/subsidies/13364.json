@@ -1,0 +1,23 @@
+{
+  "municipality_code": "13364",
+  "municipality": "神津島村",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.vill.kouzushima.tokyo.jp/reiki/reiki_honbun/g159RG00000442.html"
+  ],
+  "items": [],
+  "not_yet_covered": [
+    {
+      "name": "神津島村空き家改修事業補助金(耐震調査費は対象外)",
+      "official_url": "https://www.vill.kouzushima.tokyo.jp/reiki/reiki_honbun/g159RG00000442.html"
+    },
+    {
+      "name": "神津島村定住化対策事業交付金",
+      "official_url": "https://www.vill.kouzushima.tokyo.jp/reiki/reiki_honbun/g159RG00000420.html"
+    }
+  ],
+  "note": "個人住宅向けの専用耐震診断・耐震改修補助金は確認できず。「空き家改修事業補助金」の要綱本文をWebFetchで直接確認したところ、対象経費は内装・屋根等の改修工事で、補助率2分の1・上限150万円だが、第4条3項により耐震調査等の家屋調査費は明示的に補助対象から除外されており、耐震関連制度ではない。別途「定住化対策事業交付金」もあるが未検証。いずれも空き家向けで一般の居住住宅は対象外の可能性が高い。要人力確認。"
+}

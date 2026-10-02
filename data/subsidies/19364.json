@@ -1,0 +1,32 @@
+{
+  "municipality_code": "19364",
+  "municipality": "早川町",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.town.hayakawa.yamanashi.jp/people/residence/shelter.html"
+  ],
+  "items": [
+    {
+      "id": "hayakawa-taishin-shelter",
+      "name": "早川町耐震シェルター設置補助",
+      "amount_text": "最大36万円",
+      "amount_max_yen": 360000,
+      "condition_text": "昭和56年5月以前に着工された木造住宅。町が実施する無料木造住宅耐震診断を受診し、評点0.7未満と診断されたもの。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "補助率・申請期限は公式ページに明記なし。",
+      "deadline": null,
+      "official_url": "https://www.town.hayakawa.yamanashi.jp/people/residence/shelter.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "早川町木造住宅耐震改修工事補助(金額は情報源により100万円/80万円と食い違いあり、低信頼度のためitemsに含めず要電話確認。問い合わせ先:まちづくり政策課 0556-45-2513)", "official_url": "https://www.town.hayakawa.yamanashi.jp/people/residence/"},
+    {"name": "早川町移住者住宅改修補助", "official_url": "https://www.town.hayakawa.yamanashi.jp/people/residence/2017-1013-1336-55.html"}
+  ]
+}

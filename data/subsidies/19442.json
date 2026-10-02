@@ -1,0 +1,14 @@
+{
+  "municipality_code": "19442",
+  "municipality": "小菅村",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "http://www.vill.kosuge.yamanashi.jp/living/shinko/"
+  ],
+  "items": [],
+  "not_yet_covered": [],
+  "note": "WebSearchおよび村公式サイト内検索で、個人住宅向けの耐震診断・耐震改修補助金に関する情報を発見できず。村の地域防災計画・公共施設管理計画では公共施設の耐震化について言及があるが、個人住宅向け補助制度の有無は未確認。人口規模の小さい山村のため制度自体が存在しない可能性もあるが断定はできない。要人力確認(村役場への直接確認推奨)。"
+}

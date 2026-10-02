@@ -1,0 +1,74 @@
+{
+  "municipality_code": "19384",
+  "municipality": "昭和町",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.town.showa.yamanashi.jp/soshiki/9/1655.html"
+  ],
+  "items": [
+    {
+      "id": "showa-taishin-shindan",
+      "name": "昭和町木造住宅耐震化推進事業(耐震診断)",
+      "amount_text": "無料(国・県・町が負担)",
+      "amount_max_yen": 0,
+      "condition_text": "昭和56年(1981年)5月31日以前に着工された木造在来工法の住宅で、2階建て以下の個人住宅(長屋・共同住宅を除く)。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "公式ページで確認。随時受付、定数で締切。",
+      "deadline": null,
+      "official_url": "https://www.town.showa.yamanashi.jp/soshiki/9/1655.html"
+    },
+    {
+      "id": "showa-taishin-kaishu",
+      "name": "昭和町木造住宅耐震改修事業費補助",
+      "amount_text": "補助率10分の10、限度額1,437,500円",
+      "amount_max_yen": 1437500,
+      "condition_text": "耐震診断による総合評点が1.0未満と診断された住宅。昭和56年5月31日以前着工の木造在来工法・2階建て以下の個人住宅。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "公式ページで確認。事業着手前の申請が必須(仮契約を含む工事着手後の申請は不適格)。",
+      "deadline": null,
+      "official_url": "https://www.town.showa.yamanashi.jp/soshiki/9/1655.html"
+    },
+    {
+      "id": "showa-taishin-tatekae",
+      "name": "昭和町木造住宅耐震化建替事業費補助",
+      "amount_text": "補助率10分の10、限度額1,437,500円",
+      "amount_max_yen": 1437500,
+      "condition_text": "耐震改修事業と同じ対象(総合評点1.0未満の、昭和56年5月31日以前着工の木造在来工法・2階建て以下の個人住宅)で建替えを行う場合。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "公式ページで確認。事業着手前の申請が必須。",
+      "deadline": null,
+      "official_url": "https://www.town.showa.yamanashi.jp/soshiki/9/1655.html"
+    },
+    {
+      "id": "showa-taishin-shelter",
+      "name": "昭和町木造住宅耐震シェルター設置事業費補助",
+      "amount_text": "補助率3分の2、限度額24万円",
+      "amount_max_yen": 240000,
+      "condition_text": "耐震診断による総合評点が0.7未満と診断された住宅。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "公式ページで確認。",
+      "deadline": null,
+      "official_url": "https://www.town.showa.yamanashi.jp/soshiki/9/1655.html"
+    }
+  ],
+  "not_yet_covered": []
+}

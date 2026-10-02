@@ -1,0 +1,45 @@
+{
+  "municipality_code": "19201",
+  "municipality": "甲府市",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.kofu.yamanashi.jp/kenchikushido/machi/sumai/taishin/kaishu.html",
+    "https://www.city.kofu.yamanashi.jp/kenchikushido/machi/sumai/taishin/syeruta.html"
+  ],
+  "items": [
+    {
+      "id": "kofu-wood-kaishu",
+      "name": "木造住宅耐震改修・建替え補助",
+      "amount_text": "耐震改修等に要する費用に対し、限度額143万7,500円(令和7年度から増額)",
+      "amount_max_yen": 1437500,
+      "condition_text": "耐震診断で総合評点1.0未満の木造住宅を1.0以上に補強する耐震改修工事、または該当住宅等を除却し同一敷地内に新築する建替え工事。個人所有(所有者1人につき1棟)で所有者または3親等以内親族が居住。すでに工事着手・完了したものは対象外。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "申請期限の明示なし。建築時期・構造の詳細条件はシェルター補助と同一(木造在来工法、2階建て以下、延べ面積300㎡以下)と推定。要建築指導課確認(055-237-5828)。",
+      "deadline": null,
+      "official_url": "https://www.city.kofu.yamanashi.jp/kenchikushido/machi/sumai/taishin/kaishu.html"
+    },
+    {
+      "id": "kofu-shelter",
+      "name": "木造住宅耐震シェルター・防災ベッド設置補助",
+      "amount_text": "設置費用に対し、限度額36万円",
+      "amount_max_yen": 360000,
+      "condition_text": "個人所有(所有者1人につき1棟)で所有者または3親等以内親族が居住。昭和56年5月31日以前に工事着手、木造在来工法(軸組工法・伝統工法)、2階建て以下、延べ面積300㎡以下、専用住宅または住宅部分が過半の併用住宅(借家・長屋・共同住宅を除く)。耐震診断の総合評点が0.7未満であること。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "申請期限の明示なし。予算状況により年度ごとに対応が異なる可能性あり。要建築指導課確認(055-237-5828)。",
+      "deadline": null,
+      "official_url": "https://www.city.kofu.yamanashi.jp/kenchikushido/machi/sumai/taishin/syeruta.html"
+    }
+  ],
+  "not_yet_covered": []
+}

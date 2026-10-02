@@ -1,0 +1,74 @@
+{
+  "municipality_code": "19425",
+  "municipality": "山中湖村",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.vill.yamanakako.lg.jp/info/876"
+  ],
+  "items": [
+    {
+      "id": "yamanakako-wood-shindan",
+      "name": "木造住宅耐震診断支援事業",
+      "amount_text": "無料(村が費用を負担)",
+      "amount_max_yen": 0,
+      "condition_text": "昭和56年5月31日以前に建築された木造在来工法の2階建て以下の住宅で、現在も居住していること。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": null,
+      "deadline": null,
+      "official_url": "https://www.vill.yamanakako.lg.jp/info/876"
+    },
+    {
+      "id": "yamanakako-wood-kaishu",
+      "name": "木造住宅耐震化支援事業(耐震改修工事)",
+      "amount_text": "工事費の8割以内、上限100万円(低コスト工法採用時はさらに20万円上乗せ可)",
+      "amount_max_yen": 1200000,
+      "condition_text": "耐震診断で基準未達と判定された、昭和56年5月31日以前に建築された木造在来工法の2階建て以下の住宅で、現在も居住していること。着手前の申請が必須。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "低コスト工法加算込みの上限額は120万円(100万円+20万円)。",
+      "deadline": null,
+      "official_url": "https://www.vill.yamanakako.lg.jp/info/876"
+    },
+    {
+      "id": "yamanakako-wood-tatekae",
+      "name": "木造住宅耐震化支援事業(建替え工事)",
+      "amount_text": "工事費の8割以内、上限100万円",
+      "amount_max_yen": 1000000,
+      "condition_text": "昭和56年5月31日以前に建築された木造在来工法の2階建て以下の住宅で、現在も居住していること。着手前の申請が必須。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": null,
+      "deadline": null,
+      "official_url": "https://www.vill.yamanakako.lg.jp/info/876"
+    },
+    {
+      "id": "yamanakako-wood-shelter",
+      "name": "木造住宅耐震化支援事業(耐震シェルター設置工事)",
+      "amount_text": "工事費の3分の2以内、上限24万円",
+      "amount_max_yen": 240000,
+      "condition_text": "居間・寝室など生命防護スペースへの設置が対象。着手前の申請が必須。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": null,
+      "deadline": null,
+      "official_url": "https://www.vill.yamanakako.lg.jp/info/876"
+    }
+  ],
+  "not_yet_covered": []
+}
