@@ -1,0 +1,44 @@
+{
+  "municipality_code": "14364",
+  "municipality": "山北町",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "http://www.town.yamakita.kanagawa.jp/0000002915.html"
+  ],
+  "items": [
+    {
+      "id": "yamakita-taishin-shindan",
+      "name": "耐震診断費補助制度",
+      "amount_text": "経費の4分の3まで、上限60万円",
+      "amount_max_yen": 600000,
+      "condition_text": "昭和56年5月31日以前に建築確認通知を受けた木造2階建以下の住宅(枠組壁工法・プレハブ工法を除く)。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "年度内の申請受付は11月末まで(以降は次年度の補助対象)。施工は神奈川県木造住宅耐震実務講習会修了業者が条件。問い合わせ先:都市整備課管理計画班(0465-75-3647)",
+      "deadline": null,
+      "official_url": "http://www.town.yamakita.kanagawa.jp/0000002915.html"
+    },
+    {
+      "id": "yamakita-taishin-kaishu",
+      "name": "木造住宅耐震改修工事等補助事業",
+      "amount_text": "経費の2分の1まで、上限60万円",
+      "amount_max_yen": 600000,
+      "condition_text": "昭和56年5月31日以前に建築確認通知を受けた木造2階建以下の住宅(枠組壁工法・プレハブ工法を除く)。事前に都市整備課窓口で事前相談が必要。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "年度内の申請受付は11月末まで(以降は次年度の補助対象)。施工は神奈川県木造住宅耐震実務講習会修了業者が条件。問い合わせ先:都市整備課管理計画班(0465-75-3647)",
+      "deadline": null,
+      "official_url": "http://www.town.yamakita.kanagawa.jp/0000002915.html"
+    }
+  ],
+  "not_yet_covered": []
+}

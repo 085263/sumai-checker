@@ -1,0 +1,73 @@
+{
+  "municipality_code": "14211",
+  "municipality": "秦野市",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.hadano.kanagawa.jp/soshiki/8/1057/2/3_1/3437.html"
+  ],
+  "items": [
+    {
+      "id": "hadano-wood-shindan",
+      "name": "秦野市木造建築物耐震改修工事等補助事業(耐震診断)",
+      "amount_text": "費用の10分の10、上限8万5千円",
+      "amount_max_yen": 85000,
+      "condition_text": "昭和56年5月31日以前に在来工法(枠組壁工法・プレハブ工法を除く)で建築された木造住宅。秦野市内に所在し、自己または親族が居住するもの。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "申込前に事前相談が必要。",
+      "deadline": null,
+      "official_url": "https://www.city.hadano.kanagawa.jp/soshiki/8/1057/2/3_1/3437.html"
+    },
+    {
+      "id": "hadano-wood-sekkei",
+      "name": "秦野市木造建築物耐震改修工事等補助事業(補強設計)",
+      "amount_text": "費用の2分の1、上限5万円",
+      "amount_max_yen": 50000,
+      "condition_text": "昭和56年5月31日以前に在来工法で建築された木造住宅。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": null,
+      "deadline": null,
+      "official_url": "https://www.city.hadano.kanagawa.jp/soshiki/8/1057/2/3_1/3437.html"
+    },
+    {
+      "id": "hadano-wood-kaishu",
+      "name": "秦野市木造建築物耐震改修工事等補助事業(耐震改修工事)",
+      "amount_text": "費用の2分の1、上限90万円",
+      "amount_max_yen": 900000,
+      "condition_text": "昭和56年5月31日以前に在来工法で建築された木造住宅。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "耐震改修工事により所得税額控除(上限25万円)・固定資産税額の減額対象になる場合あり。",
+      "deadline": null,
+      "official_url": "https://www.city.hadano.kanagawa.jp/soshiki/8/1057/2/3_1/3437.html"
+    },
+    {
+      "id": "hadano-wood-kanri",
+      "name": "秦野市木造建築物耐震改修工事等補助事業(工事監理)",
+      "amount_text": "費用の2分の1、上限3万円",
+      "amount_max_yen": 30000,
+      "condition_text": "昭和56年5月31日以前に在来工法で建築された木造住宅。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": null,
+      "deadline": null,
+      "official_url": "https://www.city.hadano.kanagawa.jp/soshiki/8/1057/2/3_1/3437.html"
+    }
+  ]
+}

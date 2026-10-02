@@ -1,0 +1,59 @@
+{
+  "municipality_code": "14384",
+  "municipality": "湯河原町",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.town.yugawara.kanagawa.jp/soshiki/5/1070.html"
+  ],
+  "items": [
+    {
+      "id": "yugawara-taishin-shindan",
+      "name": "木造住宅耐震改修工事費等補助金交付制度(耐震診断費補助)",
+      "amount_text": "耐震診断に要する経費の2分の1または上限5万円のいずれか低い額",
+      "amount_max_yen": 50000,
+      "condition_text": "平成12年5月31日以前に建築着工した木造在来工法の自己用住宅(令和7年度より対象拡充)。ツーバイフォー工法・プレハブ形式は除外。町税等に滞納のないこと。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "2000-06-01",
+        "built_after": null
+      },
+      "note": "年度内の申請受付は12月末まで、完了実績報告書は2月末までに提出。",
+      "deadline": "2026-12-31",
+      "official_url": "https://www.town.yugawara.kanagawa.jp/soshiki/5/1070.html"
+    },
+    {
+      "id": "yugawara-taishin-sekkei",
+      "name": "木造住宅耐震改修工事費等補助金交付制度(補強設計費補助)",
+      "amount_text": "耐震補強設計に要する経費の2分の1または上限10万円のいずれか低い額",
+      "amount_max_yen": 100000,
+      "condition_text": "平成12年5月31日以前に建築着工した木造在来工法の自己用住宅(令和7年度より対象拡充)。ツーバイフォー工法・プレハブ形式は除外。町税等に滞納のないこと。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "2000-06-01",
+        "built_after": null
+      },
+      "note": "年度内の申請受付は12月末まで、完了実績報告書は2月末までに提出。",
+      "deadline": "2026-12-31",
+      "official_url": "https://www.town.yugawara.kanagawa.jp/soshiki/5/1070.html"
+    },
+    {
+      "id": "yugawara-taishin-kaishu",
+      "name": "木造住宅耐震改修工事費等補助金交付制度(改修工事費補助)",
+      "amount_text": "耐震改修工事に要する経費の2分の1または上限35万円のいずれか低い額",
+      "amount_max_yen": 350000,
+      "condition_text": "平成12年5月31日以前に建築着工した木造在来工法の自己用住宅(令和7年度より対象拡充)。ツーバイフォー工法・プレハブ形式は除外。町税等に滞納のないこと。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "2000-06-01",
+        "built_after": null
+      },
+      "note": "年度内の申請受付は12月末まで、完了実績報告書は2月末までに提出。",
+      "deadline": "2026-12-31",
+      "official_url": "https://www.town.yugawara.kanagawa.jp/soshiki/5/1070.html"
+    }
+  ],
+  "not_yet_covered": []
+}

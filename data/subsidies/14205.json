@@ -1,0 +1,31 @@
+{
+  "municipality_code": "14205",
+  "municipality": "藤沢市",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.fujisawa.kanagawa.jp/jutaku/machizukuri/sumai/taishin/hojo/kaishu.html"
+  ],
+  "items": [
+    {
+      "id": "fujisawa-wood-taishin-kaishu",
+      "name": "藤沢市木造住宅耐震改修工事等補助金",
+      "amount_text": "耐震改修工事費用の2分の1、上限115万円",
+      "amount_max_yen": 1150000,
+      "condition_text": "平成12年(2000年)5月31日以前に建築された、2階建以下の在来構法による木造建築物(専用住宅または店舗・事務所兼用住宅)。一般診断または精密診断の総合評点が1.0未満であること。所有者が市内に居住していること。申請は事前相談終了後に限る。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "2000-06-01",
+        "built_after": null
+      },
+      "note": "2026年4月1日より受付中。耐震シェルター・耐震ベッド設置費の補助制度も別途あり(今回未抽出)。",
+      "deadline": null,
+      "official_url": "https://www.city.fujisawa.kanagawa.jp/jutaku/machizukuri/sumai/taishin/hojo/kaishu.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "耐震シェルター・耐震ベッド設置費補助", "official_url": "https://www.city.fujisawa.kanagawa.jp/jutaku/machizukuri/sumai/taishin/hojo/kaishu.html"}
+  ]
+}

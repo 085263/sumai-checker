@@ -1,0 +1,32 @@
+{
+  "municipality_code": "14130",
+  "municipality": "川崎市",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.kawasaki.jp/500/page/0000032250.html",
+    "https://www.city.kawasaki.jp/500/page/0000002325.html"
+  ],
+  "items": [
+    {
+      "id": "kawasaki-mokuzou-taishin-kaishuu",
+      "name": "木造住宅耐震改修助成制度",
+      "amount_text": "建物全体改修:一般世帯130万円・非課税世帯180万円(いずれも上限)。部分改修:一般世帯100万円・非課税世帯135万円(いずれも上限)。",
+      "amount_max_yen": 1800000,
+      "condition_text": "平成12年5月31日以前に建築工事に着手した木造2階建て以下(一部鉄骨造等の混構造は対象外)、在来工法(ツーバイフォー工法・パネル工法は対象外)の住宅が対象。申請前に電話で防災まちづくり推進課へ連絡し、市職員による現地調査(事前審査)が必要。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "2000-06-01",
+        "built_after": null
+      },
+      "note": "2026年度申請受付中、予算がなくなり次第終了。申請期限の明記なし。窓口:まちづくり局防災まちづくり推進課耐震化支援担当(044-200-3017)。",
+      "deadline": null,
+      "official_url": "https://www.city.kawasaki.jp/500/page/0000032250.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "木造住宅耐震診断士派遣制度", "official_url": "https://www.city.kawasaki.jp/500/page/0000002325.html"}
+  ]
+}

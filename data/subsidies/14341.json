@@ -1,0 +1,30 @@
+{
+  "municipality_code": "14341",
+  "municipality": "大磯町",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.town.oiso.kanagawa.jp/soshiki/toshikensetsubu/toshi/tanto/kenchikubutsu/taishin/12066.html",
+    "https://www.town.oiso.kanagawa.jp/sangyo/kenchikubutsu/12110.html"
+  ],
+  "items": [
+    {
+      "id": "oiso-wood-taishin",
+      "name": "令和8年度住宅耐震化事業補助金",
+      "amount_text": "耐震診断:7万円(緊急輸送路沿いは8万円、町民税非課税世帯は8.5万円)/耐震補強等設計:費用の1/2・上限10万円/工事監理:費用の1/2・上限5万円/耐震補強工事:費用の1/2・上限50万円",
+      "amount_max_yen": 500000,
+      "condition_text": "昭和56年5月31日以前に建築された木造住宅(枠組壁工法を除く)で、戸建ての専用住宅・併用住宅が対象。登録事業者による施工が必須。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "令和8年度受付期間:5月7日(木曜日)〜12月4日(金曜日)。",
+      "deadline": "2026-12-04",
+      "official_url": "https://www.town.oiso.kanagawa.jp/soshiki/toshikensetsubu/toshi/tanto/kenchikubutsu/taishin/12066.html"
+    }
+  ],
+  "not_yet_covered": []
+}

@@ -1,0 +1,29 @@
+{
+  "municipality_code": "14321",
+  "municipality": "寒川町",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.town.samukawa.kanagawa.jp/soshiki/toshikensetsu/toshikeikaku/tokei_kaihatsu/info/jutaku/1361756345001.html"
+  ],
+  "items": [
+    {
+      "id": "samukawa-wood-taishin",
+      "name": "木造住宅耐震診断・耐震改修工事等・除却工事補助制度",
+      "amount_text": "耐震診断:費用の1/2・上限5万円/耐震改修工事(設計・工事):費用の1/2・上限50万円/耐震シェルター設置:費用の1/2・上限25万円/除却工事(設計・工事):費用の1/2・上限50万円",
+      "amount_max_yen": 500000,
+      "condition_text": "昭和56年5月31日以前に建築工事に着手した、地上2階建て以下の在来軸組工法の木造住宅が対象。一戸建て、二世帯住宅、兼用住宅を含む。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "ページに明確な受付開始時期の記載はないが、補助金交付請求書は交付申請年度の3月20日までに提出する必要がある。問い合わせ先:都市計画・開発指導担当 0467-37-5409",
+      "deadline": null,
+      "official_url": "https://www.town.samukawa.kanagawa.jp/soshiki/toshikensetsu/toshikeikaku/tokei_kaihatsu/info/jutaku/1361756345001.html"
+    }
+  ],
+  "not_yet_covered": []
+}

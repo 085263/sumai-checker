@@ -1,0 +1,45 @@
+{
+  "municipality_code": "14217",
+  "municipality": "南足柄市",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.minamiashigara.kanagawa.jp/kurashi/sumai/house/p08625.html",
+    "https://www.city.minamiashigara.kanagawa.jp/kurashi/sumai/house/p08630.html"
+  ],
+  "items": [
+    {
+      "id": "minamiashigara-shindan",
+      "name": "木造住宅耐震診断費補助事業",
+      "amount_text": "診断に要する費用(消費税を除く)の全額、上限10万円",
+      "amount_max_yen": 100000,
+      "condition_text": "平成12年(2000年)5月31日以前に建築された、2階建て以下の在来軸組工法による木造建築物(枠組壁工法・プレハブ工法は除外)。一戸建住宅、2世帯住宅、店舗・事務所併用住宅(併用部分は延べ床面積の2分の1未満)が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "2000-06-01",
+        "built_after": null
+      },
+      "note": "申請期限:令和8年12月28日(月)。",
+      "deadline": "2026-12-28",
+      "official_url": "https://www.city.minamiashigara.kanagawa.jp/kurashi/sumai/house/p08625.html"
+    },
+    {
+      "id": "minamiashigara-kaishu",
+      "name": "木造住宅耐震改修工事等補助事業",
+      "amount_text": "対象工事費の2分の1以内、上限100万円",
+      "amount_max_yen": 1000000,
+      "condition_text": "平成12年(2000年)5月31日以前に建築された、2階建て以下の在来軸組工法による一戸建住宅、2世帯住宅、併用住宅が対象。耐震診断で総合評点が1.0未満であることが条件。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "2000-06-01",
+        "built_after": null
+      },
+      "note": "申請期限:令和8年12月28日(月)。申込件数が上限に達した場合は受付終了の可能性あり。申請前に建築営繕課への事前相談が必須。",
+      "deadline": "2026-12-28",
+      "official_url": "https://www.city.minamiashigara.kanagawa.jp/kurashi/sumai/house/p08630.html"
+    }
+  ],
+  "not_yet_covered": []
+}

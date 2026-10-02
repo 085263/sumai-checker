@@ -1,0 +1,44 @@
+{
+  "municipality_code": "14366",
+  "municipality": "開成町",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.town.kaisei.kanagawa.jp/info/489"
+  ],
+  "items": [
+    {
+      "id": "kaisei-taishin-shindan",
+      "name": "木造住宅耐震診断費補助制度",
+      "amount_text": "診断費の全額(消費税相当額を除く)、上限10万円",
+      "amount_max_yen": 100000,
+      "condition_text": "昭和56年5月以前に建築された在来軸組工法の木造2階建て以下の住宅(昭和56年6月以降の増改築は床面積が既存の2分の1以内が条件)。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "申請期限の記載なし。問い合わせ先:都市計画課(0465-84-0320)",
+      "deadline": null,
+      "official_url": "https://www.town.kaisei.kanagawa.jp/info/489"
+    },
+    {
+      "id": "kaisei-taishin-kaishu",
+      "name": "木造住宅耐震改修工事等補助制度",
+      "amount_text": "工事費の2分の1(消費税相当額を除く)、上限100万円",
+      "amount_max_yen": 1000000,
+      "condition_text": "昭和56年5月以前に建築された在来軸組工法の木造2階建て以下の住宅。耐震診断の結果、危険と診断された住宅を安全なレベルまで改修する工事が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "申請期限の記載なし。問い合わせ先:都市計画課(0465-84-0320)",
+      "deadline": null,
+      "official_url": "https://www.town.kaisei.kanagawa.jp/info/489"
+    }
+  ],
+  "not_yet_covered": []
+}

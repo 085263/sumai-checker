@@ -1,0 +1,45 @@
+{
+  "municipality_code": "14362",
+  "municipality": "大井町",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.town.oi.kanagawa.jp/soshiki/11/mokuzoutaishinhozyo.html",
+    "https://www.town.oi.kanagawa.jp/soshiki/11/mokuzoutaishinkaisyu.html"
+  ],
+  "items": [
+    {
+      "id": "oi-taishin-shindan",
+      "name": "木造住宅耐震診断費補助制度",
+      "amount_text": "耐震診断に必要とする経費の10分の10まで、上限10万円",
+      "amount_max_yen": 100000,
+      "condition_text": "昭和56年5月31日以前に建築確認通知書を受けた地上2階建以下の木造建築物で、在来軸組工法により建築されたもの(枠組壁工法・プレハブ工法を除く)。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "申請期限の記載なし。問い合わせ先:都市整備課(0465-85-5014)",
+      "deadline": null,
+      "official_url": "https://www.town.oi.kanagawa.jp/soshiki/11/mokuzoutaishinhozyo.html"
+    },
+    {
+      "id": "oi-taishin-kaishu",
+      "name": "木造住宅耐震改修工事等補助制度",
+      "amount_text": "一般世帯:耐震改修工事等に要した費用の2分の1まで(上限100万円)。非課税世帯:費用の4分の3まで(上限150万円)",
+      "amount_max_yen": 1500000,
+      "condition_text": "昭和56年5月31日以前に建築確認通知書を受けた地上2階建以下の木造建築物で、在来軸組工法により建築されたもの(枠組壁工法・プレハブ工法を除く)。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "amount_max_yenは非課税世帯上限(150万円)。一般世帯は上限100万円。申請期限の記載なし。問い合わせ先:都市整備課(0465-85-5014)",
+      "deadline": null,
+      "official_url": "https://www.town.oi.kanagawa.jp/soshiki/11/mokuzoutaishinkaisyu.html"
+    }
+  ],
+  "not_yet_covered": []
+}

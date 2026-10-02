@@ -1,0 +1,77 @@
+{
+  "municipality_code": "14216",
+  "municipality": "座間市",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.zama.kanagawa.jp/kurashi/sumai/taishin/1002569.html"
+  ],
+  "items": [
+    {
+      "id": "zama-shindan",
+      "name": "耐震診断補助(座間市)",
+      "amount_text": "診断費用の2分の1、上限5万円",
+      "amount_max_yen": 50000,
+      "condition_text": "平成12年(2000年)5月31日以前に建築された、在来工法の木造2階建て以下の住宅(枠組壁工法・プレハブ工法は対象外)。所有者またはその一親等以内の親族で、市実施の無料耐震相談参加者が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "2000-06-01",
+        "built_after": null
+      },
+      "note": "予算上限に達するまで受付。具体的な締切日は公式サイトに記載なし。",
+      "deadline": null,
+      "official_url": "https://www.city.zama.kanagawa.jp/kurashi/sumai/taishin/1002569.html"
+    },
+    {
+      "id": "zama-keikaku",
+      "name": "改修計画書作成費補助(座間市)",
+      "amount_text": "作成費用の2分の1、上限5万円",
+      "amount_max_yen": 50000,
+      "condition_text": "平成12年(2000年)5月31日以前に建築された、在来工法の木造2階建て以下の住宅が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "2000-06-01",
+        "built_after": null
+      },
+      "note": "予算上限に達するまで受付。",
+      "deadline": null,
+      "official_url": "https://www.city.zama.kanagawa.jp/kurashi/sumai/taishin/1002569.html"
+    },
+    {
+      "id": "zama-kouji",
+      "name": "耐震改修工事補助(座間市)",
+      "amount_text": "工事費の2分の1、上限70万円(市内施工者に発注した場合は最大20万円を加算し上限90万円)",
+      "amount_max_yen": 900000,
+      "condition_text": "平成12年(2000年)5月31日以前に建築された、在来工法の木造2階建て以下の住宅が対象。市が実施する無料耐震相談会への参加が条件。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "2000-06-01",
+        "built_after": null
+      },
+      "note": "予算上限に達するまで受付。",
+      "deadline": null,
+      "official_url": "https://www.city.zama.kanagawa.jp/kurashi/sumai/taishin/1002569.html"
+    },
+    {
+      "id": "zama-tachiai",
+      "name": "現場立会費補助(座間市)",
+      "amount_text": "費用の2分の1、上限3万円",
+      "amount_max_yen": 30000,
+      "condition_text": "耐震改修工事補助と合わせて利用可能。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "2000-06-01",
+        "built_after": null
+      },
+      "note": "予算上限に達するまで受付。",
+      "deadline": null,
+      "official_url": "https://www.city.zama.kanagawa.jp/kurashi/sumai/taishin/1002569.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "沿道建築物耐震診断事業補助制度", "official_url": "https://www.city.zama.kanagawa.jp/kurashi/sumai/taishin/1002574.html"},
+    {"name": "マンション耐震診断事業補助制度", "official_url": "https://www.city.zama.kanagawa.jp/kurashi/sumai/taishin/1002573.html"}
+  ]
+}

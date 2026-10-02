@@ -1,0 +1,74 @@
+{
+  "municipality_code": "14401",
+  "municipality": "愛川町",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.town.aikawa.kanagawa.jp/soshiki/kensetsu/toshi/toshi/info/taisin/1425007847294.html"
+  ],
+  "items": [
+    {
+      "id": "aikawa-taishin-shindan",
+      "name": "木造住宅の耐震診断・耐震改修工事等の補助事業(耐震診断)",
+      "amount_text": "耐震診断に要する経費の50%で上限7万円まで",
+      "amount_max_yen": 70000,
+      "condition_text": "平成12年5月31日以前に建築された2階建て以下の在来工法による木造住宅(令和8年度より昭和56年6月1日〜平成12年5月31日建築分も追加対象予定)。町内に住所を有し所有者自身が居住すること。賃貸住宅は対象外。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "2000-06-01",
+        "built_after": null
+      },
+      "note": "申請期限の明記なし。詳細は愛川町都市施設課都市計画班(046-285-2111 内線3443)へ要確認。",
+      "deadline": null,
+      "official_url": "https://www.town.aikawa.kanagawa.jp/soshiki/kensetsu/toshi/toshi/info/taisin/1425007847294.html"
+    },
+    {
+      "id": "aikawa-taishin-sekkei",
+      "name": "木造住宅の耐震診断・耐震改修工事等の補助事業(耐震改修設計)",
+      "amount_text": "耐震改修設計に要する経費の50%で上限8万円まで",
+      "amount_max_yen": 80000,
+      "condition_text": "平成12年5月31日以前に建築された2階建て以下の在来工法による木造住宅(令和8年度より昭和56年6月1日〜平成12年5月31日建築分も追加対象予定)。町内に住所を有し所有者自身が居住すること。賃貸住宅は対象外。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "2000-06-01",
+        "built_after": null
+      },
+      "note": "申請期限の明記なし。詳細は愛川町都市施設課都市計画班(046-285-2111 内線3443)へ要確認。",
+      "deadline": null,
+      "official_url": "https://www.town.aikawa.kanagawa.jp/soshiki/kensetsu/toshi/toshi/info/taisin/1425007847294.html"
+    },
+    {
+      "id": "aikawa-taishin-kaishu",
+      "name": "木造住宅の耐震診断・耐震改修工事等の補助事業(耐震改修工事)",
+      "amount_text": "耐震改修工事に要する経費の50%で上限80万円まで",
+      "amount_max_yen": 800000,
+      "condition_text": "平成12年5月31日以前に建築された2階建て以下の在来工法による木造住宅(令和8年度より昭和56年6月1日〜平成12年5月31日建築分も追加対象予定)。町内に住所を有し所有者自身が居住すること。賃貸住宅は対象外。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "2000-06-01",
+        "built_after": null
+      },
+      "note": "申請期限の明記なし。詳細は愛川町都市施設課都市計画班(046-285-2111 内線3443)へ要確認。",
+      "deadline": null,
+      "official_url": "https://www.town.aikawa.kanagawa.jp/soshiki/kensetsu/toshi/toshi/info/taisin/1425007847294.html"
+    },
+    {
+      "id": "aikawa-taishin-kanri",
+      "name": "木造住宅の耐震診断・耐震改修工事等の補助事業(耐震改修監理)",
+      "amount_text": "耐震改修監理に要する経費の50%で上限5万円まで",
+      "amount_max_yen": 50000,
+      "condition_text": "平成12年5月31日以前に建築された2階建て以下の在来工法による木造住宅(令和8年度より昭和56年6月1日〜平成12年5月31日建築分も追加対象予定)。町内に住所を有し所有者自身が居住すること。賃貸住宅は対象外。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "2000-06-01",
+        "built_after": null
+      },
+      "note": "申請期限の明記なし。詳細は愛川町都市施設課都市計画班(046-285-2111 内線3443)へ要確認。",
+      "deadline": null,
+      "official_url": "https://www.town.aikawa.kanagawa.jp/soshiki/kensetsu/toshi/toshi/info/taisin/1425007847294.html"
+    }
+  ],
+  "not_yet_covered": []
+}

@@ -1,0 +1,74 @@
+{
+  "municipality_code": "14212",
+  "municipality": "厚木市",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.atsugi.kanagawa.jp/soshiki/kenchikushidoka/9/5/4697.html"
+  ],
+  "items": [
+    {
+      "id": "atsugi-shindan",
+      "name": "木造住宅一般耐震診断補助金",
+      "amount_text": "診断費の全額、上限9万円",
+      "amount_max_yen": 90000,
+      "condition_text": "平成12年(2000年)5月31日以前に新築着工の、地上2階建て以下の在来軸組工法木造住宅・兼用住宅が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "2000-06-01",
+        "built_after": null
+      },
+      "note": "申請受付は例年5月上旬〜12月頃(先着順、予算の範囲内)。具体的な期限日は公式サイトに記載なし。",
+      "deadline": null,
+      "official_url": "https://www.city.atsugi.kanagawa.jp/soshiki/kenchikushidoka/9/5/4697.html"
+    },
+    {
+      "id": "atsugi-sekkei",
+      "name": "木造住宅耐震改修設計補助金",
+      "amount_text": "設計費の3分の2、上限11万円",
+      "amount_max_yen": 110000,
+      "condition_text": "木造住宅一般耐震診断補助金を受け、補強が必要と判定された住宅が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "2000-06-01",
+        "built_after": null
+      },
+      "note": "申請受付は例年5月上旬〜12月頃(先着順、予算の範囲内)。",
+      "deadline": null,
+      "official_url": "https://www.city.atsugi.kanagawa.jp/soshiki/kenchikushidoka/9/5/4697.html"
+    },
+    {
+      "id": "atsugi-kouji",
+      "name": "木造住宅耐震改修工事補助金",
+      "amount_text": "工事費の3分の2、上限100万円(非課税世帯は50万円を加算し上限150万円)。別途、工事監理費の3分の2、上限7万5千円を補助。",
+      "amount_max_yen": 1500000,
+      "condition_text": "木造住宅耐震改修設計補助金の交付を受けた住宅が対象。非課税世帯への加算は2026年度から拡充(二次情報源での確認のため要再確認)。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "2000-06-01",
+        "built_after": null
+      },
+      "note": "非課税世帯加算の詳細は二次情報源(リフォーム系サイト)での言及のみで、公式ページ本文からは上限100万円+非課税世帯加算50万円の記載を確認。工事監理費補助は別枠。申請受付は例年5月上旬〜12月頃。",
+      "deadline": null,
+      "official_url": "https://www.city.atsugi.kanagawa.jp/soshiki/kenchikushidoka/9/5/4697.html"
+    },
+    {
+      "id": "atsugi-jokyaku",
+      "name": "木造住宅除却工事補助金",
+      "amount_text": "除却工事費の2分の1、上限50万円",
+      "amount_max_yen": 500000,
+      "condition_text": "木造住宅一般耐震診断補助金を受け、補強が必要と判定された住宅が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "2000-06-01",
+        "built_after": null
+      },
+      "note": "申請受付は例年5月上旬〜12月頃(先着順、予算の範囲内)。",
+      "deadline": null,
+      "official_url": "https://www.city.atsugi.kanagawa.jp/soshiki/kenchikushidoka/9/5/4697.html"
+    }
+  ],
+  "not_yet_covered": []
+}

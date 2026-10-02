@@ -1,0 +1,29 @@
+{
+  "municipality_code": "14201",
+  "municipality": "横須賀市",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.yokosuka.kanagawa.jp/4840/sidouka/taisin_syousai.html"
+  ],
+  "items": [
+    {
+      "id": "yokosuka-mokuzou-taishin-hokyou",
+      "name": "木造住宅の耐震診断・補強工事助成事業",
+      "amount_text": "耐震診断:自己負担47,000円(沿道住宅26,000円)。補強工事図面作成:自己負担74,000円(沿道住宅52,000円)。補強工事:工事費の1/2(上限100万円)、沿道住宅は2/3(上限150万円)。工事監理自己負担37,000円(沿道住宅26,000円)。",
+      "amount_max_yen": 1500000,
+      "condition_text": "平成12年5月31日以前に建築確認を得て着手した在来軸組工法の戸建木造住宅(3階建て以下)が対象。平成12年6月以降に既存面積の1/2超増築していないこと。緊急輸送路等の沿道住宅は補助率・上限が優遇される。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "2000-06-01",
+        "built_after": null
+      },
+      "note": "令和8年度:耐震診断申込は4月1日より先着順電話受付。耐震補強工事補助申込は5月11日より先着順窓口受付。申込締切12月28日(定員達成で早期終了の可能性あり)。",
+      "deadline": "2026-12-28",
+      "official_url": "https://www.city.yokosuka.kanagawa.jp/4840/sidouka/taisin_syousai.html"
+    }
+  ],
+  "not_yet_covered": []
+}

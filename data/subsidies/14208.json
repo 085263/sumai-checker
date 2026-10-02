@@ -1,0 +1,77 @@
+{
+  "municipality_code": "14208",
+  "municipality": "逗子市",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.zushi.kanagawa.jp/kurashi/sumai/1002149/1002158/1002159.html"
+  ],
+  "items": [
+    {
+      "id": "zushi-wood-kani-shindan",
+      "name": "逗子市木造住宅簡易耐震診断補助",
+      "amount_text": "費用2万円のうち1万5千円を補助",
+      "amount_max_yen": 15000,
+      "condition_text": "1981年(昭和56年)5月31日以前に建築確認を得て着工された2階建て以下の戸建木造住宅(居住部分が床面積の1/2以上の兼用住宅を含む)。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "申請者が市内に住所を有し建築物を所有・居住していること、市税を滞納していないことが必要。",
+      "deadline": null,
+      "official_url": "https://www.city.zushi.kanagawa.jp/kurashi/sumai/1002149/1002158/1002159.html"
+    },
+    {
+      "id": "zushi-wood-ippan-shindan",
+      "name": "逗子市木造住宅一般耐震診断補助",
+      "amount_text": "費用7万円のうち4万円を補助",
+      "amount_max_yen": 40000,
+      "condition_text": "1981年(昭和56年)5月31日以前に建築確認を得て着工された2階建て以下の戸建木造住宅(居住部分が床面積の1/2以上の兼用住宅を含む)。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "申請者が市内に住所を有し建築物を所有・居住していること、市税を滞納していないことが必要。",
+      "deadline": null,
+      "official_url": "https://www.city.zushi.kanagawa.jp/kurashi/sumai/1002149/1002158/1002159.html"
+    },
+    {
+      "id": "zushi-wood-hokyo-kouji",
+      "name": "逗子市木造住宅耐震補強工事等補助",
+      "amount_text": "費用の2分の1、上限50万円",
+      "amount_max_yen": 500000,
+      "condition_text": "1981年(昭和56年)5月31日以前に建築確認を得て着工された2階建て以下の戸建木造住宅(居住部分が床面積の1/2以上の兼用住宅を含む)。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "申請者が市内に住所を有し建築物を所有・居住していること、市税を滞納していないことが必要。",
+      "deadline": null,
+      "official_url": "https://www.city.zushi.kanagawa.jp/kurashi/sumai/1002149/1002158/1002159.html"
+    },
+    {
+      "id": "zushi-wood-shelter",
+      "name": "逗子市耐震シェルター等設置補助",
+      "amount_text": "費用の2分の1、上限25万円",
+      "amount_max_yen": 250000,
+      "condition_text": "1981年(昭和56年)5月31日以前に建築確認を得て着工された2階建て以下の戸建木造住宅(居住部分が床面積の1/2以上の兼用住宅を含む)。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "申請者が市内に住所を有し建築物を所有・居住していること、市税を滞納していないことが必要。",
+      "deadline": null,
+      "official_url": "https://www.city.zushi.kanagawa.jp/kurashi/sumai/1002149/1002158/1002159.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "緊急輸送道路の沿道建築物耐震化補助", "official_url": "https://www.city.zushi.kanagawa.jp/kurashi/sumai/1002149/1002158/1002160.html"},
+    {"name": "危険なブロック塀等の安全対策工事補助", "official_url": "https://www.city.zushi.kanagawa.jp/kurashi/sumai/1002149/1002158/1002161.html"}
+  ]
+}

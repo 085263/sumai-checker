@@ -1,0 +1,59 @@
+{
+  "municipality_code": "14150",
+  "municipality": "相模原市",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.sagamihara.kanagawa.jp/kurashi/1026529/bousai/1008801/1008815.html"
+  ],
+  "items": [
+    {
+      "id": "sagamihara-taishin-shindan",
+      "name": "耐震診断費用補助",
+      "amount_text": "上限15万3千円",
+      "amount_max_yen": 153000,
+      "condition_text": "平成12年5月31日以前に建築された一戸建て住宅が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "2000-06-01",
+        "built_after": null
+      },
+      "note": "申請受付中。期限の明記なし。",
+      "deadline": null,
+      "official_url": "https://www.city.sagamihara.kanagawa.jp/kurashi/1026529/bousai/1008801/1008815.html"
+    },
+    {
+      "id": "sagamihara-taishin-kaishuu",
+      "name": "耐震改修計画・工事一括補助",
+      "amount_text": "上限115万円(一般世帯)。高齢者世帯等は最大50万円加算(上限165万円)。",
+      "amount_max_yen": 1650000,
+      "condition_text": "耐震診断の結果、危険性ありと判定された住宅が対象。旧耐震(昭和56年5月31日以前建築)に加え、令和8年度より新耐震木造住宅(昭和56年6月1日〜平成12年5月31日建築の在来工法戸建住宅)も新規に対象化。平成12年6月1日以降に増築している場合は増築部分が既存部分の2分の1以内であること。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "2000-06-01",
+        "built_after": null
+      },
+      "note": "申請受付中。期限の明記なし。",
+      "deadline": null,
+      "official_url": "https://www.city.sagamihara.kanagawa.jp/kurashi/1026529/bousai/1008801/1008815.html"
+    },
+    {
+      "id": "sagamihara-taishin-shelter",
+      "name": "耐震シェルター・防災ベッド補助",
+      "amount_text": "シェルター上限30万円、防災ベッド上限20万円",
+      "amount_max_yen": 300000,
+      "condition_text": "昭和56年6月1日〜平成12年5月31日建築の木造住宅が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "2000-06-01",
+        "built_after": "1981-06-01"
+      },
+      "note": "申請受付中。期限の明記なし。",
+      "deadline": null,
+      "official_url": "https://www.city.sagamihara.kanagawa.jp/kurashi/1026529/bousai/1008801/1008815.html"
+    }
+  ],
+  "not_yet_covered": []
+}

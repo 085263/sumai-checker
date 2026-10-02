@@ -1,0 +1,31 @@
+{
+  "municipality_code": "14100",
+  "municipality": "横浜市",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.yokohama.lg.jp/business/bunyabetsu/kenchiku/bosai/taishin/hojokinshienseido/mokutai/mokukaishu/mokukaishu.html"
+  ],
+  "items": [
+    {
+      "id": "yokohama-mokuzou-taishin-kaishuu",
+      "name": "横浜市木造住宅耐震改修促進事業",
+      "amount_text": "一般世帯:上限115万円 / 非課税世帯(世帯全員が過去2年間住民税非課税):上限155万円。リ・バース60利用時はそれぞれ57.5万円・97.5万円に減額。省エネ改修併用時は最大100万円加算。",
+      "amount_max_yen": 1550000,
+      "condition_text": "平成12年(2000年)5月末日以前に建築確認を得て着工された2階建以下の在来軸組構法の木造個人住宅が対象。建築士の診断による上部構造評点が1.0未満であること。改修完了までに所有者または親等以内の親族が居住すること。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "2000-06-01",
+        "built_after": null
+      },
+      "note": "令和8年度(2026年度)受付期間:2026年4月1日〜2027年2月26日(完了実績報告締切)。",
+      "deadline": "2027-02-26",
+      "official_url": "https://www.city.yokohama.lg.jp/business/bunyabetsu/kenchiku/bosai/taishin/hojokinshienseido/mokutai/mokukaishu/mokukaishu.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "特定建築物の耐震化", "official_url": "https://www.city.yokohama.lg.jp/business/bunyabetsu/kenchiku/bosai/taishin/hojokinshienseido/tokutaishin.html"}
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "municipality_code": "14215",
+  "municipality": "海老名市",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.ebina.kanagawa.jp/guide/sumai/jutaku/1003437.html"
+  ],
+  "items": [
+    {
+      "id": "ebina-shindan",
+      "name": "耐震診断士派遣事業(海老名市)",
+      "amount_text": "無料(市が耐震診断士を無料派遣)",
+      "amount_max_yen": 0,
+      "condition_text": "平成12年(2000年)5月31日以前の建築基準の、在来工法による2階建て以下の木造一戸建て・長屋・併用住宅が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "2000-06-01",
+        "built_after": null
+      },
+      "note": "受付期間:令和8年4月15日〜12月28日。",
+      "deadline": "2026-12-28",
+      "official_url": "https://www.city.ebina.kanagawa.jp/guide/sumai/jutaku/1003437.html"
+    },
+    {
+      "id": "ebina-keikaku",
+      "name": "耐震改修計画書作成費補助金(海老名市)",
+      "amount_text": "計画書作成費の2分の1、上限5万円",
+      "amount_max_yen": 50000,
+      "condition_text": "平成12年(2000年)5月31日以前の建築基準の、在来工法による2階建て以下の木造一戸建て・長屋・併用住宅が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "2000-06-01",
+        "built_after": null
+      },
+      "note": "事前申請が必要。具体的な締切日は公式サイトに記載なし。",
+      "deadline": null,
+      "official_url": "https://www.city.ebina.kanagawa.jp/guide/sumai/jutaku/1003437.html"
+    },
+    {
+      "id": "ebina-kouji",
+      "name": "耐震改修工事等補助金(海老名市)",
+      "amount_text": "工事費の2分の1、上限90万円。別途、現場立会費の2分の1、上限3万円を補助。",
+      "amount_max_yen": 900000,
+      "condition_text": "平成12年(2000年)5月31日以前の建築基準の、在来工法による2階建て以下の木造一戸建て・長屋・併用住宅が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "2000-06-01",
+        "built_after": null
+      },
+      "note": "事前申請が必要。具体的な締切日は公式サイトに記載なし。",
+      "deadline": null,
+      "official_url": "https://www.city.ebina.kanagawa.jp/guide/sumai/jutaku/1003437.html"
+    },
+    {
+      "id": "ebina-kaitai",
+      "name": "解体工事補助金(海老名市)",
+      "amount_text": "工事費の2分の1、上限50万円(基本額30万円＋加算額最大20万円)",
+      "amount_max_yen": 500000,
+      "condition_text": "昭和56年(1981年)5月31日以前の建築基準の、在来工法による2階建て以下の木造一戸建て・長屋・併用住宅が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "耐震診断等の対象(平成12年基準)とは異なり、解体工事補助は昭和56年基準が適用される点に注意。",
+      "deadline": null,
+      "official_url": "https://www.city.ebina.kanagawa.jp/guide/sumai/jutaku/1003437.html"
+    }
+  ],
+  "not_yet_covered": []
+}

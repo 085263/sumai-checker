@@ -1,0 +1,74 @@
+{
+  "municipality_code": "14382",
+  "municipality": "箱根町",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.town.hakone.kanagawa.jp/www/contents/1100000000572/index.html"
+  ],
+  "items": [
+    {
+      "id": "hakone-taishin-shindan",
+      "name": "木造住宅耐震診断費補助制度",
+      "amount_text": "耐震診断に要する経費の10分の10、上限8万円",
+      "amount_max_yen": 80000,
+      "condition_text": "昭和56年5月31日以前に建築された木造2階建て以下の一戸建て・併用住宅(枠組壁工法・プレハブ工法を除く)。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "申請期限の記載なし。問い合わせ先:環境整備部都市整備課(0460-85-9566)",
+      "deadline": null,
+      "official_url": "https://www.town.hakone.kanagawa.jp/www/contents/1100000000572/index.html"
+    },
+    {
+      "id": "hakone-taishin-kaishu",
+      "name": "木造住宅耐震改修費補助制度",
+      "amount_text": "耐震改修に要する経費の2分の1、上限100万円",
+      "amount_max_yen": 1000000,
+      "condition_text": "昭和56年5月31日以前に建築された木造2階建て以下。耐震診断結果が総合評点1.0未満であること。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "申請期限の記載なし。問い合わせ先:環境整備部都市整備課(0460-85-9566)",
+      "deadline": null,
+      "official_url": "https://www.town.hakone.kanagawa.jp/www/contents/1100000000572/index.html"
+    },
+    {
+      "id": "hakone-taishin-hitoheya",
+      "name": "木造住宅一部屋耐震化補助制度",
+      "amount_text": "経費の2分の1、上限15万円",
+      "amount_max_yen": 150000,
+      "condition_text": "耐震改修費補助制度と同等の対象条件(昭和56年5月31日以前建築の木造2階建て以下)。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "1部屋のみの簡易耐震化を補助する制度。問い合わせ先:環境整備部都市整備課(0460-85-9566)",
+      "deadline": null,
+      "official_url": "https://www.town.hakone.kanagawa.jp/www/contents/1100000000572/index.html"
+    },
+    {
+      "id": "hakone-jokyaku",
+      "name": "木造住宅除却工事費補助制度",
+      "amount_text": "経費の2分の1、上限50万円",
+      "amount_max_yen": 500000,
+      "condition_text": "耐震改修費補助制度と同等の対象条件(昭和56年5月31日以前建築の木造2階建て以下)。空き家も対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "令和7年度(2025年度)から開始した新しい制度。問い合わせ先:環境整備部都市整備課(0460-85-9566)",
+      "deadline": null,
+      "official_url": "https://www.town.hakone.kanagawa.jp/www/contents/1100000000572/index.html"
+    }
+  ],
+  "not_yet_covered": []
+}

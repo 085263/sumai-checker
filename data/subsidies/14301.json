@@ -1,0 +1,30 @@
+{
+  "municipality_code": "14301",
+  "municipality": "葉山町",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.town.hayama.lg.jp/soshiki/toshi/osirase/9348.html",
+    "https://www.town.hayama.lg.jp/soshiki/seisaku/3202.html"
+  ],
+  "items": [
+    {
+      "id": "hayama-wood-taishin",
+      "name": "民間木造住宅の耐震補助事業",
+      "amount_text": "一般診断・耐震改修計画書作成:25,000円/耐震補強図面作成:60,000円/耐震補強工事監理:15,000円/耐震補強工事:工事費の2分の1、上限50万円",
+      "amount_max_yen": 500000,
+      "condition_text": "昭和56年5月31日以前に建築、または同日以前に建築確認済証の交付を受けたもの。地上3階建て以下の木造在来工法の戸建て住宅、二世帯住宅または店舗兼用住宅が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "受付期間は「例年5月初旬から12月中旬」とページに記載されているが、令和8年度の正確な期間・申請期限の明記はなし(低信頼度、要人力確認)。簡易診断の予定件数は14件程度と上限あり。問い合わせ先:都市計画課 046-876-1111",
+      "deadline": null,
+      "official_url": "https://www.town.hayama.lg.jp/soshiki/toshi/osirase/9348.html"
+    }
+  ],
+  "not_yet_covered": []
+}

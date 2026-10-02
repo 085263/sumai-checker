@@ -1,0 +1,29 @@
+{
+  "municipality_code": "14204",
+  "municipality": "鎌倉市",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.kamakura.kanagawa.jp/kenchikushidou/taishin-kaisyu.html"
+  ],
+  "items": [
+    {
+      "id": "kamakura-mokuzou-taishin-kaishuu",
+      "name": "鎌倉市木造住宅耐震改修工事費等補助金交付制度",
+      "amount_text": "耐震改修工事等費用の2分の1、上限115万円。低所得者世帯等(過去2年間市民税非課税の世帯、障害のある方・要介護者等がいる世帯)は上限135万円。",
+      "amount_max_yen": 1350000,
+      "condition_text": "平成12年(2000年)5月31日以前に建築工事に着手した木造2階建て以下の一戸建て住宅・二世帯住宅・店舗兼用住宅が対象(所有者自身が居住する建物)。枠組壁工法及びプレハブ工法は除外。市または市指定事業者による現地耐震診断の結果、総合評点が1.0未満であること。工事着手前に補助金交付申請が必要。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "2000-06-01",
+        "built_after": null
+      },
+      "note": "申請期限の明記なし。",
+      "deadline": null,
+      "official_url": "https://www.city.kamakura.kanagawa.jp/kenchikushidou/taishin-kaisyu.html"
+    }
+  ],
+  "not_yet_covered": []
+}

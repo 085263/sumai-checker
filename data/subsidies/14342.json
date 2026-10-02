@@ -1,0 +1,45 @@
+{
+  "municipality_code": "14342",
+  "municipality": "二宮町",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.town.ninomiya.kanagawa.jp/0000000113.html",
+    "https://www.town.ninomiya.kanagawa.jp/0000000115.html"
+  ],
+  "items": [
+    {
+      "id": "ninomiya-wood-shindan",
+      "name": "居住用木造建築物耐震診断補助事業",
+      "amount_text": "診断費用9万円のうち7.5万円を補助(実質負担額1.5万円)",
+      "amount_max_yen": 75000,
+      "condition_text": "昭和56年5月31日以前に建築確認を得て建築された木造住宅が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "受付期間:令和8年5月19日(火曜日)〜令和8年12月28日(月曜日)(土日祝除く8:30-17:15)。",
+      "deadline": "2026-12-28",
+      "official_url": "https://www.town.ninomiya.kanagawa.jp/0000000115.html"
+    },
+    {
+      "id": "ninomiya-wood-kaishu",
+      "name": "居住用木造建築物耐震改修工事補助事業",
+      "amount_text": "耐震改修工事費用の1/2(上限50万円、町内登録事業者利用の場合は上限70万円)",
+      "amount_max_yen": 700000,
+      "condition_text": "町が実施した耐震診断で上部構造評点1.0未満と判定された建築物が対象。耐震診断士による設計・工事監理が必要で、工事後の評点が1.0以上となること。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "建築年条件はこのページ自体には明記されていないが、前提となる耐震診断補助事業(town.ninomiya.kanagawa.jp/0000000115.html)の対象が昭和56年5月31日以前のため、同条件と推定(推定箇所のため要確認)。受付期間:令和8年5月19日〜令和8年12月28日。申請は工事着手日の14日前までに提出が必要。",
+      "deadline": "2026-12-28",
+      "official_url": "https://www.town.ninomiya.kanagawa.jp/0000000113.html"
+    }
+  ],
+  "not_yet_covered": []
+}

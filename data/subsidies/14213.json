@@ -1,0 +1,45 @@
+{
+  "municipality_code": "14213",
+  "municipality": "大和市",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.yamato.lg.jp/gyosei/soshik/35/taisinka/4796.html",
+    "https://www.city.yamato.lg.jp/gyosei/soshik/35/taisinka/4702.html"
+  ],
+  "items": [
+    {
+      "id": "yamato-shindan",
+      "name": "木造住宅耐震診断費補助金",
+      "amount_text": "診断費用の全額、上限66,000円(建物面積や図面の有無により追加費用が発生する場合あり)",
+      "amount_max_yen": 66000,
+      "condition_text": "昭和56年(1981年)5月31日以前に新築工事に着手した在来軸組工法による2階建て以下の木造住宅(共同住宅・兼用住宅含む)が対象。市に登録済みの建築士による診断実施が条件。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "申請期限は当該年度の1月中旬まで。具体的な日付は公式サイトに記載なし。",
+      "deadline": null,
+      "official_url": "https://www.city.yamato.lg.jp/gyosei/soshik/35/taisinka/4796.html"
+    },
+    {
+      "id": "yamato-kaishu",
+      "name": "木造住宅耐震改修工事費等補助金",
+      "amount_text": "耐震補強工事費の5分の1と工事監理費用等の2分の1の合計、上限50万円",
+      "amount_max_yen": 500000,
+      "condition_text": "昭和56年(1981年)5月31日以前に工事着手した在来軸組工法・2階建て以下の一戸建住宅、長屋、共同住宅、兼用住宅が対象。耐震診断の総合評点が1.0未満であること、市税滞納がないこと、建ぺい率・容積率に適合することが条件。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "工事完了は当該年度の1月末日まで。申請受付開始日・締切日の具体的記載は公式サイトになし。",
+      "deadline": null,
+      "official_url": "https://www.city.yamato.lg.jp/gyosei/soshik/35/taisinka/4702.html"
+    }
+  ],
+  "not_yet_covered": []
+}

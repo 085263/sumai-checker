@@ -1,0 +1,59 @@
+{
+  "municipality_code": "14214",
+  "municipality": "伊勢原市",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.isehara.kanagawa.jp/docs/2017021300161/"
+  ],
+  "items": [
+    {
+      "id": "isehara-shindan",
+      "name": "木造住宅耐震診断補助(伊勢原市)",
+      "amount_text": "診断費用の10分の10、上限10万円",
+      "amount_max_yen": 100000,
+      "condition_text": "昭和56年(1981年)5月31日以前に建築確認を得て木造在来軸組工法により建築された、地上階数2以下の一戸建住宅又は併用住宅。市内に所有かつ居住していること。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "令和8年度の申請受付は開始済み(工事着手前の申請が必須)。具体的な締切日は公式サイトに記載なし。",
+      "deadline": null,
+      "official_url": "https://www.city.isehara.kanagawa.jp/docs/2017021300161/"
+    },
+    {
+      "id": "isehara-kaishu",
+      "name": "木造住宅耐震改修工事補助(伊勢原市)",
+      "amount_text": "一般木造住宅:工事費用の2分の1、上限50万円。沿道木造住宅:工事費用の3分の2、上限100万円。",
+      "amount_max_yen": 500000,
+      "condition_text": "昭和56年(1981年)5月31日以前に建築確認を得て木造在来軸組工法により建築された、地上階数2以下の一戸建住宅又は併用住宅。沿道木造住宅(緊急輸送道路等沿い)は補助率・上限額が優遇される。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "沿道木造住宅の場合は上限100万円(amount_max_yenは一般木造住宅の上限値を採用)。工事着手前の申請が必須。",
+      "deadline": null,
+      "official_url": "https://www.city.isehara.kanagawa.jp/docs/2017021300161/"
+    },
+    {
+      "id": "isehara-jokyaku",
+      "name": "木造住宅除却工事補助(伊勢原市)",
+      "amount_text": "一般木造住宅:工事費用の2分の1、上限25万円。沿道木造住宅:工事費用の3分の2、上限50万円。",
+      "amount_max_yen": 250000,
+      "condition_text": "昭和56年(1981年)5月31日以前に建築確認を得て木造在来軸組工法により建築された、地上階数2以下の一戸建住宅又は併用住宅。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "沿道木造住宅の場合は上限50万円(amount_max_yenは一般木造住宅の上限値を採用)。",
+      "deadline": null,
+      "official_url": "https://www.city.isehara.kanagawa.jp/docs/2017021300161/"
+    }
+  ],
+  "not_yet_covered": []
+}

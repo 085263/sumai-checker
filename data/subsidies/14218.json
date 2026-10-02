@@ -1,0 +1,29 @@
+{
+  "municipality_code": "14218",
+  "municipality": "綾瀬市",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.ayase.kanagawa.jp/soshiki/toshikeikakuka/zumai/2/2/5801.html"
+  ],
+  "items": [
+    {
+      "id": "ayase-wood-taishin",
+      "name": "木造住宅耐震化補助事業",
+      "amount_text": "耐震診断:費用の2/3・上限4万円/耐震設計:費用の2/3・上限8万円/耐震改修:費用の2/3・上限100万円/工事監理:費用の2/3・上限6万円/除却:費用の2/3・上限30万円/耐震シェルター・防災ベッド:費用の2/3・上限18万円",
+      "amount_max_yen": 1000000,
+      "condition_text": "個人が所有かつ居住、または所有者の2親等内の親族が居住する専用住宅・2世帯住宅・兼用住宅が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "2000-06-01",
+        "built_after": null
+      },
+      "note": "公式ページ記載の建築年条件は「平成12年(2000年)5月31日以前に建築確認を受け、建築工事に着手した2階建以下のもの」。他の多くの自治体は昭和56年(1981年)5月31日基準だが、綾瀬市は平成12年基準と読み取れ、他市町と異なるため要人力確認(記載誤り・ページ更新・制度の特殊性の可能性あり)。申請期限・受付期間の記載はページ上になし。問い合わせ先:都市計画課 0467-70-5625",
+      "deadline": null,
+      "official_url": "https://www.city.ayase.kanagawa.jp/soshiki/toshikeikakuka/zumai/2/2/5801.html"
+    }
+  ],
+  "not_yet_covered": []
+}

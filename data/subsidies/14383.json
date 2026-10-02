@@ -1,0 +1,31 @@
+{
+  "municipality_code": "14383",
+  "municipality": "真鶴町",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "http://www.town.manazuru.kanagawa.jp/kurashsi_tetsuduki/sumaikurashi/541.html"
+  ],
+  "items": [
+    {
+      "id": "manazuru-taishin-shindan",
+      "name": "木造住宅耐震診断補助事業",
+      "amount_text": "一般耐震診断に要する経費の3分の2、上限2万円",
+      "amount_max_yen": 20000,
+      "condition_text": "昭和56年5月31日以前に建築工事に着手した一戸建て住宅、二世帯住宅または店舗兼用住宅で、木造2階建て以下(枠組壁工法・プレハブ工法を除く)。町民自らが所有し居住するもの。昭和56年6月1日以降の増築は対象外。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "問い合わせ先の記載なし、申請期限の記載なし。低信頼度:確認した公式ページには耐震改修工事(施工費)の補助制度についての記載が見当たらず、診断補助のみ掲載されていた。改修工事補助の有無は要電話確認。",
+      "deadline": null,
+      "official_url": "http://www.town.manazuru.kanagawa.jp/kurashsi_tetsuduki/sumaikurashi/541.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "木造住宅耐震改修工事補助(制度の有無要確認)", "official_url": "http://www.town.manazuru.kanagawa.jp/kurashsi_tetsuduki/sumaikurashi/541.html"}
+  ]
+}

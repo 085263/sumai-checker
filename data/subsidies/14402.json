@@ -1,0 +1,59 @@
+{
+  "municipality_code": "14402",
+  "municipality": "清川村",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.town.kiyokawa.kanagawa.jp/soshiki/soumu/bousaikoutsu/3608.html"
+  ],
+  "items": [
+    {
+      "id": "kiyokawa-taishin-shindan",
+      "name": "木造住宅耐震促進事業補助制度(耐震診断)",
+      "amount_text": "一般診断費用の4分の3の額(上限7.5万円)",
+      "amount_max_yen": 75000,
+      "condition_text": "村民が所有・居住する昭和56年5月31日以前に建築された2階建て以下の専用住宅、二世帯住宅または店舗兼用住宅で、木造在来工法によるもの(枠組壁工法・プレハブ工法は除外)。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "申請期限の明記なし。問い合わせ先:清川村総務課安全防災交通係(046-288-1212)。",
+      "deadline": null,
+      "official_url": "https://www.town.kiyokawa.kanagawa.jp/soshiki/soumu/bousaikoutsu/3608.html"
+    },
+    {
+      "id": "kiyokawa-taishin-kaishu",
+      "name": "木造住宅耐震促進事業補助制度(耐震改修工事)",
+      "amount_text": "耐震改修費用の2分の1の額(上限50万円)",
+      "amount_max_yen": 500000,
+      "condition_text": "村民が所有・居住する昭和56年5月31日以前に建築された2階建て以下の専用住宅、二世帯住宅または店舗兼用住宅で、木造在来工法によるもの(枠組壁工法・プレハブ工法は除外)。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "申請期限の明記なし。問い合わせ先:清川村総務課安全防災交通係(046-288-1212)。",
+      "deadline": null,
+      "official_url": "https://www.town.kiyokawa.kanagawa.jp/soshiki/soumu/bousaikoutsu/3608.html"
+    },
+    {
+      "id": "kiyokawa-taishin-tatekae",
+      "name": "木造住宅耐震促進事業補助制度(建て替え工事)",
+      "amount_text": "一律50万円",
+      "amount_max_yen": 500000,
+      "condition_text": "村民が所有・居住する昭和56年5月31日以前に建築された2階建て以下の専用住宅、二世帯住宅または店舗兼用住宅で、木造在来工法によるもの(枠組壁工法・プレハブ工法は除外)。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "申請期限の明記なし。問い合わせ先:清川村総務課安全防災交通係(046-288-1212)。",
+      "deadline": null,
+      "official_url": "https://www.town.kiyokawa.kanagawa.jp/soshiki/soumu/bousaikoutsu/3608.html"
+    }
+  ],
+  "not_yet_covered": []
+}

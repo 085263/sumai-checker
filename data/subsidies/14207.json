@@ -1,0 +1,47 @@
+{
+  "municipality_code": "14207",
+  "municipality": "茅ヶ崎市",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.chigasaki.kanagawa.jp/machidukuri/shidou/1008193.html"
+  ],
+  "items": [
+    {
+      "id": "chigasaki-wood-shindan",
+      "name": "茅ヶ崎市木造住宅耐震改修促進事業補助金(耐震診断)",
+      "amount_text": "高齢者世帯等:99,000円、その他:73,000円",
+      "amount_max_yen": 99000,
+      "condition_text": "昭和56年5月31日以前に建築され、または建築の工事に着手されたもの。一戸建て住宅または兼用住宅(延べ面積の2分の1以上が住宅用途)で、在来軸組構法または枠組壁構法により建築され、地階を除く階数が2以下。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "受診予定日の14日前までに申請が必要。",
+      "deadline": null,
+      "official_url": "https://www.city.chigasaki.kanagawa.jp/machidukuri/shidou/1008193.html"
+    },
+    {
+      "id": "chigasaki-wood-hokyo",
+      "name": "茅ヶ崎市木造住宅耐震改修促進事業補助金(耐震補強工事)",
+      "amount_text": "一般:上限50万円、高齢者世帯等:上限70万円",
+      "amount_max_yen": 700000,
+      "condition_text": "昭和56年5月31日以前に建築され、または建築の工事に着手されたもの。一戸建て住宅または兼用住宅(延べ面積の2分の1以上が住宅用途)で、在来軸組構法または枠組壁構法により建築され、地階を除く階数が2以下。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "工事着手予定日の14日前までに申請が必要。",
+      "deadline": null,
+      "official_url": "https://www.city.chigasaki.kanagawa.jp/machidukuri/shidou/1008193.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "耐震シェルター等設置事業補助金", "official_url": "https://www.city.chigasaki.kanagawa.jp/machidukuri/shidou/1008195.html"},
+    {"name": "木造住宅除却事業補助金", "official_url": "https://www.city.chigasaki.kanagawa.jp/machidukuri/shidou/1052412.html"}
+  ]
+}

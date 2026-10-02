@@ -1,0 +1,44 @@
+{
+  "municipality_code": "14363",
+  "municipality": "松田町",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://town.matsuda.kanagawa.jp/soshiki/10/moku-jyuutakuhojyo2.html"
+  ],
+  "items": [
+    {
+      "id": "matsuda-taishin-shindan",
+      "name": "木造住宅耐震診断補助制度",
+      "amount_text": "経費の3分の2、上限7万円",
+      "amount_max_yen": 70000,
+      "condition_text": "平成12年5月31日以前に建築確認通知書を受けた一戸建て住宅、2世帯住宅または店舗併用住宅で、木造2階建て以下(プレハブ工法・枠組み壁工法除く)。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "2000-06-01",
+        "built_after": null
+      },
+      "note": "受付期限:1月末まで。問い合わせ先:まちづくり課(0465-84-1332)。対象時期が『平成12年5月31日以前』と公式ページに明記されており、他市町村で一般的な『昭和56年』基準と異なる点を複数回確認済み(誤読ではない)。",
+      "deadline": null,
+      "official_url": "https://town.matsuda.kanagawa.jp/soshiki/10/moku-jyuutakuhojyo2.html"
+    },
+    {
+      "id": "matsuda-taishin-kaishu",
+      "name": "木造住宅耐震改修補助制度",
+      "amount_text": "経費の2分の1、上限50万円",
+      "amount_max_yen": 500000,
+      "condition_text": "平成12年5月31日以前に建築確認通知書を受けた一戸建て住宅、2世帯住宅または店舗併用住宅で、木造2階建て以下。耐震診断結果が総合評点1.0未満であること。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "2000-06-01",
+        "built_after": null
+      },
+      "note": "受付期限:11月末まで。問い合わせ先:まちづくり課(0465-84-1332)。対象時期は診断制度と同じ『平成12年5月31日以前』。",
+      "deadline": null,
+      "official_url": "https://town.matsuda.kanagawa.jp/soshiki/10/moku-jyuutakuhojyo2.html"
+    }
+  ],
+  "not_yet_covered": []
+}

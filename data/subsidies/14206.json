@@ -1,0 +1,73 @@
+{
+  "municipality_code": "14206",
+  "municipality": "小田原市",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.odawara.kanagawa.jp/field/disaster/disaster/nature/seismi/taisin-hojyo.html"
+  ],
+  "items": [
+    {
+      "id": "odawara-wood-shindan",
+      "name": "小田原市木造住宅耐震診断費補助金",
+      "amount_text": "一戸建て(居住所有者等)上限9万円、一戸建て(その他)上限6万円、長屋・共同住宅上限6万円",
+      "amount_max_yen": 90000,
+      "condition_text": "昭和56年5月31日以前に建築基準法による建築確認を得て建築工事に着手した一戸建て住宅等。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "令和8年度の申請受付を開始済み(終了日は未記載)。",
+      "deadline": null,
+      "official_url": "https://www.city.odawara.kanagawa.jp/field/disaster/disaster/nature/seismi/taisin-hojyo.html"
+    },
+    {
+      "id": "odawara-wood-sekkei",
+      "name": "小田原市木造住宅耐震改修費補助金(設計・工事監理)",
+      "amount_text": "費用の3分の2、上限15万円(段階的な改修工事の初回上限10万円)",
+      "amount_max_yen": 150000,
+      "condition_text": "昭和56年5月31日以前に建築確認を得て着工した一戸建て住宅で、同年6月1日以後の増築・改築がなく、地上2階建て以下の木造建築物。耐震診断総合評点1.0未満。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": null,
+      "deadline": null,
+      "official_url": "https://www.city.odawara.kanagawa.jp/field/disaster/disaster/nature/seismi/taisin-hojyo.html"
+    },
+    {
+      "id": "odawara-wood-kaishu",
+      "name": "小田原市木造住宅耐震改修費補助金(改修工事)",
+      "amount_text": "要配慮者世帯:費用の2分の1、上限115万円。その他世帯:費用の2分の1、上限85万円(段階的な改修工事の初回上限65万円)",
+      "amount_max_yen": 1150000,
+      "condition_text": "昭和56年5月31日以前に建築確認を得て着工した一戸建て住宅で、同年6月1日以後の増築・改築がなく、地上2階建て以下の木造建築物。耐震診断総合評点1.0未満。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "要配慮者世帯(高齢者・障がい者等)とその他世帯で上限額が異なる。",
+      "deadline": null,
+      "official_url": "https://www.city.odawara.kanagawa.jp/field/disaster/disaster/nature/seismi/taisin-hojyo.html"
+    },
+    {
+      "id": "odawara-wood-jokyaku",
+      "name": "小田原市木造住宅除却工事費補助金",
+      "amount_text": "上限45万円",
+      "amount_max_yen": 450000,
+      "condition_text": "昭和56年5月31日以前に建築確認を得て着工した一戸建て住宅で、耐震診断総合評点1.0未満のものの除却工事。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": null,
+      "deadline": null,
+      "official_url": "https://www.city.odawara.kanagawa.jp/field/disaster/disaster/nature/seismi/taisin-hojyo.html"
+    }
+  ]
+}

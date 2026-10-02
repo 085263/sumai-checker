@@ -1,0 +1,32 @@
+{
+  "municipality_code": "14361",
+  "municipality": "中井町",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.town.nakai.kanagawa.jp/soshiki/machiseibikakeikakuhan/anzen_anshin/1/737.html",
+    "https://www.town.nakai.kanagawa.jp/soshiki/machiseibikakeikakuhan/anzen_anshin/1/605.html"
+  ],
+  "items": [
+    {
+      "id": "nakai-wood-kaishu",
+      "name": "木造住宅耐震改修工事等補助制度",
+      "amount_text": "耐震改修工事:費用の1/2・上限50万円(町内業者利用で上乗せし上限70万円)/耐震シェルター・防災ベッド:費用の1/2・上限25万円/リフォーム上乗せ補助:費用の1/2・上限30万円",
+      "amount_max_yen": 700000,
+      "condition_text": "昭和56年5月31日以前に建築確認通知等を受けた、地上階数2以下の在来軸組工法木造建築物で、一戸建て住宅・2世帯住宅・店舗併用住宅・事務所併用住宅のいずれかが対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "申請期限・受付期間の明記はページ上になし。別途「木造住宅耐震診断補助制度」(info_id=11285は404でアクセス不可、605.htmlにも詳細金額の記載なくPDF参照が必要)も存在するが、本セッションでは金額等を確認できず未収録。問い合わせ先:まち整備課 都市計画班 0465-81-3901",
+      "deadline": null,
+      "official_url": "https://www.town.nakai.kanagawa.jp/soshiki/machiseibikakeikakuhan/anzen_anshin/1/737.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "木造住宅耐震診断補助制度(詳細未確認)", "official_url": "https://www.town.nakai.kanagawa.jp/soshiki/machiseibikakeikakuhan/anzen_anshin/1/605.html"}
+  ]
+}

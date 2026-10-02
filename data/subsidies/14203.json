@@ -1,0 +1,49 @@
+{
+  "municipality_code": "14203",
+  "municipality": "平塚市",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.hiratsuka.kanagawa.jp/machizukuri/page-c_01939.html",
+    "https://www.city.hiratsuka.kanagawa.jp/machizukuri/page-c_01938.html",
+    "https://www.city.hiratsuka.kanagawa.jp/machizukuri/page-c_01937.html"
+  ],
+  "items": [
+    {
+      "id": "hiratsuka-mokuzou-taishin-kaishuu-kouji",
+      "name": "木造住宅耐震改修工事の補助金",
+      "amount_text": "令和8年度:一般世帯 耐震改修工事費最大90万円+現場監理費最大4万円。非課税世帯 耐震改修工事費最大120万円+現場監理費最大6万円。補助率は対象事業費の5分の4。",
+      "amount_max_yen": 1260000,
+      "condition_text": "木造在来軸組構法・2階建て以下で、昭和56年5月31日以前に建築工事に着手した住宅が対象(耐震診断補助金と同条件)。耐震診断の結果、評点1.0未満であり、改修後に評点1.0以上となる工事が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "令和8年度申請受付中。申請受付期限は令和8年11月末予定(予算がなくなり次第締切)。",
+      "deadline": "2026-11-30",
+      "official_url": "https://www.city.hiratsuka.kanagawa.jp/machizukuri/page-c_01939.html"
+    },
+    {
+      "id": "hiratsuka-mokuzou-taishin-kaishuu-sekkei",
+      "name": "木造住宅耐震改修設計の補助金",
+      "amount_text": "耐震改修設計費(税込)の2分の1。区分1:上限7万円。区分2:上限3万5千円。",
+      "amount_max_yen": 70000,
+      "condition_text": "耐震診断の結果、評点が1.0未満(倒壊する可能性がある)の住宅が対象。耐震シェルター設置推進事業補助金を受けている建築物は対象外。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "令和8年度申請受付中。申請受付期限は令和8年11月末予定(予算がなくなり次第締切)。",
+      "deadline": "2026-11-30",
+      "official_url": "https://www.city.hiratsuka.kanagawa.jp/machizukuri/page-c_01938.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "耐震シェルター設置推進事業補助金制度", "official_url": "https://www.city.hiratsuka.kanagawa.jp/machizukuri/page-c_01947.html"},
+    {"name": "木造住宅の耐震診断補助金", "official_url": "https://www.city.hiratsuka.kanagawa.jp/machizukuri/page-c_01937.html"}
+  ]
+}
