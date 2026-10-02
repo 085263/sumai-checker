@@ -1,0 +1,32 @@
+{
+  "municipality_code": "30202",
+  "municipality": "海南市",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.kainan.lg.jp/kakubusho/machizukuribu/kensetsuka/kensetsukatorikumi/5146.html",
+    "https://house.goo.ne.jp/chiiki/kurashi/wakayama/30202.html"
+  ],
+  "items": [
+    {
+      "id": "kainan-wood-taishin",
+      "name": "海南市住宅耐震化事業(耐震改修工事)",
+      "amount_text": "耐震改修費の5分の2(上限57万5千円)+74万1千円(定額)の合計、最大131万6千円",
+      "amount_max_yen": 1316000,
+      "condition_text": "木造住宅は平成12年5月31日以前、非木造住宅は昭和56年5月31日以前に建築された住宅が対象。耐震診断で耐震性を満たさないと判定されたもの。対象建築物を所有または居住していること、市税滞納・暴力団関係者に該当しないこと。",
+      "eligibility": {
+        "building_types": ["wood", "light_steel", "heavy_steel"],
+        "built_before": "2000-06-01",
+        "built_after": null
+      },
+      "note": "低信頼度:公式ページは金額をグラフ画像で掲載しておりWebFetchで直接の数値確認ができなかったため、二次情報源(house.goo.ne.jp)の数値を採用。申請期限の記載なし、詳細は建設課建築班(073-483-8482)へ要確認。耐震診断(木造無料/非木造一部補助)・耐震ベッド/シェルター設置も別途あり(未確認)。",
+      "deadline": null,
+      "official_url": "https://www.city.kainan.lg.jp/kakubusho/machizukuribu/kensetsuka/kensetsukatorikumi/5146.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "海南市住宅耐震化事業(耐震診断・耐震ベッド/シェルター)", "official_url": "https://www.city.kainan.lg.jp/kakubusho/machizukuribu/kensetsuka/kensetsukatorikumi/5146.html"}
+  ]
+}

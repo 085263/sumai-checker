@@ -1,0 +1,16 @@
+{
+  "municipality_code": "30406",
+  "municipality": "すさみ町",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.town.susami.lg.jp/"
+  ],
+  "items": [],
+  "not_yet_covered": [
+    {"name": "防災関連ページ(耐震関連の具体的な補助金ページは未発見)", "official_url": "https://www.town.susami.lg.jp/bousai/index.html"}
+  ],
+  "note": "公式サイト内で木造住宅耐震診断・耐震改修の補助金制度ページを複数回の検索・閲覧で発見できなかった。町の規模が小さく、独自の耐震改修補助制度自体が存在しない可能性もある。要電話確認(すさみ町役場)。"
+}

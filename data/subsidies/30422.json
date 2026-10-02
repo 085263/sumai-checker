@@ -1,0 +1,46 @@
+{
+  "municipality_code": "30422",
+  "municipality": "太地町",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://reform-hojo.jp/subsidy/5380",
+    "https://www.town.taiji.wakayama.jp/lifestage/sumai/index.html"
+  ],
+  "items": [
+    {
+      "id": "taiji-shindan",
+      "name": "耐震診断補助(木造住宅)",
+      "amount_text": "全額補助、上限4万8千円",
+      "amount_max_yen": 48000,
+      "condition_text": "平成12年5月31日以前着工の専用住宅・併用住宅・長屋・共同住宅(木造)で、地上階数2以下、延べ面積200㎡以下。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "2000-06-01",
+        "built_after": null
+      },
+      "note": "低信頼度:二次情報源(reform-hojo.jp)のみで確認。公式サイトでは当該ページを発見できず。",
+      "deadline": null,
+      "official_url": null
+    },
+    {
+      "id": "taiji-sekkei-kaishu",
+      "name": "太地町木造住宅耐震化促進事業(設計・改修の一体型)",
+      "amount_text": "最大66万6千円(別の情報源では「補助率40%、上限50万円」との記載もあり金額に食い違いあり)",
+      "amount_max_yen": 666000,
+      "condition_text": "平成12年5月31日以前着工の木造住宅で、耐震診断の結果耐震性を有しないと判断されたもの。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "2000-06-01",
+        "built_after": null
+      },
+      "note": "低信頼度:二次情報源のみ(reform-hojo.jpの検索結果間でも上限額の記載が66万6千円/50万円と食い違う)。公式サイトで該当ページを発見できず、要電話確認(太地町役場 0735-59-2335)。",
+      "deadline": null,
+      "official_url": null
+    }
+  ],
+  "not_yet_covered": [],
+  "note": "公式サイト(town.taiji.wakayama.jp)のトップページ・くらし/すまいページをWebFetchで確認したが耐震関連補助金への直接リンクは見当たらなかった。すべて二次情報源(reform-hojo.jp)からの抽出で、金額に情報源間の食い違いあり。要人力確認。"
+}

@@ -1,0 +1,45 @@
+{
+  "municipality_code": "30205",
+  "municipality": "御坊市",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://reform-hojo.jp/wakayama/gobo",
+    "http://www.city.gobo.wakayama.jp/sinseisyo/tosikeikaku/1434672900746.html"
+  ],
+  "items": [
+    {
+      "id": "gobo-wood-taishin",
+      "name": "御坊市住宅耐震改修事業(耐震改修工事)",
+      "amount_text": "基本額(補助対象経費の2/3以内・上限60万円)に補助対象経費の11.5%(上限41万1千円)を加算、または設計と工事を一体で行う場合は補助対象経費の2/5以内(上限50万円)に66万6千円を加算",
+      "amount_max_yen": 1011000,
+      "condition_text": "耐震診断で耐震性が不足と判定された木造住宅が対象(詳細な建築時期条件は未確認)。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": null,
+        "built_after": null
+      },
+      "note": "低信頼度:公式サイト(city.gobo.wakayama.jp)の該当ページ本文をWebFetchで直接確認できず、民間リフォーム補助金サイト(reform-hojo.jp)の情報のみに基づく。建築時期条件・申請期限は要人力確認。公式問い合わせ先:御坊市都市建設課 0738-23-5512。",
+      "deadline": null,
+      "official_url": "http://www.city.gobo.wakayama.jp/sinseisyo/tosikeikaku/1434672900746.html"
+    },
+    {
+      "id": "gobo-wood-shindan",
+      "name": "御坊市木造住宅耐震診断補助",
+      "amount_text": "上限8万円",
+      "amount_max_yen": 80000,
+      "condition_text": "詳細な対象条件は未確認。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": null,
+        "built_after": null
+      },
+      "note": "低信頼度:二次情報源(reform-hojo.jp)のみに基づく。要人力確認。",
+      "deadline": null,
+      "official_url": "http://www.city.gobo.wakayama.jp/sinseisyo/tosikeikaku/1434672900746.html"
+    }
+  ],
+  "not_yet_covered": []
+}

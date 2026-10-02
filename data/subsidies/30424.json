@@ -1,0 +1,45 @@
+{
+  "municipality_code": "30424",
+  "municipality": "古座川町",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://media.bisenn.jp/reform-subsidy/wakayama/kozagawa/"
+  ],
+  "items": [
+    {
+      "id": "kozagawa-sekkei",
+      "name": "古座川町木造住宅耐震化促進事業(設計)",
+      "amount_text": "補助率2/3、上限13万2千円",
+      "amount_max_yen": 132000,
+      "condition_text": "耐震診断の結果、上部構造評点1.0未満と診断された木造住宅が対象(推定)。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": null,
+        "built_after": null
+      },
+      "note": "低信頼度:二次情報源のみ。着工時期条件は確認できず、近隣町村(那智勝浦町・串本町等)と同様に平成12年5月31日基準の可能性があるが未確認。",
+      "deadline": null,
+      "official_url": null
+    },
+    {
+      "id": "kozagawa-kaishu",
+      "name": "古座川町木造住宅耐震化促進事業(改修・一般補強型)",
+      "amount_text": "地方負担2/3(上限67万300円)+国負担11.5%(上限48万9300円)、合計上限115万9600円",
+      "amount_max_yen": 1159600,
+      "condition_text": "上部構造評点1.0未満を1.0以上にする耐震改修工事が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": null,
+        "built_after": null
+      },
+      "note": "低信頼度:二次情報源のみ。公式サイト(town.kozagawa.lg.jp)で該当ページを直接確認できず。着工時期条件は未確認。",
+      "deadline": null,
+      "official_url": null
+    }
+  ],
+  "not_yet_covered": [],
+  "note": "公式サイトへのWebFetchを複数回試みたが該当ページを発見できず、全て二次情報源(media.bisenn.jp)からの抽出。要人力確認・要電話確認。"
+}

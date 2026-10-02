@@ -1,0 +1,74 @@
+{
+  "municipality_code": "30341",
+  "municipality": "かつらぎ町",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.town.katsuragi.wakayama.jp/010/040/040/2023-1025-1421-16.html"
+  ],
+  "items": [
+    {
+      "id": "katsuragi-mokuzo-shindan",
+      "name": "木造住宅耐震診断",
+      "amount_text": "無料(国・県・町が負担)",
+      "amount_max_yen": 0,
+      "condition_text": "平成12年(2000年)5月31日以前に着工した木造住宅で、延べ面積400㎡以下、地上2階以下が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "2000-06-01",
+        "built_after": null
+      },
+      "note": "受付期間:令和8年5月1日〜12月18日。令和8年度の残り募集戸数7戸(取得時点)。",
+      "deadline": "2026-12-18",
+      "official_url": "https://www.town.katsuragi.wakayama.jp/010/040/040/2023-1025-1421-16.html"
+    },
+    {
+      "id": "katsuragi-hitaishin-shindan",
+      "name": "非木造住宅耐震診断",
+      "amount_text": "費用の3分の2以内、上限8万9千円",
+      "amount_max_yen": 89000,
+      "condition_text": "昭和56年(1981年)5月31日以前に着工した非木造住宅が対象。",
+      "eligibility": {
+        "building_types": ["light_steel", "heavy_steel"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "受付期間:令和8年5月1日〜12月18日。先着1戸(取得時点)。",
+      "deadline": "2026-12-18",
+      "official_url": "https://www.town.katsuragi.wakayama.jp/010/040/040/2023-1025-1421-16.html"
+    },
+    {
+      "id": "katsuragi-hokyo-kaishu",
+      "name": "耐震補強設計・耐震改修工事費補助",
+      "amount_text": "改修工事費40%+設計費補助、上限131万6千円",
+      "amount_max_yen": 1316000,
+      "condition_text": "耐震診断で「倒壊する可能性がある」と判定された住宅が対象。",
+      "eligibility": {
+        "building_types": ["wood", "light_steel", "heavy_steel"],
+        "built_before": null,
+        "built_after": null
+      },
+      "note": "第1次申込締切:令和8年5月22日。完了期限:令和9年1月末。残り募集戸数3戸(取得時点)。",
+      "deadline": "2026-05-22",
+      "official_url": "https://www.town.katsuragi.wakayama.jp/010/040/040/2023-1025-1421-16.html"
+    },
+    {
+      "id": "katsuragi-shelter",
+      "name": "耐震ベッド・シェルター設置",
+      "amount_text": "費用の3分の2以内、上限26万6千円",
+      "amount_max_yen": 266000,
+      "condition_text": "総合評点1.0未満の木造住宅が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "2000-06-01",
+        "built_after": null
+      },
+      "note": "完了期限:令和9年1月末。募集1戸(取得時点)。",
+      "deadline": null,
+      "official_url": "https://www.town.katsuragi.wakayama.jp/010/040/040/2023-1025-1421-16.html"
+    }
+  ],
+  "not_yet_covered": []
+}

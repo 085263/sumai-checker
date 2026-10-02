@@ -1,0 +1,32 @@
+{
+  "municipality_code": "30382",
+  "municipality": "日高町",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "http://www.town.wakayama-hidaka.lg.jp/docs/2014090500355/",
+    "http://www.town.wakayama-hidaka.lg.jp/docs/2014090700021/"
+  ],
+  "items": [
+    {
+      "id": "hidaka-wakayama-kaishu",
+      "name": "日高町住宅耐震改修事業",
+      "amount_text": "耐震改修工事費の3分の2以内、1棟あたり上限60万円",
+      "amount_max_yen": 600000,
+      "condition_text": "平成12年(2000年)5月31日以前に着工された専用住宅・併用住宅・長屋・共同住宅で、地上階数2以下・延べ面積200㎡以下のもの。耐震診断の結果、一般型補強で総合評点1.0未満のものを1.0以上にする工事(避難重視型補強は0.7未満を0.7以上にする工事)が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "2000-05-31",
+        "built_after": null
+      },
+      "note": "申請窓口:役場3階産業建設課建設班(受付時間 平日8:30〜17:15)。本文はWebSearchのAI要約から取得し、WebFetchでの原文直接確認は接続エラーで未達成。",
+      "deadline": null,
+      "official_url": "http://www.town.wakayama-hidaka.lg.jp/docs/2014090500355/"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "住宅耐震事業について(耐震診断に関する案内ページ、詳細金額未確認)", "official_url": "http://www.town.wakayama-hidaka.lg.jp/docs/2014090700021/"}
+  ]
+}

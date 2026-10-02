@@ -1,0 +1,90 @@
+{
+  "municipality_code": "30390",
+  "municipality": "印南町",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "http://www.town.wakayama-inami.lg.jp/contents_detail.php?frmId=1178",
+    "https://www.town.wakayama-inami.lg.jp/0000000119.html"
+  ],
+  "items": [
+    {
+      "id": "inami-wood-shindan",
+      "name": "木造住宅耐震診断",
+      "amount_text": "無料(町委託の耐震診断士が実施)",
+      "amount_max_yen": 0,
+      "condition_text": "平成12年5月31日以前に着工された木造住宅が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "2000-06-01",
+        "built_after": null
+      },
+      "note": "",
+      "deadline": null,
+      "official_url": "https://www.town.wakayama-inami.lg.jp/0000000119.html"
+    },
+    {
+      "id": "inami-nonwood-shindan",
+      "name": "非木造住宅耐震診断費補助",
+      "amount_text": "診断費用の2/3、上限8万9千円",
+      "amount_max_yen": 89000,
+      "condition_text": "非木造住宅が対象。",
+      "eligibility": {
+        "building_types": ["light_steel", "heavy_steel"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "着工基準日が情報源により「昭和56年5月31日以前」(公式ページ総論)と「平成12年5月31日以前」(検索要約)で食い違いが見られた。非木造は一般的な昭和56年基準を採用したが要確認。",
+      "deadline": null,
+      "official_url": "https://www.town.wakayama-inami.lg.jp/0000000119.html"
+    },
+    {
+      "id": "inami-reinforcement-design",
+      "name": "耐震補強設計費補助",
+      "amount_text": "補助率2/3、上限13万2千円",
+      "amount_max_yen": 132000,
+      "condition_text": "耐震診断の結果、耐震性がないと判断された住宅が対象。",
+      "eligibility": {
+        "building_types": ["wood", "light_steel", "heavy_steel"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "",
+      "deadline": null,
+      "official_url": "http://www.town.wakayama-inami.lg.jp/contents_detail.php?frmId=1178"
+    },
+    {
+      "id": "inami-reconstruction-or-reinforcement",
+      "name": "現地建て替え又は耐震補強工事費補助",
+      "amount_text": "補助率2/3、上限101万9千円(設計費と同一年度に実施する場合の合算上限は150万円)",
+      "amount_max_yen": 1019000,
+      "condition_text": "耐震診断の結果、耐震性がないと判断された住宅が対象。",
+      "eligibility": {
+        "building_types": ["wood", "light_steel", "heavy_steel"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "",
+      "deadline": null,
+      "official_url": "http://www.town.wakayama-inami.lg.jp/contents_detail.php?frmId=1178"
+    },
+    {
+      "id": "inami-relocation",
+      "name": "移転に伴う住宅撤去費補助",
+      "amount_text": "上限50万円",
+      "amount_max_yen": 500000,
+      "condition_text": "津波浸水想定区域等からの移転の場合が対象。",
+      "eligibility": {
+        "building_types": ["wood", "light_steel", "heavy_steel"],
+        "built_before": null,
+        "built_after": null
+      },
+      "note": "",
+      "deadline": null,
+      "official_url": "http://www.town.wakayama-inami.lg.jp/contents_detail.php?frmId=1178"
+    }
+  ],
+  "not_yet_covered": []
+}

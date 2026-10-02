@@ -1,0 +1,29 @@
+{
+  "municipality_code": "30203",
+  "municipality": "橋本市",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.hashimoto.lg.jp/guide/kensetsubu/kentikujutaku/jutakusisaku/taishin/taishinnzigyoukakuseido/12608.html"
+  ],
+  "items": [
+    {
+      "id": "hashimoto-wood-taishin",
+      "name": "住宅耐震改修にかかる補助金制度",
+      "amount_text": "耐震改修工事費の40%(上限57万5千円)+設計費等を合算した額から(1)を引いた額(上限74万1千円)、最大131万6千円",
+      "amount_max_yen": 1316000,
+      "condition_text": "耐震診断で倒壊の危険性ありと判定された木造住宅。一般工法の場合は上部構造評点1.0以上への改修が対象。耐震改修工事は令和9年2月26日(金)までに完了すること。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": null,
+        "built_after": null
+      },
+      "note": "建築時期条件は本ページから直接確認できず(和歌山県内他市と同じ平成12年5月31日基準の可能性が高いが未確認)。追加募集期限:令和8年10月30日(金)16:30まで(郵送は同日消印有効)。募集戸数5戸で先着順、予定件数到達時点で受付終了。",
+      "deadline": "2026-10-30",
+      "official_url": "https://www.city.hashimoto.lg.jp/guide/kensetsubu/kentikujutaku/jutakusisaku/taishin/taishinnzigyoukakuseido/12608.html"
+    }
+  ],
+  "not_yet_covered": []
+}

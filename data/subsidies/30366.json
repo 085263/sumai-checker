@@ -1,0 +1,49 @@
+{
+  "municipality_code": "30366",
+  "municipality": "有田川町",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.town.aridagawa.lg.jp/top/kakuka/kibi/4/1/2/3/index.html"
+  ],
+  "items": [
+    {
+      "id": "aridagawa-shindan",
+      "name": "木造住宅耐震診断事業",
+      "amount_text": "無料",
+      "amount_max_yen": 0,
+      "condition_text": "平成12年(2000年)5月31日以前に着工した個人所有の木造一戸建て住宅。耐震診断士を無料派遣。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "2000-05-31",
+        "built_after": null
+      },
+      "note": "非木造住宅(昭和56年5月31日以前の鉄筋コンクリート造・鉄骨造)向けの耐震診断補助も別途あり(金額未確認)。",
+      "deadline": null,
+      "official_url": "https://www.town.aridagawa.lg.jp/top/kakuka/kibi/4/1/2/3/index.html"
+    },
+    {
+      "id": "aridagawa-kaishu",
+      "name": "耐震補強設計・耐震改修工事補助",
+      "amount_text": "上限131万6千円(令和7年度から引き上げ)",
+      "amount_max_yen": 1316000,
+      "condition_text": "耐震診断の結果、倒壊の恐れがあると評価された個人所有の木造一戸建て住宅(建替えを含む)。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "2000-05-31",
+        "built_after": null
+      },
+      "note": "要再確認:公式サイト上で「募集戸数に達したため受け付け終了」の記載があり、2026年度の募集再開状況は未確認。問い合わせ先:有田川町建設課(吉備庁舎) 0737-52-2111。",
+      "deadline": null,
+      "official_url": "https://www.town.aridagawa.lg.jp/top/sinseisho/kennsetu/jyuutakukankei/3665.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "木造住宅耐震補強設計審査事業(無料設計審査サービス)", "official_url": "https://www.town.aridagawa.lg.jp/top/kakuka/kibi/4/1/2/3/index.html"},
+    {"name": "耐震ベッド・耐震シェルター設置補助(金額未確認)", "official_url": "https://www.town.aridagawa.lg.jp/top/kakuka/kibi/4/1/2/3/index.html"},
+    {"name": "移動(除却工事)補助(耐震性住宅への住み替え時の除却費補助、金額未確認)", "official_url": "https://www.town.aridagawa.lg.jp/top/kakuka/kibi/4/1/2/3/index.html"},
+    {"name": "ブロック塀撤去補助(令和8年度、金額未確認)", "official_url": "https://www.town.aridagawa.lg.jp/top/kakuka/kibi/4/1/2/3/index.html"}
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "municipality_code": "30401",
+  "municipality": "白浜町",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "http://www.town.shirahama.wakayama.jp/kurashi/sumai/1452760024165.html",
+    "https://www.town.shirahama.wakayama.jp/kurashi/sumai/1452760024261.html"
+  ],
+  "items": [
+    {
+      "id": "shirahama-wood-shindan",
+      "name": "木造住宅耐震診断",
+      "amount_text": "無料",
+      "amount_max_yen": 0,
+      "condition_text": "平成12年5月31日以前に建築された木造軸組工法住宅(平屋または2階建て以下、延べ面積400平方メートル以下)が対象。令和7年度募集件数30件(予定)。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "2000-06-01",
+        "built_after": null
+      },
+      "note": "",
+      "deadline": "2027-01-29",
+      "official_url": "http://www.town.shirahama.wakayama.jp/kurashi/sumai/1452760024165.html"
+    },
+    {
+      "id": "shirahama-renovation",
+      "name": "住宅耐震改修補助金",
+      "amount_text": "耐震補強設計と耐震改修を総合実施の場合、改修工事費の2/5相当額(上限57万5千円)とその残額相当(上限74万1千円)の合算、最大131万6千円",
+      "amount_max_yen": 1316000,
+      "condition_text": "耐震診断の総合評点が0.7未満の建築物が対象。木造は平成12年5月31日以前着工(在来軸組構法、延べ面積400㎡以下)、非木造は昭和56年5月31日以前着工。工事完了は令和9年2月末までが条件。",
+      "eligibility": {
+        "building_types": ["wood", "light_steel", "heavy_steel"],
+        "built_before": "2000-06-01",
+        "built_after": null
+      },
+      "note": "木造と非木造で建築時期の基準が異なる(木造:平成12年5月31日、非木造:昭和56年5月31日)。本itemのbuilt_beforeは木造基準で記載。",
+      "deadline": "2026-12-31",
+      "official_url": "https://www.town.shirahama.wakayama.jp/kurashi/sumai/1452760024261.html"
+    },
+    {
+      "id": "shirahama-shelter",
+      "name": "耐震ベッド・耐震シェルター設置補助",
+      "amount_text": "設置工事費の2/3、上限26万6千円",
+      "amount_max_yen": 266000,
+      "condition_text": "",
+      "eligibility": {
+        "building_types": ["wood", "light_steel", "heavy_steel"],
+        "built_before": null,
+        "built_after": null
+      },
+      "note": "",
+      "deadline": null,
+      "official_url": "https://www.town.shirahama.wakayama.jp/kurashi/sumai/1452760024261.html"
+    }
+  ],
+  "not_yet_covered": []
+}

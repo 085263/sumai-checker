@@ -1,0 +1,62 @@
+{
+  "municipality_code": "30421",
+  "municipality": "那智勝浦町",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.town.nachikatsuura.wakayama.jp/info/1149"
+  ],
+  "items": [
+    {
+      "id": "nachikatsuura-shindan",
+      "name": "木造住宅耐震診断事業",
+      "amount_text": "無料(全額補助)",
+      "amount_max_yen": 0,
+      "condition_text": "平成12年5月31日以前に着工された木造の専用住宅・併用住宅等で、地上2階以下、延べ面積400㎡以下のもの。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "2000-06-01",
+        "built_after": null
+      },
+      "note": "非木造住宅は補助率2/3・上限8万9千円の別制度あり(not_yet_coveredに記載)。",
+      "deadline": "2027-01-29",
+      "official_url": "https://www.town.nachikatsuura.wakayama.jp/info/1149"
+    },
+    {
+      "id": "nachikatsuura-sekkei-kaishu",
+      "name": "住宅耐震設計及び改修事業",
+      "amount_text": "設計費上限13万2千円、工事費上限115万9千6百円(同一年度内に両方実施する場合は合計上限150万円)",
+      "amount_max_yen": 1500000,
+      "condition_text": "耐震診断の結果、評点1.0未満と診断された木造住宅(非木造はIs値0.6未満)が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "2000-06-01",
+        "built_after": null
+      },
+      "note": "設計費・工事費を個別に申請する場合はそれぞれ上限13万2千円・115万9千6百円。",
+      "deadline": "2026-08-31",
+      "official_url": "https://www.town.nachikatsuura.wakayama.jp/info/1149"
+    },
+    {
+      "id": "nachikatsuura-shelter",
+      "name": "耐震ベッド・耐震シェルター設置補助",
+      "amount_text": "上限26万6千円",
+      "amount_max_yen": 266000,
+      "condition_text": "平成12年5月31日以前着工の木造住宅で、耐震診断の結果評点1.0未満のもの。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "2000-06-01",
+        "built_after": null
+      },
+      "note": null,
+      "deadline": "2026-09-30",
+      "official_url": "https://www.town.nachikatsuura.wakayama.jp/info/1149"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "非木造住宅耐震診断補助(補助率2/3・上限8万9千円)", "official_url": "https://www.town.nachikatsuura.wakayama.jp/info/1149"}
+  ],
+  "note": "公式ページ(WebFetchで直接確認)より抽出。申請期限は年度により更新される可能性あり。"
+}

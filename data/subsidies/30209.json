@@ -1,0 +1,75 @@
+{
+  "municipality_code": "30209",
+  "municipality": "岩出市",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.iwade.lg.jp/soshiki/15/2739.html",
+    "https://www1.g-reiki.net/city.iwade/reiki_honbun/r352RG00000680.html"
+  ],
+  "items": [
+    {
+      "id": "iwade-mokuzo-shindan",
+      "name": "住宅耐震診断(木造)",
+      "amount_text": "無料",
+      "amount_max_yen": 0,
+      "condition_text": "平成12年(2000年)5月以前に着工した2階建て以下、延床面積400㎡以下の木造住宅が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "2000-06-01",
+        "built_after": null
+      },
+      "note": "毎年度期限(4月中旬頃)を定めて一次募集。",
+      "deadline": null,
+      "official_url": "https://www.city.iwade.lg.jp/soshiki/15/2739.html"
+    },
+    {
+      "id": "iwade-hitaishin-shindan",
+      "name": "住宅耐震診断(非木造)",
+      "amount_text": "費用の3分の2、上限8万9千円",
+      "amount_max_yen": 89000,
+      "condition_text": "昭和56年(1981年)5月以前に着工した2階建て以下、延床面積400㎡以下の非木造住宅が対象。",
+      "eligibility": {
+        "building_types": ["light_steel", "heavy_steel"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "毎年度期限(4月中旬頃)を定めて一次募集。",
+      "deadline": null,
+      "official_url": "https://www.city.iwade.lg.jp/soshiki/15/2739.html"
+    },
+    {
+      "id": "iwade-hokyo-kaishu",
+      "name": "耐震補強設計・耐震改修工事費補助",
+      "amount_text": "費用の5分の2+定額補助、上限1,316,000円",
+      "amount_max_yen": 1316000,
+      "condition_text": "木造住宅は診断結果評点1.0未満を改修後1.0以上に、非木造住宅はIs値0.6未満またはq値1.0未満を改修後それ以上にする工事が対象。2月末日までに完了する事業が対象。",
+      "eligibility": {
+        "building_types": ["wood", "light_steel", "heavy_steel"],
+        "built_before": "2000-06-01",
+        "built_after": null
+      },
+      "note": "木造は平成12年5月基準、非木造は昭和56年5月基準で異なる。毎年度期限(4月中旬頃)を定めて一次募集、件数に限りあり。",
+      "deadline": null,
+      "official_url": "https://www.city.iwade.lg.jp/soshiki/15/2739.html"
+    },
+    {
+      "id": "iwade-shelter",
+      "name": "耐震ベッド・耐震シェルター設置工事費補助",
+      "amount_text": "費用の3分の2、上限26万6千円",
+      "amount_max_yen": 266000,
+      "condition_text": "平成12年(2000年)5月31日以前に着工した木造住宅のうち、1階に設置するもので、耐震診断評点1.0未満であることが条件。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "2000-06-01",
+        "built_after": null
+      },
+      "note": "毎年度期限(4月中旬頃)を定めて一次募集。",
+      "deadline": null,
+      "official_url": "https://www.city.iwade.lg.jp/soshiki/15/2739.html"
+    }
+  ],
+  "not_yet_covered": []
+}

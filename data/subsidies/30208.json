@@ -1,0 +1,89 @@
+{
+  "municipality_code": "30208",
+  "municipality": "紀の川市",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.kinokawa.lg.jp/038/2025-0206-1143-93.html"
+  ],
+  "items": [
+    {
+      "id": "kinokawa-mokuzo-shindan",
+      "name": "木造住宅耐震診断",
+      "amount_text": "無料",
+      "amount_max_yen": 0,
+      "condition_text": "市内個人所有の一戸建て・長屋・共同住宅で、平成12年(2000年)5月31日以前に着工された2階建て以下の在来軸組工法住宅、延べ床面積400㎡以下が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "2000-06-01",
+        "built_after": null
+      },
+      "note": "受付期間:令和8年4月21日〜令和9年1月22日。",
+      "deadline": "2027-01-22",
+      "official_url": "https://www.city.kinokawa.lg.jp/038/2025-0206-1143-93.html"
+    },
+    {
+      "id": "kinokawa-hitaishin-shindan",
+      "name": "非木造住宅耐震診断費補助",
+      "amount_text": "診断費の3分の2、上限8万9千円",
+      "amount_max_yen": 89000,
+      "condition_text": "昭和56年(1981年)5月31日以前に着工された非木造住宅が対象。",
+      "eligibility": {
+        "building_types": ["light_steel", "heavy_steel"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "受付期間:令和8年4月21日〜令和9年1月22日。",
+      "deadline": "2027-01-22",
+      "official_url": "https://www.city.kinokawa.lg.jp/038/2025-0206-1143-93.html"
+    },
+    {
+      "id": "kinokawa-hokyo-sekkei",
+      "name": "耐震補強設計費補助",
+      "amount_text": "費用の3分の2、上限132,000円",
+      "amount_max_yen": 132000,
+      "condition_text": "木造住宅耐震診断で評点1.0未満と判定された住宅が対象。申込者が市税を完納していることが要件。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "2000-06-01",
+        "built_after": null
+      },
+      "note": "受付期間:令和8年4月21日〜7月30日(WebSearch要約では「受付終了」との情報あり、取得時点の募集状況は要確認)。",
+      "deadline": "2026-07-30",
+      "official_url": "https://www.city.kinokawa.lg.jp/038/2025-0206-1143-93.html"
+    },
+    {
+      "id": "kinokawa-kaishu-koji",
+      "name": "木造住宅耐震改修工事費補助金",
+      "amount_text": "1棟当り85万円(世帯月額所得21.4万円以下は105万円)。複数計算方式で最大1,159,600円。",
+      "amount_max_yen": 1159600,
+      "condition_text": "耐震診断で評点1.0未満と判定された木造住宅が対象。申込者が市税を完納していることが要件。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "2000-06-01",
+        "built_after": null
+      },
+      "note": "受付期間:令和8年4月21日〜7月30日(受付終了の情報あり、要確認)。完了報告書提出期限は令和9年3月2日。",
+      "deadline": "2026-07-30",
+      "official_url": "https://www.city.kinokawa.lg.jp/038/2025-0206-1143-93.html"
+    },
+    {
+      "id": "kinokawa-shelter",
+      "name": "耐震ベッド・シェルター設置工事費補助",
+      "amount_text": "1棟当り40万円(世帯月額所得21.4万円以下は60万円)、または費用の3分の2・上限266,000円",
+      "amount_max_yen": 266000,
+      "condition_text": "耐震診断で評点1.0未満と判定された木造住宅が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "2000-06-01",
+        "built_after": null
+      },
+      "note": "受付期間:令和8年4月21日〜11月27日。金額の記載方式が複数あり、所得要件により異なるため要確認。",
+      "deadline": "2026-11-27",
+      "official_url": "https://www.city.kinokawa.lg.jp/038/2025-0206-1143-93.html"
+    }
+  ],
+  "not_yet_covered": []
+}

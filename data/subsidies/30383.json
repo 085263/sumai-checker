@@ -1,0 +1,19 @@
+{
+  "municipality_code": "30383",
+  "municipality": "由良町",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "http://www.town.yura.wakayama.jp/docs/",
+    "https://www.pref.wakayama.lg.jp/prefg/080800/taishin/top.html"
+  ],
+  "items": [],
+  "not_yet_covered": [
+    {
+      "name": "由良町耐震改修促進計画(町の方針としての存在は確認できたが、個別の住宅耐震診断・改修補助金の制度ページ・金額は未発見。公式サイトが接続エラーで直接確認できず、要再調査)",
+      "official_url": "http://www.town.yura.wakayama.jp/docs/"
+    }
+  ]
+}

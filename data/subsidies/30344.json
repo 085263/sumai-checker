@@ -1,0 +1,19 @@
+{
+  "municipality_code": "30344",
+  "municipality": "高野町",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.town.koya.wakayama.jp/img_data/2024/12/e630f288d5622330cd0d61ce21dafff8.pdf",
+    "https://www.pref.wakayama.lg.jp/prefg/080800/taishin/top.html"
+  ],
+  "items": [],
+  "not_yet_covered": [
+    {"name": "木造住宅無料耐震診断(町の公式サイトで事業名のみ確認、詳細要綱未到達)", "official_url": "https://www.town.koya.wakayama.jp/"},
+    {"name": "住宅耐震化事前対策緊急促進事業補助金(令和7年度予算25万円計上、個人向け補助額は未確認)", "official_url": "https://www.town.koya.wakayama.jp/img_data/2024/12/e630f288d5622330cd0d61ce21dafff8.pdf"},
+    {"name": "住宅・建築物安全ストック形成事業交付金(令和7年度予算187万円計上、個人向け補助額は未確認)", "official_url": "https://www.town.koya.wakayama.jp/img_data/2024/12/e630f288d5622330cd0d61ce21dafff8.pdf"},
+    {"name": "高野町ブロック塀等撤去・改善補助事業(金額未確認)", "official_url": "https://www.town.koya.wakayama.jp/"}
+  ]
+}

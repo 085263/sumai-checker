@@ -1,0 +1,34 @@
+{
+  "municipality_code": "30381",
+  "municipality": "美浜町",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "http://www.town.mihama.wakayama.jp/docs/2015042700038/"
+  ],
+  "items": [
+    {
+      "id": "mihama-wakayama-kodan-kaitai",
+      "name": "古家解体支援事業",
+      "amount_text": "床面積1㎡あたり5千円、1申請あたり上限75万円(床面積150㎡相当)",
+      "amount_max_yen": 750000,
+      "condition_text": "耐震診断を受けた住宅で、耐震基準値未満(耐震診断の結果、地上階数2以下かつ延べ面積200㎡以下で基準未満)と判定されたもの。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": null,
+        "built_after": null
+      },
+      "note": "低信頼度:WebSearch経由での取得で、WebFetchによる一次情報源本文の直接確認はSSL/接続エラーのためできなかった。対象建築時期の明記は未確認。愛知県知多郡にも同名の美浜町があるため検索時の混同に注意。問い合わせ先:防災まちづくりみらい課 0738-22-4123。",
+      "deadline": null,
+      "official_url": "http://www.town.mihama.wakayama.jp/docs/2015042700038/"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "住宅耐震化事業(耐震診断・耐震改修、金額未確認)", "official_url": "http://www.town.mihama.wakayama.jp/soshiki/bousai/"},
+    {"name": "耐震ベッド・耐震シェルター補助事業(金額未確認)", "official_url": "http://www.town.mihama.wakayama.jp/soshiki/bousai/"},
+    {"name": "感震ブレーカー等設置事業(金額未確認)", "official_url": "http://www.town.mihama.wakayama.jp/soshiki/bousai/"},
+    {"name": "ブロック塀等撤去改善事業(金額未確認)", "official_url": "http://www.town.mihama.wakayama.jp/soshiki/bousai/"}
+  ]
+}

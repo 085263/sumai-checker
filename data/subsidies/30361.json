@@ -1,0 +1,60 @@
+{
+  "municipality_code": "30361",
+  "municipality": "湯浅町",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.town.yuasa.wakayama.jp/soshiki/9/3039.html",
+    "https://www.town.yuasa.wakayama.jp/soshiki/2/8160.html"
+  ],
+  "items": [
+    {
+      "id": "yuasa-shindan-mokuzou",
+      "name": "湯浅町住宅耐震事業補助金(木造住宅耐震診断)",
+      "amount_text": "無料",
+      "amount_max_yen": 0,
+      "condition_text": "平成12年(2000年)5月31日以前に着工された木造の一戸建て住宅で、2階建て以下・延べ床面積400㎡以下のもの。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "2000-05-31",
+        "built_after": null
+      },
+      "note": "非木造住宅の診断は診断費用の2/3(上限8万9千円)。申請期限の記載なし。",
+      "deadline": null,
+      "official_url": "https://www.town.yuasa.wakayama.jp/soshiki/9/3039.html"
+    },
+    {
+      "id": "yuasa-kaishu",
+      "name": "湯浅町住宅耐震事業補助金(耐震補強設計・耐震改修工事)",
+      "amount_text": "補強設計と改修工事を別々に申請する場合は設計費2/3(上限13万2千円)+工事費2/3+11.5%(上限115万9千円)、一体実施の場合は上限131万6千円",
+      "amount_max_yen": 1316000,
+      "condition_text": "耐震診断の結果、性能不足と判定された平成12年5月31日以前着工の木造一戸建て住宅が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "2000-05-31",
+        "built_after": null
+      },
+      "note": "申請期限の記載はページに見当たらず。問い合わせ先:産業建設課 0737-64-1124。",
+      "deadline": null,
+      "official_url": "https://www.town.yuasa.wakayama.jp/soshiki/9/3039.html"
+    },
+    {
+      "id": "yuasa-block-fence",
+      "name": "湯浅町ブロック塀等耐震対策事業補助金",
+      "amount_text": "撤去・補強:延長1mあたり1万円と実費の低い方の1/2以内(上限10万円)/改善:延長1mあたり2万円と実費の低い方の1/2以内(上限10万円)",
+      "amount_max_yen": 100000,
+      "condition_text": "町内の避難路に面したブロック塀等の所有者。町税を滞納していないこと。一敷地につき1回限り。工事着工前の申請が必須。",
+      "eligibility": {
+        "building_types": ["wood", "light_steel", "heavy_steel"],
+        "built_before": null,
+        "built_after": null
+      },
+      "note": "申請期限の記載なし。",
+      "deadline": null,
+      "official_url": "https://www.town.yuasa.wakayama.jp/soshiki/2/8160.html"
+    }
+  ],
+  "not_yet_covered": []
+}

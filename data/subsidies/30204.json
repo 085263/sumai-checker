@@ -1,0 +1,59 @@
+{
+  "municipality_code": "30204",
+  "municipality": "有田市",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.arida.lg.jp/kurashi/sumai/1001032.html"
+  ],
+  "items": [
+    {
+      "id": "arida-wood-taishin",
+      "name": "住宅耐震診断・補強設計・改修工事補助事業",
+      "amount_text": "耐震改修工事(上限57万5千円)+設計費含む工事(上限74万1千円)、総合上限131万6千円",
+      "amount_max_yen": 1316000,
+      "condition_text": "木造住宅は平成12年5月31日以前、非木造住宅は昭和56年5月31日以前に市内で着工された住宅が対象。木造住宅耐震診断は個人負担なし(無料)。",
+      "eligibility": {
+        "building_types": ["wood", "light_steel", "heavy_steel"],
+        "built_before": "2000-06-01",
+        "built_after": null
+      },
+      "note": "受付期間:4月13日(月)〜12月28日(月)。工事完了報告提出期限:令和9年2月26日まで。",
+      "deadline": "2026-12-28",
+      "official_url": "https://www.city.arida.lg.jp/kurashi/sumai/1001032.html"
+    },
+    {
+      "id": "arida-nonwood-shindan",
+      "name": "非木造住宅耐震診断補助",
+      "amount_text": "診断費用の3分の2以内、上限8万9千円",
+      "amount_max_yen": 89000,
+      "condition_text": "昭和56年5月31日以前に市内で着工された非木造住宅が対象。",
+      "eligibility": {
+        "building_types": ["light_steel", "heavy_steel"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "受付期間:4月13日(月)〜12月28日(月)。",
+      "deadline": "2026-12-28",
+      "official_url": "https://www.city.arida.lg.jp/kurashi/sumai/1001032.html"
+    },
+    {
+      "id": "arida-shelter",
+      "name": "耐震ベッド・耐震シェルター設置費補助",
+      "amount_text": "購入・設置費用の3分の2以内、上限26万6千円",
+      "amount_max_yen": 266000,
+      "condition_text": "平成12年5月31日以前に市内で着工された木造住宅が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "2000-06-01",
+        "built_after": null
+      },
+      "note": "受付期間:4月13日(月)〜12月28日(月)。",
+      "deadline": "2026-12-28",
+      "official_url": "https://www.city.arida.lg.jp/kurashi/sumai/1001032.html"
+    }
+  ],
+  "not_yet_covered": []
+}

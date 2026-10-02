@@ -1,0 +1,44 @@
+{
+  "municipality_code": "30206",
+  "municipality": "田辺市",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.tanabe.lg.jp/soshiki/kensetsu/2/1/2/1565.html"
+  ],
+  "items": [
+    {
+      "id": "tanabe-wood-taishin",
+      "name": "田辺市住宅耐震改修事業",
+      "amount_text": "最大150万円",
+      "amount_max_yen": 1500000,
+      "condition_text": "木造住宅耐震診断の結果、上部構造評点1.0未満と診断された住宅で、上部構造評点0.7以上となる耐震改修工事を実施する場合が対象。当該住宅の所有者等に限る。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": null,
+        "built_after": null
+      },
+      "note": "建築時期条件の明記は未確認(県内他市と同様平成12年5月31日基準の可能性)。年度内に設計・工事を完了することが条件。令和8年1月5日より受付再開、具体的な申請締切日の記載なし。年間80件が対象。",
+      "deadline": null,
+      "official_url": "https://www.city.tanabe.lg.jp/soshiki/kensetsu/2/1/2/1565.html"
+    },
+    {
+      "id": "tanabe-genchi-tatekae",
+      "name": "住宅耐震改修補助(現地建替え補助)",
+      "amount_text": "最大131万6千円",
+      "amount_max_yen": 1316000,
+      "condition_text": "木造住宅耐震診断の結果、上部構造評点1.0未満と診断された住宅を現地で建て替える場合が対象。省エネ基準への適合、土砂災害特別警戒区域外での新築が必須。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": null,
+        "built_after": null
+      },
+      "note": "年度内に設計・工事を完了することが条件。詳細は建築課建築係(0739-26-9935)へ要確認。",
+      "deadline": null,
+      "official_url": "https://www.city.tanabe.lg.jp/soshiki/kensetsu/2/1/2/1565.html"
+    }
+  ],
+  "not_yet_covered": []
+}

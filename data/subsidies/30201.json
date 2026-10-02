@@ -1,0 +1,45 @@
+{
+  "municipality_code": "30201",
+  "municipality": "和歌山市",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.city.wakayama.wakayama.jp/kurashi/sumai_jyougesuidou/1001110/1010372/1001902.html",
+    "https://www.city.wakayama.wakayama.jp/kurashi/sumai_jyougesuidou/1001110/1010372/1001900.html"
+  ],
+  "items": [
+    {
+      "id": "wakayama-wood-taishin",
+      "name": "住宅耐震改修事業(住宅の耐震改修費の一部補助)",
+      "amount_text": "耐震改修工事費の5分の2(上限57万5千円)と、設計費+工事費の一部(上限74万1千円)の合算、最大131万6千円",
+      "amount_max_yen": 1316000,
+      "condition_text": "平成12年5月31日以前に建築(着工)された戸建て住宅・長屋・共同住宅(延べ面積400㎡以下、木造は2階建て以下)。耐震診断で上部構造評点が1.0未満と判定されたもの。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "2000-06-01",
+        "built_after": null
+      },
+      "note": "受付期間:令和8年4月17日〜12月11日。工事完了報告は事業完了後30日以内かつ令和9年2月10日まで。",
+      "deadline": "2026-12-11",
+      "official_url": "https://www.city.wakayama.wakayama.jp/kurashi/sumai_jyougesuidou/1001110/1010372/1001902.html"
+    },
+    {
+      "id": "wakayama-shelter",
+      "name": "住宅耐震改修事業(耐震ベッド・耐震シェルター設置費の一部補助)",
+      "amount_text": "設置費用の3分の2以内、上限26万6千円(千円未満切捨て)",
+      "amount_max_yen": 266000,
+      "condition_text": "平成12年5月31日以前に建築(着工)された木造住宅(戸建て・長屋・共同住宅、延べ面積400㎡以下、2階建て以下)。市の無料耐震診断で上部構造評点が1.0未満と判定されたもの。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "2000-06-01",
+        "built_after": null
+      },
+      "note": "予定戸数3台(予算状況により変動の可能性あり)。",
+      "deadline": null,
+      "official_url": "https://www.city.wakayama.wakayama.jp/kurashi/sumai_jyougesuidou/1001110/1010372/1001900.html"
+    }
+  ],
+  "not_yet_covered": []
+}

@@ -1,0 +1,18 @@
+{
+  "municipality_code": "30362",
+  "municipality": "広川町",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.town.hirogawa.wakayama.jp/soumu/reformhojokin.html",
+    "https://www.town.hirogawa.wakayama.jp/soumu/akiyakaisyuu.html"
+  ],
+  "items": [],
+  "not_yet_covered": [
+    {"name": "広川町住宅リフォーム補助金交付制度(耐震専用ではなく一般リフォーム補助、耐震工事が対象に含まれるか未確認)", "official_url": "https://www.town.hirogawa.wakayama.jp/soumu/reformhojokin.html"},
+    {"name": "広川町空き家改修事業補助金(空き家向け、耐震専用ではない)", "official_url": "https://www.town.hirogawa.wakayama.jp/soumu/akiyakaisyuu.html"},
+    {"name": "耐震相談窓口(総務課 0737-23-7732)はあるが、町独自の耐震診断・耐震改修専用補助金の一次情報源ページを発見できず", "official_url": "https://www.town.hirogawa.wakayama.jp/"}
+  ]
+}

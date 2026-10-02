@@ -1,0 +1,89 @@
+{
+  "municipality_code": "30392",
+  "municipality": "日高川町",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.town.hidakagawa.lg.jp/bousai/bousai_shienseido/subsidy-of-resistant-to-earthquakes.html"
+  ],
+  "items": [
+    {
+      "id": "hidakagawa-wood-shindan",
+      "name": "木造住宅耐震診断",
+      "amount_text": "全額補助、上限4万8千円",
+      "amount_max_yen": 48000,
+      "condition_text": "平成12年5月31日以前に着工された木造住宅(在来軸組構法、伝統的構法、枠組壁構法)が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "2000-06-01",
+        "built_after": null
+      },
+      "note": "",
+      "deadline": null,
+      "official_url": "https://www.town.hidakagawa.lg.jp/bousai/bousai_shienseido/subsidy-of-resistant-to-earthquakes.html"
+    },
+    {
+      "id": "hidakagawa-nonwood-shindan",
+      "name": "非木造住宅耐震診断費補助",
+      "amount_text": "補助率2/3、上限8万9千円",
+      "amount_max_yen": 89000,
+      "condition_text": "昭和56年5月31日以前に着工された非木造住宅が対象。",
+      "eligibility": {
+        "building_types": ["light_steel", "heavy_steel"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "",
+      "deadline": null,
+      "official_url": "https://www.town.hidakagawa.lg.jp/bousai/bousai_shienseido/subsidy-of-resistant-to-earthquakes.html"
+    },
+    {
+      "id": "hidakagawa-design",
+      "name": "耐震補強設計費補助",
+      "amount_text": "補助率2/3、上限13万2千円",
+      "amount_max_yen": 132000,
+      "condition_text": "",
+      "eligibility": {
+        "building_types": ["wood", "light_steel", "heavy_steel"],
+        "built_before": null,
+        "built_after": null
+      },
+      "note": "",
+      "deadline": null,
+      "official_url": "https://www.town.hidakagawa.lg.jp/bousai/bousai_shienseido/subsidy-of-resistant-to-earthquakes.html"
+    },
+    {
+      "id": "hidakagawa-renovation",
+      "name": "耐震改修工事費補助",
+      "amount_text": "2/3+α(αは工事費の11.5%・上限48万9300円)、基本枠上限67万300円+α、合計最大115万9600円",
+      "amount_max_yen": 1159600,
+      "condition_text": "",
+      "eligibility": {
+        "building_types": ["wood", "light_steel", "heavy_steel"],
+        "built_before": null,
+        "built_after": null
+      },
+      "note": "",
+      "deadline": null,
+      "official_url": "https://www.town.hidakagawa.lg.jp/bousai/bousai_shienseido/subsidy-of-resistant-to-earthquakes.html"
+    },
+    {
+      "id": "hidakagawa-comprehensive",
+      "name": "耐震診断・設計・改修の総合的実施補助",
+      "amount_text": "2/5+α、最大150万円",
+      "amount_max_yen": 1500000,
+      "condition_text": "耐震診断・補強設計・改修工事を総合的に実施する場合。",
+      "eligibility": {
+        "building_types": ["wood", "light_steel", "heavy_steel"],
+        "built_before": null,
+        "built_after": null
+      },
+      "note": "申請期限はページに明記なし。問合せ先:総務課 0738-22-1700",
+      "deadline": null,
+      "official_url": "https://www.town.hidakagawa.lg.jp/bousai/bousai_shienseido/subsidy-of-resistant-to-earthquakes.html"
+    }
+  ],
+  "not_yet_covered": []
+}

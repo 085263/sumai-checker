@@ -1,0 +1,74 @@
+{
+  "municipality_code": "30391",
+  "municipality": "みなべ町",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.town.minabe.lg.jp/bousai/04/2013091000321.html"
+  ],
+  "items": [
+    {
+      "id": "minabe-wood-shindan",
+      "name": "木造住宅耐震診断",
+      "amount_text": "無料(国・県・町が負担)",
+      "amount_max_yen": 0,
+      "condition_text": "木造住宅が対象。令和7年度も実施。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "2000-06-01",
+        "built_after": null
+      },
+      "note": "",
+      "deadline": null,
+      "official_url": "https://www.town.minabe.lg.jp/bousai/04/2013091000321.html"
+    },
+    {
+      "id": "minabe-nonwood-shindan",
+      "name": "非木造住宅耐震診断費補助",
+      "amount_text": "補助率2/3、上限8万9千円",
+      "amount_max_yen": 89000,
+      "condition_text": "非木造住宅が対象。",
+      "eligibility": {
+        "building_types": ["light_steel", "heavy_steel"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "",
+      "deadline": null,
+      "official_url": "https://www.town.minabe.lg.jp/bousai/04/2013091000321.html"
+    },
+    {
+      "id": "minabe-reinforcement",
+      "name": "耐震補強設計及び耐震改修工事費補助",
+      "amount_text": "最大155万円",
+      "amount_max_yen": 1550000,
+      "condition_text": "耐震診断の結果、木造は評点1.0未満、非木造は評点0.6未満(一次診断の場合0.8未満)と診断された住宅が対象。現地建替えも対象。令和7年度受付は4月1日から、募集戸数20戸。",
+      "eligibility": {
+        "building_types": ["wood", "light_steel", "heavy_steel"],
+        "built_before": null,
+        "built_after": null
+      },
+      "note": "建築時期の対象条件は診断結果(評点)基準で記載され、着工年月日の明記はページ内になかった。",
+      "deadline": null,
+      "official_url": "https://www.town.minabe.lg.jp/bousai/04/2013091000321.html"
+    },
+    {
+      "id": "minabe-shelter",
+      "name": "耐震ベッド・耐震シェルター設置補助",
+      "amount_text": "設置工事費の2/3、上限26万6千円",
+      "amount_max_yen": 266000,
+      "condition_text": "",
+      "eligibility": {
+        "building_types": ["wood", "light_steel", "heavy_steel"],
+        "built_before": null,
+        "built_after": null
+      },
+      "note": "",
+      "deadline": null,
+      "official_url": "https://www.town.minabe.lg.jp/bousai/04/2013091000321.html"
+    }
+  ],
+  "not_yet_covered": []
+}

@@ -1,0 +1,75 @@
+{
+  "municipality_code": "30404",
+  "municipality": "上富田町",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "http://www.town.kamitonda.lg.jp/soshiki/soumu/shobo/bousai/3500.html",
+    "http://www.town.kamitonda.lg.jp/section/reiki/reiki_honbun/k541RG00000643.html"
+  ],
+  "items": [
+    {
+      "id": "kamitonda-wood-shindan",
+      "name": "無料耐震診断(木造)",
+      "amount_text": "無料",
+      "amount_max_yen": 0,
+      "condition_text": "木造住宅が対象。具体的な着工年月日の明記はページ本文になかったが、同交付要綱内の他項目から平成12年5月31日以前が基準と推定される。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "2000-06-01",
+        "built_after": null
+      },
+      "note": "建築時期条件はページに明記されておらず推定。要確認。",
+      "deadline": null,
+      "official_url": "http://www.town.kamitonda.lg.jp/soshiki/soumu/shobo/bousai/3500.html"
+    },
+    {
+      "id": "kamitonda-nonwood-shindan",
+      "name": "非木造住宅耐震診断費補助",
+      "amount_text": "補助率2/3、上限8万9千円",
+      "amount_max_yen": 89000,
+      "condition_text": "昭和56年5月31日以前に着工された非木造住宅が対象。",
+      "eligibility": {
+        "building_types": ["light_steel", "heavy_steel"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "",
+      "deadline": null,
+      "official_url": "http://www.town.kamitonda.lg.jp/section/reiki/reiki_honbun/k541RG00000643.html"
+    },
+    {
+      "id": "kamitonda-renovation",
+      "name": "住宅耐震改修事業補助金",
+      "amount_text": "耐震補強設計費用(2/3)と耐震改修工事費用(2/5)の組み合わせ、最大150万円",
+      "amount_max_yen": 1500000,
+      "condition_text": "木造は平成12年5月31日以前着工、非木造は昭和56年5月31日以前着工が対象。当該年度中に設計及び工事が完了することが条件。令和7年度は20件が上限。",
+      "eligibility": {
+        "building_types": ["wood", "light_steel", "heavy_steel"],
+        "built_before": "2000-06-01",
+        "built_after": null
+      },
+      "note": "初回のWebSearch要約では「最大116万6千円」との記載もあったが、公式ページ・交付要綱本文を2回直接WebFetchし、575,000円+925,000円=150万円が正しいと判断した。",
+      "deadline": null,
+      "official_url": "http://www.town.kamitonda.lg.jp/section/reiki/reiki_honbun/k541RG00000643.html"
+    },
+    {
+      "id": "kamitonda-shelter",
+      "name": "耐震ベッド・耐震シェルター設置補助",
+      "amount_text": "上限26万6千円",
+      "amount_max_yen": 266000,
+      "condition_text": "",
+      "eligibility": {
+        "building_types": ["wood", "light_steel", "heavy_steel"],
+        "built_before": null,
+        "built_after": null
+      },
+      "note": "",
+      "deadline": null,
+      "official_url": "http://www.town.kamitonda.lg.jp/soshiki/soumu/shobo/bousai/3500.html"
+    }
+  ],
+  "not_yet_covered": []
+}

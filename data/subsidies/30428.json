@@ -1,0 +1,45 @@
+{
+  "municipality_code": "30428",
+  "municipality": "串本町",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.town.kushimoto.wakayama.jp/bousai/jutakutaishin-hojo.html"
+  ],
+  "items": [
+    {
+      "id": "kushimoto-shindan",
+      "name": "住宅耐震診断補助",
+      "amount_text": "木造住宅:全額補助/非木造住宅:補助率2/3・上限8万9千円",
+      "amount_max_yen": 0,
+      "condition_text": "木造住宅は平成12年5月以前、非木造住宅は昭和56年5月以前に着工。2階建て以下、延べ床面積400㎡以下。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "2000-06-01",
+        "built_after": null
+      },
+      "note": "非木造住宅向けの診断補助(上限8万9千円)は別枠。",
+      "deadline": null,
+      "official_url": "https://www.town.kushimoto.wakayama.jp/bousai/jutakutaishin-hojo.html"
+    },
+    {
+      "id": "kushimoto-kaishu",
+      "name": "住宅耐震改修補助",
+      "amount_text": "上限150万円(令和に入り116万6千円から150万円に引き上げ)",
+      "amount_max_yen": 1500000,
+      "condition_text": "耐震診断の結果、耐震性が不足すると判定された住宅。木造住宅は平成12年5月以前、非木造住宅は昭和56年5月以前に着工。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "2000-06-01",
+        "built_after": null
+      },
+      "note": "申請期限の明記なし。詳細は役場総務課防災・防犯グループ(TEL 0735-62-0555)へ確認要。",
+      "deadline": null,
+      "official_url": "https://www.town.kushimoto.wakayama.jp/bousai/jutakutaishin-hojo.html"
+    }
+  ],
+  "not_yet_covered": [],
+  "note": "公式ページ(WebFetchで直接確認)より抽出。"
+}

@@ -1,0 +1,76 @@
+{
+  "municipality_code": "30343",
+  "municipality": "九度山町",
+  "ward": null,
+  "updated_at": "2026-10-02",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.town.kudoyama.lg.jp/kensetsu/mokuzou-taishin.html"
+  ],
+  "items": [
+    {
+      "id": "kudoyama-mokuzo-shindan",
+      "name": "木造住宅耐震診断",
+      "amount_text": "無料(補助率100%)",
+      "amount_max_yen": 0,
+      "condition_text": "平成12年(2000年)5月31日以前に着工された2階以下の個人所有の一般木造住宅が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "2000-06-01",
+        "built_after": null
+      },
+      "note": "受付期間:5月中旬〜12月下旬(予定)。",
+      "deadline": null,
+      "official_url": "https://www.town.kudoyama.lg.jp/kensetsu/mokuzou-taishin.html"
+    },
+    {
+      "id": "kudoyama-hitaishin-shindan",
+      "name": "非木造住宅耐震診断",
+      "amount_text": "診断費の3分の2以内、上限8万9千円",
+      "amount_max_yen": 89000,
+      "condition_text": "昭和56年(1981年)5月31日以前に着工された2階以下の個人所有の非木造戸建住宅が対象。",
+      "eligibility": {
+        "building_types": ["light_steel", "heavy_steel"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "受付期間:5月中旬〜9月末日(予定)。",
+      "deadline": null,
+      "official_url": "https://www.town.kudoyama.lg.jp/kensetsu/mokuzou-taishin.html"
+    },
+    {
+      "id": "kudoyama-sekkei-kaishu",
+      "name": "耐震設計・改修工事費補助",
+      "amount_text": "最大116万6千円(改修工事費40%・上限50万円+設計費上限66万6千円)",
+      "amount_max_yen": 1166000,
+      "condition_text": "町の耐震診断で倒壊危険と判定された住宅が対象。翌年1月末日までに完了する工事が対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "2000-06-01",
+        "built_after": null
+      },
+      "note": "受付期間:5月中旬〜9月末日(予定)。",
+      "deadline": null,
+      "official_url": "https://www.town.kudoyama.lg.jp/kensetsu/mokuzou-taishin.html"
+    },
+    {
+      "id": "kudoyama-shelter",
+      "name": "耐震ベッド・シェルター設置",
+      "amount_text": "費用の3分の2以内、上限26万6千円",
+      "amount_max_yen": 266000,
+      "condition_text": "木造住宅の耐震診断後、1階へ設置する耐震ベッド・シェルターが対象。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "2000-06-01",
+        "built_after": null
+      },
+      "note": "受付期間:6月1日〜6月30日。設置期間:7月上旬〜10月末日。",
+      "deadline": "2026-06-30",
+      "official_url": "https://www.town.kudoyama.lg.jp/kensetsu/mokuzou-taishin.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "住宅リフォーム補助金(耐震以外の一般リフォーム)", "official_url": "https://www.town.kudoyama.lg.jp/kensetsu/mokuzou-taishin-hojo.html"}
+  ]
+}
