@@ -7,6 +7,8 @@
   "verified_at": null,
   "source_urls": [
     "https://www.city.tsuru.yamanashi.jp/soshiki/kensetsu/kenchikujuutaku_t/855.html",
+    "https://www.city.tsuru.yamanashi.jp/soshiki/kensetsu/kenchikujuutaku_t/2/14953.html",
+    "https://www.city.tsuru.yamanashi.jp/soshiki/kensetsu/kenchikujuutaku_t/2/14954.html",
     "https://www.city.tsuru.yamanashi.jp/soshiki/kensetsu/kenchikujuutaku_t/5993.html"
   ],
   "items": [
@@ -28,7 +30,7 @@
     {
       "id": "tsuru-kaishu",
       "name": "木造住宅耐震改修事業費助成金",
-      "amount_text": "上限143万7,500円程度(検索結果に125万円とする情報源もあり、金額の表記に揺れあり)",
+      "amount_text": "補助率100%(10分の10)、上限143万7,500円。耐震診断時の概算見積の改修工事費と実際の工事費を比較し、いずれか少ない額が対象。",
       "amount_max_yen": 1437500,
       "condition_text": "昭和56年5月31日以前の木造住宅が対象。対象建築物の耐震改修設計・工事または建替えに伴う新築設計・工事の費用の一部を助成。補助金交付決定前に契約・着工した場合は対象外。",
       "eligibility": {
@@ -36,22 +38,22 @@
         "built_before": "1981-06-01",
         "built_after": null
       },
-      "note": "低信頼度:公式概要ページ(855.html)には具体的な上限額の記載がなく、二次情報源間で125万円/143.75万円と金額に食い違いがある。件数に限りあり。正確な金額は建設課(0554-43-1111 内線136・137)へ要確認。",
+      "note": "2026-10-02、公式詳細ページ(14953.html)で金額を確定(従来、二次情報源間で125万円/143.75万円と食い違っていたが143.75万円が正)。件数に限りあり。",
       "deadline": null,
       "official_url": "https://www.city.tsuru.yamanashi.jp/soshiki/kensetsu/kenchikujuutaku_t/855.html"
     },
     {
       "id": "tsuru-shelter",
       "name": "木造住宅耐震シェルター設置事業費補助金",
-      "amount_text": "上限36万円(二次情報源による、公式概要ページには金額記載なし)",
-      "amount_max_yen": 360000,
+      "amount_text": "耐震シェルター工事費もしくは耐震ベッド購入費用の3分の2、上限24万円",
+      "amount_max_yen": 240000,
       "condition_text": "昭和56年5月31日以前の木造住宅が対象。耐震シェルターの設置・購入費用の一部を補助。",
       "eligibility": {
         "building_types": ["wood"],
         "built_before": "1981-06-01",
         "built_after": null
       },
-      "note": "低信頼度:公式概要ページには具体的な上限額の記載なし。二次情報源の数値。件数に限りあり。",
+      "note": "2026-10-02、公式詳細ページ(14954.html)で金額を訂正(従来、二次情報源に基づき36万円としていたが、公式には24万円が正)。件数に限りあり。",
       "deadline": null,
       "official_url": "https://www.city.tsuru.yamanashi.jp/soshiki/kensetsu/kenchikujuutaku_t/855.html"
     },

@@ -6,41 +6,60 @@
   "verified_by_human": false,
   "verified_at": null,
   "source_urls": [
-    "https://reform-hojo.jp/subsidy/5380",
-    "https://www.town.taiji.wakayama.jp/lifestage/sumai/index.html"
+    "https://www.town.taiji.wakayama.jp/bousai/bousai901.html",
+    "https://www.town.taiji.wakayama.jp/bousai/files/hozyo8.9.pdf"
   ],
   "items": [
     {
       "id": "taiji-shindan",
-      "name": "耐震診断補助(木造住宅)",
-      "amount_text": "全額補助、上限4万8千円",
-      "amount_max_yen": 48000,
-      "condition_text": "平成12年5月31日以前着工の専用住宅・併用住宅・長屋・共同住宅(木造)で、地上階数2以下、延べ面積200㎡以下。",
+      "name": "住宅耐震診断",
+      "amount_text": "耐震診断に係る費用を全額補助(上限額の明記なし)",
+      "amount_max_yen": null,
+      "condition_text": "太地町内に存する民間の専用住宅・併用住宅・長屋・共同住宅(木造、枠組み壁工法・丸太組工法・建築基準法旧38条認定工法を除く)。平成12年5月31日以前に着工、地上階数2以下かつ延べ面積200㎡以下。",
       "eligibility": {
         "building_types": ["wood"],
         "built_before": "2000-06-01",
         "built_after": null
       },
-      "note": "低信頼度:二次情報源(reform-hojo.jp)のみで確認。公式サイトでは当該ページを発見できず。",
-      "deadline": null,
-      "official_url": null
+      "note": "2026-10-02、公式PDF(防災対策への補助事業のお知らせ、hozyo8.9.pdf)で確認し内容を確定。従来の二次情報源にあった上限4万8千円という数値はこのPDFには記載がないため削除。",
+      "deadline": "2026-12-25",
+      "official_url": "https://www.town.taiji.wakayama.jp/bousai/files/hozyo8.9.pdf"
     },
     {
-      "id": "taiji-sekkei-kaishu",
-      "name": "太地町木造住宅耐震化促進事業(設計・改修の一体型)",
-      "amount_text": "最大66万6千円(別の情報源では「補助率40%、上限50万円」との記載もあり金額に食い違いあり)",
-      "amount_max_yen": 666000,
-      "condition_text": "平成12年5月31日以前着工の木造住宅で、耐震診断の結果耐震性を有しないと判断されたもの。",
+      "id": "taiji-taishinka-hojo",
+      "name": "住宅耐震化補助(耐震補強設計+耐震改修工事)",
+      "amount_text": "同一年度内に補強設計・改修工事まで完了した場合、工事費の40%(上限57万5千円)+定額74万1千円、合計上限131万6千円",
+      "amount_max_yen": 1316000,
+      "condition_text": "平成12年5月31日以前に着工された木造住宅、または昭和56年5月31日以前に着工された非木造住宅で、耐震診断の結果耐震性を有しないと判断されたもの。",
       "eligibility": {
-        "building_types": ["wood"],
+        "building_types": ["wood", "light_steel", "heavy_steel"],
         "built_before": "2000-06-01",
         "built_after": null
       },
-      "note": "低信頼度:二次情報源のみ(reform-hojo.jpの検索結果間でも上限額の記載が66万6千円/50万円と食い違う)。公式サイトで該当ページを発見できず、要電話確認(太地町役場 0735-59-2335)。",
+      "note": "2026-10-02、公式PDF(hozyo8.9.pdf)で確定(従来、情報源間で66万6千円/50万円と食い違っていたが、実際は工事費40%上限57.5万円+定額74.1万円の合算で上限131.6万円という和歌山県共通スキームと一致)。今年度(令和8年度)の申込は終了済み。",
       "deadline": null,
-      "official_url": null
+      "official_url": "https://www.town.taiji.wakayama.jp/bousai/files/hozyo8.9.pdf"
+    },
+    {
+      "id": "taiji-bousai-bed-shelter",
+      "name": "防災ベッド・シェルター設置",
+      "amount_text": "設置費用の3分の2、上限26万6千円",
+      "amount_max_yen": 266000,
+      "condition_text": "耐震診断の結果、耐震性を有しないと判断された木造住宅。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": null,
+        "built_after": null
+      },
+      "note": "2026-10-02、公式PDF(hozyo8.9.pdf)で新規確認。従来はitemsに未記載だった。",
+      "deadline": "2026-12-25",
+      "official_url": "https://www.town.taiji.wakayama.jp/bousai/files/hozyo8.9.pdf"
     }
   ],
-  "not_yet_covered": [],
-  "note": "公式サイト(town.taiji.wakayama.jp)のトップページ・くらし/すまいページをWebFetchで確認したが耐震関連補助金への直接リンクは見当たらなかった。すべて二次情報源(reform-hojo.jp)からの抽出で、金額に情報源間の食い違いあり。要人力確認。"
+  "not_yet_covered": [
+    {"name": "感震ブレーカー設置促進事業補助金(上限2万円)", "official_url": "https://www.town.taiji.wakayama.jp/bousai/files/hozyo8.9.pdf"},
+    {"name": "家具転倒防止器具の助成", "official_url": "https://www.town.taiji.wakayama.jp/bousai/files/hozyo8.9.pdf"},
+    {"name": "ブロック塀等耐震対策事業補助金(撤去9/10上限30万円、改善1/2上限10万円)", "official_url": "https://www.town.taiji.wakayama.jp/bousai/files/hozyo8.9.pdf"},
+    {"name": "防災ベッド貸出(高齢者・障害者等要件あり)", "official_url": "https://www.town.taiji.wakayama.jp/bousai/files/hozyo8.9.pdf"}
+  ]
 }

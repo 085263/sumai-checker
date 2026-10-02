@@ -6,27 +6,57 @@
   "verified_by_human": false,
   "verified_at": null,
   "source_urls": [
+    "https://www.town.hayakawa.yamanashi.jp/people/residence/supplementary.html",
     "https://www.town.hayakawa.yamanashi.jp/people/residence/shelter.html"
   ],
   "items": [
     {
-      "id": "hayakawa-taishin-shelter",
-      "name": "早川町耐震シェルター設置補助",
-      "amount_text": "最大36万円",
-      "amount_max_yen": 360000,
-      "condition_text": "昭和56年5月以前に着工された木造住宅。町が実施する無料木造住宅耐震診断を受診し、評点0.7未満と診断されたもの。",
+      "id": "hayakawa-kaishu",
+      "name": "木造住宅居住安心支援事業補助制度(耐震改修工事)",
+      "amount_text": "最大143万円",
+      "amount_max_yen": 1430000,
+      "condition_text": "昭和56年5月31日以前に着手された2階建て以下の木造住宅。町が実施する無料耐震診断を受診し、総合評点1.0未満と判定されたものを1.0以上に改修する工事が対象。申込み前に着工した場合は補助対象外。",
       "eligibility": {
         "building_types": ["wood"],
         "built_before": "1981-06-01",
         "built_after": null
       },
-      "note": "補助率・申請期限は公式ページに明記なし。",
+      "note": "2026-10-02、公式ページ(supplementary.html)で確認し金額を確定(従来、情報源間で100万円/80万円と食い違っていたが、実際は143万円)。問い合わせ先:振興課工務管理担当 0556-45-2517。",
       "deadline": null,
-      "official_url": "https://www.town.hayakawa.yamanashi.jp/people/residence/shelter.html"
+      "official_url": "https://www.town.hayakawa.yamanashi.jp/people/residence/supplementary.html"
+    },
+    {
+      "id": "hayakawa-tatekae",
+      "name": "木造住宅居住安心支援事業補助制度(建替え工事)",
+      "amount_text": "最大143万円",
+      "amount_max_yen": 1430000,
+      "condition_text": "昭和56年5月31日以前に着手された2階建て以下の木造住宅。町が実施する無料耐震診断を受診していること。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "2026-10-02、公式ページ(supplementary.html)で確認。",
+      "deadline": null,
+      "official_url": "https://www.town.hayakawa.yamanashi.jp/people/residence/supplementary.html"
+    },
+    {
+      "id": "hayakawa-taishin-shelter",
+      "name": "早川町耐震シェルター設置補助",
+      "amount_text": "最大36万円",
+      "amount_max_yen": 360000,
+      "condition_text": "昭和56年5月31日以前に着手された木造住宅。町が実施する無料木造住宅耐震診断を受診し、評点0.7未満と診断されたもの。過去に同種の補助を受けていないこと。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "2026-10-02、公式ページ(supplementary.html)で金額を再確認。",
+      "deadline": null,
+      "official_url": "https://www.town.hayakawa.yamanashi.jp/people/residence/supplementary.html"
     }
   ],
   "not_yet_covered": [
-    {"name": "早川町木造住宅耐震改修工事補助(金額は情報源により100万円/80万円と食い違いあり、低信頼度のためitemsに含めず要電話確認。問い合わせ先:まちづくり政策課 0556-45-2513)", "official_url": "https://www.town.hayakawa.yamanashi.jp/people/residence/"},
     {"name": "早川町移住者住宅改修補助", "official_url": "https://www.town.hayakawa.yamanashi.jp/people/residence/2017-1013-1336-55.html"}
   ]
 }

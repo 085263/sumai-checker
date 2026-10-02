@@ -38,9 +38,22 @@
       "note": "令和8年度募集は3戸(先着順)。応募多数の場合、実施が翌年度になることがある。",
       "deadline": null,
       "official_url": "https://www.town.tatsuno.lg.jp/gyosei/soshiki/kensetsusuidoka/kurashi_tetsuzuki/1/1/994.html"
+    },
+    {
+      "id": "tatsuno-taishin-jokyaku",
+      "name": "除却工事費補助事業",
+      "amount_text": "除却工事に直接かかる費用の2分の1以内、上限97万8,600円",
+      "amount_max_yen": 978600,
+      "condition_text": "昭和56年5月31日以前に建築工事に着手した在来工法の木造一戸建て住宅(店舗等併用住宅を含む)で、耐震診断の結果総合評点が1.0未満と判定されたもの。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "2026-10-02、同一公式ページ(994.html)内の除却工事条項および検索エンジンによる同ページのAI要約で金額を確認。WebFetchでの直接目視確認では金額部分のテキストを取得できなかったため中程度の信頼度とする(近隣の木曽町等でも同一の97.86万円という基準額が使われており、長野県内の標準額と整合)。要再確認の場合は建設水道課住宅係 0266-41-1111へ。",
+      "deadline": null,
+      "official_url": "https://www.town.tatsuno.lg.jp/gyosei/soshiki/kensetsusuidoka/kurashi_tetsuzuki/1/1/994.html"
     }
   ],
-  "not_yet_covered": [
-    {"name": "除却工事補助(金額未確認。WebSearch要約では「費用の50%・上限97.86万円」との情報もあるが、公式ページ本文では金額の明記が確認できず要再確認)", "official_url": "https://www.town.tatsuno.lg.jp/gyosei/soshiki/kensetsusuidoka/kurashi_tetsuzuki/1/1/994.html"}
-  ]
+  "not_yet_covered": []
 }
