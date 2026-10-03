@@ -2,7 +2,7 @@
   "municipality_code": "23561",
   "municipality": "設楽町",
   "ward": null,
-  "updated_at": "2026-10-01",
+  "updated_at": "2026-10-03",
   "verified_by_human": false,
   "verified_at": null,
   "source_urls": [
@@ -20,7 +20,7 @@
         "built_before": "1981-06-01",
         "built_after": null
       },
-      "note": "⚠️公式ページ記載の申請期限は「令和7年11月28日」となっており2025年度分の可能性。2026年度の最新期限は要再確認",
+      "note": "2026-10-03再調査:公式ページのタイトル自体が「民間木造住宅の無料耐震診断および耐震改修費、耐震シェルター整備費補助の受付終了」であり、記載の期限(令和7年11月28日)は2025年度分と確定。令和8年度分の情報は未公開(ページ未更新)。相談自体は期限後も年間受付とのこと。",
       "deadline": null,
       "official_url": "https://www.town.shitara.lg.jp/soshiki/2/1397.html"
     },
@@ -35,7 +35,7 @@
         "built_before": "1981-06-01",
         "built_after": null
       },
-      "note": "⚠️公式ページ記載の申請期限(相談期限)は「令和7年7月31日」となっており2025年度分の可能性。2026年度の最新期限は要再確認。期限後も相談は受付可とのこと",
+      "note": "2026-10-03再調査:公式ページのタイトル自体が受付終了案内であり、記載の相談期限(令和7年7月31日)は2025年度分と確定。令和8年度分の情報は未公開(ページ未更新)。期限後も相談は受付可とのこと。",
       "deadline": null,
       "official_url": "https://www.town.shitara.lg.jp/soshiki/2/1397.html"
     },
@@ -50,7 +50,7 @@
         "built_before": "1981-06-01",
         "built_after": null
       },
-      "note": "⚠️期限情報は上記耐震改修費補助と同様、年度の再確認が必要",
+      "note": "2026-10-03再調査:公式ページのタイトル自体が受付終了案内であり、期限情報は上記耐震改修費補助と同様に2025年度分と確定。令和8年度分は未公開。",
       "deadline": null,
       "official_url": "https://www.town.shitara.lg.jp/soshiki/2/1397.html"
     }

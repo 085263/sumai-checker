@@ -2,10 +2,11 @@
   "municipality_code": "23427",
   "municipality": "飛島村",
   "ward": null,
-  "updated_at": "2026-10-01",
+  "updated_at": "2026-10-03",
   "verified_by_human": false,
   "verified_at": null,
   "source_urls": [
+    "https://www1.g-reiki.net/tobishima/reiki_honbun/l900RG00000418.html",
     "https://www.vill.tobishima.aichi.jp/kurashi/zyutaku/taishinkaisyuu-hojokin.html",
     "https://www.vill.tobishima.aichi.jp/kurashi/zyutaku/dankaiteki-taishinkaisyuu-hojokin.html",
     "https://www.vill.tobishima.aichi.jp/kurashi/zyutaku/kanitaishin-rifomu.html"
@@ -14,7 +15,7 @@
     {
       "id": "tobishima-wood-taishin",
       "name": "民間木造住宅耐震改修費補助金",
-      "amount_text": "上限180万円(検索結果の要約による。要確認)",
+      "amount_text": "耐震補強工事費+改修設計費で100万円または工事費80%の低い方、上乗せ補助80万円を加えた合計上限180万円",
       "amount_max_yen": 1800000,
       "condition_text": "昭和56年5月31日以前に着工された在来軸組構法・伝統構法の戸建て、長屋、併用住宅、共同住宅。耐震診断で判定値1.0未満のものを1.0以上(かつ工事前判定値+0.3以上)にする改修が対象。同一年度内の工事完了が必要。",
       "eligibility": {
@@ -22,9 +23,9 @@
         "built_before": "1981-06-01",
         "built_after": null
       },
-      "note": "⚠️低信頼度:公式ページを直接取得できず(404)、検索エンジンの要約情報に基づく。金額(180万円)は他の近隣自治体(100〜120万円台)と比べて高めで、要確認。工事着工前の相談・申請が必須。",
+      "note": "2026-10-03再調査:村公式ページ(vill.tobishima.aichi.jp)は依然404だが、村の条例・要綱を掲載するg-reiki(開発部建設課関係事業補助金交付要綱)別表第1を直接WebFetchで確認し、180万円(助成額100万円+上乗せ補助80万円の構成)を一次情報源で確定。",
       "deadline": null,
-      "official_url": "https://www.vill.tobishima.aichi.jp/kurashi/zyutaku/taishinkaisyuu-hojokin.html"
+      "official_url": "https://www1.g-reiki.net/tobishima/reiki_honbun/l900RG00000418.html"
     },
     {
       "id": "tobishima-wood-dankai",

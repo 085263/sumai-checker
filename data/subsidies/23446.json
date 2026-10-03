@@ -2,41 +2,42 @@
   "municipality_code": "23446",
   "municipality": "美浜町",
   "ward": null,
-  "updated_at": "2026-10-01",
+  "updated_at": "2026-10-03",
   "verified_by_human": false,
   "verified_at": null,
   "source_urls": [
     "https://www.town.aichi-mihama.lg.jp/kurashi-tetsuzuki/zumai/hojokin-joseikin/1484.html",
-    "https://www.town.aichi-mihama.lg.jp/soshiki/toshiseibi/jutakushien/1/5/2/118.html"
+    "https://www.town.aichi-mihama.lg.jp/soshiki/toshiseibi/jutakushien/1/5/2/118.html",
+    "https://www.town.aichi-mihama.lg.jp/section/reiki_int/reiki_honbun/i562RG00000662.html?id=j2_k1_g2"
   ],
   "items": [
     {
       "id": "mihama-wood-kaishu",
       "name": "民間木造住宅耐震改修費補助金",
-      "amount_text": "耐震補強工事費の4/5または100万円のいずれか低い額(段階的改修の場合は1段階目60万円・2段階目40万円)",
-      "amount_max_yen": 1000000,
+      "amount_text": "耐震補強工事費+改修設計費の合計で115万円または工事費80%の低い方(段階的改修の場合は1段階目60万円・2段階目40万円)",
+      "amount_max_yen": 1150000,
       "condition_text": "昭和56年5月31日以前に着工した在来軸組構法等の木造住宅で、町の耐震診断で総合判定1.0未満とされた住宅。",
       "eligibility": {
         "building_types": ["wood"],
         "built_before": "1981-06-01",
         "built_after": null
       },
-      "note": "⚠️公式ページに2026年度分の受付期間記載なし。要綱PDFで金額等の詳細確認が必要",
+      "note": "2026-10-03再調査:交付要綱(g-reiki別表2・3)を直接WebFetchで確認し、上限は100万円ではなく115万円と確定(従来の誤記を修正)。令和8年度は耐震診断以外(本制度含む)の受付が終了している旨を公式ページで確認済み。",
       "deadline": null,
       "official_url": "https://www.town.aichi-mihama.lg.jp/soshiki/toshiseibi/jutakushien/1/5/2/118.html"
     },
     {
       "id": "mihama-shelter",
       "name": "木造住宅耐震シェルター整備費補助金",
-      "amount_text": "金額は公式ページで未確認(要綱PDF参照)",
-      "amount_max_yen": null,
-      "condition_text": "木造住宅への耐震シェルター整備が対象。",
+      "amount_text": "上限30万円(対象経費が30万円未満の場合はその額)",
+      "amount_max_yen": 300000,
+      "condition_text": "町の耐震診断で総合判定0.4以下とされた住宅のうち、高齢者または障害者世帯が対象。",
       "eligibility": {
         "building_types": ["wood"],
         "built_before": "1981-06-01",
         "built_after": null
       },
-      "note": "⚠️金額未確認。要綱PDFの内容確認が必要",
+      "note": "2026-10-03再調査:交付要綱(g-reiki)第4条に本制度への言及はあるが上限額の明記はなし。複数の民間補助金アグリゲータ(smart-hojokin.jp等)が30万円で一致しているため中程度の信頼度で採用。令和8年度は受付終了。",
       "deadline": null,
       "official_url": "https://www.town.aichi-mihama.lg.jp/kurashi-tetsuzuki/zumai/hojokin-joseikin/1484.html"
     },
@@ -51,7 +52,7 @@
         "built_before": "1981-06-01",
         "built_after": null
       },
-      "note": "公式ページに2026年度の耐震診断以外の補助(改修・シェルター等)は終了した旨の記載あり。診断自体は継続中の可能性、要確認",
+      "note": "2026-10-03再調査:公式ページで「令和8年度について耐震診断以外の補助は終了しました」との明記を確認、診断自体は無料で継続中と確定。",
       "deadline": null,
       "official_url": "https://www.town.aichi-mihama.lg.jp/kurashi-tetsuzuki/zumai/hojokin-joseikin/1484.html"
     }
