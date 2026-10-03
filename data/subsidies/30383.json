@@ -2,21 +2,75 @@
   "municipality_code": "30383",
   "municipality": "由良町",
   "ward": null,
-  "updated_at": "2026-10-02",
+  "updated_at": "2026-10-03",
   "verified_by_human": false,
   "verified_at": null,
   "source_urls": [
-    "http://www.town.yura.wakayama.jp/docs/",
-    "https://www.pref.wakayama.lg.jp/prefg/080800/taishin/top.html",
-    "https://www.pref.wakayama.lg.jp/prefg/080800/index_d/fil/jutakupanfu.pdf",
-    "https://www.pref.wakayama.lg.jp/prefg/080800/taishin/soudanmadoguchi.html"
+    "http://www.town.yura.wakayama.jp/docs/2025072200019/files/yurachomatidukurihojyo.pdf",
+    "https://www.pref.wakayama.lg.jp/prefg/080800/index_d/fil/jutakupanfu.pdf"
   ],
-  "items": [],
-  "not_yet_covered": [
+  "items": [
     {
-      "name": "由良町耐震改修促進計画(町の方針としての存在は確認できたが、個別の住宅耐震診断・改修補助金の制度ページ・金額は未発見。公式サイトが接続エラーで直接確認できず、要再調査)",
-      "official_url": "http://www.town.yura.wakayama.jp/docs/"
+      "id": "yura-wood-shindan",
+      "name": "木造住宅耐震診断",
+      "amount_text": "簡易診断費用相当額(4万8千円)が無料",
+      "amount_max_yen": 0,
+      "condition_text": "住宅耐震化促進事業の対象木造住宅。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "2026-10-03、「令和8年度版由良町まちづくり補助・助成事業パンフレット」(町公式PDF)のWebSearch結果に基づく。公式サイトは接続拒否(ECONNREFUSED)が継続しWebFetchでの直接本文確認はできず、中程度信頼度。",
+      "deadline": null,
+      "official_url": "http://www.town.yura.wakayama.jp/docs/2025072200019/files/yurachomatidukurihojyo.pdf"
+    },
+    {
+      "id": "yura-nonwood-shindan",
+      "name": "非木造住宅耐震診断",
+      "amount_text": "診断費用の2/3以内、上限8万9千円",
+      "amount_max_yen": 89000,
+      "condition_text": "住宅耐震化促進事業の対象非木造住宅。",
+      "eligibility": {
+        "building_types": ["light_steel", "heavy_steel"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "2026-10-03、同パンフレットのWebSearch結果に基づく。公式サイト接続拒否のため直接確認不可、中程度信頼度。",
+      "deadline": null,
+      "official_url": "http://www.town.yura.wakayama.jp/docs/2025072200019/files/yurachomatidukurihojyo.pdf"
+    },
+    {
+      "id": "yura-taishin-sekkei",
+      "name": "耐震補強設計",
+      "amount_text": "設計費用の2/3以内、上限13万2千円",
+      "amount_max_yen": 132000,
+      "condition_text": "住宅耐震化促進事業の対象住宅。",
+      "eligibility": {
+        "building_types": ["wood", "light_steel", "heavy_steel"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "2026-10-03、同パンフレットのWebSearch結果に基づく。公式サイト接続拒否のため直接確認不可、中程度信頼度。",
+      "deadline": null,
+      "official_url": "http://www.town.yura.wakayama.jp/docs/2025072200019/files/yurachomatidukurihojyo.pdf"
+    },
+    {
+      "id": "yura-taishin-kaishu",
+      "name": "耐震改修工事",
+      "amount_text": "工事費用の2/3+11.5%以内、上限115万9600円",
+      "amount_max_yen": 1159600,
+      "condition_text": "住宅耐震化促進事業の対象住宅で耐震診断により改修が必要と判定された住宅。",
+      "eligibility": {
+        "building_types": ["wood", "light_steel", "heavy_steel"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "2026-10-03、同パンフレットのWebSearch結果に基づく。公式サイト接続拒否のため直接確認不可、中程度信頼度。他の和歌山県内自治体の標準額(131.6万円)とは異なるため要再確認。",
+      "deadline": null,
+      "official_url": "http://www.town.yura.wakayama.jp/docs/2025072200019/files/yurachomatidukurihojyo.pdf"
     }
   ],
-  "note": "2026-10-02再々調査済み。公式サイトは依然として接続不安定。和歌山県公式パンフレット「住宅支援のあれこれ」(2026年4月版)で県共通の耐震診断・改修補助スキーム(詳細は30201和歌山市等の他市町ファイル参照)の問い合わせ窓口が「各市町村の担当窓口」とされ、由良町の窓口は地域整備課(0738-65-1203)と確認。ただし「市町村によって対象及び補助額が異なる場合があります」と明記されており、由良町が実際に参加しているか・金額は町公式ページ上で確認できなかった。電話確認推奨。"
+  "not_yet_covered": [],
+  "note": "2026-10-03再調査。公式サイト(town.yura.wakayama.jp)は依然ECONNREFUSEDで接続不可。ただしWebSearchで「令和8年度版由良町まちづくり補助・助成事業パンフレット」という町公式PDFの存在とその内容(耐震診断・補強設計・改修工事の各項目)が複数回一致して確認できたため、中程度信頼度でitemsに採用した。公式サイト復旧後に直接WebFetchでの再確認を推奨。地域整備課 0738-65-1203。"
 }

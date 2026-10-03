@@ -2,18 +2,19 @@
   "municipality_code": "21302",
   "municipality": "岐南町",
   "ward": null,
-  "updated_at": "2026-10-02",
+  "updated_at": "2026-10-03",
   "verified_by_human": false,
   "verified_at": null,
   "source_urls": [
     "https://www.town.ginan.lg.jp/secure/1595/taishinshindanmoushikomi.pdf",
     "https://www.town.ginan.lg.jp/2979.htm",
-    "https://www.pref.gifu.lg.jp/page/807.html"
+    "https://www.pref.gifu.lg.jp/page/838.html",
+    "https://www.pref.gifu.lg.jp/page/3764.html"
   ],
   "items": [],
   "not_yet_covered": [
     {
-      "name": "岐南町木造住宅耐震診断事業(2026-10-02再々調査:申込書PDFの存在は確認したがPDF破損のため内容読み取れず、無料か有償か・補助上限額は未確認のまま。岐阜県の県全体制度ページにも岐南町固有の記載なし)",
+      "name": "岐南町木造住宅耐震診断事業(3回の調査でも申込書PDFはバイナリ破損のまま内容読み取れず、無料か有償か・補助上限額は未確認)",
       "official_url": "https://www.town.ginan.lg.jp/secure/1595/taishinshindanmoushikomi.pdf"
     },
     {
@@ -21,8 +22,9 @@
       "official_url": "https://www.town.ginan.lg.jp/2979.htm"
     },
     {
-      "name": "木造住宅耐震改修工事の補助制度(2回の調査(2026-10-01, 2026-10-02)でも公式サイト・WebSearchいずれからも発見できず。電話確認を推奨)",
-      "official_url": null
+      "name": "木造住宅耐震改修工事の補助制度(岐阜県公式ページに「県内全ての市町村で実施」と明記されており、岐南町でも何らかの形で実施されている可能性が高い(一般補強108.9万〜117.5万円/簡易補強84万円が県内の典型額)。ただし岐南町固有の確定額には3回の調査でも到達できず)",
+      "official_url": "https://www.pref.gifu.lg.jp/page/838.html"
     }
-  ]
+  ],
+  "note": "2026-10-03、3回目の再調査。岐阜県公式ページ(page/838.html)で「県内全ての市町村で木造住宅の耐震改修工事に対する補助を実施している」と明記されていることを確認し、制度の存在自体への確度は上がったが、岐南町固有の上限額(108.9万/117.5万円のどちらか)は特定できなかった。町の相談窓口一覧(page/3764.html)で岐南町の窓口がくらし安全課(058-247-1360)であることを新たに確認(従来記載の058-388-1111は代表番号)。金額を推測で確定させることは避け、items: []を維持。電話確認推奨。"
 }

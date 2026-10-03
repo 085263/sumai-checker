@@ -2,7 +2,7 @@
   "municipality_code": "20485",
   "municipality": "白馬村",
   "ward": null,
-  "updated_at": "2026-10-02",
+  "updated_at": "2026-10-03",
   "verified_by_human": false,
   "verified_at": null,
   "source_urls": [
@@ -20,5 +20,5 @@
       "official_url": "https://www.vill.hakuba.lg.jp/gyosei/soshikikarasagasu/kensetsuka/tochiriyou_kenchiku/hojokin/index.html"
     }
   ],
-  "note": "2026-10-02に再々調査を実施。建設課の補助金一覧ページ(index.html)には克雪住宅整備事業補助金とゼロエネ住宅普及支援事業補助金のみ掲載され、耐震関連補助金は確認できなかった。二次情報源(reform-hojo.jp、refo-sumu.jp等)では「住宅耐震化緊急加速事業補助金(上限50万円)」「住まいの安全倒壊防止対策事業補助金(上限100万円)」等、サイトごとに異なる制度名・金額が示されており、情報源間で一致しないため採用を見送った。公式サイトのsite内検索でもこれらの制度名はヒットせず、信頼性が低い。村役場建設課への電話確認を強く推奨。"
+  "note": "2026-10-03、4回目の再調査。長野県公式ページ「耐震改修・除却(助成金)」(pref.nagano.lg.jp/kenchiku/taishin/jyoseikin.html)で県内標準額(一般区域115万円/多雪区域140万円、5分の4以内)を確認、さらに「市町村の耐震化窓口一覧」(renrakusaki.html)に白馬村の窓口電話番号(0261-72-7002)が掲載されていることを確認し、村が県の耐震化相談網に参加していることは裏付けられた。しかし村独自の補助金交付要綱・上限額を明記した一次情報源には依然到達できず、二次情報源(reform-hojo.jp等)の金額(上限50万/100万円)も情報源間で不一致のため不採用。items: []を維持。村役場建設課(0261-72-7002)への電話確認を強く推奨。"
 }
