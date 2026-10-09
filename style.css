@@ -130,6 +130,54 @@ body {
 .pill { font-size: 10.5px; font-weight: 700; padding: 3px 9px; border-radius: 999px; }
 .pill-soon { background: var(--surface); color: var(--muted); border: 1px solid var(--line); }
 
+/* 建物情報フォーム */
+.building-form { margin-top: 16px; }
+.building-form #building-year {
+  width: 100%;
+  padding: 10px 12px;
+  font-size: 14px;
+  font-family: inherit;
+  border-radius: 8px;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  color: var(--ink);
+}
+.building-flow { margin-top: 16px; }
+.flow-steps { margin: 0; padding-left: 1.3em; display: flex; flex-direction: column; gap: 6px; }
+.flow-steps li { font-size: 13px; line-height: 1.6; }
+
+/* 耐震補助金リスト */
+.subsidy-section { margin-top: 16px; }
+.subsidy-list { display: flex; flex-direction: column; gap: 12px; margin-top: 10px; }
+.subsidy-card {
+  background: var(--surface-2);
+  border-radius: 10px;
+  padding: 14px;
+  border-left: 4px solid var(--line);
+}
+.subsidy-card.judge-likely { border-left-color: var(--risk-minor); }
+.subsidy-card.judge-check { border-left-color: var(--risk-moderate); }
+.subsidy-card.judge-unlikely { border-left-color: var(--muted); opacity: .75; }
+.subsidy-card-head {
+  display: flex; justify-content: space-between; align-items: flex-start;
+  gap: 10px; margin-bottom: 6px;
+}
+.subsidy-name { font-size: 14px; font-weight: 700; }
+.pill-judge { white-space: nowrap; }
+.pill-judge-likely { background: var(--risk-minor-bg); color: var(--risk-minor); }
+.pill-judge-check { background: var(--risk-moderate-bg); color: var(--risk-moderate); }
+.pill-judge-unlikely { background: var(--surface); color: var(--muted); border: 1px solid var(--line); }
+.pill-judge-unknown { background: var(--surface); color: var(--muted); border: 1px solid var(--line); }
+.subsidy-amount { font-size: 13px; font-weight: 700; color: var(--accent-ink); margin: 0 0 6px; }
+.subsidy-condition { font-size: 12.5px; line-height: 1.7; color: var(--ink); margin: 0 0 6px; }
+.subsidy-meta { margin: 0 0 8px; }
+.subsidy-link {
+  display: inline-block; font-size: 12.5px; font-weight: 700;
+  color: var(--accent-ink); text-decoration: none;
+}
+.subsidy-link:hover { text-decoration: underline; }
+.note-ai { margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--line); }
+
 .site-footer {
   max-width: 720px; margin: 20px auto 40px; padding: 16px;
   font-size: 11.5px; color: var(--muted); line-height: 1.8;

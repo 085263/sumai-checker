@@ -54,9 +54,22 @@
   }
 
   var municipalities = [];
+  var currentSubsidyData = null;
 
   // 五十音順(あかさたなはまやらわ)での都道府県の並び順
   var PREF_ORDER = ["愛知県", "神奈川県", "岐阜県", "静岡県", "東京都", "長野県", "三重県", "山梨県"];
+
+  var BUILDING_TYPE_LABEL = {
+    wood: "木造",
+    light_steel: "軽量鉄骨造",
+    heavy_steel: "鉄骨造・鉄筋コンクリート造など"
+  };
+
+  var BUILDING_FLOW_STEPS = {
+    wood: ["耐震診断(現状の耐震性を確認)", "補強計画の策定(診断結果をもとに工事内容を設計)", "耐震補強工事"],
+    light_steel: ["耐震診断(現状の耐震性を確認)", "耐震補強工事"],
+    heavy_steel: ["耐震診断(現状の耐震性を確認)", "耐震補強工事"]
+  };
 
   function initApp() {
     var prefSelect = document.getElementById("pref-select");
@@ -101,6 +114,44 @@
           if (initial) loadMunicipality(initial);
         }
       });
+
+    var typeSelect = document.getElementById("building-type");
+    var yearInput = document.getElementById("building-year");
+    typeSelect.addEventListener("change", onBuildingInfoChange);
+    yearInput.addEventListener("input", onBuildingInfoChange);
+  }
+
+  function onBuildingInfoChange() {
+    updateBuildingFlow();
+    renderSubsidyList();
+  }
+
+  function getBuildingType() {
+    return document.getElementById("building-type").value || null;
+  }
+
+  function getBuildingYear() {
+    var raw = document.getElementById("building-year").value;
+    if (!raw) return null;
+    var n = parseInt(raw, 10);
+    return isNaN(n) ? null : n;
+  }
+
+  function updateBuildingFlow() {
+    var type = getBuildingType();
+    var flowEl = document.getElementById("building-flow");
+    var stepsEl = document.getElementById("building-flow-steps");
+    stepsEl.innerHTML = "";
+    if (!type) {
+      flowEl.hidden = true;
+      return;
+    }
+    (BUILDING_FLOW_STEPS[type] || []).forEach(function (step) {
+      var li = document.createElement("li");
+      li.textContent = step;
+      stepsEl.appendChild(li);
+    });
+    flowEl.hidden = false;
   }
 
   function populateMuniSelect(pref) {
@@ -166,5 +217,141 @@
         }
         resultEl.hidden = false;
       });
+
+    document.getElementById("building-form").hidden = false;
+    updateBuildingFlow();
+
+    currentSubsidyData = null;
+    document.getElementById("subsidy-section").hidden = false;
+    fetch("data/subsidies/" + meta.code + ".json")
+      .then(function (r) {
+        if (!r.ok) throw new Error("not found");
+        return r.json();
+      })
+      .then(function (data) {
+        currentSubsidyData = data;
+        renderSubsidyList();
+      })
+      .catch(function () {
+        currentSubsidyData = { items: [] };
+        renderSubsidyList();
+      });
+  }
+
+  // 建物の種類・築年数から、補助金1件ごとの対象可能性を判定する。
+  // 判定は目安であり、最終的な対象可否は各制度の公式情報で要確認。
+  function judgeEligibility(item, type, year) {
+    var elig = item.eligibility || {};
+    var types = elig.building_types || [];
+
+    if (!type) return "unknown";
+    if (types.length > 0 && types.indexOf(type) === -1) return "unlikely";
+
+    if (year) {
+      if (elig.built_before) {
+        var beforeYear = parseInt(elig.built_before.slice(0, 4), 10);
+        if (year >= beforeYear) return "unlikely";
+      }
+      if (elig.built_after) {
+        var afterYear = parseInt(elig.built_after.slice(0, 4), 10);
+        if (year < afterYear) return "unlikely";
+      }
+    }
+
+    if (!elig.built_before && !elig.built_after) return "check";
+    if (!year) return "check";
+    return "likely";
+  }
+
+  var JUDGE_LABEL = {
+    likely: "対象の可能性あり",
+    check: "条件を確認",
+    unlikely: "対象外の可能性",
+    unknown: "建物情報を入力すると判定されます"
+  };
+  var JUDGE_ORDER = { likely: 0, check: 1, unlikely: 2, unknown: 3 };
+
+  function renderSubsidyList() {
+    var listEl = document.getElementById("subsidy-list");
+    var emptyEl = document.getElementById("subsidy-empty");
+    var hintEl = document.getElementById("subsidy-hint");
+    listEl.innerHTML = "";
+
+    if (!currentSubsidyData) return;
+
+    var items = currentSubsidyData.items || [];
+    if (items.length === 0) {
+      emptyEl.hidden = false;
+      hintEl.hidden = true;
+      return;
+    }
+    emptyEl.hidden = true;
+    hintEl.hidden = false;
+
+    var type = getBuildingType();
+    var year = getBuildingYear();
+
+    var judged = items.map(function (item) {
+      return { item: item, judge: judgeEligibility(item, type, year) };
+    });
+    judged.sort(function (a, b) { return JUDGE_ORDER[a.judge] - JUDGE_ORDER[b.judge]; });
+
+    judged.forEach(function (row) {
+      listEl.appendChild(renderSubsidyCard(row.item, row.judge));
+    });
+  }
+
+  function renderSubsidyCard(item, judge) {
+    var card = document.createElement("div");
+    card.className = "subsidy-card judge-" + judge;
+
+    var head = document.createElement("div");
+    head.className = "subsidy-card-head";
+
+    var name = document.createElement("span");
+    name.className = "subsidy-name";
+    name.textContent = item.name;
+    head.appendChild(name);
+
+    var badge = document.createElement("span");
+    badge.className = "pill pill-judge pill-judge-" + judge;
+    badge.textContent = JUDGE_LABEL[judge];
+    head.appendChild(badge);
+
+    card.appendChild(head);
+
+    if (item.amount_text) {
+      var amount = document.createElement("p");
+      amount.className = "subsidy-amount";
+      amount.textContent = item.amount_text;
+      card.appendChild(amount);
+    }
+
+    if (item.condition_text) {
+      var cond = document.createElement("p");
+      cond.className = "subsidy-condition";
+      cond.textContent = item.condition_text;
+      card.appendChild(cond);
+    }
+
+    var metaRow = document.createElement("p");
+    metaRow.className = "note subsidy-meta";
+    var metaParts = [];
+    if (item.deadline) metaParts.push("申請期限:" + item.deadline);
+    if (item.note) metaParts.push(item.note);
+    metaRow.textContent = metaParts.join(" / ");
+    if (metaParts.length > 0) card.appendChild(metaRow);
+
+    if (item.official_url) {
+      var link = document.createElement("a");
+      link.href = item.official_url;
+      link.target = "_blank";
+      link.rel = "noopener noreferrer";
+      link.className = "subsidy-link";
+      link.textContent = "公式ページで確認する";
+      card.appendChild(link);
+    }
+
+    return card;
   }
 })();

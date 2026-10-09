@@ -14,7 +14,7 @@
     <ul>
       <li>本サイトは東海地震に係る地震防災対策強化地域(1都7県157市町村)を対象に、地震・災害リスク、補助金、不動産相場の情報をまとめる試作サイトです。</li>
       <li>地震ハザード情報は防災科学技術研究所 J-SHIS(地震ハザードステーション)の公開データをもとに表示しています。</li>
-      <li>今後追加予定の補助金・対策費用・不動産相場等の情報は、AIによる自動抽出/推定を含む場合があり、誤りを含む可能性があります。ご利用の際は必ず自治体・公式ページ等で最終確認してください。</li>
+      <li>補助金情報は、AIによる自動抽出/推定を含みます。誤りを含む可能性があるため、ご利用の際は必ず各制度の公式ページ・自治体窓口で最終確認してください。今後追加予定の対策費用の目安・不動産相場等についても同様です。</li>
       <li>本サービスの運営主体は当プロジェクトであり、国や自治体、防災科学技術研究所ではありません。</li>
       <li>情報の誤りに気づいた場合は、是正リクエスト(準備中)からご連絡ください。</li>
     </ul>
@@ -67,10 +67,45 @@
         <div class="section-label muted">今後追加予定</div>
         <div class="placeholder-list">
           <div class="placeholder-row">洪水・津波・土砂災害リスク <span class="pill pill-soon">準備中</span></div>
-          <div class="placeholder-row">耐震補助金 <span class="pill pill-soon">準備中</span></div>
           <div class="placeholder-row">不動産売却相場 <span class="pill pill-soon">準備中</span></div>
         </div>
       </div>
+    </section>
+
+    <section id="building-form" class="building-form card" hidden>
+      <div class="section-label">お住まいの建物について</div>
+      <div class="picker-row">
+        <div class="picker-field">
+          <label for="building-type">建物の種類</label>
+          <select id="building-type">
+            <option value="">未選択</option>
+            <option value="wood">木造</option>
+            <option value="light_steel">軽量鉄骨造</option>
+            <option value="heavy_steel">鉄骨造・鉄筋コンクリート造など</option>
+          </select>
+        </div>
+        <div class="picker-field">
+          <label for="building-year">建築年(西暦、わかる範囲で)</label>
+          <input type="number" id="building-year" inputmode="numeric" placeholder="例:1978" min="1900" max="2026">
+        </div>
+      </div>
+
+      <div id="building-flow" class="building-flow" hidden>
+        <div class="section-label">対策の一般的な流れ</div>
+        <ol id="building-flow-steps" class="flow-steps"></ol>
+        <p class="note">具体的な費用目安は今後追加予定です。まずは耐震診断を行う専門家・自治体窓口にご相談ください。</p>
+      </div>
+    </section>
+
+    <section id="subsidy-section" class="subsidy-section card" hidden>
+      <div class="section-label">使える可能性のある耐震補助金</div>
+      <p id="subsidy-hint" class="note">建物の種類・建築年を入力すると、対象になりそうな順に並び替わります。</p>
+      <p id="subsidy-empty" class="note" hidden>この市区町村の補助金情報は現在登録されていません。</p>
+      <div id="subsidy-list" class="subsidy-list"></div>
+      <p class="note note-ai">
+        ⚠ ここに表示される情報はAIによる自動抽出・推定を含み、誤りが含まれる可能性があります。
+        金額・条件・申請期限などは、必ず各制度の公式ページ・自治体窓口で最新情報をご確認ください。
+      </p>
     </section>
   </main>
 
