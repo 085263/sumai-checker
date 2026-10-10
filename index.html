@@ -78,7 +78,7 @@
 
     <section id="building-form" class="building-form card" hidden>
       <div class="section-label">お住まいの建物について</div>
-      <div class="picker-row">
+      <div class="picker-row building-row">
         <div class="picker-field">
           <label for="building-type">建物の種類</label>
           <select id="building-type">
@@ -89,8 +89,9 @@
           </select>
         </div>
         <div class="picker-field">
-          <label for="building-year">建築年(西暦、わかる範囲で)</label>
+          <label for="building-year">建築年</label>
           <input type="number" id="building-year" inputmode="numeric" placeholder="例:1978" min="1900" max="2026">
+          <p class="field-hint">西暦、わかる範囲で</p>
         </div>
       </div>
 
