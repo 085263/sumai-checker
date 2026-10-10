@@ -155,10 +155,8 @@ body {
   color: var(--ink);
 }
 .field-hint { font-size: 11px; color: var(--muted); margin: 4px 0 0; }
-@media (max-width: 400px) {
-  .building-row.picker-row { flex-direction: column; }
-  .building-row .picker-field { min-width: 0; width: 100%; }
-}
+.building-row.picker-row { flex-direction: column; }
+.building-row .picker-field { min-width: 0; width: 100%; }
 .building-flow { margin-top: 16px; }
 .flow-steps { margin: 0; padding-left: 1.3em; display: flex; flex-direction: column; gap: 6px; }
 .flow-steps li { font-size: 13px; line-height: 1.6; }
