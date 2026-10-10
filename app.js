@@ -279,7 +279,9 @@
       } else if (key === "tsunami") {
         detail.textContent = "想定最大浸水深:" + (data.depth_ranks || []).join(" / ");
       } else if (key === "landslide") {
-        detail.textContent = (data.phenomena || []).join("・");
+        var zonesText = data.zones && data.zones.length ? data.zones.join(" / ") : "";
+        detail.textContent = (data.phenomena || []).join("・") +
+          (zonesText ? "(" + zonesText + ")" : "");
       }
       row.appendChild(detail);
       listEl.appendChild(row);
