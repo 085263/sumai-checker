@@ -189,6 +189,8 @@
     faultsEl.innerHTML = "";
     noteEl.hidden = true;
     errorEl.hidden = true;
+    document.getElementById("flood-hazard-list").innerHTML = "";
+    document.getElementById("flood-hazard-error").hidden = true;
 
     fetch("data/earthquake/" + meta.code + ".json")
       .then(function (r) { return r.json(); })
@@ -218,6 +220,19 @@
         resultEl.hidden = false;
       });
 
+    fetch("data/flood/" + meta.code + ".json")
+      .then(function (r) {
+        if (!r.ok) throw new Error("not found");
+        return r.json();
+      })
+      .then(function (fh) {
+        renderFloodHazard(fh);
+      })
+      .catch(function () {
+        document.getElementById("flood-hazard-list").innerHTML = "";
+        document.getElementById("flood-hazard-error").hidden = false;
+      });
+
     document.getElementById("building-form").hidden = false;
     updateBuildingFlow();
 
@@ -236,6 +251,44 @@
         currentSubsidyData = { items: [] };
         renderSubsidyList();
       });
+  }
+
+  var HAZARD_LABEL = { flood: "洪水", tsunami: "津波", landslide: "土砂災害" };
+
+  function renderFloodHazard(fh) {
+    var listEl = document.getElementById("flood-hazard-list");
+    listEl.innerHTML = "";
+
+    ["flood", "tsunami", "landslide"].forEach(function (key) {
+      var data = fh[key] || { present: false };
+      var row = document.createElement("div");
+      row.className = "hazard-row " + (data.present ? "hazard-present" : "hazard-absent");
+
+      var label = document.createElement("span");
+      label.className = "hazard-label";
+      label.textContent = HAZARD_LABEL[key];
+      row.appendChild(label);
+
+      var detail = document.createElement("span");
+      detail.className = "hazard-detail";
+      if (!data.present) {
+        detail.textContent = "該当データなし";
+      } else if (key === "flood") {
+        detail.textContent = "想定最大浸水深:" + (data.max_rank_label || "不明") +
+          (data.rivers && data.rivers.length ? "(" + data.rivers.join("・") + ")" : "");
+      } else if (key === "tsunami") {
+        detail.textContent = "想定最大浸水深:" + (data.depth_ranks || []).join(" / ");
+      } else if (key === "landslide") {
+        detail.textContent = (data.phenomena || []).join("・");
+      }
+      row.appendChild(detail);
+      listEl.appendChild(row);
+    });
+
+    var note = document.createElement("p");
+    note.className = "note";
+    note.textContent = "国土数値情報(洪水浸水想定区域・津波浸水想定・土砂災害警戒区域)を行政区域ポリゴンと重ね合わせて機械的に判定した参考値です。最新・詳細な情報は自治体のハザードマップでご確認ください。";
+    listEl.appendChild(note);
   }
 
   // 建物の種類・築年数から、補助金1件ごとの対象可能性を判定する。

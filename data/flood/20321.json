@@ -1,0 +1,30 @@
+{
+  "flood": {
+    "present": true,
+    "max_rank": 6,
+    "max_rank_label": "20m以上",
+    "rivers": [
+      "泥川",
+      "湯川",
+      "濁川",
+      "発知川",
+      "茂沢川"
+    ],
+    "note": "浸水深ランクは想定最大規模。河川単位データのため複数河川の重複がありうる。"
+  },
+  "tsunami": {
+    "present": false
+  },
+  "landslide": {
+    "present": true,
+    "phenomena": [
+      "土石流",
+      "急傾斜地の崩壊"
+    ],
+    "zone_codes_raw": [
+      1,
+      2
+    ],
+    "note": "区域区分(A33_002)の正確な意味は要確認のため、公式コード値をそのまま記録している。"
+  }
+}

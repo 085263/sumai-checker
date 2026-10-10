@@ -1,0 +1,26 @@
+{
+  "flood": {
+    "present": true,
+    "max_rank": 4,
+    "max_rank_label": "5m以上10m未満",
+    "rivers": [
+      "木曽川",
+      "鍋田川"
+    ],
+    "note": "浸水深ランクは想定最大規模。河川単位データのため複数河川の重複がありうる。"
+  },
+  "tsunami": {
+    "present": true,
+    "depth_ranks": [
+      "0.01m以上 ～ 0.3m未満",
+      "0.3m以上 ～ 1.0m未満",
+      "0.3m以上 ～ 1m未満",
+      "1m以上 ～ 2m未満",
+      "2m以上 ～ 5m未満",
+      "5m以上 ～ 10m未満"
+    ]
+  },
+  "landslide": {
+    "present": false
+  }
+}

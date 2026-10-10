@@ -1,0 +1,18 @@
+{
+  "flood": {
+    "present": true,
+    "max_rank": 4,
+    "max_rank_label": "5m以上10m未満",
+    "rivers": [
+      "庄内川",
+      "木曽川"
+    ],
+    "note": "浸水深ランクは想定最大規模。河川単位データのため複数河川の重複がありうる。"
+  },
+  "tsunami": {
+    "present": false
+  },
+  "landslide": {
+    "present": false
+  }
+}

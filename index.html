@@ -64,9 +64,12 @@
         <p id="r-note" class="note" hidden></p>
         <p id="r-error" class="note note-error" hidden>この市区町村の地震データは現在取得できていません。</p>
 
+        <div class="section-label">洪水・津波・土砂災害リスク</div>
+        <div id="flood-hazard-list" class="hazard-list"></div>
+        <p id="flood-hazard-error" class="note note-error" hidden>この市区町村のデータは現在取得できていません。</p>
+
         <div class="section-label muted">今後追加予定</div>
         <div class="placeholder-list">
-          <div class="placeholder-row">洪水・津波・土砂災害リスク <span class="pill pill-soon">準備中</span></div>
           <div class="placeholder-row">不動産売却相場 <span class="pill pill-soon">準備中</span></div>
         </div>
       </div>
@@ -111,7 +114,14 @@
 
   <footer class="site-footer">
     <p>出典:防災科学技術研究所 J-SHIS(地震ハザードステーション) Web API</p>
-    <p>取得日時:2026年9月29日。掲載情報は参考値です。最新情報は各自治体・公式ページでご確認ください。</p>
+    <p>
+      洪水・津波・土砂災害データの出典:国土交通省「国土数値情報」
+      (洪水浸水想定区域データ・津波浸水想定データ・土砂災害警戒区域データ)、
+      クリエイティブ・コモンズ・ライセンス 表示4.0国際(愛知県の土砂災害データのみ表示2.1日本)。
+      長野県の土砂災害データは「信州くらしのマップ」(長野県)、愛知県の土砂災害データは
+      「マップあいち公開データ」(愛知県)を加工して作成されたものです。
+    </p>
+    <p>取得日時:2026年9月29日(地震)/2026年10月(洪水・津波・土砂災害)。掲載情報は参考値です。最新情報は各自治体・公式ページでご確認ください。</p>
     <p><a href="privacy.html">プライバシーポリシー</a></p>
   </footer>
 </div>

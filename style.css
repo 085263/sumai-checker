@@ -130,6 +130,18 @@ body {
 .pill { font-size: 10.5px; font-weight: 700; padding: 3px 9px; border-radius: 999px; }
 .pill-soon { background: var(--surface); color: var(--muted); border: 1px solid var(--line); }
 
+/* 洪水・津波・土砂災害リスク */
+.hazard-list { display: flex; flex-direction: column; gap: 8px; }
+.hazard-row {
+  display: flex; align-items: center; gap: 10px;
+  padding: 10px 12px; border-radius: 10px; font-size: 13px;
+}
+.hazard-present { background: var(--risk-moderate-bg); }
+.hazard-absent { background: var(--surface-2); color: var(--muted); }
+.hazard-label { font-weight: 700; flex-shrink: 0; width: 4.5em; }
+.hazard-present .hazard-label { color: var(--risk-moderate); }
+.hazard-detail { font-size: 12.5px; }
+
 /* 建物情報フォーム */
 .building-form { margin-top: 16px; }
 .building-form #building-year {
