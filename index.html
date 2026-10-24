@@ -9,31 +9,17 @@
 </head>
 <body>
 
-<div id="consent-screen" class="consent-screen" hidden>
-  <div class="consent-box">
-    <h1>ご利用前に</h1>
-    <ul>
-      <li>本サイトは東海地震に係る地震防災対策強化地域(1都7県157市町村)を対象に、地震・災害リスク、補助金、不動産相場の情報をまとめる試作サイトです。</li>
-      <li>地震ハザード情報は防災科学技術研究所 J-SHIS(地震ハザードステーション)の公開データをもとに表示しています。</li>
-      <li>補助金情報は、AIによる自動抽出/推定を含みます。誤りを含む可能性があるため、ご利用の際は必ず各制度の公式ページ・自治体窓口で最終確認してください。今後追加予定の対策費用の目安・不動産相場等についても同様です。</li>
-      <li>本サービスの運営主体は当プロジェクトであり、国や自治体、防災科学技術研究所ではありません。</li>
-      <li>情報の誤りに気づいた場合は、是正リクエスト(準備中)からご連絡ください。</li>
-    </ul>
-    <div class="consent-actions">
-      <button id="consent-decline" class="btn btn-ghost">同意しない</button>
-      <button id="consent-agree" class="btn btn-primary">同意して利用する</button>
-    </div>
+<div id="notice-banner" class="notice-banner" hidden>
+  <div class="notice-banner-text">
+    <strong>ご利用にあたって:</strong>
+    本サイトは東海地震に係る地震防災対策強化地域を対象に、地震・災害リスク、補助金情報等をまとめる試作サイトです。
+    補助金情報はAIによる自動抽出/推定を含み、誤りを含む可能性があります。ご利用の際は必ず各制度の公式ページ・自治体窓口で最終確認してください。
+    本サービスの運営主体は当プロジェクトであり、国や自治体、防災科学技術研究所ではありません。
   </div>
+  <button id="notice-dismiss" class="btn btn-primary notice-dismiss-btn">了承しました</button>
 </div>
 
-<div id="decline-screen" class="consent-screen" hidden>
-  <div class="consent-box">
-    <h1>ご利用いただけません</h1>
-    <p>利用規約にご同意いただけない場合、本サイトはご利用いただけません。</p>
-  </div>
-</div>
-
-<div id="app" hidden>
+<div id="app">
   <header class="site-header">
     <h1>住まいの災害リスク・補助金チェッカー</h1>
     <p class="site-sub">東海地震・地震防災対策強化地域(1都7県157市町村)対象の試作サイト</p>

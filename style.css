@@ -24,26 +24,30 @@ body {
   font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif;
 }
 
-/* 利用規約ゲート */
-.consent-screen {
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 24px 16px;
-}
-.consent-box {
-  max-width: 520px;
+/* ご利用にあたっての注意バナー(コンテンツは隠さず、下部に重ねて表示) */
+.notice-banner {
+  position: fixed;
+  left: 0; right: 0; bottom: 0;
+  z-index: 100;
   background: var(--surface);
-  border: 1px solid var(--line);
-  border-radius: 16px;
-  padding: 28px;
+  border-top: 1px solid var(--line);
+  box-shadow: 0 -4px 16px rgba(0,0,0,.08);
+  padding: 14px 16px;
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  flex-wrap: wrap;
 }
-.consent-box h1 { font-size: 19px; margin: 0 0 16px; }
-.consent-box ul { margin: 0 0 20px; padding-left: 1.2em; }
-.consent-box li { font-size: 13px; line-height: 1.8; color: var(--muted); margin-bottom: 8px; }
-.consent-box p { font-size: 13px; line-height: 1.8; color: var(--muted); }
-.consent-actions { display: flex; gap: 10px; justify-content: flex-end; flex-wrap: wrap; }
+.notice-banner-text {
+  flex: 1;
+  min-width: 220px;
+  font-size: 12px;
+  line-height: 1.7;
+  color: var(--muted);
+}
+.notice-banner-text strong { color: var(--ink); }
+.notice-dismiss-btn { flex-shrink: 0; }
+body.has-notice-banner { padding-bottom: 96px; }
 
 .btn {
   font-family: inherit;

@@ -1,55 +1,40 @@
 (function () {
   "use strict";
 
-  var CONSENT_VERSION = "2026-09-29";
-  var CONSENT_KEY = "sumai-checker:consent";
+  var NOTICE_VERSION = "2026-10-24";
+  var NOTICE_KEY = "sumai-checker:notice-ack";
 
-  function getConsent() {
+  function hasAcknowledgedNotice() {
     try {
-      var raw = localStorage.getItem(CONSENT_KEY);
-      return raw ? JSON.parse(raw) : null;
+      var raw = localStorage.getItem(NOTICE_KEY);
+      if (!raw) return false;
+      var data = JSON.parse(raw);
+      return data.version === NOTICE_VERSION;
     } catch (e) {
-      return null;
+      return false;
     }
   }
 
-  function setConsent(agreed) {
+  function acknowledgeNotice() {
     try {
-      localStorage.setItem(CONSENT_KEY, JSON.stringify({
-        agreed: agreed,
-        version: CONSENT_VERSION,
-        agreedAt: new Date().toISOString()
+      localStorage.setItem(NOTICE_KEY, JSON.stringify({
+        version: NOTICE_VERSION,
+        acknowledgedAt: new Date().toISOString()
       }));
-    } catch (e) { /* localStorageが使えない環境では毎回同意を求める */ }
+    } catch (e) { /* localStorageが使えない環境では毎回バナーを表示 */ }
   }
 
-  function showConsentGate() {
-    document.getElementById("consent-screen").hidden = false;
-  }
+  // コンテンツはクローラー・初回訪問者を含め常に表示する(注意事項はバナーで補足するのみ)。
+  initApp();
 
-  function showDeclineScreen() {
-    document.getElementById("decline-screen").hidden = false;
-  }
-
-  function showApp() {
-    document.getElementById("app").hidden = false;
-    initApp();
-  }
-
-  var consent = getConsent();
-  if (consent && consent.agreed && consent.version === CONSENT_VERSION) {
-    showApp();
-  } else {
-    showConsentGate();
-    document.getElementById("consent-agree").addEventListener("click", function () {
-      setConsent(true);
-      document.getElementById("consent-screen").hidden = true;
-      showApp();
-    });
-    document.getElementById("consent-decline").addEventListener("click", function () {
-      setConsent(false);
-      document.getElementById("consent-screen").hidden = true;
-      showDeclineScreen();
+  if (!hasAcknowledgedNotice()) {
+    var bannerEl = document.getElementById("notice-banner");
+    bannerEl.hidden = false;
+    document.body.classList.add("has-notice-banner");
+    document.getElementById("notice-dismiss").addEventListener("click", function () {
+      acknowledgeNotice();
+      bannerEl.hidden = true;
+      document.body.classList.remove("has-notice-banner");
     });
   }
 
